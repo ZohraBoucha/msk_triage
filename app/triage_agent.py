@@ -2,17 +2,17 @@ import httpx
 from enum import Enum
 from typing import List, Dict
 
-# --- State Machine Definition ---
+# --- State Machine Definition (Refactored for SOCRATES) ---
 class TriageState(str, Enum):
     GREETING = "GREETING"
-    GATHER_WHICH_KNEE = "GATHER_WHICH_KNEE"
-    GATHER_MAIN_BOTHER = "GATHER_MAIN_BOTHER"
-    GATHER_PAIN_TIMING = "GATHER_PAIN_TIMING"
-    GATHER_PAIN_QUALITY = "GATHER_PAIN_QUALITY"
-    GATHER_PAIN_SCALE = "GATHER_PAIN_SCALE"
-    GATHER_ONSET_DURATION = "GATHER_ONSET_DURATION"
-    # --- New State Added ---
-    GATHER_FUNCTIONAL_LIMITATIONS = "GATHER_FUNCTIONAL_LIMITATIONS"
+    GATHER_SITE = "GATHER_SITE"  # S: Site
+    GATHER_ONSET = "GATHER_ONSET"  # O: Onset
+    GATHER_CHARACTER = "GATHER_CHARACTER"  # C: Character
+    GATHER_RADIATION = "GATHER_RADIATION"  # R: Radiation
+    GATHER_ASSOCIATIONS = "GATHER_ASSOCIATIONS"  # A: Associations
+    GATHER_TIMING = "GATHER_TIMING"  # T: Time course
+    GATHER_EXACERBATING_RELIEVING = "GATHER_EXACERBATING_RELIEVING"  # E: Exacerbating/Relieving
+    GATHER_SEVERITY = "GATHER_SEVERITY"  # S: Severity
     COMPLETE = "COMPLETE"
 
 # --- Triage Agent Class ---
@@ -24,7 +24,7 @@ class TriageAgent:
         self.model = model
         self.ollama_api_url = "http://llm_server:11434/api/generate"
         self.system_prompt_template = """You are Leo, a professional AI assistant for the Southwest London Elective Orthopaedic Centre (SWLEOC).
-Your job is to carry out an initial knee assessment by asking a series of questions based on a clinical questionnaire.
+Your job is to carry out an initial musculoskeletal assessment by asking a series of questions.
 
 Follow these rules:
 • Remain empathetic and professional at all times.
@@ -35,40 +35,49 @@ Follow these rules:
 **Question:** {current_task_prompt}
 """
 
-
     def _get_prompt_for_state(self, state: TriageState) -> str:
         """Returns the GOAL for the AI for a given state."""
         prompts = {
-            TriageState.GATHER_WHICH_KNEE: "Acknowledge the user's main symptom, then ask which knee is giving them problems (Right or Left).",
-            TriageState.GATHER_MAIN_BOTHER: "Acknowledge their last answer. Now, find out what is bothering them the most. Guide them toward one of these options if they are unsure: Pain, Dislocation, difficulty with Stairs, or difficulty with Sitting.",
-            TriageState.GATHER_PAIN_TIMING: "Acknowledge their last answer. Now, ask if their pain is Constant or Intermittent.",
-            TriageState.GATHER_PAIN_QUALITY: "Acknowledge their last answer. Now, ask if the pain is Sharp, Dull, or has a Burning quality.",
-            TriageState.GATHER_PAIN_SCALE: "Acknowledge their last answer. Now, ask them to rate their pain over the past week on a scale of 0 to 10, where 0 is no pain and 10 is the most pain imaginable.",
-            TriageState.GATHER_ONSET_DURATION: "Acknowledge their last answer. Now, ask them how long their knee has been bothering them.",
-            # --- New Prompt Added ---
-            TriageState.GATHER_FUNCTIONAL_LIMITATIONS: "Acknowledge their last answer. Now, ask if the knee problem stops them from doing anything and to give an example if so.",
+            # S: Site
+            TriageState.GATHER_SITE: "Acknowledge the user's main symptom, then ask them to specify exactly where in their body the problem is.",
+            # O: Onset
+            TriageState.GATHER_ONSET: "Acknowledge their last answer. Now, ask them when the problem started and if it came on suddenly or gradually.",
+            # C: Character
+            TriageState.GATHER_CHARACTER: "Acknowledge their last answer. Now, ask them to describe what the symptom feels like (e.g., sharp, dull, aching, burning).",
+            # R: Radiation
+            TriageState.GATHER_RADIATION: "Acknowledge their last answer. Now, ask if the feeling moves or radiates to any other part of their body.",
+            # A: Associations
+            TriageState.GATHER_ASSOCIATIONS: "Acknowledge their last answer. Now, ask if they have noticed any other symptoms that seem to occur at the same time, like swelling, stiffness, or numbness.",
+            # T: Time Course / Pattern
+            TriageState.GATHER_TIMING: "Acknowledge their last answer. Now, ask if the symptom is constant or if it comes and goes. Ask if there's any pattern to it (e.g., worse in the morning).",
+            # E: Exacerbating / Relieving Factors
+            TriageState.GATHER_EXACERBATING_RELIEVING: "Acknowledge their last answer. Now, ask if anything they do makes the symptom better or worse.",
+            # S: Severity
+            TriageState.GATHER_SEVERITY: "Acknowledge their last answer. Now, ask them to rate their pain or discomfort on a scale of 0 to 10, where 0 is no discomfort and 10 is the worst imaginable.",
+            # Completion
             TriageState.COMPLETE: "Thank the user for all the information and state that a summary will be prepared for the clinical team."
         }
         return prompts.get(state, "The conversation is complete.")
 
     def _determine_current_state(self, messages: List[Dict]) -> TriageState:
         """Determines the current state based on the conversation history."""
-        num_user_messages = len([msg for msg in messages if msg['role'] == 'user'])
-        
+        # Count messages from the user, ignoring the initial symptom description
+        num_user_answers = len([msg for msg in messages if msg['role'] == 'user']) -1
+
         state_sequence = [
-            TriageState.GATHER_WHICH_KNEE,
-            TriageState.GATHER_MAIN_BOTHER,
-            TriageState.GATHER_PAIN_TIMING,
-            TriageState.GATHER_PAIN_QUALITY,
-            TriageState.GATHER_PAIN_SCALE,
-            TriageState.GATHER_ONSET_DURATION,
-            # --- New State Added to Sequence ---
-            TriageState.GATHER_FUNCTIONAL_LIMITATIONS,
+            TriageState.GATHER_SITE,
+            TriageState.GATHER_ONSET,
+            TriageState.GATHER_CHARACTER,
+            TriageState.GATHER_RADIATION,
+            TriageState.GATHER_ASSOCIATIONS,
+            TriageState.GATHER_TIMING,
+            TriageState.GATHER_EXACERBATING_RELIEVING,
+            TriageState.GATHER_SEVERITY,
             TriageState.COMPLETE
         ]
         
-        if num_user_messages < len(state_sequence):
-            return state_sequence[num_user_messages]
+        if num_user_answers < len(state_sequence):
+            return state_sequence[num_user_answers]
         return TriageState.COMPLETE
 
     async def get_next_response(self, messages: List[Dict]) -> str:
