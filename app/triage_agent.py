@@ -64,7 +64,7 @@ Follow these rules:
             TriageState.GATHER_FUNCTIONAL_IMPACT: "Acknowledge their answer. For the final question, ask how the problem is affecting their daily life, for example with work, sleep, or hobbies.",
 
             # --- Completion ---
-            TriageState.COMPLETE: "Thank the user for all the information. State that you now have a complete picture of the situation and that a summary will be prepared for the clinical team to direct them to the most appropriate care."
+            TriageState.COMPLETE: "Thank you for all your answers. A summary will be prepared for the clinical team."
         }
         return prompts.get(state, "The conversation is complete.")
 
