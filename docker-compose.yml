@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  triage_app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/code/app
+
+  llm_server:
+    image: ollama/ollama
+    volumes:
+      - /mnt/storage/ollama:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    ports:
+      - "11434:11434"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+  triage_ui:
+    build: .
+    command: streamlit run app/ui.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app:/code/app
