@@ -1,16 +1,20 @@
-import httpx
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from typing import List, Dict
 
-# Define the data model for the request body
+# Import the agent that contains all our logic
+from .triage_agent import TriageAgent
+
+# --- Data Models ---
+class ChatMessage(BaseModel):
+    role: str
+    content: str
+
 class PromptRequest(BaseModel):
-    prompt: str
-    model: str = "llama3.1:8b"  # Default model
+    messages: List[ChatMessage]
+    model: str = "llama3.1:8b"
 
 app = FastAPI()
-
-# URL for the Ollama server running in the other container
-OLLAMA_API_URL = "http://llm_server:11434/api/generate"
 
 @app.get("/")
 def read_root():
@@ -19,30 +23,19 @@ def read_root():
 @app.post("/ask")
 async def ask_llm(request: PromptRequest):
     """
-    Receives a prompt, sends it to the Ollama server,
-    and returns the model's response.
+    This endpoint now simply acts as a gateway to the TriageAgent.
     """
+    # Create an instance of our agent
+    agent = TriageAgent(model=request.model)
+    
+    # Convert Pydantic models to simple dicts for the agent
+    message_dicts = [msg.dict() for msg in request.messages]
+    
     try:
-        # Use httpx for async requests
-        async with httpx.AsyncClient(timeout=60.0) as client:
-            response = await client.post(
-                OLLAMA_API_URL,
-                json={
-                    "model": request.model,
-                    "prompt": request.prompt,
-                    "stream": False  # We want the full response at once
-                },
-            )
-            response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
-            
-            # The response from Ollama is JSON
-            ollama_response = response.json()
-            
-            return {"response": ollama_response.get("response", "No response content.")}
-
-    except httpx.RequestError as exc:
-        # Handle network-related errors
-        raise HTTPException(status_code=503, detail=f"Error connecting to Ollama: {exc}")
+        # Get the next response from the agent
+        response_text = await agent.get_next_response(message_dicts)
+        return {"response": response_text}
     except Exception as e:
-        # Handle other potential errors
+        # The agent handles its own internal errors, but we catch any others
         raise HTTPException(status_code=500, detail=f"An internal error occurred: {e}")
+
