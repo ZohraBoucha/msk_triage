@@ -2,8 +2,9 @@ import httpx
 from enum import Enum
 from typing import List, Dict
 
-# --- State Machine Definition (Refactored for SOCRATES) ---
+# --- State Machine Definition (SOCRATES + Triage Questions) ---
 class TriageState(str, Enum):
+    # SOCRATES Assessment
     GREETING = "GREETING"
     GATHER_SITE = "GATHER_SITE"  # S: Site
     GATHER_ONSET = "GATHER_ONSET"  # O: Onset
@@ -13,6 +14,14 @@ class TriageState(str, Enum):
     GATHER_TIMING = "GATHER_TIMING"  # T: Time course
     GATHER_EXACERBATING_RELIEVING = "GATHER_EXACERBATING_RELIEVING"  # E: Exacerbating/Relieving
     GATHER_SEVERITY = "GATHER_SEVERITY"  # S: Severity
+    
+    # Triage-Specific Questions
+    GATHER_INJURY_MECHANISM = "GATHER_INJURY_MECHANISM"
+    GATHER_RED_FLAGS = "GATHER_RED_FLAGS"
+    GATHER_PREVIOUS_TREATMENT = "GATHER_PREVIOUS_TREATMENT"
+    GATHER_FUNCTIONAL_IMPACT = "GATHER_FUNCTIONAL_IMPACT"
+    
+    # Completion
     COMPLETE = "COMPLETE"
 
 # --- Triage Agent Class ---
@@ -28,9 +37,9 @@ Your job is to carry out an initial musculoskeletal assessment by asking a serie
 
 Follow these rules:
 • Remain empathetic and professional at all times.
-• You may thank the patient or express understanding when they describe a symptom or difficulty, but you do not need to acknowledge every single answer.
+• You may thank the patient or express understanding, but you do not need to acknowledge every single answer.
 • You are gathering information only, not providing diagnoses or medical advice.
-• Ask the next question listed below. You may rephrase it slightly to make it flow naturally in the conversation, but do not change its meaning or add extra information.
+• Ask ONLY the next question listed below. Do not ask multiple questions at once. You may rephrase it slightly to make it flow naturally.
 
 **Question:** {current_task_prompt}
 """
@@ -38,33 +47,33 @@ Follow these rules:
     def _get_prompt_for_state(self, state: TriageState) -> str:
         """Returns the GOAL for the AI for a given state."""
         prompts = {
-            # S: Site
+            # --- SOCRATES Block ---
             TriageState.GATHER_SITE: "Acknowledge the user's main symptom, then ask them to specify exactly where in their body the problem is.",
-            # O: Onset
             TriageState.GATHER_ONSET: "Acknowledge their last answer. Now, ask them when the problem started and if it came on suddenly or gradually.",
-            # C: Character
             TriageState.GATHER_CHARACTER: "Acknowledge their last answer. Now, ask them to describe what the symptom feels like (e.g., sharp, dull, aching, burning).",
-            # R: Radiation
             TriageState.GATHER_RADIATION: "Acknowledge their last answer. Now, ask if the feeling moves or radiates to any other part of their body.",
-            # A: Associations
             TriageState.GATHER_ASSOCIATIONS: "Acknowledge their last answer. Now, ask if they have noticed any other symptoms that seem to occur at the same time, like swelling, stiffness, or numbness.",
-            # T: Time Course / Pattern
-            TriageState.GATHER_TIMING: "Acknowledge their last answer. Now, ask if the symptom is constant or if it comes and goes. Ask if there's any pattern to it (e.g., worse in the morning).",
-            # E: Exacerbating / Relieving Factors
+            TriageState.GATHER_TIMING: "Acknowledge their last answer. Now, ask if the symptom is constant or if it comes and goes. Ask if there's any pattern to it.",
             TriageState.GATHER_EXACERBATING_RELIEVING: "Acknowledge their last answer. Now, ask if anything they do makes the symptom better or worse.",
-            # S: Severity
             TriageState.GATHER_SEVERITY: "Acknowledge their last answer. Now, ask them to rate their pain or discomfort on a scale of 0 to 10, where 0 is no discomfort and 10 is the worst imaginable.",
-            # Completion
-            TriageState.COMPLETE: "Thank the user for all the information and state that a summary will be prepared for the clinical team."
+            
+            # --- Triage Block ---
+            TriageState.GATHER_INJURY_MECHANISM: "Thank them for describing the symptoms. Now ask if the problem started because of a specific injury.",
+            TriageState.GATHER_RED_FLAGS: "Acknowledge their last answer. Now, ask an important safety question: 'To make sure we're not missing anything serious, have you experienced any general health symptoms like fever, chills, unexplained weight loss, or any new, severe weakness in your legs?'",
+            TriageState.GATHER_PREVIOUS_TREATMENT: "Thank them for that information. Now ask what treatments, if any, they have already tried for this problem. Prompt with examples like seeing a GP or having physiotherapy.",
+            TriageState.GATHER_FUNCTIONAL_IMPACT: "Acknowledge their answer. For the final question, ask how the problem is affecting their daily life, for example with work, sleep, or hobbies.",
+
+            # --- Completion ---
+            TriageState.COMPLETE: "Thank the user for all the information. State that you now have a complete picture of the situation and that a summary will be prepared for the clinical team to direct them to the most appropriate care."
         }
         return prompts.get(state, "The conversation is complete.")
 
     def _determine_current_state(self, messages: List[Dict]) -> TriageState:
         """Determines the current state based on the conversation history."""
-        # Count messages from the user, ignoring the initial symptom description
-        num_user_answers = len([msg for msg in messages if msg['role'] == 'user']) -1
+        num_user_answers = len([msg for msg in messages if msg['role'] == 'user']) - 1
 
         state_sequence = [
+            # SOCRATES
             TriageState.GATHER_SITE,
             TriageState.GATHER_ONSET,
             TriageState.GATHER_CHARACTER,
@@ -73,9 +82,18 @@ Follow these rules:
             TriageState.GATHER_TIMING,
             TriageState.GATHER_EXACERBATING_RELIEVING,
             TriageState.GATHER_SEVERITY,
+            # Triage
+            TriageState.GATHER_INJURY_MECHANISM,
+            TriageState.GATHER_RED_FLAGS,
+            TriageState.GATHER_PREVIOUS_TREATMENT,
+            TriageState.GATHER_FUNCTIONAL_IMPACT,
+            # Complete
             TriageState.COMPLETE
         ]
         
+        if num_user_answers < 0: # Handle the very first message
+            num_user_answers = 0
+
         if num_user_answers < len(state_sequence):
             return state_sequence[num_user_answers]
         return TriageState.COMPLETE
