@@ -11,6 +11,8 @@ class TriageState(str, Enum):
     GATHER_PAIN_QUALITY = "GATHER_PAIN_QUALITY"
     GATHER_PAIN_SCALE = "GATHER_PAIN_SCALE"
     GATHER_ONSET_DURATION = "GATHER_ONSET_DURATION"
+    # --- New State Added ---
+    GATHER_FUNCTIONAL_LIMITATIONS = "GATHER_FUNCTIONAL_LIMITATIONS"
     COMPLETE = "COMPLETE"
 
 # --- Triage Agent Class ---
@@ -40,6 +42,8 @@ Follow these rules strictly:
             TriageState.GATHER_PAIN_QUALITY: "Acknowledge their last answer. Now, ask if the pain is Sharp, Dull, or has a Burning quality.",
             TriageState.GATHER_PAIN_SCALE: "Acknowledge their last answer. Now, ask them to rate their pain over the past week on a scale of 0 to 10, where 0 is no pain and 10 is the most pain imaginable.",
             TriageState.GATHER_ONSET_DURATION: "Acknowledge their last answer. Now, ask them how long their knee has been bothering them.",
+            # --- New Prompt Added ---
+            TriageState.GATHER_FUNCTIONAL_LIMITATIONS: "Acknowledge their last answer. Now, ask if the knee problem stops them from doing anything and to give an example if so.",
             TriageState.COMPLETE: "Thank the user for all the information and state that a summary will be prepared for the clinical team."
         }
         return prompts.get(state, "The conversation is complete.")
@@ -55,6 +59,8 @@ Follow these rules strictly:
             TriageState.GATHER_PAIN_QUALITY,
             TriageState.GATHER_PAIN_SCALE,
             TriageState.GATHER_ONSET_DURATION,
+            # --- New State Added to Sequence ---
+            TriageState.GATHER_FUNCTIONAL_LIMITATIONS,
             TriageState.COMPLETE
         ]
         
@@ -71,8 +77,6 @@ Follow these rules strictly:
         task_prompt = self._get_prompt_for_state(current_state)
         system_prompt = self.system_prompt_template.format(current_task_prompt=task_prompt)
         
-        # **RE-INTRODUCING CONVERSATION HISTORY**
-        # This is the key change that allows the AI to be more natural.
         full_prompt = f"System: {system_prompt}\n\n"
         for msg in messages:
             full_prompt += f"{msg['role'].capitalize()}: {msg['content']}\n"
