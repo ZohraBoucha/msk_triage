@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Dict
+import uvicorn
 
 # Import the existing agent
 from .triage_agent import TriageAgent
@@ -52,3 +53,13 @@ async def summarize_conversation(request: PromptRequest):
         return {"response": summary_text}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"An internal error occurred: {e}")
+
+# --- ADD THIS MAIN BLOCK FOR NETWORK ACCESS ---
+if __name__ == "__main__":
+    uvicorn.run(
+        "main:app",
+        host="0.0.0.0",  # Bind to all network interfaces
+        port=8000,
+        reload=True,
+        access_log=True
+    )

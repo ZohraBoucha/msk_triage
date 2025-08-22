@@ -64,7 +64,7 @@ Follow these rules:
             TriageState.GATHER_FUNCTIONAL_IMPACT: "Acknowledge their answer. For the final question, ask how the problem is affecting their daily life, for example with work, sleep, or hobbies.",
 
             # --- Completion ---
-            TriageState.COMPLETE: "Thank you for all your answers. A summary will be prepared for the clinical team."
+            TriageState.COMPLETE: "Thank the user for all the information. State that you now have a complete picture of the situation and that a summary will be prepared for the clinical team to direct them to the most appropriate care. IMPORTANT: Do NOT ask any follow-up questions. Simply thank them and state the summary will be prepared."
         }
         return prompts.get(state, "The conversation is complete.")
 
@@ -104,6 +104,11 @@ Follow these rules:
         and gets a response from the LLM.
         """
         current_state = self._determine_current_state(messages)
+        
+        # If we're in COMPLETE state, return a fixed completion message
+        if current_state == TriageState.COMPLETE:
+            return "Thank you for sharing all the information with me. I now have a complete picture of your situation. A summary will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway."
+        
         task_prompt = self._get_prompt_for_state(current_state)
         system_prompt = self.system_prompt_template.format(current_task_prompt=task_prompt)
         
