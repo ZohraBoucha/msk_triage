@@ -7,7 +7,7 @@ class SummarizationAgent:
     """
     def __init__(self, model: str = "llama3.1:8b"):
         self.model = model
-        self.ollama_api_url = "http://llm_server:11434/api/generate"
+        self.ollama_api_url = "http://localhost:11434/api/generate"
         self.system_prompt_template = """You are an expert Orthopaedic Triage Clinician. Your task is to analyze the following patient-AI conversation and generate a structured clinical summary and a triage recommendation.
 
 Follow these rules:

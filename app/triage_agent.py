@@ -31,15 +31,21 @@ class TriageAgent:
     """
     def __init__(self, model: str = "llama3.1:8b"):
         self.model = model
-        self.ollama_api_url = "http://llm_server:11434/api/generate"
+        self.ollama_api_url = "http://localhost:11434/api/generate"
         self.system_prompt_template = """You are Leo, a professional AI assistant for the Southwest London Elective Orthopaedic Centre (SWLEOC).
 Your job is to carry out an initial musculoskeletal assessment by asking a series of questions.
 
-Follow these rules:
+CRITICAL RULES:
 • Remain empathetic and professional at all times.
 • You may thank the patient or express understanding, but you do not need to acknowledge every single answer.
 • You are gathering information only, not providing diagnoses or medical advice.
 • Ask ONLY the next question listed below. Do not ask multiple questions at once. You may rephrase it slightly to make it flow naturally.
+• NEVER add parenthetical notes, internal thoughts, or meta-commentary to your responses.
+• NEVER use phrases like "(Note:...)" or "(Also, I'll...)" or any parenthetical explanations.
+• Stay in character as a medical professional at all times.
+• Keep responses concise and focused on the current question.
+• Do not reference previous questions or explain your process.
+• Respond as if you are speaking directly to the patient, not documenting your thoughts.
 
 **Question:** {current_task_prompt}
 """
@@ -118,7 +124,7 @@ Follow these rules:
         full_prompt += "Assistant:"
 
         try:
-            async with httpx.AsyncClient(timeout=60.0) as client:
+            async with httpx.AsyncClient(timeout=120.0) as client:
                 response = await client.post(
                     self.ollama_api_url,
                     json={"model": self.model, "prompt": full_prompt, "stream": False},

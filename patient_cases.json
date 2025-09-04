@@ -1,0 +1,446 @@
+[
+  {
+    "case_id": "case_3",
+    "title": "Shoulder Dislocation",
+    "demographics": {
+      "age": "22",
+      "gender": "male",
+      "occupation": "university rugby player",
+      "comorbidities": "none"
+    },
+    "presenting_complaint": "Left shoulder pain and deformity after rugby tackle, 30 minutes ago",
+    "socrates": {
+      "site": "Left shoulder",
+      "onset": "Sudden, during tackle",
+      "character": "Severe, throbbing",
+      "radiation": "Upper arm",
+      "associations": "Obvious deformity, limited movement",
+      "timing": "Constant since injury",
+      "exacerbating": "Any movement",
+      "relieving": "Keeping arm still",
+      "severity": "8/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "High-impact sports tackle",
+      "red_flags": "Visible deformity, loss of function",
+      "previous_treatment": "None",
+      "functional_impact": "Cannot use arm"
+    },
+    "expected_triage": "Urgent Care/A&E",
+    "clinical_notes": "High-energy trauma, deformity, and functional loss require urgent hospital care",
+    "sample_conversation": [
+      "Dislocated my shoulder in rugby about half an hour ago",
+      "Tackled, landed awkwardly",
+      "Out of place, sticking forward",
+      "No, it's too painful",
+      "A bit down my arm",
+      "No",
+      "8",
+      "Yes",
+      "No, just holding it still",
+      "No",
+      "Yes, just painful",
+      "No"
+    ]
+  },
+  {
+    "case_id": "case_4",
+    "title": "Open Tibial Fracture",
+    "demographics": {
+      "age": "35",
+      "gender": "male",
+      "occupation": "cyclist",
+      "comorbidities": "otherwise fit"
+    },
+    "presenting_complaint": "Severe lower leg pain after road traffic accident, 1 hour ago",
+    "socrates": {
+      "site": "Right shin",
+      "onset": "Sudden, following collision",
+      "character": "Sharp, excruciating",
+      "radiation": "Into foot",
+      "associations": "Open wound with bone visible, bleeding",
+      "timing": "Constant since accident",
+      "exacerbating": "Any movement",
+      "relieving": "Splinted by paramedics",
+      "severity": "10/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "RTA at speed",
+      "red_flags": "Open fracture, bleeding, severe pain",
+      "previous_treatment": "Immobilisation by paramedics",
+      "functional_impact": "Unable to bear weight"
+    },
+    "expected_triage": "Urgent Care/A&E",
+    "clinical_notes": "Open fracture, severe trauma, surgical emergency",
+    "sample_conversation": [
+      "I crashed my bike, my shin bone is sticking out",
+      "About an hour ago",
+      "Yes, but paramedics put a dressing on",
+      "10",
+      "A bit, very painful",
+      "No, just pain",
+      "No chance",
+      "Just cuts and bruises",
+      "None",
+      "I'm already in the ambulance"
+    ]
+  },
+  {
+    "case_id": "case_5",
+    "title": "Acute Foot Drop (Lumbar Disc Prolapse)",
+    "demographics": {
+      "age": "41",
+      "gender": "female",
+      "occupation": "warehouse worker",
+      "comorbidities": "previous back pain"
+    },
+    "presenting_complaint": "Sudden onset left foot weakness, 24 hours duration",
+    "socrates": {
+      "site": "Low back with radiation to left leg",
+      "onset": "Acute, noticed yesterday",
+      "character": "Back pain with weakness rather than pain",
+      "radiation": "Down to foot",
+      "associations": "Can't lift foot (foot drop)",
+      "timing": "Constant weakness since onset",
+      "exacerbating": "Walking",
+      "relieving": "Rest, but weakness remains",
+      "severity": "Pain 6/10, weakness disabling"
+    },
+    "triage_info": {
+      "injury_mechanism": "No trauma, acute disc prolapse suspected",
+      "red_flags": "Neurological deficit (foot drop)",
+      "previous_treatment": "Analgesia",
+      "functional_impact": "Cannot work, walks with limp"
+    },
+    "expected_triage": "Urgent Care/A&E",
+    "clinical_notes": "Sudden motor deficit = urgent surgical referral",
+    "sample_conversation": [
+      "I suddenly can't lift my left foot",
+      "Yesterday morning",
+      "Yes, low back pain for a while, but this weakness is new",
+      "Yes, down my left leg",
+      "I'm dragging my foot",
+      "No",
+      "No",
+      "About 6",
+      "Just ibuprofen",
+      "No",
+      "No",
+      "Do I need to go now?",
+      "Yes, today",
+      "Okay, I'll go to A&E"
+    ]
+  },
+  {
+    "case_id": "case_1",
+    "title": "Suspected Fracture (Wrist)",
+    "demographics": {
+      "age": "28",
+      "gender": "male",
+      "occupation": "delivery driver",
+      "comorbidities": "smoker, otherwise well"
+    },
+    "presenting_complaint": "Severe right wrist pain after fall, 1 hour ago",
+    "socrates": {
+      "site": "Right wrist",
+      "onset": "Sudden, after fall on outstretched hand while carrying parcels",
+      "character": "Sharp, severe",
+      "radiation": "None",
+      "associations": "Swelling, deformity, can't move fingers properly",
+      "timing": "Constant since fall",
+      "exacerbating": "Any attempt to move hand",
+      "relieving": "None tried",
+      "severity": "9/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "High-impact fall",
+      "red_flags": "Gross deformity, inability to move fingers fully",
+      "previous_treatment": "None",
+      "functional_impact": "Unable to grip, can't work"
+    },
+    "expected_triage": "Urgent Care/A&E",
+    "clinical_notes": "Acute trauma, deformity, severe pain, and neurovascular involvement → immediate A&E required",
+    "sample_conversation": [
+      "I fell earlier and my right wrist is really painful",
+      "About an hour ago while delivering parcels",
+      "Tripped and landed on my hand",
+      "Sharp, unbearable, and constant",
+      "Yes, it looks bent out of place",
+      "Barely, it's really painful",
+      "A little in my thumb",
+      "No, just holding it still",
+      "9 out of 10",
+      "Just that I smoke, otherwise healthy",
+      "No",
+      "Not at all",
+      "Fingers are a bit pale"
+    ]
+  },
+  {
+    "case_id": "case_2",
+    "title": "Acute Cauda Equina Syndrome",
+    "demographics": {
+      "age": "49",
+      "gender": "female",
+      "occupation": "office worker",
+      "comorbidities": "history of sciatica"
+    },
+    "presenting_complaint": "Severe back pain with sudden bladder incontinence",
+    "socrates": {
+      "site": "Low back, radiating to both legs",
+      "onset": "Sudden worsening over 24 hrs",
+      "character": "Severe, crushing pain",
+      "radiation": "Both legs, worse left",
+      "associations": "Numbness in groin, bladder leakage",
+      "timing": "Constant, deteriorating rapidly",
+      "exacerbating": "Standing and walking",
+      "relieving": "None",
+      "severity": "10/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "Gradual back pain, sudden acute deterioration",
+      "red_flags": "Saddle anaesthesia, bladder incontinence",
+      "previous_treatment": "Analgesia only",
+      "functional_impact": "Cannot walk far, incontinent"
+    },
+    "expected_triage": "Urgent Care/A&E",
+    "clinical_notes": "Saddle anaesthesia + bladder dysfunction = surgical emergency",
+    "sample_conversation": [
+      "My back pain has suddenly got much worse and I can't control my bladder",
+      "Off and on for years, but this is new in the last day",
+      "Yes, between my legs and down my left leg",
+      "I can't feel when I need to go – I leaked this morning",
+      "Yes, they feel heavy, hard to walk",
+      "No",
+      "No",
+      "10",
+      "Yes, not helping",
+      "No",
+      "Should I go to hospital?",
+      "Yes, you need urgent hospital assessment for possible cauda equina syndrome",
+      "Okay, I'll get someone to take me"
+    ]
+  },
+  {
+    "case_id": "case_6",
+    "title": "Suspected Inflammatory Back Pain",
+    "demographics": {
+      "age": "32",
+      "gender": "male",
+      "occupation": "IT consultant",
+      "comorbidities": "no significant PMH"
+    },
+    "presenting_complaint": "Chronic lower back pain, 6 months",
+    "socrates": {
+      "site": "Lumbar spine",
+      "onset": "Gradual over 6 months",
+      "character": "Stiff, aching",
+      "radiation": "Occasionally to buttocks",
+      "associations": "Morning stiffness >1 hr, improves with activity, night waking",
+      "timing": "Worse at night and early morning",
+      "exacerbating": "Rest, prolonged sitting",
+      "relieving": "Movement, NSAIDs",
+      "severity": "6/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "Insidious, not mechanical",
+      "red_flags": "Night pain, prolonged morning stiffness",
+      "previous_treatment": "Self-managed with over-the-counter ibuprofen",
+      "functional_impact": "Struggles with sitting at desk, disturbed sleep"
+    },
+    "expected_triage": "GP/Primary Care",
+    "clinical_notes": "Non-mechanical pattern + family history = GP review needed for rheumatology work-up",
+    "sample_conversation": [
+      "It's been going on about 6 months",
+      "Gradually, no injury",
+      "At night and first thing in the morning",
+      "Over an hour, sometimes more",
+      "Moving around and exercise",
+      "Yes, ibuprofen helps a bit",
+      "No",
+      "My dad has ankylosing spondylitis",
+      "No, long meetings are awful",
+      "No",
+      "Should I see my GP?",
+      "Yes, you need GP referral for investigations"
+    ]
+  },
+  {
+    "case_id": "case_7",
+    "title": "Possible Spinal Malignancy",
+    "demographics": {
+      "age": "67",
+      "gender": "female",
+      "occupation": "retired teacher",
+      "comorbidities": "PMH: breast cancer 5 years ago"
+    },
+    "presenting_complaint": "Mid-back pain, 3 months, worsening",
+    "socrates": {
+      "site": "Thoracic spine",
+      "onset": "Gradual over 3 months",
+      "character": "Deep, constant ache",
+      "radiation": "None",
+      "associations": "Weight loss (4 kg in 3 months), night pain",
+      "timing": "Worse at night, not relieved by rest",
+      "exacerbating": "Lying down",
+      "relieving": "None",
+      "severity": "7/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "Insidious",
+      "red_flags": "Past cancer, weight loss, night pain",
+      "previous_treatment": "Simple analgesia",
+      "functional_impact": "Sleep disturbed, reduced mobility"
+    },
+    "expected_triage": "GP/Primary Care",
+    "clinical_notes": "Past cancer + weight loss + night pain = urgent GP work-up",
+    "sample_conversation": [
+      "Mid-back pain that won't go away",
+      "Around 3 months",
+      "A deep ache",
+      "Constant",
+      "At night, lying down",
+      "Lost about 4 kilos recently",
+      "Yes, breast cancer 5 years ago",
+      "No weakness or numbness",
+      "No",
+      "No, nothing helps",
+      "Could this be cancer again?",
+      "It could be, which is why you must see your GP urgently",
+      "I'll call tomorrow"
+    ]
+  },
+  {
+    "case_id": "case_8",
+    "title": "Knee Pain with Unclear Diagnosis",
+    "demographics": {
+      "age": "42",
+      "gender": "male",
+      "occupation": "chef",
+      "comorbidities": "no PMH"
+    },
+    "presenting_complaint": "Right knee pain, 2 months",
+    "socrates": {
+      "site": "Right knee (diffuse)",
+      "onset": "Gradual, no trauma",
+      "character": "Dull ache",
+      "radiation": "None",
+      "associations": "Intermittent swelling, occasional locking sensation",
+      "timing": "On and off",
+      "exacerbating": "Long shifts standing, stairs",
+      "relieving": "Rest",
+      "severity": "5/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "No clear injury",
+      "red_flags": "None, but diagnosis unclear",
+      "previous_treatment": "Paracetamol",
+      "functional_impact": "Work discomfort, but still working"
+    },
+    "expected_triage": "GP/Primary Care",
+    "clinical_notes": "No red flags, but diagnosis uncertain → GP assessment needed",
+    "sample_conversation": [
+      "It aches, been like this for a couple of months",
+      "No, just came on slowly",
+      "Hard to say, all over",
+      "Sometimes after long shifts",
+      "Occasionally locks, but not always",
+      "Most of the time, yes",
+      "No",
+      "None",
+      "Around 5 out of 10",
+      "No",
+      "This needs GP review for assessment and possible referral",
+      "I'll book with my GP"
+    ]
+  },
+  {
+    "case_id": "case_9",
+    "title": "Hip Pain with Systemic Symptoms",
+    "demographics": {
+      "age": "55",
+      "gender": "female",
+      "occupation": "primary school teacher",
+      "comorbidities": "PMH: type 2 diabetes"
+    },
+    "presenting_complaint": "Left hip pain, 1 month",
+    "socrates": {
+      "site": "Left groin/hip",
+      "onset": "Gradual",
+      "character": "Deep ache",
+      "radiation": "To thigh",
+      "associations": "Night sweats, fevers, fatigue",
+      "timing": "Constant",
+      "exacerbating": "Walking",
+      "relieving": "Rest, but still painful",
+      "severity": "6/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "Insidious",
+      "red_flags": "Fevers, sweats (possible infection or systemic disease)",
+      "previous_treatment": "Paracetamol",
+      "functional_impact": "Difficulty teaching, fatigued"
+    },
+    "expected_triage": "GP/Primary Care",
+    "clinical_notes": "Red flag systemic symptoms → GP investigation required",
+    "sample_conversation": [
+      "My left hip has been hurting for a month",
+      "No",
+      "In the groin, sometimes thigh",
+      "I've been sweaty at night and feel feverish",
+      "Not really",
+      "I have diabetes",
+      "No, just pain",
+      "Yes, but painful",
+      "6 out of 10",
+      "Do I need hospital?",
+      "Not immediately, but you must see your GP urgently",
+      "I'll do that"
+    ]
+  },
+  {
+    "case_id": "case_10",
+    "title": "Unexplained Weight Loss with Shoulder Pain",
+    "demographics": {
+      "age": "61",
+      "gender": "male",
+      "occupation": "retired",
+      "comorbidities": "PMH: hypertension, smoker"
+    },
+    "presenting_complaint": "Right shoulder pain, 2 months",
+    "socrates": {
+      "site": "Right shoulder",
+      "onset": "Gradual",
+      "character": "Dull ache",
+      "radiation": "To upper arm",
+      "associations": "Weight loss 6 kg in 2 months, night pain",
+      "timing": "Constant",
+      "exacerbating": "None specific",
+      "relieving": "None",
+      "severity": "5/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "No trauma",
+      "red_flags": "Significant weight loss, night pain",
+      "previous_treatment": "None",
+      "functional_impact": "Reduced function, worried"
+    },
+    "expected_triage": "GP/Primary Care",
+    "clinical_notes": "Weight loss + night pain + smoking history → GP review essential",
+    "sample_conversation": [
+      "Pain in my right shoulder for a couple of months",
+      "No",
+      "No",
+      "Yes, wakes me up",
+      "I've lost 6 kilos in 2 months",
+      "No",
+      "No",
+      "No",
+      "About 5",
+      "Just high blood pressure",
+      "Yes, about 20 a day",
+      "This pattern could indicate a serious condition. You must see your GP urgently",
+      "I'll book an appointment tomorrow"
+    ]
+  }
+]

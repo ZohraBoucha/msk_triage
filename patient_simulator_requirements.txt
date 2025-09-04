@@ -1,0 +1,5 @@
+# Patient Simulator Requirements
+httpx>=0.24.0
+openai>=1.0.0
+colorama>=0.4.6
+asyncio
