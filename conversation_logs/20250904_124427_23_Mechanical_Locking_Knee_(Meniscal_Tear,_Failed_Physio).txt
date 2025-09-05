@@ -1,0 +1,95 @@
+MSK TRIAGE BOT CONVERSATION LOG
+==================================================
+
+Case ID: case_23
+Title: Mechanical Locking Knee (Meniscal Tear, Failed Physio)
+Date: 2025-09-04 12:44:27
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 33
+Gender: male
+Occupation: plumber
+Comorbidities: otherwise healthy
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+Right knee locking and pain, 9 months
+
+CONVERSATION:
+--------------------
+[12:43:55] PATIENT: I have right knee locking and pain, 9 months
+
+[12:43:56] BOT: I understand that you've been experiencing right knee locking and pain for about 9 months now. Can you tell me when exactly this started? Was it a gradual onset of symptoms or did the problem come on suddenly?
+
+[12:43:57] PATIENT: It started after I twisted my knee at work about 9 months ago. I think it was just one of those awkward moments where you overstretch yourself, but it's been pretty much constant pain and locking ever since.
+
+[12:43:57] BOT: You've had a bit of an injury history there. Can you describe what the symptom feels like - is the pain in your right knee sharp or dull, aching or burning? Does it change throughout the day, or is it pretty consistent?
+
+[12:43:59] PATIENT: To be honest, it's pretty sharp pain. Sometimes it feels like my knee just locks up on me, like I'm stuck. It's constant, but some days are worse than others, especially if I've been kneeling or twisting around at work.
+
+[12:44:00] BOT: It sounds quite uncomfortable and frustrating, being stuck with a locked knee can be very distressing. Does the feeling of your knee locking move or radiate to any other part of your body, such as your lower leg or hip?
+
+[12:44:01] PATIENT: "No, it doesn't radiate to my lower leg or hip. The pain and locking feel like they're isolated right at the knee joint."
+
+[12:44:02] BOT: I understand that the feeling of your knee locking is isolated to just the knee joint itself. Have you noticed any other symptoms such as swelling, redness, or numbness in your right knee, or have these issues been absent throughout this 9-month period?
+
+[12:44:04] PATIENT: Yeah, I've had some intermittent swelling in my knee over the past few months. It's usually after a bad episode of locking or when I've been on my feet all day at work. But to be honest, it's not always noticeable unless I'm paying close attention to it.
+
+[12:44:05] BOT: You mentioned that the symptom of your right knee locking and pain comes and goes throughout the day, but it's constant overall. Is there any particular activity or situation that tends to trigger these episodes, such as bending, twisting, or climbing stairs?
+
+[12:44:07] PATIENT: To be honest, it's usually when I'm kneeling or twisting around at work that things get worse. I've had to modify my tasks so I don't have to kneel as much, but even then, the pain and locking can still come on pretty easily.
+
+[12:44:07] BOT: Does anything you do, such as rest, medication, exercise, or alternative therapies, make your symptoms better or worse?
+
+[12:44:09] PATIENT: To be honest, I've found that rest and avoiding kneeling really helps to reduce my symptoms. When I'm not doing anything strenuous or bending my knee too much, the pain and locking seem to ease off a bit.
+
+[12:44:10] BOT: Thank you for sharing that with me. Can you rate your overall level of pain or discomfort on a scale of 0 to 10, where 0 is no discomfort at all and 10 is the worst imaginable?
+
+[12:44:11] PATIENT: "About a 7 out of 10. The pain and locking can be pretty unpredictable, but it's usually at that level most of the time."
+
+[12:44:12] BOT: I've taken note of your rating of 7/10 for your knee symptoms. Have you had any previous treatment or consultations with healthcare professionals regarding this issue, such as physiotherapy, pain management, or specialist orthopaedic assessments?
+
+[12:44:14] PATIENT: "Yeah, I've had about six months of physiotherapy already. They tried to help me with exercises and strengthening my knee muscles, but it didn't really make much difference in terms of the pain and locking episodes."
+
+[12:44:15] BOT: To confirm that we're not missing anything serious, have you experienced any general health symptoms like fever, chills, unexplained weight loss, or any new, severe weakness in your legs?
+
+[12:44:17] PATIENT: No, I haven't had any fever, chills, unexplained weight loss, or weakness in my legs. My general health has been fine, it's just this knee issue that's been causing me problems.
+
+[12:44:17] BOT: Have you already tried or considered any medication specifically for managing pain and inflammation in your right knee?
+
+[12:44:19] PATIENT: To be honest, I've been taking some painkillers here and there when the pain gets really bad. Nothing too heavy-duty, just over-the-counter stuff to help manage it. But nothing's really made a big difference in terms of getting rid of the locking episodes.
+
+[12:44:20] BOT: How is this problem affecting your daily life? For example, are you struggling with work or hobbies because of your right knee symptoms?
+
+[12:44:22] PATIENT: It's been really tough to deal with. I've had to modify my work tasks because kneeling is just too much on my knee, so I'm not able to do some of the jobs that require it, like pipe fitting and plumbing repairs. It's also making me think about changing careers or finding something less physically demanding.
+
+[12:44:22] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A summary will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+============================================================
+CLINICAL SUMMARY
+============================================================
+**Clinical Summary**
+
+- **Presenting Complaint:**
+    - Right knee locking and pain
+- **History of Presenting Complaint (SOCRATES):**
+    - **Site:** Right knee joint
+    - **Onset:** Gradual, 9 months ago after twisting injury at work
+    - **Character:** Sharp pain, intermittent swelling
+    - **Radiation:** No radiation to lower leg or hip
+    - **Associated Symptoms:** Intermittent swelling, locking sensation in the right knee joint
+    - **Timing:** Constant, but some days worse than others
+    - **Exacerbating/Relieving Factors:** Kneeling and twisting at work exacerbate symptoms; rest alleviates symptoms
+    - **Severity:** 7/10 pain rating
+- **Triage Assessment:**
+    - **Mechanism of Injury:** Twisting injury at work 9 months ago
+    - **Red Flags:** None reported (e.g., fever, weight loss)
+    - **Previous Treatment:** 6 months of physiotherapy with minimal improvement
+    - **Functional Impact:** Significant impact on daily life and work due to the need for task modification
+
+**Triage Pathway: SWLEOC Orthopaedic Surgery**
+
+**Justification:** Given the patient's history of a twisting injury at work leading to persistent locking and pain in the right knee, despite six months of physiotherapy, further specialist orthopaedic evaluation is warranted. The failure of conservative management, combined with significant functional impact on daily life and work, makes an urgent need for comprehensive assessment by an orthopaedic surgeon necessary.
+

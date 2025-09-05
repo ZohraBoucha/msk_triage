@@ -1,0 +1,94 @@
+MSK TRIAGE BOT CONVERSATION LOG
+==================================================
+
+Case ID: case_12
+Title: Lateral Epicondylitis (Tennis Elbow)
+Date: 2025-09-04 12:36:48
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 48
+Gender: female
+Occupation: hairdresser
+Comorbidities: otherwise fit
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Right elbow pain, 3 months
+
+CONVERSATION:
+--------------------
+[12:36:14] PATIENT: I have right elbow pain, 3 months
+
+[12:36:14] BOT: Thank you for letting me know about your elbow pain. Can you tell me a bit more about how this started - did the pain come on suddenly, such as after lifting something heavy or bending in a particular way, or did it develop gradually over those three months?
+
+[12:36:15] PATIENT: "It started gradually, I'd say about 2 months ago. We were in the middle of a busy period at work and I was doing lots of long hours cutting hair with scissors. The pain didn't come on suddenly, it just sort of built up over time."
+
+[12:36:16] BOT: That makes sense. It sounds like the increased activity and repetitive motion may have contributed to the development of your elbow pain. Can you tell me a bit more about what the symptom feels like when you're experiencing it - is it sharp or dull, aching or burning?
+
+[12:36:18] PATIENT: "It's sharp, especially when I'm gripping something with my hand. When I use scissors, it feels like a stabbing pain in my elbow."
+
+[12:36:18] BOT: Does the feeling of stabbing pain move or radiate to any other part of your arm or shoulder when you're using scissors?
+
+[12:36:20] PATIENT: "Yeah, it radiates into my forearm. It feels like the pain is coming from my elbow, but it kind of spreads down into my arm when I'm using scissors."
+
+[12:36:20] BOT: I understand that the pain in your elbow and forearm can feel quite uncomfortable, especially during activities like cutting hair with scissors. Now, have you noticed any other symptoms that seem to occur at the same time as this pain, such as swelling, stiffness, or numbness?
+
+[12:36:22] PATIENT: "No, I haven't noticed any swelling or numbness in my elbow or forearm. To be honest, it's mostly just the pain when I'm using scissors or lifting things like the kettle at home."
+
+[12:36:23] BOT: It sounds like you've been experiencing a significant amount of discomfort, mainly related to pain, during specific activities such as cutting hair with scissors and lifting objects. Now, is this elbow pain constant, so it's always present whenever you're doing these activities, or does it come and goes? Additionally, are there any patterns or times of day when the pain tends to be worse?
+
+[12:36:25] PATIENT: "It comes and goes, to be honest. Some days it's really bad when I'm working with scissors, but other days it's more manageable. It's been 3 months now, so I've kind of learned to live with it, but it still affects my work - especially when I have a lot of heavy lifting or cutting to do."
+
+[12:36:26] BOT: It sounds like the pain can be quite unpredictable and varies from day to day. Can you tell me if there's anything in particular that makes the symptom better or worse? For example, does taking regular breaks during work sessions help, or are there any specific activities or positions that seem to reduce or increase the severity of your elbow pain?
+
+[12:36:28] PATIENT: "Actually, using a wrist strap when I'm cutting hair with scissors does help a bit. It's like it takes some of the pressure off my elbow. But when I don't use it, or if I have to lift something heavy like the kettle, that's usually when the pain gets really bad."
+
+[12:36:29] BOT: Thank you for sharing how using a wrist strap helps alleviate your elbow pain during cutting activities. Now, rate your current level of pain on a scale of 0 to 10, where 0 is no discomfort and 10 is the worst imaginable, based on what we've discussed so far?
+
+[12:36:31] PATIENT: "7 out of 10. It's still pretty bad when I think about it, especially when I'm using scissors or lifting heavy things like the kettle."
+
+[12:36:32] BOT: It sounds like you're experiencing a significant level of discomfort due to your elbow pain. Given that you mentioned the wrist strap helps alleviate some of the pain during cutting activities, can you tell me if you've tried any other methods or treatments, such as rest, ice, compression, or stretching exercises, to see if they help manage the pain?
+
+[12:36:34] PATIENT: To be honest, I've tried resting my elbow and taking regular breaks when I'm working with scissors. I also used some OTC painkillers to help manage the pain, but they only seem to give me temporary relief. As for exercises or stretching, I don't really know if that would make a difference - I haven't tried it yet, but I've been thinking about looking into some stretches specifically for my elbow to see if it helps.
+
+[12:36:35] BOT: To make sure we're not missing anything serious, have you experienced any general health symptoms like fever, chills, unexplained weight loss, or any new, severe weakness in your legs?
+
+[12:36:37] PATIENT: No, I haven't experienced any of those symptoms. Just the pain in my elbow when I'm using scissors or lifting heavy things. Other than that, I've been feeling pretty normal, just tired from work sometimes.
+
+[12:36:38] BOT: Have you tried any physical therapy or seeing a specialist for this elbow pain before coming to see us today?
+
+[12:36:40] PATIENT: "No, I haven't tried seeing a specialist or going to physical therapy. To be honest, I've been trying to manage it on my own with the wrist strap and OTC painkillers, but it's still affecting my work, so I'm hoping there might be something else that can help."
+
+[12:36:41] BOT: The final question for today is: How has this elbow pain affected your daily life, including your work as a hairstylist? For instance, have you had to take time off from work due to the pain, or are you having trouble performing tasks that you normally do with ease?
+
+[12:36:43] PATIENT: "Honestly, it's been really affecting my work. I've had to take a few days off here and there when the pain is really bad, and even on good days, I find myself getting tired more easily and struggling with tasks that used to be easy for me, like cutting hair for long periods of time without taking breaks."
+
+[12:36:43] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A summary will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+============================================================
+CLINICAL SUMMARY
+============================================================
+**Clinical Summary**
+- **Presenting Complaint:** Elbow pain
+- **History of Presenting Complaint (SOCRATES):**
+  - **Site:** Right elbow
+  - **Onset:** Gradual onset over 2 months, with increased frequency and severity during a busy period at work.
+  - **Character:** Sharp, stabbing pain when gripping or lifting objects.
+  - **Radiation:** Radiates into forearm.
+  - **Associated Symptoms:** None (no swelling, numbness, etc.)
+  - **Timing:** Constant pain during specific activities (cutting hair with scissors, heavy lifting), variable from day to day.
+  - **Exacerbating/Relieving Factors:** Pain exacerbated by repetitive motion and heavy lifting; wrist strap helps alleviate pain when cutting hair.
+  - **Severity:** Current level of pain is 7 out of 10.
+- **Triage Assessment:**
+  - **Mechanism of Injury:** Gradual onset due to increased activity and repetitive motion at work.
+  - **Red Flags:** None identified (no fever, chills, unexplained weight loss, etc.).
+  - **Previous Treatment:** Self-managed with wrist strap and OTC painkillers; no previous physiotherapy or specialist consultation.
+  - **Functional Impact:** Pain affects daily life and work performance as a hairstylist.
+
+**Triage Recommendation:**
+GP / Primary Care
+
+**Justification:** The patient's elbow pain has been managed conservatively for 3 months with some relief, but it still significantly impacts their daily life and work. A primary care evaluation will allow for further investigation into the cause of the pain, potential conservative management strategies (including physiotherapy or specialist referral), and monitoring of symptoms over time.
+

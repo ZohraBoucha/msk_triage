@@ -10,6 +10,8 @@ import asyncio
 import httpx
 import json
 import time
+import os
+from datetime import datetime
 from typing import Dict, List, Optional
 from dataclasses import dataclass
 from colorama import init, Fore, Back, Style
@@ -30,6 +32,7 @@ class PatientData:
     expected_triage: str
     clinical_notes: str
     sample_conversation: List[str]
+    expanded_clinic_letter: str = ""
 
 class PatientSimulator:
     """Simulates a patient conversation with the MSK triage bot using Ollama"""
@@ -41,11 +44,13 @@ class PatientSimulator:
         self.conversation_history = []
         self.patient_data = None
         self.conversation_index = 0
+        self.conversation_log = []  # Store all conversation messages for saving
         
     def load_patient_data(self, patient_data: PatientData):
         """Load patient data for simulation"""
         self.patient_data = patient_data
         self.conversation_history = []
+        self.conversation_log = []
         self.conversation_index = 0
         
     def create_patient_prompt(self, bot_question: str) -> str:
@@ -177,11 +182,79 @@ PATIENT RESPONSE:"""
             print(f"{Fore.RED}Error generating summary: {e}")
     
     def print_message(self, role: str, content: str, color: str = Fore.WHITE):
-        """Print message with color coding"""
+        """Print message with color coding and log it"""
         timestamp = time.strftime("%H:%M:%S")
         role_color = Fore.CYAN if role == "BOT" else Fore.GREEN
         print(f"{Fore.YELLOW}[{timestamp}] {role_color}{role}:{Style.RESET_ALL} {content}")
         print()  # Add spacing
+        
+        # Log the message for saving
+        self.conversation_log.append({
+            "timestamp": timestamp,
+            "role": role,
+            "content": content
+        })
+    
+    def save_conversation_to_file(self, output_dir: str = "conversation_logs"):
+        """Save the conversation to a text file"""
+        if not self.patient_data or not self.conversation_log:
+            print(f"{Fore.RED}No conversation data to save!")
+            return None
+        
+        # Create output directory if it doesn't exist
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Generate filename with timestamp and case info
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        case_id = self.patient_data.case_id.replace("case_", "")
+        filename = f"{timestamp}_{case_id}_{self.patient_data.title.replace(' ', '_')}.txt"
+        filepath = os.path.join(output_dir, filename)
+        
+        try:
+            with open(filepath, 'w', encoding='utf-8') as f:
+                # Write header information
+                f.write("MSK TRIAGE BOT CONVERSATION LOG\n")
+                f.write("=" * 50 + "\n\n")
+                f.write(f"Case ID: {self.patient_data.case_id}\n")
+                f.write(f"Title: {self.patient_data.title}\n")
+                f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+                
+                # Write patient demographics
+                f.write("PATIENT DEMOGRAPHICS:\n")
+                f.write("-" * 20 + "\n")
+                for key, value in self.patient_data.demographics.items():
+                    f.write(f"{key.title()}: {value}\n")
+                f.write(f"Expected Triage: {self.patient_data.expected_triage}\n\n")
+                
+                # Write presenting complaint
+                f.write("PRESENTING COMPLAINT:\n")
+                f.write("-" * 20 + "\n")
+                f.write(f"{self.patient_data.presenting_complaint}\n\n")
+                
+                # Write conversation
+                f.write("CONVERSATION:\n")
+                f.write("-" * 20 + "\n")
+                for msg in self.conversation_log:
+                    f.write(f"[{msg['timestamp']}] {msg['role']}: {msg['content']}\n\n")
+                
+                # Write clinical notes if available
+                if self.patient_data.clinical_notes:
+                    f.write("CLINICAL NOTES:\n")
+                    f.write("-" * 20 + "\n")
+                    f.write(f"{self.patient_data.clinical_notes}\n\n")
+                
+                # Write expanded clinic letter if available
+                if hasattr(self.patient_data, 'expanded_clinic_letter') and self.patient_data.expanded_clinic_letter:
+                    f.write("EXPANDED CLINIC LETTER:\n")
+                    f.write("-" * 20 + "\n")
+                    f.write(f"{self.patient_data.expanded_clinic_letter}\n\n")
+            
+            print(f"{Fore.GREEN}Conversation saved to: {filepath}")
+            return filepath
+            
+        except Exception as e:
+            print(f"{Fore.RED}Error saving conversation: {e}")
+            return None
     
     async def simulate_conversation(self):
         """Simulate a complete conversation between patient and triage bot"""
@@ -243,6 +316,11 @@ PATIENT RESPONSE:"""
         print(f"{Fore.MAGENTA}{'='*60}")
         print(f"{Fore.MAGENTA}CONVERSATION COMPLETED")
         print(f"{Fore.MAGENTA}{'='*60}")
+        
+        # Save conversation to file
+        saved_file = self.save_conversation_to_file()
+        if saved_file:
+            print(f"{Fore.CYAN}Conversation log saved successfully!")
 
 def load_patient_cases(file_path: str) -> List[PatientData]:
     """Load patient cases from JSON file"""
@@ -260,7 +338,8 @@ def load_patient_cases(file_path: str) -> List[PatientData]:
             triage_info=case_data['triage_info'],
             expected_triage=case_data['expected_triage'],
             clinical_notes=case_data['clinical_notes'],
-            sample_conversation=case_data['sample_conversation']
+            sample_conversation=case_data['sample_conversation'],
+            expanded_clinic_letter=case_data.get('expanded_clinic_letter', '')
         )
         cases.append(case)
     

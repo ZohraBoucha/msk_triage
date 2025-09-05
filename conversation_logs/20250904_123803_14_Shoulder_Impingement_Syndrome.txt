@@ -1,0 +1,105 @@
+MSK TRIAGE BOT CONVERSATION LOG
+==================================================
+
+Case ID: case_14
+Title: Shoulder Impingement Syndrome
+Date: 2025-09-04 12:38:03
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 45
+Gender: female
+Occupation: primary school teacher
+Comorbidities: PMH: asthma
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Right shoulder pain, 5 months
+
+CONVERSATION:
+--------------------
+[12:37:29] PATIENT: I have right shoulder pain, 5 months
+
+[12:37:30] BOT: Thank you for sharing that with me.
+
+Can you tell me a bit more about how your right shoulder pain has progressed over the past 5 months? Did it start suddenly or did it develop gradually over time?
+
+[12:37:31] PATIENT: It started gradually, I think. At first, it was just a bit of stiffness in the morning, but over time it's gotten worse. Now it really hurts when I'm teaching or doing things like lifting students or even just reaching up to grab something from a high shelf.
+
+[12:37:31] BOT: It sounds like the pain has become more persistent and has been triggered by certain activities, especially those involving lifting or overhead movements.
+
+Can you describe what the symptom feels like - is it sharp, dull, aching, burning, or is there another way to describe it?
+
+[12:37:33] PATIENT: It's a bit hard to describe, but it feels like an aching pain. Sometimes when I'm moving my shoulder in a certain way or lifting something heavy, it can feel sharp and stabbing, almost like a knife going through me. But mostly it's just this dull ache that's always there in the background.
+
+[12:37:34] BOT: It sounds like you're experiencing a mix of both aching and sharp pain sensations in your shoulder.
+
+Does the feeling move or radiate to any other part of your body, such as your neck, arm, or hand?
+
+[12:37:36] PATIENT: Yes, it definitely radiates into my upper arm. Sometimes I'll be teaching and I'll feel this sharp pain in my shoulder that shoots all the way down to my elbow. It's really uncomfortable.
+
+[12:37:36] BOT: You've mentioned that the pain can radiate down to your elbow. Have you noticed any other symptoms, such as swelling, redness, or numbness in your arm or hand, at the same time as the pain?
+
+[12:37:38] PATIENT: No, I haven't noticed any swelling or redness in my arm or hand. But sometimes when I'm sleeping on that shoulder, I get this numb feeling in my whole arm. It's not too bad, but it can be a bit unsettling.
+
+[12:37:39] BOT: Is the pain you're experiencing constant, or does it come and go throughout the day? In other words, are there certain periods when it feels better or worse?
+
+[12:37:41] PATIENT: The pain is definitely worse when I'm active, like teaching or doing chores. It's hard to explain, but it feels like it gets worse with all that movement. When I rest, especially after a long day of being on my feet at school, the pain seems to ease up a bit and it's not as bad.
+
+[12:37:41] BOT: Does anything you do make the symptom better or worse? For example, is there a particular activity or position that helps relieve the pain or makes it feel more manageable?
+
+[12:37:43] PATIENT: Yeah, definitely. As I mentioned earlier, it gets worse with activity, especially lifting or reaching overhead. But actually, when I'm lying on my back at home, I notice that if I put a pillow under my right shoulder, it seems to help take the pressure off and the pain is a bit more manageable.
+
+[12:37:44] BOT: On a scale of 0 to 10, where 0 is no discomfort and 10 is the worst imaginable, how would you rate your current level of pain or discomfort in your right shoulder?
+
+[12:37:46] PATIENT: It's around an 8 or 9 out of 10, I'd say. The pain has been really affecting my daily activities and it's hard to manage on a bad day. When I'm teaching, it can get up to a 9, but when I'm resting at home, it usually drops down to around an 8.
+
+[12:37:47] BOT: Thank you for sharing that with me.
+
+Before your symptoms began, did you have any previous injuries or problems in the same shoulder area? Or has this been the first time you've experienced pain like this?
+
+[12:37:49] PATIENT: No, I haven't had any previous injuries or problems in this shoulder area. I've had asthma my whole life, but that's about it.
+
+[12:37:50] BOT: Thank you for sharing your medical history with me.
+
+To make sure we're not missing anything serious, have you experienced any general health symptoms like fever, chills, unexplained weight loss, or any new, severe weakness in your legs?
+
+[12:37:51] PATIENT: No, I haven't experienced any of those symptoms. My asthma has been under control with my medication, but aside from that, I'm pretty healthy and haven't had any other issues.
+
+[12:37:53] BOT: You mentioned earlier that you've tried some treatments for your shoulder pain. Can you tell me what, if anything, you've tried in terms of managing the pain or addressing the issue? For example, have you seen a doctor, tried physiotherapy, taken any medication, or used any other therapies to help alleviate the discomfort?
+
+[12:37:55] PATIENT: To be honest, I've just been taking some over-the-counter pain relievers like ibuprofen when it gets really bad. That's pretty much all I've done so far - my primary care doctor recommended trying those to see if they would help manage the pain. But other than that, I haven't really sought out any other treatments or therapies specifically for the shoulder pain.
+
+[12:37:56] BOT: How is your right shoulder pain affecting your daily life? Are you finding it impacts your work as a teacher, your ability to perform certain activities, or affects your sleep and overall well-being in any way?
+
+[12:37:58] PATIENT: It's really affecting my work as a teacher. I have to be careful when lifting students or doing overhead activities, which can be tricky because it's part of the job. It's also impacting my daily activities at home, like cooking and cleaning, where I have to take regular breaks to rest my shoulder and avoid exacerbating the pain.
+
+[12:37:58] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A summary will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+============================================================
+CLINICAL SUMMARY
+============================================================
+**Clinical Summary**
+- **Presenting Complaint:** Right shoulder pain
+- **History of Presenting Complaint (SOCRATES):**
+    - **Site:** Right shoulder
+    - **Onset:** Gradual over 5 months
+    - **Character:** Aching and sharp stabbing pain
+    - **Radiation:** Down to the elbow
+    - **Associated Symptoms:** Numbness in the arm when sleeping on the affected shoulder
+    - **Timing:** Worsens with activity, improves with rest
+    - **Exacerbating/Relieving Factors:** Lifting or reaching overhead, lying on back with pillow under right shoulder
+    - **Severity:** 8-9 out of 10 pain level
+
+- **Triage Assessment:**
+    - **Mechanism of Injury:** Gradual onset over 5 months, no specific injury reported
+    - **Red Flags:** None mentioned (no fever, chills, unexplained weight loss, or severe weakness)
+    - **Previous Treatment:** Over-the-counter ibuprofen for pain relief
+    - **Functional Impact:** Significant impact on work as a teacher and daily activities at home
+
+**Triage Recommendation:**
+
+*   **MSK Physiotherapy**
+*   Justification: The patient has been experiencing gradual onset of right shoulder pain over 5 months, with a mix of aching and sharp stabbing sensations. The pain worsens with activity but improves with rest. Although the patient has tried over-the-counter ibuprofen for pain relief, they have not sought out any other treatments or therapies specifically for the shoulder pain. Given the significant impact on their daily activities and work as a teacher, referral to MSK Physiotherapy is appropriate to assess and manage the mechanical problem conservatively before considering further interventions.
+
