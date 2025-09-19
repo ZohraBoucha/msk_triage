@@ -4,9 +4,9 @@ from typing import List, Dict
 import uvicorn
 
 # Import the existing agent
-from .triage_agent import TriageAgent
+from triage_agent import TriageAgent
 # Import the NEW agent
-from .summarization_agent import SummarizationAgent
+from summarization_agent import SummarizationAgent
 
 
 # --- Data Models (No changes here) ---

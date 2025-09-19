@@ -1,0 +1,116 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_12
+Title: Lateral Epicondylitis (Tennis Elbow)
+Date: 2025-09-19 13:23:05
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 48
+Gender: female
+Occupation: hairdresser
+Comorbidities: otherwise fit
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Right elbow pain, 3 months
+
+CONVERSATION:
+--------------------
+[13:22:11] BOT: Hello, can you please provide your full name?
+
+[13:22:11] PATIENT: I have right elbow pain, 3 months
+
+[13:22:12] BOT: Thank you for letting me know. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[13:22:12] PATIENT: My elbow. It's been hurting on the right side, specifically the lateral part, for about three months now.
+
+[13:22:13] BOT: You mentioned your elbow pain has a gradual onset over about 3 months. Was this right elbow pain related to an injury or accident, or did it start without any obvious cause?
+
+[13:22:14] PATIENT: Honestly, it just started without any obvious cause. I'd been working non-stop as a hairdresser during that time and thought maybe I was just overdoing it, but nothing specific happened to make me think I'd hurt my elbow.
+
+[13:22:15] BOT: How old are you, please?
+
+[13:22:16] PATIENT: "I'm 48 years old."
+
+[13:22:16] BOT: You've mentioned your right elbow is the affected area. Can you describe how would rate the pain on a scale of 0 to 10, with 0 being no pain at all and 10 being the worst possible pain?
+
+[13:22:18] PATIENT: Honestly, it's about 7 out of 10. It's been pretty consistent over the past three months, but there are days when it's worse than others, especially if I'm using scissors or lifting something heavy like my kettle.
+
+[13:22:19] BOT: You've rated your pain as a 7 out of 10 consistently over the past 3 months, with some variation depending on certain activities. Now, can you please tell me how long you've had this level of elbow pain? In other words, how long have you been experiencing significant discomfort or symptoms in your right elbow?
+
+[13:22:21] PATIENT: "Honestly, it's been pretty consistent over the past three months. I'd say I've had significant discomfort in my right elbow for about that whole time."
+
+[13:22:21] BOT: So, you mentioned earlier that the pain started without any obvious cause and you thought maybe it was due to overworking as a hairdresser. Now, did you experience this gradual onset of pain after a specific period or event, such as a change in your work schedule, or has it been a steady progression?
+
+[13:22:23] PATIENT: To be honest, I don't think it was related to any specific event or period. It's just been a gradual thing over the past three months. I've been working really hard as a hairdresser and I guess my elbow just started hurting without me even noticing it.
+
+[13:22:24] BOT: Can you describe your main symptoms in your own words? What does the pain feel like, and are there any other sensations or experiences that come with it?
+
+[13:22:26] PATIENT: To be honest, it feels like sharp pains in my right elbow, specifically on the lateral side. It's pretty constant, but when I use scissors or lift something heavy, it feels like it gets worse and more intense. Sometimes at night, I'll feel a bit of a ache there too.
+
+[13:22:27] BOT: You mentioned that the pain can be sharp and also sometimes feels like an ache, especially at night. Can you describe what the sensation is like when you're resting or lying down - does it feel like it's always present, or is it more noticeable when you move or perform certain actions?
+
+[13:22:29] PATIENT: To be honest, when I'm resting or lying down, it's not like the pain is always present. It's more noticeable when I move or perform certain actions, especially if I'm using scissors or lifting something heavy. Sometimes at night, though, I'll feel a bit of a ache in my elbow that can wake me up.
+
+[13:22:29] BOT: Can you tell me if the pain or feeling in your right elbow spreads to any other part of your body?
+
+[13:22:31] PATIENT: The pain in my right elbow actually radiates into my forearm. When it hurts, I can feel it in my wrist and hand too, which makes gripping things really uncomfortable. It's like the whole arm is affected when the pain flares up.
+
+[13:22:32] BOT: Have you noticed any numbness or weakness in your hand or fingers, particularly on the right side?
+
+[13:22:34] PATIENT: To be honest, yeah, I have noticed that I've been having some weakness in my grip. It's not like it's completely gone or anything, but it's definitely not as strong as it used to be. That's one of the things that's been making it hard for me to work as a hairdresser - I rely on being able to grip scissors and tools tightly, and it's just not easy when my elbow is hurting like this.
+
+[13:22:35] BOT: Is your right elbow pain constant, or does it come and go? And if there is a pattern, can you describe what that is?
+
+[13:22:37] PATIENT: "It comes and goes. I'd say it's on and off for most of the day, but there are definitely days when it's worse than others. Like today, using scissors and lifting that heavy kettle made it flare up pretty badly."
+
+[13:22:37] BOT: What makes your symptoms better or worse? For example, do certain activities, positions, or situations alleviate or exacerbate the pain in your right elbow?
+
+[13:22:40] PATIENT: You know, using scissors definitely makes it worse. It feels like the pain gets sharper when I'm gripping them tightly. And lifting heavy things like my kettle doesn't help either - that's usually when it flares up pretty badly. But, to be honest, just resting and wearing a wrist strap seems to make it feel a bit better, especially if I'm being gentle with my elbow.
+
+[13:22:41] BOT: Can you rate your pain on a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable?
+
+[13:22:43] PATIENT: "Ah, yeah, I'd rate it about 7 out of 10. Like, it's consistent pain, but like you said, there are some days when it's worse than others, especially if I'm using scissors or lifting something heavy."
+
+[13:22:44] BOT: Now, let's talk about morning stiffness in your right elbow. How long does it take for the pain and stiffness to loosen up after waking up in the morning? Is it immediately, within 15-30 minutes, or does it take a bit longer for you to feel more comfortable with your elbow?
+
+[13:22:46] PATIENT: Honestly, it takes me about 15-30 minutes after waking up in the morning for my elbow to feel more comfortable. It's like it takes some time for the stiffness to loosen up, but once I get moving and do some gentle exercises, I usually start feeling a bit better.
+
+[13:22:47] BOT: How is your right elbow pain affecting your daily activities, work, or hobbies? For example, are you having trouble performing tasks that normally wouldn't cause any issues for you?
+
+[13:22:49] PATIENT: To be honest, it's making it really hard for me to work as a hairdresser. I rely on being able to grip scissors and tools tightly, but with the pain in my elbow, it's just not easy anymore. I've had to adapt some of my techniques to make sure I'm not putting too much strain on my elbow, which is frustrating because it affects my productivity and my ability to do my job properly.
+
+[13:22:50] BOT: What treatments or remedies have you tried so far for your right elbow pain?
+
+[13:22:52] PATIENT: To be honest, I've tried using a wrist strap to help alleviate some of the pressure on my elbow. And I've also taken some over-the-counter painkillers for the pain when it flares up. That's about it, really - just trying to get by and do my job as best I can despite the discomfort.
+
+[13:22:53] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:22:55] PATIENT: No, I haven't experienced any fever or chills. To be honest, the only other symptoms I've noticed are some occasional night aches in my elbow, but nothing like unexplained weight loss or severe weakness.
+
+[13:22:55] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Gradual onset, clear mechanical pattern, not previously treated conservatively
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 48-year-old right-handed hairdresser has presented with a three-month history of pain localised to the lateral aspect of the right elbow. Symptoms developed gradually during a period of increased workload and are described as sharp with gripping activities such as using scissors or lifting kettles. Pain radiates into the proximal forearm and is associated with weakness in grip. It is rated seven out of ten and occasionally disturbs sleep.
+
+    She has no history of trauma. There is no swelling, erythema, or paraesthesia. She has trialled a wrist strap and simple analgesia with limited relief.
+
+    She lives with her partner, remains at work, but has reduced her working hours because pain makes prolonged hairdressing tasks unsustainable. This is causing financial strain and concern about her long-term employment.
+
+    The clinical history is strongly suggestive of lateral epicondylitis. I have recommended referral to physiotherapy for eccentric wrist extensor strengthening, soft tissue management, and ergonomic advice to support her occupational demands. She should continue with simple analgesia and pacing in the meantime. If symptoms persist despite therapy beyond six months, further intervention may be considered.
+
+    Yours sincerely,
+    Virtual Triage Team
+

@@ -69,7 +69,7 @@ PATIENT DEMOGRAPHICS:
 PRESENTING COMPLAINT:
 {self.patient_data.presenting_complaint}
 
-SOCRATES INFORMATION:
+CLINICAL INFORMATION (SOCRATES):
 - Site: {self.patient_data.socrates.get('site', 'Not specified')}
 - Onset: {self.patient_data.socrates.get('onset', 'Not specified')}
 - Character: {self.patient_data.socrates.get('character', 'Not specified')}
@@ -93,12 +93,21 @@ CURRENT QUESTION FROM TRIAGE BOT:
 
 INSTRUCTIONS:
 - Respond as this patient would naturally respond to the question
-- Use the information above to answer accurately
+- Use the information above to answer accurately and consistently
 - Be conversational and natural, not clinical
-- If the question asks about something not in your information, say you don't know or make a reasonable assumption
+- If the question asks about something not in your information, say you don't know or make a reasonable assumption based on the clinical information provided
 - Keep responses concise (1-3 sentences)
 - Don't volunteer information not asked for
+- Don't repeat the bot's question back to them
+- Don't repeat previous answers unless specifically asked
 - Use the sample conversation responses as a guide for style and content
+- For age questions, use the exact age from demographics
+- For body part questions, use the site information from SOCRATES
+- For duration questions, use the onset information to determine if it's acute, subacute, or chronic
+- For mechanism questions, use the injury mechanism information
+- For pain questions, use the character, severity, and timing information
+- For functional impact questions, use the functional impact information
+- If asked for demographics, provide: "I'm [age] years old, [gender], and my date of birth is [make up a realistic DOB]"
 
 PATIENT RESPONSE:"""
 
@@ -173,7 +182,7 @@ PATIENT RESPONSE:"""
                 summary = response.json().get("response", "Could not generate summary")
                 
                 print(f"{Fore.MAGENTA}{'='*60}")
-                print(f"{Fore.MAGENTA}CLINICAL SUMMARY")
+                print(f"{Fore.MAGENTA}SBAR CLINICAL SUMMARY & DIFFERENTIAL DIAGNOSIS")
                 print(f"{Fore.MAGENTA}{'='*60}")
                 print(f"{Fore.WHITE}{summary}")
                 print(f"{Fore.MAGENTA}{'='*60}")
@@ -213,11 +222,13 @@ PATIENT RESPONSE:"""
         try:
             with open(filepath, 'w', encoding='utf-8') as f:
                 # Write header information
-                f.write("MSK TRIAGE BOT CONVERSATION LOG\n")
-                f.write("=" * 50 + "\n\n")
+                f.write("MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)\n")
+                f.write("=" * 60 + "\n\n")
                 f.write(f"Case ID: {self.patient_data.case_id}\n")
                 f.write(f"Title: {self.patient_data.title}\n")
-                f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+                f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write(f"Assessment Type: Questionnaire-Based MSK Triage\n")
+                f.write(f"Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses\n\n")
                 
                 # Write patient demographics
                 f.write("PATIENT DEMOGRAPHICS:\n")
@@ -263,21 +274,28 @@ PATIENT RESPONSE:"""
             return
         
         print(f"{Fore.MAGENTA}{'='*60}")
-        print(f"{Fore.MAGENTA}STARTING PATIENT SIMULATION")
+        print(f"{Fore.MAGENTA}STARTING QUESTIONNAIRE-BASED PATIENT SIMULATION")
         print(f"{Fore.MAGENTA}{'='*60}")
         print(f"{Fore.BLUE}Case: {self.patient_data.title}")
         print(f"{Fore.BLUE}Patient: {self.patient_data.demographics.get('age', 'Unknown')} year old {self.patient_data.demographics.get('gender', 'person')}")
         print(f"{Fore.BLUE}Occupation: {self.patient_data.demographics.get('occupation', 'Unknown')}")
         print(f"{Fore.BLUE}Expected Triage: {self.patient_data.expected_triage}")
+        print(f"{Fore.CYAN}Assessment: Questionnaire-Based MSK Triage")
+        print(f"{Fore.CYAN}Output: SBAR Summary + Top 3 Differential Diagnoses")
         print(f"{Fore.MAGENTA}{'='*60}")
         print()
         
-        # Start with initial patient message
+        # Start with bot's greeting
+        bot_response = await self.get_bot_response("")
+        self.conversation_history.append({"role": "assistant", "content": bot_response})
+        self.print_message("BOT", bot_response)
+        
+        # Patient responds to greeting with initial complaint
         initial_message = f"I have {self.patient_data.presenting_complaint.lower()}"
         self.conversation_history.append({"role": "user", "content": initial_message})
         self.print_message("PATIENT", initial_message)
         
-        # Get bot's first response
+        # Get bot's response to patient's complaint
         bot_response = await self.get_bot_response(initial_message)
         self.conversation_history.append({"role": "assistant", "content": bot_response})
         self.print_message("BOT", bot_response)
@@ -288,8 +306,8 @@ PATIENT RESPONSE:"""
         
         while exchange_count < max_exchanges:
             # Check if conversation is complete
-            if "summary will be prepared" in bot_response.lower():
-                print(f"{Fore.GREEN}Conversation completed! Bot is preparing summary...")
+            if "clinical summary with differential diagnosis will be prepared" in bot_response.lower() or "summary will be prepared" in bot_response.lower():
+                print(f"{Fore.GREEN}Conversation completed! Bot is preparing SBAR clinical summary and differential diagnosis...")
                 
                 # Generate the clinical summary
                 await self.generate_summary()
@@ -348,8 +366,8 @@ def load_patient_cases(file_path: str) -> List[PatientData]:
 async def run_single_simulation():
     """Run a single simulation with a randomly selected case"""
     
-    print("MSK Triage Bot Patient Simulator (Ollama)")
-    print("=" * 50)
+    print("MSK Triage Bot Patient Simulator (Ollama) - Questionnaire-Based")
+    print("=" * 60)
     
     # Load patient cases
     try:
@@ -372,8 +390,8 @@ async def run_single_simulation():
 async def run_all_simulations():
     """Run simulations for all patient cases"""
     
-    print("MSK Triage Bot Patient Simulator (Ollama) - All Cases")
-    print("=" * 60)
+    print("MSK Triage Bot Patient Simulator (Ollama) - All Cases (Questionnaire-Based)")
+    print("=" * 70)
     
     # Load patient cases
     try:
