@@ -1,0 +1,66 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_5
+Title: Acute Foot Drop (Lumbar Disc Prolapse)
+Date: 2025-09-25 13:56:59
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 41
+Gender: female
+Occupation: warehouse worker
+Comorbidities: previous back pain
+Expected Triage: Urgent Care/A&E
+
+PRESENTING COMPLAINT:
+--------------------
+Sudden onset left foot weakness, 24 hours duration
+
+CONVERSATION:
+--------------------
+[13:56:44] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[13:56:44] PATIENT: I'm Ashley Lewis, 41 years old, female, and my date of birth is 7/8/1983. I have sudden onset left foot weakness, 24 hours duration
+
+[13:56:44] BOT: Can you describe your main symptoms in your own words?
+
+[13:56:45] PATIENT: "Honestly, I woke up yesterday feeling fine, but by last night I couldn't lift my left foot off the ground. It's like it's stuck to the floor or something. And this morning, it's just getting worse - I can feel a weird back pain that radiates all the way down to my toes."
+
+[13:56:45] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:56:46] PATIENT: The pain feels dull. It's more like a backache that's been there before, but this time it's really bothering me because I've got weakness in my left foot too.
+
+[13:56:46] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:56:48] PATIENT: My pain would be an 8 out of 10. It's really bothering me because I've got this weakness in my left foot that's making it hard to even walk.
+
+[13:56:48] BOT: Have you tried conservative treatments like physiotherapy, injections, or other non-surgical approaches, and if so, did they help with your symptoms?
+
+[13:56:49] PATIENT: To be honest, I've tried to manage back pain on and off over the years with physical therapy and stretching exercises. But this time it's different - I'm experiencing weakness in my left foot that's really impacting my ability to walk normally.
+
+[13:56:49] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Sudden motor deficit = urgent surgical referral
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+Thank you for referring this 41-year-old warehouse operative who presented with acute onset neurological deficit. She has a history of intermittent low back pain, but yesterday morning developed sudden weakness in the left foot, resulting in foot drop. She reported dragging the foot when walking and described paraesthesia along the outer leg and dorsum of the foot. She denied bladder or bowel disturbance.
+
+She lives with her partner and two children. She is unable to carry out her work duties safely due to the foot weakness.
+
+Examination demonstrated marked weakness of ankle dorsiflexion (MRC 2/5) and extensor hallucis longus (1/5) on the left. Sensation was reduced in the L5 dermatome. Reflexes were preserved. Gait was antalgic with evident foot slap.
+
+Urgent MRI lumbar spine revealed a large left paracentral L4/5 disc prolapse compressing the left L5 nerve root. She was admitted to the spinal team and underwent urgent decompression surgery.
+
+She has been counselled that neurological recovery may be incomplete and will require ongoing physiotherapy. Follow-up has been arranged in spinal clinic in 6 weeks. She has been provided with clear advice regarding safety-netting and functional aids as required.
+
+Yours sincerely,
+Orthopaedic Registrar
+

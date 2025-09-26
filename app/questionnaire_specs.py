@@ -5,13 +5,14 @@ This module contains JSON specifications for different questionnaire forms
 used in the MSK triage system.
 """
 
-# Knee OA/Injury Triage Decision Engine Specification
+# Knee OA/Injury Triage Decision Engine Specification (v1.1)
 KNEE_OA_SPEC = {
-    "version": "1.0",
+    "version": "1.1",
     "name": "Knee OA / Injury Triage Decision Engine",
+    "description": "Scores mechanisms, symptoms, exam and imaging to return Top-3 differentials with justification and safety-net.",
     "diagnoses": [
-        "tibiofemoral_oa", "patellofemoral_oa", "pfps", "acl_tear", "pcl_tear",
-        "medial_meniscal_tear", "lateral_meniscal_tear", "mcl_sprain", "lcl_sprain",
+        "tibiofemoral_oa", "patellofemoral_oa", "pfps", "patellar_tendinopathy", "iliotibial_band_syndrome",
+        "acl_tear", "pcl_tear", "medial_meniscal_tear", "lateral_meniscal_tear", "mcl_sprain", "lcl_sprain",
         "patellar_instability", "painful_arthroplasty", "bakers_cyst", "loose_body"
     ],
     "ranking": {
@@ -41,19 +42,43 @@ KNEE_OA_SPEC = {
         {"if_all_true": ["red_flags.inability_slr_after_eccentric_load"], "action": {"route": "urgent", "diagnosis": "extensor_mechanism_rupture", "override_ranking": True}}
     ],
     "scoring": {
+        "priors": [
+            # Age-aware priors: down-weight OA in young patients unless imaging evidence
+            {"when": {"patient.age_years": "<35", "duration_class": ["subacute", "chronic"]}, "add": {"tibiofemoral_oa": -3, "patellofemoral_oa": -2}},
+            # Mid-age meniscus boost: 35-55 with locking + effusion suggests meniscal pathology
+            {"when": {"patient.age_years": "35-55", "phenotype": "locking_catching", "exam.effusion": ["mild", "moderate"], "mechanism": ["none", "overuse"]}, "add": {"medial_meniscal_tear": 2, "lateral_meniscal_tear": 1}},
+            # ACL suppression: non-traumatic cases with no instability signs unlikely to be ACL
+            {"when": {"mechanism": "none", "duration_class": ["subacute", "chronic"], "phenotype": "instability:false"}, "add": {"acl_tear": -4, "pcl_tear": -2}}
+        ],
         "onset_mechanism": [
+            # Acute twisting/pivot injuries: classic ACL + meniscal injury pattern
             {"when": {"duration_class": "acute", "mechanism": ["twisting", "pivot"]}, "add": {"acl_tear": 3, "medial_meniscal_tear": 2, "lateral_meniscal_tear": 2, "pcl_tear": 1}},
+            # Valgus stress: MCL + medial meniscus injury
             {"when": {"duration_class": "acute", "mechanism": ["direct_blow"], "exam.alignment": "valgus"}, "add": {"mcl_sprain": 3, "medial_meniscal_tear": 1}},
+            # Varus stress: LCL + lateral meniscus injury
             {"when": {"duration_class": "acute", "mechanism": ["direct_blow"], "exam.alignment": "varus"}, "add": {"lcl_sprain": 3, "lateral_meniscal_tear": 1}},
+            # General overuse: OA + PFPS pattern
             {"when": {"mechanism": ["overuse"]}, "add": {"tibiofemoral_oa": 2, "patellofemoral_oa": 2, "pfps": 1}},
+            # Running overuse: tendonopathy + ITB syndrome, down-weight OA
+            {"when": {"mechanism": ["overuse"], "overuse_context": "running_overuse"}, "add": {"pfps": 2, "patellar_tendinopathy": 3, "iliotibial_band_syndrome": 2, "tibiofemoral_oa": -1}},
+            # Age + chronic: classic OA pattern
             {"when": {"patient.age_years": ">=45", "duration_class": "chronic"}, "add": {"tibiofemoral_oa": 3, "patellofemoral_oa": 2}},
+            # Post-operative: painful arthroplasty
             {"when": {"mechanism": ["post_op"]}, "add": {"painful_arthroplasty": 4}}
         ],
         "symptoms": [
+            # Instability: ACL, patellar instability, PCL pattern
             {"when": {"phenotype": "instability"}, "add": {"acl_tear": 3, "patellar_instability": 2, "pcl_tear": 1}},
+            # Locking/catching: meniscal tears + loose bodies + mild OA
             {"when": {"phenotype": "locking_catching"}, "add": {"medial_meniscal_tear": 3, "lateral_meniscal_tear": 3, "loose_body": 2, "tibiofemoral_oa": 1}},
+            # Anterior pain: PFPS > PFOA > TFOA pattern
             {"when": {"phenotype": "anterior_pain"}, "add": {"pfps": 3, "patellofemoral_oa": 2, "tibiofemoral_oa": 1}},
-            {"when": {"oa_pattern": "morning_stiffness_<30min"}, "add": {"tibiofemoral_oa": 2, "patellofemoral_oa": 1}}
+            # OA polarity: no morning stiffness down-weights OA
+            {"when": {"oa_index.stiffness_morning": "none"}, "add": {"tibiofemoral_oa": -1, "patellofemoral_oa": -1}},
+            # Morning stiffness: classic OA pattern
+            {"when": {"oa_index.stiffness_morning": ["moderate", "severe", "unbearable"]}, "add": {"tibiofemoral_oa": 2, "patellofemoral_oa": 1}},
+            # After-rest stiffness: also classic OA pattern
+            {"when": {"oa_index.stiffness_after_rest": ["moderate", "severe", "unbearable"]}, "add": {"tibiofemoral_oa": 2, "patellofemoral_oa": 1}}
         ],
         "oa_index": [
             {"when": {"oa_index.global_pain": "mild"}, "add_all": 1},
@@ -66,7 +91,7 @@ KNEE_OA_SPEC = {
                 "when": {"oa_index.function": "any"},
                 "aggregate": [
                     {"method": "sum_function_items", "map": {"none": 0, "mild": 1, "moderate": 2, "severe": 3, "unbearable": 3}, "then_add": {"tibiofemoral_oa": "floor(total/6)"}},
-                    {"method": "sum_pf_loaded_items", "items": ["stairs_down", "stairs_up", "rise_from_sit", "in_out_car", "socks_on_off"], "map": {"none": 0, "mild": 1, "moderate": 2, "severe": 3, "unbearable": 3}, "then_add": {"patellofemoral_oa": "floor(total/4)", "pfps": "floor(total/5)"}}
+                    {"method": "sum_pf_loaded_items", "items": ["stairs_down", "stairs_up", "rise_from_sit", "in_out_car", "socks_on_off"], "map": {"none": 0, "mild": 1, "moderate": 2, "severe": 3, "unbearable": 3}, "then_add": {"patellofemoral_oa": "floor(total/4)", "pfps": "floor(total/4)+1"}}
                 ]
             }
         ],
@@ -101,7 +126,9 @@ KNEE_OA_SPEC = {
             {"when": {"exam.effusion": "severe", "duration_class": ["subacute", "chronic"]}, "add": {"tibiofemoral_oa": 2}},
             {"when": {"exam.rom_restriction": True}, "add": {"tibiofemoral_oa": 2, "medial_meniscal_tear": 1, "lateral_meniscal_tear": 1}},
             {"when": {"exam.fixed_flexion_deformity": True}, "add": {"tibiofemoral_oa": 2}},
-            {"when": {"exam.quads_tone": "reduced"}, "add": {"tibiofemoral_oa": 1, "pfps": 1}},
+            {"when": {"exam.quads_tone": "reduced"}, "add": {"tibiofemoral_oa": 1, "pfps": 1, "patellar_tendinopathy": 1}},
+            {"when": {"exam.parapatellar_tenderness": True}, "add": {"pfps": 1, "patellar_tendinopathy": 1}},
+            {"when": {"exam.joint_line_tenderness_lateral": True}, "add": {"iliotibial_band_syndrome": 2}},
             {"when": {"exam.bakers_pseudocyst": True}, "add": {"bakers_cyst": 4}}
         ],
         "imaging": [
@@ -112,21 +139,27 @@ KNEE_OA_SPEC = {
             {"when": {"imaging.mri_acl": True}, "add": {"acl_tear": 8}},
             {"when": {"imaging.mri_pcl": True}, "add": {"pcl_tear": 8}},
             {"when": {"imaging.mri_medial_meniscus": True}, "add": {"medial_meniscal_tear": 8}},
-            {"when": {"imaging.mri_lateral_meniscus": True}, "add": {"lateral_meniscal_tear": 8}}
+            {"when": {"imaging.mri_lateral_meniscus": True}, "add": {"lateral_meniscal_tear": 8}},
+            {"when": {"patient.age_years": "<40", "imaging.xray_oa_tf": False, "imaging.xray_oa_pf": False, "phenotype": "anterior_pain"}, "add": {"tibiofemoral_oa": -2, "patellofemoral_oa": -1, "pfps": 1}}
+        ],
+        "locking_refinement": [
+            {"when": {"locking_type": "true_lock"}, "add": {"medial_meniscal_tear": 3, "lateral_meniscal_tear": 2, "loose_body": 2}},
+            {"when": {"locking_type": "catch_click"}, "add": {"pfps": 1, "patellofemoral_oa": 1}}
         ]
     }
 }
 
-# Knee Injury Assessment Sheet Specification
+# Knee Injury Assessment Sheet Specification (v1.1)
 KNEE_INJURY_SPEC = {
-    "version": "1.0",
+    "version": "1.1",
     "name": "Knee Injury Triage Decision Engine",
     "source_form": "KNEE INJURY ASSESSMENT SHEET",
     "diagnoses": [
         "acl_tear", "pcl_tear", "mcl_sprain", "lcl_sprain",
         "medial_meniscal_tear", "lateral_meniscal_tear",
         "patellar_instability", "pfps", "patellofemoral_oa",
-        "tibiofemoral_oa", "bakers_cyst", "loose_body", "painful_arthroplasty"
+        "tibiofemoral_oa", "bakers_cyst", "loose_body", "painful_arthroplasty",
+        "patellar_tendinopathy", "iliotibial_band_syndrome"
     ],
     "red_flag_logic": [
         {"if_all_true": ["red_flags.fever_unwell_hot_joint"], "action": {"route": "urgent", "diagnosis": "septic_arthritis", "override_ranking": True}},
@@ -140,10 +173,11 @@ KNEE_INJURY_SPEC = {
             {"when": {"mechanism": ["direct_blow"], "exam.alignment": "varus"}, "add": {"lcl_sprain": 3, "lateral_meniscal_tear": 1}},
             {"when": {"mechanism": ["non_contact_jump_land"]}, "add": {"acl_tear": 2, "patellar_instability": 1}},
             {"when": {"mechanism": ["overuse"]}, "add": {"pfps": 2, "patellofemoral_oa": 1, "tibiofemoral_oa": 1}},
+            {"when": {"mechanism": ["overuse"], "overuse_context": "running_overuse"}, "add": {"pfps": 2, "patellar_tendinopathy": 3, "iliotibial_band_syndrome": 2, "tibiofemoral_oa": -1}},
             {"when": {"mechanism": ["post_op"]}, "add": {"painful_arthroplasty": 4}}
         ],
         "knee_score": [
-            {"when": {"knee_score": "present"}, "aggregate": [
+            {"when": {"knee_score_present": True}, "aggregate": [
                 {"method": "deficit", "field": "instability", "max": 25, "scale": 0.2, "then_add": {"acl_tear": "round(scale*deficit)", "patellar_instability": "round(0.8*scale*deficit)", "pcl_tear": "round(0.3*scale*deficit)"}},
                 {"method": "deficit", "field": "locking", "max": 15, "scale": 0.3, "then_add": {"medial_meniscal_tear": "round(scale*deficit)", "lateral_meniscal_tear": "round(0.9*scale*deficit)", "loose_body": "round(0.6*scale*deficit)"}},
                 {"method": "deficit", "field": "swelling", "max": 10, "scale": 0.2, "then_add": {"acl_tear": "round(scale*deficit)", "pcl_tear": "round(0.5*scale*deficit)", "medial_meniscal_tear": "round(0.5*scale*deficit)", "lateral_meniscal_tear": "round(0.5*scale*deficit)", "tibiofemoral_oa": "round(0.3*scale*deficit)"}},
@@ -186,7 +220,9 @@ KNEE_INJURY_SPEC = {
             {"when": {"exam.effusion": "severe"}, "add": {"acl_tear": 3, "pcl_tear": 2, "medial_meniscal_tear": 2, "lateral_meniscal_tear": 2}},
             {"when": {"exam.rom_restriction": True}, "add": {"tibiofemoral_oa": 1, "medial_meniscal_tear": 1, "lateral_meniscal_tear": 1}},
             {"when": {"exam.fixed_flexion_deformity": True}, "add": {"tibiofemoral_oa": 2}},
-            {"when": {"exam.quads_tone": "reduced"}, "add": {"tibiofemoral_oa": 1, "pfps": 1}},
+            {"when": {"exam.quads_tone": "reduced"}, "add": {"tibiofemoral_oa": 1, "pfps": 1, "patellar_tendinopathy": 1}},
+            {"when": {"exam.parapatellar_tenderness": True}, "add": {"pfps": 1, "patellar_tendinopathy": 1}},
+            {"when": {"exam.joint_line_tenderness_lateral": True}, "add": {"iliotibial_band_syndrome": 2}},
             {"when": {"exam.bakers_pseudocyst": True}, "add": {"bakers_cyst": 4}}
         ],
         "imaging": [
@@ -198,6 +234,13 @@ KNEE_INJURY_SPEC = {
             {"when": {"imaging.mri_pcl": True}, "add": {"pcl_tear": 8}},
             {"when": {"imaging.mri_medial_meniscus": True}, "add": {"medial_meniscal_tear": 8}},
             {"when": {"imaging.mri_lateral_meniscus": True}, "add": {"lateral_meniscal_tear": 8}}
+        ],
+        "locking_refinement": [
+            {"when": {"locking_type": "true_lock"}, "add": {"medial_meniscal_tear": 3, "lateral_meniscal_tear": 2, "loose_body": 2}},
+            {"when": {"locking_type": "catch_click"}, "add": {"pfps": 1, "patellofemoral_oa": 1}}
+        ],
+        "acl_suppression": [
+            {"when": {"mechanism": ["overuse", "unknown"], "knee_score_present": True, "knee_score.instability": [0, 5], "exam.lachman": ["no"], "exam.pivot_shift": False}, "add": {"acl_tear": -5}}
         ]
     },
     "ranking": {

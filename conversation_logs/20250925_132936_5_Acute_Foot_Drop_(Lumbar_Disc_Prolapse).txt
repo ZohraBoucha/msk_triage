@@ -1,0 +1,94 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_5
+Title: Acute Foot Drop (Lumbar Disc Prolapse)
+Date: 2025-09-25 13:29:36
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 41
+Gender: female
+Occupation: warehouse worker
+Comorbidities: previous back pain
+Expected Triage: Urgent Care/A&E
+
+PRESENTING COMPLAINT:
+--------------------
+Sudden onset left foot weakness, 24 hours duration
+
+CONVERSATION:
+--------------------
+[13:29:11] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:29:11] PATIENT: I'm Ashley Taylor, 41 years old, female, and my date of birth is 7/2/1983. I have sudden onset left foot weakness, 24 hours duration
+
+[13:29:11] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[13:29:11] PATIENT: "No, it just came on suddenly yesterday. I woke up with it."
+
+[13:29:11] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[13:29:12] PATIENT: "It just came on suddenly yesterday. I woke up with it."
+
+[13:29:12] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[13:29:14] PATIENT: "No, it just came on suddenly yesterday. I woke up with it."
+
+[13:29:14] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[13:29:15] PATIENT: "No, it's not related to an injury or accident. It just came on suddenly yesterday when I woke up."
+
+[13:29:15] BOT: Can you describe your main symptoms in your own words?
+
+[13:29:17] PATIENT: "My back has been hurting like crazy and I've got this weird weakness in my left foot. It's really hard to lift it, almost like it's stuck or something. And it's constant - as soon as I woke up yesterday, it was there."
+
+[13:29:17] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:29:18] PATIENT: "Yes, it radiates down to my left leg. It started in my low back and then I felt the weakness spreading down to my foot."
+
+[13:29:18] BOT: What makes your symptoms better or worse?
+
+[13:29:20] PATIENT: "What makes my symptoms better or worse? Honestly, I don't know. I tried taking some pain meds that my doctor prescribed for my back pain before this started, but they didn't seem to help with the weakness in my foot. Walking seems to make it a bit worse, and resting doesn't really change anything."
+
+[13:29:20] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:29:22] PATIENT: "It's about a 6 out of 10. The pain is more of an annoyance than anything else, but the weakness in my foot is really frustrating because it's hard to move around."
+
+[13:29:22] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:29:23] PATIENT: "Honestly, I've been having some back pain issues for a while now, but the morning stiffness isn't really that bad. Even when I woke up with this sudden weakness in my left foot yesterday, it didn't really take me long to loosen up - maybe 10-15 minutes or so before I could start moving around."
+
+[13:29:23] BOT: Let me ask about your treatment history in more detail. Have you had any of the following: physiotherapy sessions, steroid injections, or other specialist treatments for this condition?
+
+[13:29:25] PATIENT: "I've had physiotherapy sessions in the past for my back pain. I went to a physical therapist about 6 months ago to work on strengthening my core and improving my posture. That was a pretty helpful experience, but I haven't been following up with any regular sessions."
+
+[13:29:25] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:29:27] PATIENT: "No, I don't have any fever or chills. But to be honest, the weakness in my left foot has been constant since it started yesterday morning."
+
+[13:29:27] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Sudden motor deficit = urgent surgical referral
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+Thank you for referring this 41-year-old warehouse operative who presented with acute onset neurological deficit. She has a history of intermittent low back pain, but yesterday morning developed sudden weakness in the left foot, resulting in foot drop. She reported dragging the foot when walking and described paraesthesia along the outer leg and dorsum of the foot. She denied bladder or bowel disturbance.
+
+She lives with her partner and two children. She is unable to carry out her work duties safely due to the foot weakness.
+
+Examination demonstrated marked weakness of ankle dorsiflexion (MRC 2/5) and extensor hallucis longus (1/5) on the left. Sensation was reduced in the L5 dermatome. Reflexes were preserved. Gait was antalgic with evident foot slap.
+
+Urgent MRI lumbar spine revealed a large left paracentral L4/5 disc prolapse compressing the left L5 nerve root. She was admitted to the spinal team and underwent urgent decompression surgery.
+
+She has been counselled that neurological recovery may be incomplete and will require ongoing physiotherapy. Follow-up has been arranged in spinal clinic in 6 weeks. She has been provided with clear advice regarding safety-netting and functional aids as required.
+
+Yours sincerely,
+Orthopaedic Registrar
+

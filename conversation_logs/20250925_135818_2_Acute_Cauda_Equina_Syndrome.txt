@@ -1,0 +1,54 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_2
+Title: Acute Cauda Equina Syndrome
+Date: 2025-09-25 13:58:18
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 49
+Gender: female
+Occupation: office worker
+Comorbidities: history of sciatica
+Expected Triage: Urgent Care/A&E
+
+PRESENTING COMPLAINT:
+--------------------
+Severe back pain with sudden bladder incontinence
+
+CONVERSATION:
+--------------------
+[13:58:09] BOT: What is your age?
+
+[13:58:09] PATIENT: I'm Michael White, 49 years old, female, and my date of birth is 6/6/1975. I have severe back pain with sudden bladder incontinence
+
+[13:58:09] BOT: Which side is affected - left or right?
+
+[13:58:10] PATIENT: It's both legs, but worse on the left side. The pain radiates down from my low back to both legs, but it feels more intense in my left leg than my right one.
+
+[13:58:10] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Saddle anaesthesia + bladder dysfunction = surgical emergency
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 49-year-old office worker presented to A&E with acute onset neurological symptoms on a background of intermittent sciatica. She reported worsening bilateral low back pain over 24 hours, associated with perineal numbness and loss of bladder control. She rated the pain as 10/10 and described her legs as heavy and weak, making mobilising difficult.
+
+    She lives with her husband, works full-time at a desk, and has no previous spinal surgery.
+
+    On examination, she had bilateral neurological deficit affecting L5 and S1 myotomes, with weakness in ankle dorsiflexion and plantarflexion. Saddle anaesthesia and reduced anal tone were demonstrated. Reflexes were diminished but plantar responses were flexor.
+
+    An urgent MRI scan revealed a large central L4/5 disc prolapse compressing the cauda equina. She was admitted under the neurosurgical team and underwent emergency decompression the same evening.
+
+    She is currently recovering post-operatively and will require inpatient rehabilitation. Prognosis has been explained as variable, depending on neurological recovery. She has been counselled extensively on recognising red flag features in the future and safety-netting provided.
+
+    Yours sincerely,
+    Neurosurgical Registrar
+

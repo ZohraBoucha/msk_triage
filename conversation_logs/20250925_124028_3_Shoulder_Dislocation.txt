@@ -1,0 +1,98 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_3
+Title: Shoulder Dislocation
+Date: 2025-09-25 12:40:28
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 22
+Gender: male
+Occupation: university rugby player
+Comorbidities: none
+Expected Triage: Urgent Care/A&E
+
+PRESENTING COMPLAINT:
+--------------------
+Left shoulder pain and deformity after rugby tackle, 30 minutes ago
+
+CONVERSATION:
+--------------------
+[12:39:59] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[12:39:59] PATIENT: I'm Jennifer Hernandez, 22 years old, male, and my date of birth is 24/10/2002. I have left shoulder pain and deformity after rugby tackle, 30 minutes ago
+
+[12:39:59] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[12:39:59] PATIENT: "It's definitely related to an injury or accident. I was tackled during rugby practice 30 minutes ago and that's when the pain started."
+
+[12:39:59] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[12:40:01] PATIENT: It feels really severe and throbbing. The pain is like a sharp stabbing sensation that doesn't let up.
+
+[12:40:01] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:40:02] PATIENT: The pain spreads to my upper arm. It's like the discomfort radiates down from my shoulder into my arm.
+
+[12:40:02] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[12:40:04] PATIENT: To be honest, I don't really notice any swelling or stiffness in my arm. But I do feel like it's quite weak since the injury happened - I couldn't use my left arm at all after the tackle.
+
+[12:40:04] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[12:40:05] PATIENT: The pain has been constant since it started 30 minutes ago. It hasn't really changed or gone away at all - it's still this severe, throbbing feeling in my left shoulder that radiates down to my upper arm.
+
+[12:40:05] BOT: What makes your symptoms better or worse?
+
+[12:40:07] PATIENT: "Keeping my arm still makes it slightly better. When I move it or try to lift anything with my left arm, the pain gets worse."
+
+[12:40:07] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[12:40:08] PATIENT: Honestly, it's pretty much affecting everything. I play rugby for my university team, so I was supposed to have a practice match today, but I won't be able to participate now. Just moving around normally is painful, let alone trying to use my arm properly.
+
+[12:40:08] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[12:40:10] PATIENT: To be honest, I haven't tried any treatments yet. This is the first time I've spoken to anyone about it since the injury happened 30 minutes ago.
+
+[12:40:10] BOT: Let me ask about your treatment history in more detail. Have you had any of the following: physiotherapy sessions, steroid injections, or other specialist treatments for this condition?
+
+[12:40:12] PATIENT: No, I haven't had any physiotherapy sessions or steroid injections before. As a university rugby player, I don't really have time for regular treatments like that, but I do get checked out by the team's medic after every practice and game to make sure everything is okay.
+
+[12:40:12] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[12:40:13] PATIENT: "Honestly, I've never considered surgery before. But if it's necessary to fix this shoulder, I'd definitely consider it. It's not like I have a choice right now anyway - I'm pretty much stuck with this injury and can't even use my arm."
+
+[12:40:13] BOT: Have you tried conservative treatments like physiotherapy, injections, or other non-surgical approaches, and if so, did they help with your symptoms?
+
+[12:40:15] PATIENT: No, I haven't tried any conservative treatments like physiotherapy or injections before. To be honest, this is the first time I've had an injury like this, so I don't have any experience with that kind of thing. The team's medic usually just looks at me after games and practices to make sure everything is okay, but nothing more than that.
+
+[12:40:15] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[12:40:17] PATIENT: "No, I haven't experienced any fever or chills. To be honest, the only thing that's been bothering me is this pain in my left shoulder since the injury 30 minutes ago."
+
+[12:40:17] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+High-energy trauma, deformity, and functional loss require urgent hospital care
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 22-year-old right-hand dominant university student, a keen rugby player, was admitted to A&E following a rugby tackle in which he landed directly on his left shoulder. He developed immediate pain, deformity, and inability to move the shoulder.
+
+He lives in shared student accommodation and is otherwise fit and well. He is currently unable to continue sports and has difficulty dressing himself.
+
+On arrival, inspection revealed loss of the normal shoulder contour with anterior prominence, consistent with dislocation. Movement was not possible due to pain. Distal pulses were intact, and he retained full finger and hand movement.
+
+Radiographs confirmed an anterior shoulder dislocation without associated fracture. Under procedural sedation, the shoulder was successfully reduced with immediate relief of pain. Post-reduction imaging confirmed concentric reduction. He was placed in a sling and given analgesia.
+
+He has been discharged with advice to avoid driving and overhead activity, and referred to fracture clinic for review within 1 week. A physiotherapy referral has been made to support rehabilitation and reduce recurrence risk. He has been advised to avoid contact sport until cleared by orthopaedics.
+
+Yours sincerely,
+A&E Registrar
+

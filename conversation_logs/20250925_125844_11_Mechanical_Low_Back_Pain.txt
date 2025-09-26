@@ -1,0 +1,128 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_11
+Title: Mechanical Low Back Pain
+Date: 2025-09-25 12:58:44
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 36
+Gender: male
+Occupation: warehouse worker
+Comorbidities: no PMH
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Low back pain, 4 weeks
+
+CONVERSATION:
+--------------------
+[12:58:13] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[12:58:13] PATIENT: I'm John Harris, 36 years old, male, and my date of birth is 27/7/1988. I have low back pain, 4 weeks
+
+[12:58:13] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[12:58:16] PATIENT: "It developed gradually over time. It started after I lifted a heavy box at work about 4 weeks ago."
+
+[12:58:16] BOT: Which side is affected - left or right?
+
+[12:58:17] PATIENT: It's in the middle - my lower back.
+
+[12:58:17] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[12:58:19] PATIENT: It's a dull ache, sometimes it gets sharp. It feels like I've got a heavy weight on me, especially after lifting or bending.
+
+[12:58:19] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:20] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:20] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:22] PATIENT: No, it doesn't spread to any other part of my body. It's just in my lower back.
+
+[12:58:22] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:23] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:23] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:24] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:24] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:26] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:26] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:27] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:27] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:28] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:28] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:30] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:30] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:31] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:31] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:32] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:32] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:34] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:34] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:35] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:35] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:37] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:37] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:38] PATIENT: No, it doesn't spread to any other part of my body. It's just in my lower back, where I feel like I've got a heavy weight on me.
+
+[12:58:38] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:40] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back, where I feel like I've got a heavy weight on me."
+
+[12:58:40] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:41] PATIENT: The pain or feeling doesn't spread to any other part of my body. It's just in my lower back, where I feel like I've got a heavy weight on me.
+
+[12:58:41] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:58:43] PATIENT: "No, it doesn't spread to any other part of my body. It's just in my lower back."
+
+[12:58:43] BOT: Does the pain or feeling spread to any other part of your body?
+
+CLINICAL NOTES:
+--------------------
+No red flags, mechanical onset, no previous physio → refer to physio
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    Thank you for referring this 36-year-old warehouse operative who has presented with a four-week history of low back pain following a lifting incident at work. He recalls straining his back whilst carrying a heavy box. Since then, he has had a persistent dull ache across the lumbar region with intermittent sharp exacerbations, rated around six out of ten in severity. Pain is worse with bending, twisting, and lifting, particularly during long shifts, and improves with rest and hot baths.
+
+    He denies any neurological symptoms, radicular pain, bladder or bowel disturbance, or systemic red flag features. He has been taking ibuprofen with partial relief.
+
+    He lives alone and is independent in activities of daily living, though he finds housework such as vacuuming increasingly uncomfortable. At work he has been struggling with heavier manual handling and has needed colleagues’ assistance.
+
+    The presentation is consistent with acute mechanical low back pain without red flag features. This man has not previously engaged with physiotherapy and would benefit from referral to MSK physiotherapy for education, postural training, and a core strengthening programme. He should continue with regular activity within comfort. He has been counselled regarding the importance of seeking urgent review should new neurological symptoms develop.
+
+    Yours sincerely,
+    Virtual Triage Team
+

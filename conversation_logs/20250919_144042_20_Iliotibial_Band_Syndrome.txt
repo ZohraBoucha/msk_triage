@@ -1,0 +1,128 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_20
+Title: Iliotibial Band Syndrome
+Date: 2025-09-19 14:40:42
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 34
+Gender: female
+Occupation: amateur triathlete
+Comorbidities: otherwise well
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Lateral knee pain, 6 weeks
+
+CONVERSATION:
+--------------------
+[14:40:10] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[14:40:10] PATIENT: I'm Ashley Miller, 34 years old, female, and my date of birth is 14/2/1990. I have lateral knee pain, 6 weeks
+
+[14:40:10] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[14:40:10] PATIENT: It developed more gradually over time. It started about 6 weeks ago during my triathlon training. The pain just sort of crept in.
+
+[14:40:10] BOT: Which side is affected - left or right?
+
+[14:40:12] PATIENT: My lateral knee pain is on my left side. It's been bothering me for 6 weeks now.
+
+[14:40:12] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[14:40:13] PATIENT: The pain feels sharp. It's like a stabbing ache that catches me off guard sometimes.
+
+[14:40:13] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:40:14] PATIENT: Occasionally it radiates up my thigh. But most of the time it's just in my knee.
+
+[14:40:14] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:40:16] PATIENT: To be honest, I don't really have any swelling or stiffness in my knee. The pain is usually pretty sharp when it catches me off guard, but most of the time it's just a dull ache that's always there.
+
+[14:40:16] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:18] PATIENT: My symptoms come and go, but they're definitely worse during and after long runs. It's like the pain gets tired out with me if that makes sense! Sometimes I can feel it lingering for a bit after I'm done training, especially if I've pushed myself pretty hard.
+
+[14:40:18] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:19] PATIENT: Yeah, they come and go. Like I said, it's worst during and after long runs, but sometimes it just lingers in the background, even when I'm not training. It's like my body's still recovering from the effort or something.
+
+[14:40:19] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:21] PATIENT: They come and go. Like I said, it's worst during and after long runs, but sometimes it just lingers in the background, even when I'm not training. It seems to be related to how hard I push myself - if I've done a tough session or run, the pain is usually worse afterwards.
+
+[14:40:21] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:23] PATIENT: "They come and go, but they're definitely worse during and after long runs. Like I said before, the pain tends to linger for a bit afterwards too."
+
+[14:40:23] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:25] PATIENT: They come and go. Like I said, it's worst during and after long runs, but sometimes it just lingers in the background, even when I'm not training. It seems to be related to how hard I push myself - if I've done a tough session or run, the pain is usually worse afterwards.
+
+[14:40:25] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:26] PATIENT: "They come and go. Like I said, it's worst during and after long runs."
+
+[14:40:26] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:27] PATIENT: "They come and go. Like I said, it's worst during and after long runs."
+
+[14:40:27] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:29] PATIENT: My symptoms come and go. Like I said, it's worst during and after long runs, but sometimes it just lingers in the background, even when I'm not training. It seems to be related to how hard I push myself - if I've done a tough session or run, the pain is usually worse afterwards.
+
+[14:40:29] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:31] PATIENT: "My symptoms come and go, but they're definitely worse during and after long runs. Like I said before, the pain tends to linger for a bit afterwards too."
+
+[14:40:31] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:32] PATIENT: "My symptoms come and go, but they're definitely worse during and after long runs. Like I said before, the pain tends to linger for a bit afterwards too."
+
+[14:40:32] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:34] PATIENT: To be honest, it's come and gone. It's usually worse during and after long runs, but sometimes it just lingers in the background, even when I'm not training. It seems to be related to how hard I push myself - if I've done a tough session or run, the pain is usually worse afterwards.
+
+[14:40:34] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:36] PATIENT: My symptoms come and go. Like I said before, it's worst during and after long runs, but sometimes it just lingers in the background, even when I'm not training. It seems to be related to how hard I push myself - if I've done a tough session or run, the pain is usually worse afterwards.
+
+[14:40:36] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:38] PATIENT: My symptoms come and go. They're definitely worse during and after long runs, but sometimes they just linger in the background, even when I'm not training. It seems to be related to how hard I push myself - if I've done a tough session or run, the pain is usually worse afterwards.
+
+[14:40:38] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:39] PATIENT: My symptoms come and go. They're definitely worse during and after long runs, but sometimes they just linger in the background, even when I'm not training. It seems to be related to how hard I push myself - if I've done a tough session or run, the pain is usually worse afterwards.
+
+[14:40:39] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:40:41] PATIENT: They come and go. Like I said, it's worst during and after long runs, but sometimes it just lingers in the background, even when I'm not training. It seems to be related to how hard I push myself - if I've done a tough session or run, the pain is usually worse afterwards.
+
+[14:40:41] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+CLINICAL NOTES:
+--------------------
+Typical overuse presentation, no red flags, first-line physiotherapy
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 34-year-old amateur triathlete presents with a six-week history of lateral left knee pain. Pain developed gradually during training, is sharp in nature, and occurs after running beyond five kilometres or cycling hills. She describes occasional clicking but denies swelling, locking, or instability. Pain is rated six out of ten.
+
+    She has not trialled physiotherapy.
+
+    She works in marketing and trains five to six times per week. She has been forced to stop running due to pain, which has caused considerable frustration.
+
+    The clinical picture is consistent with iliotibial band syndrome. Referral to physiotherapy is recommended for biomechanical assessment, hip and gluteal strengthening, and stretching. She will be advised on graded return to training. She has been reassured that the condition is benign but may be protracted if untreated.
+
+    Yours sincerely,
+    Virtual Triage Team
+

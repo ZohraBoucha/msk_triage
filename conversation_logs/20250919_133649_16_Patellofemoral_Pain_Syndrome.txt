@@ -1,0 +1,116 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_16
+Title: Patellofemoral Pain Syndrome
+Date: 2025-09-19 13:36:49
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 26
+Gender: female
+Occupation: recreational runner
+Comorbidities: otherwise well
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Anterior knee pain, 3 months
+
+CONVERSATION:
+--------------------
+[13:36:09] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:36:09] PATIENT: I have anterior knee pain, 3 months
+
+[13:36:09] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[13:36:12] PATIENT: "My knee. Specifically, the front of both knees, but it's worse on my left knee."
+
+[13:36:12] BOT: Based on the body part mentioned, ask if this is related to an injury/accident or if it's a more gradual onset problem.
+
+[13:36:14] PATIENT: It's been a gradual onset problem. The pain started about 3 months ago when I was training for a marathon, so I think it's related to overuse from running.
+
+[13:36:14] BOT: Ask the patient for their age if not already provided.
+
+[13:36:15] PATIENT: "I'm 26 years old."
+
+[13:36:15] BOT: Ask which side is affected (left or right).
+
+[13:36:16] PATIENT: "My left knee is worse than my right."
+
+[13:36:16] BOT: Ask how long they have had this problem (acute: <2 weeks, subacute: 2-12 weeks, chronic: >12 weeks).
+
+[13:36:18] PATIENT: It's been about 3 months since I started noticing this pain. It's a gradual onset problem that got worse during my marathon training.
+
+[13:36:18] BOT: Ask how the problem started - was it from an injury, overuse, or did it come on gradually?
+
+[13:36:19] PATIENT: It started gradually during marathon training. To be honest, I think it's related to overuse from running. The pain just kind of crept in as I increased my mileage.
+
+[13:36:19] BOT: Ask them to describe their main symptoms in their own words.
+
+[13:36:21] PATIENT: "My main symptoms are this dull ache in the front of both knees, but it's really bad on my left knee. It can be sharp sometimes, especially when I'm running or doing stairs, which makes me wonder if it's related to all that repetitive pounding on my joints."
+
+[13:36:21] BOT: Ask them to describe what the pain feels like (sharp, dull, aching, burning, etc.).
+
+[13:36:23] PATIENT: "The pain feels like a dull ache most of the time, but it can be sharp sometimes when I'm putting weight on my knee or doing activities that aggravate it. It's hard to describe, but it's more of an achy feeling than a sharp stabbing pain."
+
+[13:36:23] BOT: Ask if the pain or feeling spreads to any other part of their body.
+
+[13:36:24] PATIENT: The pain or feeling doesn't really spread to any other part of my body. It's mostly localized around the patella on both knees, but it's worse on the left side.
+
+[13:36:24] BOT: Ask if they have any other symptoms like swelling, stiffness, numbness, or weakness.
+
+[13:36:26] PATIENT: "No, I don't have any swelling or stiffness in my knees. The only other symptom I've noticed is a clicking sound when I move my left knee, but that's more of an annoyance than a painful thing."
+
+[13:36:26] BOT: Ask if the symptoms are constant or come and go, and if there's any pattern to them.
+
+[13:36:28] PATIENT: The symptoms are pretty constant, to be honest. I'd say they're around an 8 out of 10 when I'm running or doing activities that aggravate them, but when I rest and ice, the pain goes down to about a 2 or 3.
+
+[13:36:28] BOT: Ask what makes the symptoms better or worse.
+
+[13:36:29] PATIENT: "Rest, ice, and avoiding activities that aggravate it seem to help. Stairs and squatting make the pain worse, but once I take a break and ice my knee, the pain goes down."
+
+[13:36:29] BOT: Ask them to rate their pain on a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable.
+
+[13:36:31] PATIENT: My pain would be about a 6 out of 10. It's not unbearable, but it's definitely uncomfortable and affects my daily activities, especially when I'm running or doing things that aggravate it.
+
+[13:36:31] BOT: Ask about morning stiffness - how long does it take to loosen up in the morning?
+
+[13:36:33] PATIENT: "Honestly, I don't really get morning stiffness. I mean, I wake up feeling okay, but as soon as I start moving around or doing some light stretching, the pain in my knee starts to kick in and it's pretty consistent throughout the day."
+
+[13:36:33] BOT: Ask how this problem is affecting their daily activities, work, or hobbies.
+
+[13:36:34] PATIENT: Honestly, this problem has been affecting my daily activities a lot. I've had to cut back on my running significantly because the pain gets too bad when I try to push through it, which is frustrating because I was training for a marathon. Now I'm just trying to manage the pain and figure out ways to make my knee feel better so I can get back to normal.
+
+[13:36:34] BOT: Ask what treatments they have tried before (medications, physiotherapy, etc.).
+
+[13:36:36] PATIENT: To be honest, I haven't tried any treatments yet. I've just been trying to manage the pain on my own by resting and icing my knee when it flares up. But like I said, it's not getting any better, so I'm hoping to get some professional help to figure out what's going on and how to fix it.
+
+[13:36:36] BOT: Ask an important safety question: 'To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?'
+
+[13:36:38] PATIENT: "No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My pain has been pretty localized to the front of both knees, but it's worse on the left side."
+
+[13:36:38] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Overuse injury, no red flags, first-line physiotherapy
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 26-year-old recreational runner presents with a three-month history of anterior knee pain, worse on the left. Pain occurs during stairs, squatting, running, and prolonged sitting. She also describes clicking around the patella but denies swelling, locking, or instability. Pain is rated six out of ten.
+
+    There has been no trauma. She has not accessed physiotherapy to date.
+
+    She lives with a friend and is unable to continue her marathon training. She also reports difficulty with climbing stairs at work, which is affecting her daily routine.
+
+    This history is consistent with patellofemoral pain syndrome. Physiotherapy referral is appropriate, with a programme focusing on quadriceps and hip strengthening, gait retraining, and load management. She has been counselled on gradual reintroduction of training and advised to modify activities in the meantime.
+
+    Yours sincerely,
+    Virtual Triage Team
+

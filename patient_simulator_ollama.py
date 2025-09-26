@@ -11,11 +11,17 @@ import httpx
 import json
 import time
 import os
+import sys
 from datetime import datetime
 from typing import Dict, List, Optional
 from dataclasses import dataclass
 from colorama import init, Fore, Back, Style
 import random
+
+# Add the app directory to the path so we can import the agents directly
+sys.path.append(os.path.join(os.path.dirname(__file__), 'app'))
+from triage_agent import TriageAgent
+from summarization_agent import SummarizationAgent
 
 # Initialize colorama for colored terminal output
 init(autoreset=True)
@@ -46,12 +52,20 @@ class PatientSimulator:
         self.conversation_index = 0
         self.conversation_log = []  # Store all conversation messages for saving
         
+        # Initialize the agents directly
+        self.triage_agent = TriageAgent(model="llama3.1:8b")
+        self.summarization_agent = SummarizationAgent(model="llama3.1:8b")
+        
     def load_patient_data(self, patient_data: PatientData):
         """Load patient data for simulation"""
         self.patient_data = patient_data
         self.conversation_history = []
         self.conversation_log = []
         self.conversation_index = 0
+        
+        # Reset the triage agent state for each new simulation
+        self.triage_agent = TriageAgent(model="llama3.1:8b")
+        self.summarization_agent = SummarizationAgent(model="llama3.1:8b")
         
     def create_patient_prompt(self, bot_question: str) -> str:
         """Create a prompt for the patient LLM to respond to bot questions"""
@@ -100,6 +114,7 @@ INSTRUCTIONS:
 - Don't volunteer information not asked for
 - Don't repeat the bot's question back to them
 - Don't repeat previous answers unless specifically asked
+- ALWAYS respond to the bot's question - never leave it unanswered
 - Use the sample conversation responses as a guide for style and content
 - For age questions, use the exact age from demographics
 - For body part questions, use the site information from SOCRATES
@@ -153,40 +168,33 @@ PATIENT RESPONSE:"""
     async def get_bot_response(self, user_message: str) -> str:
         """Get response from the triage bot"""
         try:
-            async with httpx.AsyncClient(timeout=30.0) as client:
-                response = await client.post(
-                    f"{self.triage_bot_url}/ask",
-                    json={
-                        "messages": self.conversation_history + [{"role": "user", "content": user_message}],
-                        "model": "llama3.1:8b"
-                    }
-                )
-                response.raise_for_status()
-                return response.json().get("response", "No response from bot")
+            # Add the user message to conversation history
+            self.conversation_history.append({"role": "user", "content": user_message})
+            
+            # Use the triage agent directly
+            response = await self.triage_agent.get_next_response(self.conversation_history)
+            
+            # Add the bot response to conversation history
+            self.conversation_history.append({"role": "assistant", "content": response})
+            
+            return response
         except Exception as e:
-            return f"Error connecting to triage bot: {e}"
+            return f"Error getting bot response: {e}"
     
     async def generate_summary(self):
-        """Generate clinical summary using the summarization endpoint"""
+        """Generate clinical summary using the summarization agent directly"""
         try:
             print(f"{Fore.CYAN}Generating clinical summary...")
-            async with httpx.AsyncClient(timeout=120.0) as client:
-                response = await client.post(
-                    f"{self.triage_bot_url}/summarize",
-                    json={
-                        "messages": self.conversation_history,
-                        "model": "llama3.1:8b"
-                    }
-                )
-                response.raise_for_status()
-                summary = response.json().get("response", "Could not generate summary")
-                
-                print(f"{Fore.MAGENTA}{'='*60}")
-                print(f"{Fore.MAGENTA}SBAR CLINICAL SUMMARY & DIFFERENTIAL DIAGNOSIS")
-                print(f"{Fore.MAGENTA}{'='*60}")
-                print(f"{Fore.WHITE}{summary}")
-                print(f"{Fore.MAGENTA}{'='*60}")
-                
+            
+            # Use the summarization agent directly
+            summary = await self.summarization_agent.summarize_and_triage(self.conversation_history)
+            
+            print(f"{Fore.MAGENTA}{'='*60}")
+            print(f"{Fore.MAGENTA}SBAR CLINICAL SUMMARY & DIFFERENTIAL DIAGNOSIS")
+            print(f"{Fore.MAGENTA}{'='*60}")
+            print(f"{Fore.WHITE}{summary}")
+            print(f"{Fore.MAGENTA}{'='*60}")
+            
         except Exception as e:
             print(f"{Fore.RED}Error generating summary: {e}")
     
@@ -290,8 +298,20 @@ PATIENT RESPONSE:"""
         self.conversation_history.append({"role": "assistant", "content": bot_response})
         self.print_message("BOT", bot_response)
         
-        # Patient responds to greeting with initial complaint
-        initial_message = f"I have {self.patient_data.presenting_complaint.lower()}"
+        # Generate realistic name and DOB
+        import random
+        first_names = ["John", "Sarah", "Michael", "Emma", "David", "Lisa", "James", "Anna", "Robert", "Maria", "William", "Jennifer", "Richard", "Linda", "Charles", "Elizabeth", "Joseph", "Patricia", "Thomas", "Susan", "Christopher", "Jessica", "Daniel", "Sarah", "Matthew", "Ashley", "Anthony", "Emily", "Mark", "Michelle"]
+        last_names = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson", "Thomas", "Taylor", "Moore", "Jackson", "Martin", "Lee", "Perez", "Thompson", "White", "Harris", "Sanchez", "Clark", "Ramirez", "Lewis", "Robinson"]
+        
+        first_name = random.choice(first_names)
+        last_name = random.choice(last_names)
+        age = int(self.patient_data.demographics.get('age', '30'))
+        current_year = 2024
+        birth_year = current_year - age
+        dob = f"{random.randint(1, 28)}/{random.randint(1, 12)}/{birth_year}"
+        
+        # Patient responds to greeting with demographics and initial complaint
+        initial_message = f"I'm {first_name} {last_name}, {age} years old, {self.patient_data.demographics.get('gender', 'person')}, and my date of birth is {dob}. I have {self.patient_data.presenting_complaint.lower()}"
         self.conversation_history.append({"role": "user", "content": initial_message})
         self.print_message("PATIENT", initial_message)
         

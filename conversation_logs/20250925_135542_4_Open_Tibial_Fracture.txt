@@ -1,0 +1,82 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_4
+Title: Open Tibial Fracture
+Date: 2025-09-25 13:55:42
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 35
+Gender: male
+Occupation: cyclist
+Comorbidities: otherwise fit
+Expected Triage: Urgent Care/A&E
+
+PRESENTING COMPLAINT:
+--------------------
+Severe lower leg pain after road traffic accident, 1 hour ago
+
+CONVERSATION:
+--------------------
+[13:55:22] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:55:22] PATIENT: I'm Elizabeth Martinez, 35 years old, male, and my date of birth is 23/2/1989. I have severe lower leg pain after road traffic accident, 1 hour ago
+
+[13:55:22] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[13:55:22] PATIENT: "My right shin. It's really painful."
+
+[13:55:22] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:55:24] PATIENT: "Actually, yeah. The pain radiates into my foot. It feels like it's spreading down there."
+
+[13:55:24] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:55:25] PATIENT: "Actually, it's constant since the accident. It doesn't really change or get any better."
+
+[13:55:25] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:55:26] PATIENT: "It's a 10 out of 10. The pain is excruciating."
+
+[13:55:26] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:55:28] PATIENT: "Honestly, I don't know. It's only been an hour since the accident, so I haven't had a chance to notice if there's any morning stiffness yet."
+
+[13:55:28] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:55:29] PATIENT: "I don't know about any treatments I've tried before. As soon as the accident happened, paramedics arrived and splinted my leg to immobilize it."
+
+[13:55:29] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:55:31] PATIENT: "Honestly, I don't know. To be honest with you, I've never even considered surgery before because I'm an athlete and I've always thought about trying to fix things on my own or with physical therapy. But if it's something that a specialist recommends, then yeah, of course I'd consider it."
+
+[13:55:31] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:55:33] PATIENT: "No fever, chills, or unexplained weight loss. I've been pretty active with cycling lately, but I don't feel any severe weakness."
+
+[13:55:33] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Open fracture, severe trauma, surgical emergency
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 35-year-old man, a keen cyclist with no significant past medical history, was brought by ambulance following a road traffic accident. He sustained direct trauma to his right leg after being struck by a car whilst cycling.
+
+On arrival to A&E he was haemodynamically stable but in severe distress. Examination revealed an open mid-shaft tibial fracture with gross deformity, bone protrusion, and active bleeding. There was swelling and bruising, but distal pulses were palpable and neurological function was preserved.
+
+Immediate management included IV access, analgesia, IV antibiotics, tetanus prophylaxis, haemorrhage control with sterile dressing, and splintage. Radiographs demonstrated a comminuted open fracture of the mid-shaft tibia.
+
+He was taken urgently to theatre by the trauma and orthopaedic team for irrigation, debridement, and temporary external fixation. Definitive fixation will be undertaken once soft tissue condition allows. He remains admitted for ongoing care.
+
+Socially, he lives with his partner and works in IT. He will require significant time off work and input from rehabilitation services. He has been counselled on risk of infection, non-union, and long-term functional impact.
+
+Yours sincerely,
+Trauma & Orthopaedics Registrar
+

@@ -1,0 +1,100 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_7
+Title: Chronic LCL Tear with Lateral Instability
+Date: 2025-09-26 10:36:44
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 42
+Gender: female
+Occupation: office manager; keen hiker
+Comorbidities: BMI 24
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+I fell skiing about ten weeks ago and the outside of my knee still feels wobbly. I did physio but it hasn’t settled and I can’t hike down hills anymore.
+
+CONVERSATION:
+--------------------
+[10:36:07] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[10:36:07] PATIENT: I'm Jennifer Brown, 42 years old, female, and my date of birth is 4/6/1982. I have i fell skiing about ten weeks ago and the outside of my knee still feels wobbly. i did physio but it hasn’t settled and i can’t hike down hills anymore.
+
+[10:36:07] BOT: Which side is affected - left or right?
+
+[10:36:10] PATIENT: My right knee. The outside of it feels wobbly.
+
+[10:36:10] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[10:36:11] PATIENT: It started from an injury - I fell skiing about ten weeks ago. The force of the fall was on the outside of my right knee, which is where it still feels wobbly today.
+
+[10:36:11] BOT: Can you describe your main symptoms in your own words?
+
+[10:36:13] PATIENT: "My knee feels really wobbly on the outside, especially when I put weight on it. It's an ache most of the time, but when I'm doing things that stress it, like going down hills or uneven surfaces, it becomes this sharp pain that's about a 7 out of 10. And even just walking can be a bit unstable, which is really frustrating because I used to love hiking and now I'm having trouble with stairs too."
+
+[10:36:13] BOT: Does the pain or feeling spread to any other part of your body?
+
+[10:36:15] PATIENT: No, it's still just localized to the outside of my right knee. The ache or pain doesn't really spread anywhere else.
+
+[10:36:15] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[10:36:16] PATIENT: To be honest, I do get some swelling in my knee when I exert myself. It's not constant, but it can happen if I'm doing something that stresses the joint, like hiking or going down stairs.
+
+[10:36:16] BOT: What makes your symptoms better or worse?
+
+[10:36:18] PATIENT: My symptoms are worse when I put weight on my knee or do things that stress it, like going down hills or uneven surfaces. It's also worse with varus load, which means if I'm putting pressure on the outside of my knee, it feels even more unstable and painful. When I rest or avoid activities, it tends to feel a bit better, but not completely settled yet.
+
+[10:36:18] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[10:36:20] PATIENT: To be honest, I don't really experience morning stiffness. When I get up in the morning, it usually takes a few minutes to walk around and loosen up my knee before I start feeling okay. But by the time I'm getting ready for the day, it's usually not too bad anymore.
+
+[10:36:20] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[10:36:22] PATIENT: I've tried physiotherapy for about eight weeks now. I saw a physiotherapist who helped me with exercises to strengthen the muscles around my knee and improve its stability. Unfortunately, it hasn't really made a significant difference in terms of settling down the wobbliness or reducing the pain.
+
+[10:36:22] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[10:36:24] PATIENT: No, I haven't had any surgeries or major injuries to this area. I did have some issues with my knee after a skiing fall when I was younger, but it wasn't significant enough to require surgery.
+
+[10:36:24] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[10:36:26] PATIENT: To be honest, I haven't really experienced any locking or catching sensations in my knee. It's more like the joint feels unstable and wobbly, especially when I put weight on it or do activities that stress it. The pain is usually sharp and catches me off guard, but it doesn't feel like the joint gets stuck completely.
+
+[10:36:26] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[10:36:28] PATIENT: No, this isn't related to any specific activities like running or marathon training. My problem started from an injury - I fell skiing about ten weeks ago, and since then, it's been affecting me when I do normal everyday things, especially hiking down hills or uneven surfaces. It's not really activity-specific anymore, but more of a constant issue with stability and pain on the outside of my knee.
+
+[10:36:28] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[10:36:29] PATIENT: Yes, I had an MRI about two weeks ago to see if there was any damage from the fall. The results showed some mild degenerative changes in the lateral meniscus, but no significant tears or fractures.
+
+[10:36:29] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[10:36:31] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[10:36:31] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[10:36:32] PATIENT: No, I haven't experienced any fever or chills. The only thing that's been bothering me lately is the pain and instability in my knee, but it's not related to any systemic symptoms like weight loss or weakness.
+
+[10:36:32] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Persistent symptomatic lateral instability after complete LCL tear with failed conservative care → surgical reconstruction required.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 42-year-old office manager and recreational hiker (BMI 24) with persistent lateral instability 10 weeks post skiing injury. Despite 8 weeks of physiotherapy, she reports ongoing instability especially on slopes and uneven ground. MRI (2 weeks ago) demonstrates complete LCL rupture with PLC involvement; ACL/PCL intact.
+
+Given continued symptomatic lateral instability and failed conservative management, referral for surgical reconstruction is indicated.
+
+Yours sincerely,
+Orthopaedic Triage
+

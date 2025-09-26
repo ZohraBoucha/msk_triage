@@ -1,0 +1,118 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_4
+Title: Open Tibial Fracture
+Date: 2025-09-19 13:44:45
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 35
+Gender: male
+Occupation: cyclist
+Comorbidities: otherwise fit
+Expected Triage: Urgent Care/A&E
+
+PRESENTING COMPLAINT:
+--------------------
+Severe lower leg pain after road traffic accident, 1 hour ago
+
+CONVERSATION:
+--------------------
+[13:44:11] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:44:11] PATIENT: I'm 35 years old, male, and my date of birth is Unknown. I have severe lower leg pain after road traffic accident, 1 hour ago
+
+[13:44:11] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[13:44:12] PATIENT: My shin, it's on my right side. I've got this huge gash in it and I can see bone sticking out. It's been constant since the accident an hour ago.
+
+[13:44:12] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[13:44:13] PATIENT: This happened because I was in a road traffic accident an hour ago. I don't know what else to say, it just came out of nowhere.
+
+[13:44:13] BOT: What is your age?
+
+[13:44:14] PATIENT: "I'm 35."
+
+[13:44:14] BOT: Which side is affected - left or right?
+
+[13:44:16] PATIENT: My shin on the right side. It's the right one that got hurt in the accident.
+
+[13:44:16] BOT: How long have you had this problem? Is it acute (less than 2 weeks), subacute (2-12 weeks), or chronic (more than 12 weeks)?
+
+[13:44:17] PATIENT: "Honestly, it's only been an hour since the accident happened. I'd say this is acute."
+
+[13:44:17] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[13:44:18] PATIENT: "It happened in an accident. I was hit by another car while cycling, and it just came out of nowhere."
+
+[13:44:18] BOT: Can you describe your main symptoms in your own words?
+
+[13:44:20] PATIENT: "It's just excruciating pain in my right shin. It's like nothing I've ever experienced before - sharp and constant since the accident. Any movement makes it worse."
+
+[13:44:20] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:44:21] PATIENT: The pain feels sharp. It's excruciating, like nothing I've ever experienced before - it's constant since the accident an hour ago.
+
+[13:44:21] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:44:23] PATIENT: The pain radiates into my foot. It's like it's connected to my shin somehow, but I don't know how else to explain it.
+
+[13:44:23] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:44:24] PATIENT: To be honest, I don't really notice any swelling. The main thing I'm aware of is the huge gash in my shin and the bone that's sticking out. It's all pretty shocking to see.
+
+[13:44:24] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:44:26] PATIENT: "Honestly, it's constant since the accident an hour ago. The pain hasn't changed at all - it's still sharp and excruciating."
+
+[13:44:26] BOT: What makes your symptoms better or worse?
+
+[13:44:27] PATIENT: "Anything makes it worse. Any movement or even trying to bear weight on it just makes the pain excruciating. Even when I was splinted by the paramedics, it still hurt."
+
+[13:44:27] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:44:29] PATIENT: On a scale of 0 to 10, I'd rate my pain as a 10. It's the worst imaginable - it's sharp, excruciating, and constant since the accident an hour ago.
+
+[13:44:29] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:44:31] PATIENT: I don't experience morning stiffness. I was just in an accident an hour ago and this pain just started suddenly, so I've had no chance to notice if it's worse in the morning.
+
+[13:44:31] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[13:44:32] PATIENT: Honestly, I've been unable to bear weight on my right leg since the accident. As a cyclist, it's pretty much put me out of commission - I won't be able to ride or do anything physical for now.
+
+[13:44:32] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:44:34] PATIENT: Honestly, I haven't tried any treatments before. I just got splinted by the paramedics after the accident to immobilize it, but that's all. They also stopped the bleeding on my shin, thankfully.
+
+[13:44:34] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:44:35] PATIENT: "No, I haven't experienced any fever or chills. To be honest, I've been in shock from the accident itself, but I don't think I'd describe it as unexplained weight loss or severe weakness either."
+
+[13:44:35] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Open fracture, severe trauma, surgical emergency
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 35-year-old man, a keen cyclist with no significant past medical history, was brought by ambulance following a road traffic accident. He sustained direct trauma to his right leg after being struck by a car whilst cycling.
+
+On arrival to A&E he was haemodynamically stable but in severe distress. Examination revealed an open mid-shaft tibial fracture with gross deformity, bone protrusion, and active bleeding. There was swelling and bruising, but distal pulses were palpable and neurological function was preserved.
+
+Immediate management included IV access, analgesia, IV antibiotics, tetanus prophylaxis, haemorrhage control with sterile dressing, and splintage. Radiographs demonstrated a comminuted open fracture of the mid-shaft tibia.
+
+He was taken urgently to theatre by the trauma and orthopaedic team for irrigation, debridement, and temporary external fixation. Definitive fixation will be undertaken once soft tissue condition allows. He remains admitted for ongoing care.
+
+Socially, he lives with his partner and works in IT. He will require significant time off work and input from rehabilitation services. He has been counselled on risk of infection, non-union, and long-term functional impact.
+
+Yours sincerely,
+Trauma & Orthopaedics Registrar
+

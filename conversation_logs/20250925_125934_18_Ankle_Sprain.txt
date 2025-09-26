@@ -1,0 +1,100 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_18
+Title: Ankle Sprain
+Date: 2025-09-25 12:59:34
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 29
+Gender: female
+Occupation: retail assistant
+Comorbidities: otherwise healthy
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Left ankle pain and swelling, 2 weeks
+
+CONVERSATION:
+--------------------
+[12:59:04] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[12:59:04] PATIENT: I'm Joseph Thompson, 29 years old, female, and my date of birth is 10/8/1995. I have left ankle pain and swelling, 2 weeks
+
+[12:59:04] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[12:59:05] PATIENT: It's related to an injury. I twisted my ankle stepping off the kerb about two weeks ago.
+
+[12:59:05] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[12:59:07] PATIENT: The pain feels sharp initially, but now it's more like an ache. It hurts when I put weight on it, especially if I'm walking or going up stairs.
+
+[12:59:07] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:59:08] PATIENT: No, it doesn't spread to any other part of my body. It's pretty localized to the left ankle area.
+
+[12:59:08] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[12:59:10] PATIENT: The pain has been gradually improving over the past two weeks. It's still pretty sore when I put weight on it, but it's not as bad as it was at first.
+
+[12:59:10] BOT: What makes your symptoms better or worse?
+
+[12:59:11] PATIENT: "Putting weight on it makes it worse, especially when I walk or go up stairs. Ice and elevating my ankle seem to help relieve the pain a bit."
+
+[12:59:11] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[12:59:13] PATIENT: My pain level would be around 5 or 6 out of 10. It's still pretty sore, but it's manageable now that I've had some time to recover.
+
+[12:59:13] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[12:59:14] PATIENT: To be honest, I don't really experience morning stiffness. My ankle just feels stiff when I first start moving it after sitting or lying down for a while, but it loosens up pretty quickly once I get going.
+
+[12:59:14] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[12:59:16] PATIENT: It's been affecting my work as a retail assistant because I've had to limp around the store. It's not too bad most of the time, but when it's busy or I have to walk a lot on uneven flooring, it gets pretty painful and I need to take regular breaks.
+
+[12:59:16] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[12:59:18] PATIENT: To be honest, I've just been trying to rest it as much as possible. At first, I wrapped an ice pack around it for a few days and wore a bandage, but that's about it. I haven't tried any other treatments or seen a doctor yet because I thought it would get better on its own, but it's still quite sore.
+
+[12:59:18] BOT: Let me ask about your treatment history in more detail. Have you had any of the following: physiotherapy sessions, steroid injections, or other specialist treatments for this condition?
+
+[12:59:19] PATIENT: "No, I haven't had any physiotherapy sessions or steroid injections. Like I said, I've just been trying to rest it and use ice packs to help with the pain."
+
+[12:59:19] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[12:59:21] PATIENT: Honestly, I don't think surgery would be an option for me unless it was absolutely necessary. I'm hoping that with some more rest and maybe seeing a doctor or physiotherapist, I'll be able to get back on my feet without needing any major interventions.
+
+[12:59:21] BOT: Have you tried conservative treatments like physiotherapy, injections, or other non-surgical approaches, and if so, did they help with your symptoms?
+
+[12:59:23] PATIENT: To be honest, I haven't tried any physiotherapy or injections yet. Like I said, I've just been trying to rest it as much as possible and using ice packs to help with the pain.
+
+[12:59:23] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[12:59:24] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. The ankle just hurts when I put weight on it, but that's it.
+
+[12:59:24] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Clear sprain, Ottawa ankle rules negative, no red flags → physio appropriate
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 29-year-old retail assistant sustained a left ankle inversion injury two weeks ago after stepping off a kerb. She was able to weight bear immediately but limped. She developed swelling and bruising, which have improved, but still experiences pain and stiffness. Pain is around five out of ten and worsens with prolonged standing and stairs.
+
+    She has no numbness, bony tenderness, or systemic features. She has used rest, ice, and a bandage. She has not had physiotherapy.
+
+    She lives with her partner and continues to work with modified duties, but struggles with prolonged standing.
+
+    The history is consistent with a lateral ankle sprain. Referral to physiotherapy is appropriate to address proprioceptive rehabilitation, strengthening, and safe graded return to activity. She has been advised to wear supportive footwear and to re-present if pain or instability persists beyond six weeks.
+
+    Yours sincerely,
+    Virtual Triage Team
+

@@ -1,0 +1,116 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_15
+Title: Chronic Mechanical Neck Pain
+Date: 2025-09-19 13:42:43
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 39
+Gender: male
+Occupation: graphic designer
+Comorbidities: PMH: migraine
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Neck stiffness and pain, 6 months
+
+CONVERSATION:
+--------------------
+[13:42:05] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:42:05] PATIENT: I have neck stiffness and pain, 6 months
+
+[13:42:05] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[13:42:09] PATIENT: My neck. I've been having stiffness and pain in my neck for about six months now. It's mainly in the cervical spine area, with some discomfort in the paraspinal muscles too.
+
+[13:42:09] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[13:42:10] PATIENT: "It developed more gradually over time. I've noticed it getting worse with desk work and long computer sessions."
+
+[13:42:10] BOT: What is your age?
+
+[13:42:11] PATIENT: "I'm 39."
+
+[13:42:11] BOT: Which side is affected - left or right?
+
+[13:42:13] PATIENT: "Both sides, actually. I'd say it's more on both sides of the cervical spine, rather than one specific side."
+
+[13:42:13] BOT: How long have you had this problem? Is it acute (less than 2 weeks), subacute (2-12 weeks), or chronic (more than 12 weeks)?
+
+[13:42:14] PATIENT: "It's been about six months now. I'd say it's chronic."
+
+[13:42:14] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[13:42:15] PATIENT: It developed more gradually over time. I've noticed it getting worse with desk work and long computer sessions. It's been about six months now, so I'd say it's chronic.
+
+[13:42:15] BOT: Can you describe your main symptoms in your own words?
+
+[13:42:17] PATIENT: "It's this stiffness and pain in my neck that's been really getting to me. It feels like I've got knots in the muscles around my cervical spine, especially when I'm working at my desk or staring at a screen for too long. The pain is pretty constant, but it gets worse after a few hours of sitting."
+
+[13:42:17] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:42:19] PATIENT: "It feels like an aching stiffness in my neck. It's not sharp or burning, but more of a dull ache that's constant."
+
+[13:42:19] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:42:20] PATIENT: "No, it doesn't spread to any other part of my body. Occasionally, I get tension headaches on the sides of my head or at the base of my skull, but that's about it."
+
+[13:42:20] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:42:22] PATIENT: "No, I don't have any numbness or weakness in my neck. The stiffness and pain are the main symptoms I've been experiencing."
+
+[13:42:22] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:42:23] PATIENT: My symptoms are pretty constant. I'd say they're there every day, but the pain gets worse in the afternoons when I've been sitting at my desk for a few hours. It's like it builds up over time and gets harder to manage by the end of the day.
+
+[13:42:23] BOT: What makes your symptoms better or worse?
+
+[13:42:25] PATIENT: You know, I'd say stretching, massage, and short walks definitely make my symptoms better. When I take breaks to stretch or get up and move around, the pain seems to ease up a bit. But if I'm sitting at my desk for too long without taking breaks, it gets worse - especially in the afternoons when I've been staring at a screen for hours.
+
+[13:42:25] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:42:27] PATIENT: "On a scale of 0 to 10, I'd say it's about a 5 or 6. It's not debilitating or anything, but it's definitely uncomfortable and affects my daily activities."
+
+[13:42:27] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:42:28] PATIENT: "Yeah, I do experience morning stiffness. It takes me about 10 to 15 minutes of gentle stretching and movement to loosen up in the morning."
+
+[13:42:28] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[13:42:30] PATIENT: To be honest, it's affecting my work a lot. I'm a graphic designer, so I spend most of my day sitting in front of a computer screen. The pain and stiffness are making it hard for me to concentrate and get through long projects without taking breaks. It's also causing frequent tension headaches, which is just annoying.
+
+[13:42:30] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:42:32] PATIENT: Honestly, I've only tried occasional massage to help with the neck pain. Nothing too consistent or regular, just trying to manage it as best I can on my own.
+
+[13:42:32] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:42:33] PATIENT: "No fever or chills. I don't think I've experienced any unexplained weight loss either. As for weakness, no, I haven't noticed anything like that in my neck."
+
+[13:42:33] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Typical posture-related pain, conservative management appropriate
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 39-year-old graphic designer has reported a six-month history of mechanical neck pain and stiffness. Pain is localised to the posterior cervical region, described as an ache, and is occasionally associated with tension headaches. It is aggravated by prolonged desk work and improves with stretching, short walks, and massage. He rates it five to six out of ten in severity.
+
+    He denies paraesthesia, weakness, or systemic features. He has not previously had physiotherapy.
+
+    He lives alone and works long hours at a computer. He has reduced his recreational cycling because of neck stiffness, which he finds frustrating.
+
+    The presentation is typical of chronic mechanical or postural neck pain. Physiotherapy would be valuable for posture correction, cervical mobility, and strengthening. Ergonomic workplace adjustments are also recommended. He has been advised to seek urgent review if he develops neurological symptoms.
+
+    Yours sincerely,
+    Virtual Triage Team
+

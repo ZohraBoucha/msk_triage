@@ -1,0 +1,96 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_2
+Title: Chronic Medial Meniscus Tear – Failed Conservative Management
+Date: 2025-09-26 10:26:28
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 45
+Gender: male
+Occupation: plumber (self-employed)
+Comorbidities: BMI 28
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+Right medial knee pain with true locking 3–4×/week; MRI shows complex degenerative tear with displaced fragment
+
+CONVERSATION:
+--------------------
+[10:25:53] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[10:25:53] PATIENT: I'm Matthew Davis, 45 years old, male, and my date of birth is 3/6/1979. I have right medial knee pain with true locking 3–4×/week; mri shows complex degenerative tear with displaced fragment
+
+[10:25:53] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[10:25:56] PATIENT: It came on gradually over about 4 months. I've been doing a lot of heavy kneeling work as a plumber, and I think that's what finally caused it to get bad enough to notice.
+
+[10:25:56] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[10:25:58] PATIENT: It's a deep ache with sharp catches. When it locks, it feels like something is stuck in there and I have to sit down or stop what I'm doing until it releases.
+
+[10:25:58] BOT: Does the pain or feeling spread to any other part of your body?
+
+[10:25:59] PATIENT: It's localized to the right knee. The pain doesn't spread beyond that area.
+
+[10:25:59] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[10:26:01] PATIENT: My pain would be around a 6 or 7 out of 10 during the flares. When it's not locking, I can manage with some medication and adjusting my activities, but when it does lock, the pain shoots up to that level.
+
+[10:26:01] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[10:26:02] PATIENT: Yeah, I experience morning stiffness. It takes me about 15 to 20 minutes to loosen up in the morning after waking up, especially if I've had a bad flare-up the day before.
+
+[10:26:02] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[10:26:06] PATIENT: "Going down stairs? I'd say it's about a 6 out of 10 - the pain doesn't really bother me that much. Going up stairs is harder; it's more like an 8 or 9 out of 10 because my knee gets stuck and it takes some effort to straighten it. Rising from a chair isn't too bad, around 4 or 5 out of 10. Bending to the floor? That's one of my biggest issues - I have trouble squatting or bending over without getting a catch in my knee. Getting in/out of a car is okay; about a 2 or 3 out of 10. Putting on socks, no problem - around 1 out of 10. Getting in/out of the bath? That's more like an 8 or 9 out of 10 because I have to be careful not to bend my knee too far. Heavy domestic work is almost impossible for me now; I'm only doing what's absolutely necessary, so it's about a 9 or 10 out of 10."
+
+[10:26:06] BOT: When you tried the treatments we discussed, did they help with your symptoms, make no difference, or make things worse?
+
+[10:26:08] PATIENT: The treatments I tried were 8 weeks of physiotherapy and some occupational adjustments. To be honest, they didn't really help with the locking episodes or the severity of the pain during those times. They did help me manage my symptoms to a certain extent, but it wasn't a significant improvement for me.
+
+[10:26:08] BOT: When you tried the treatments we discussed, did they help with your symptoms, make no difference, or make things worse?
+
+[10:26:10] PATIENT: To be honest, they didn't really help with the locking episodes or the severity of the pain during those times. They did help me manage my symptoms to a certain extent, but it wasn't a significant improvement for me.
+
+[10:26:10] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[10:26:11] PATIENT: "No, I haven't had any previous injuries or surgeries to this area. My knee has always been relatively healthy until now."
+
+[10:26:11] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[10:26:13] PATIENT: No, I don't think this has anything to do with running or prolonged standing. Like I said before, it's mainly from heavy kneeling work as a plumber, which I've been doing for years. It's only recently gotten bad enough that I'm having trouble working and daily activities are affected.
+
+[10:26:13] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[10:26:14] PATIENT: No, I don't smoke.
+
+[10:26:14] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[10:26:16] PATIENT: To be honest, I've tried managing it with physiotherapy and occupational adjustments, but the locking episodes are still really impacting my daily life. If a specialist thinks surgery could help get rid of these lock-ups for good, then yeah, I'd definitely consider it.
+
+[10:26:16] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[10:26:18] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My symptoms are mainly related to pain and locking in the knee, and they've been gradually worsening over time.
+
+[10:26:18] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+True mechanical locking with displaced fragment on MRI and failed rehab → arthroscopic surgical assessment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 45-year-old self-employed plumber (BMI 28) with 4 months of right medial knee pain, daily catching and true locking 3–4 times per week. After 8 weeks of physiotherapy, mechanical symptoms persist. MRI (4 weeks ago) demonstrates a complex degenerative medial meniscal tear with a displaced fragment; grade 2 medial compartment chondral change; ligaments intact.
+
+Given ongoing true locking and failed non-operative care, referral for arthroscopic intervention is appropriate. Occupational impact significant.
+
+Yours sincerely,
+Orthopaedic Triage
+

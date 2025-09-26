@@ -1,0 +1,76 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_22
+Title: End-Stage Hip Osteoarthritis
+Date: 2025-09-25 13:19:38
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 72
+Gender: male
+Occupation: retired builder
+Comorbidities: PMH: type 2 diabetes
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+Left hip pain, 5 years, worsening
+
+CONVERSATION:
+--------------------
+[13:19:14] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:19:14] PATIENT: I'm Ashley Lee, 72 years old, male, and my date of birth is 18/2/1952. I have left hip pain, 5 years, worsening
+
+[13:19:14] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[13:19:18] PATIENT: To be honest, it just gradually got worse over time. I've had some physiotherapy and steroid injections, but the pain's still been bad for ages. It's like my hip just wears out with every step I take.
+
+[13:19:18] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:19:20] PATIENT: It's dull, but it feels more like grinding pain when I move. It's like my hip is just grating on something.
+
+[13:19:20] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:19:21] PATIENT: To be honest, the pain spreads to my thigh and knee. It feels like it's radiating down from my hip, making it hard for me to move around without feeling stiff and sore in those areas too.
+
+[13:19:21] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:19:23] PATIENT: To be honest, I've had some swelling around the left hip area from time to time, but it's not too bad. The main problem for me is the stiffness and soreness in my thigh and knee when I move. That makes walking and standing really painful.
+
+[13:19:23] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:19:25] PATIENT: To be honest with you, Leo, I've had this pain in my left hip for so long now that I'd consider just about anything to get rid of it. If a specialist thought surgery was the way forward, I'd definitely want to hear them out and discuss it further.
+
+[13:19:25] BOT: Have you tried conservative treatments like physiotherapy, injections, or other non-surgical approaches, and if so, did they help with your symptoms?
+
+[13:19:26] PATIENT: "Yes, I've tried physiotherapy. It helped a bit at first, but the pain just came back again. And as for steroid injections, I had one about 2 years ago, but it didn't really make much of a difference."
+
+[13:19:27] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:19:28] PATIENT: No, I don't have any fever or chills. To be honest, I haven't noticed any unexplained weight loss either. But I do get really tired after walking around for a bit, which might be related to my hip pain more than anything else.
+
+[13:19:28] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Severe pain + functional loss + failed conservative care → surgery
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    Thank you for referring this 72-year-old retired builder with a five-year history of worsening left hip pain. He describes constant stiffness and deep-seated pain in the groin and buttock, radiating to the thigh and occasionally to the knee. The pain is rated as nine out of ten in severity, worsens with weight-bearing and twisting movements, and is associated with a pronounced limp. He is now reliant on a stick for mobility. His functional capacity is severely impaired; he can no longer shop independently, he has given up gardening, and he struggles with basic household activities.
+
+    He has tried appropriate conservative measures including oral analgesia, physiotherapy, and a single intra-articular steroid injection, all of which have failed to provide sustained relief. He has type 2 diabetes, which is managed with oral medication, and is otherwise well.
+
+    Examination revealed a markedly antalgic gait and global restriction of hip movement, particularly flexion and internal rotation. Pain was reproduced at the extremes of movement. Neurovascular assessment of the limb was normal. Pelvic and hip radiographs demonstrate advanced degenerative changes with joint space obliteration, osteophyte formation, and subchondral sclerosis, consistent with end-stage osteoarthritis.
+
+    We discussed the diagnosis and the available treatment options. Given the extent of his pain, disability, and the exhaustion of conservative treatment, he is an appropriate candidate for total hip arthroplasty. We have discussed the risks, benefits, and expected outcomes in detail. He is keen to proceed and understands the rehabilitation required. He will now undergo pre-operative optimisation, including diabetic review and anaesthetic assessment, prior to listing for surgery.
+
+    Yours sincerely,
+    Consultant Orthopaedic Surgeon
+

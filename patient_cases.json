@@ -1,1094 +1,466 @@
 [
   {
-    "case_id": "case_3",
-    "title": "Shoulder Dislocation",
-    "demographics": {
-      "age": "22",
-      "gender": "male",
-      "occupation": "university rugby player",
-      "comorbidities": "none"
-    },
-    "presenting_complaint": "Left shoulder pain and deformity after rugby tackle, 30 minutes ago",
-    "socrates": {
-      "site": "Left shoulder",
-      "onset": "Sudden, during tackle",
-      "character": "Severe, throbbing",
-      "radiation": "Upper arm",
-      "associations": "Obvious deformity, limited movement",
-      "timing": "Constant since injury",
-      "exacerbating": "Any movement",
-      "relieving": "Keeping arm still",
-      "severity": "8/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "High-impact sports tackle",
-      "red_flags": "Visible deformity, loss of function",
-      "previous_treatment": "None",
-      "functional_impact": "Cannot use arm"
-    },
-    "expected_triage": "Urgent Care/A&E",
-    "clinical_notes": "High-energy trauma, deformity, and functional loss require urgent hospital care",
-    "sample_conversation": [
-      "Dislocated my shoulder in rugby about half an hour ago",
-      "Tackled, landed awkwardly",
-      "Out of place, sticking forward",
-      "No, it's too painful",
-      "A bit down my arm",
-      "No",
-      "8",
-      "Yes",
-      "No, just holding it still",
-      "No",
-      "Yes, just painful",
-      "No"
-    ],
-    "expanded_clinic_letter": "To GP,\n\nThis 22-year-old right-hand dominant university student, a keen rugby player, was admitted to A&E following a rugby tackle in which he landed directly on his left shoulder. He developed immediate pain, deformity, and inability to move the shoulder.\n\nHe lives in shared student accommodation and is otherwise fit and well. He is currently unable to continue sports and has difficulty dressing himself.\n\nOn arrival, inspection revealed loss of the normal shoulder contour with anterior prominence, consistent with dislocation. Movement was not possible due to pain. Distal pulses were intact, and he retained full finger and hand movement.\n\nRadiographs confirmed an anterior shoulder dislocation without associated fracture. Under procedural sedation, the shoulder was successfully reduced with immediate relief of pain. Post-reduction imaging confirmed concentric reduction. He was placed in a sling and given analgesia.\n\nHe has been discharged with advice to avoid driving and overhead activity, and referred to fracture clinic for review within 1 week. A physiotherapy referral has been made to support rehabilitation and reduce recurrence risk. He has been advised to avoid contact sport until cleared by orthopaedics.\n\nYours sincerely,\nA&E Registrar"
-  },
-  {
-    "case_id": "case_4",
-    "title": "Open Tibial Fracture",
-    "demographics": {
-      "age": "35",
-      "gender": "male",
-      "occupation": "cyclist",
-      "comorbidities": "otherwise fit"
-    },
-    "presenting_complaint": "Severe lower leg pain after road traffic accident, 1 hour ago",
-    "socrates": {
-      "site": "Right shin",
-      "onset": "Sudden, following collision",
-      "character": "Sharp, excruciating",
-      "radiation": "Into foot",
-      "associations": "Open wound with bone visible, bleeding",
-      "timing": "Constant since accident",
-      "exacerbating": "Any movement",
-      "relieving": "Splinted by paramedics",
-      "severity": "10/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "RTA at speed",
-      "red_flags": "Open fracture, bleeding, severe pain",
-      "previous_treatment": "Immobilisation by paramedics",
-      "functional_impact": "Unable to bear weight"
-    },
-    "expected_triage": "Urgent Care/A&E",
-    "clinical_notes": "Open fracture, severe trauma, surgical emergency",
-    "sample_conversation": [
-      "I crashed my bike, my shin bone is sticking out",
-      "About an hour ago",
-      "Yes, but paramedics put a dressing on",
-      "10",
-      "A bit, very painful",
-      "No, just pain",
-      "No chance",
-      "Just cuts and bruises",
-      "None",
-      "I'm already in the ambulance"
-    ],
-    "expanded_clinic_letter": "To GP,\n\nThis 35-year-old man, a keen cyclist with no significant past medical history, was brought by ambulance following a road traffic accident. He sustained direct trauma to his right leg after being struck by a car whilst cycling.\n\nOn arrival to A&E he was haemodynamically stable but in severe distress. Examination revealed an open mid-shaft tibial fracture with gross deformity, bone protrusion, and active bleeding. There was swelling and bruising, but distal pulses were palpable and neurological function was preserved.\n\nImmediate management included IV access, analgesia, IV antibiotics, tetanus prophylaxis, haemorrhage control with sterile dressing, and splintage. Radiographs demonstrated a comminuted open fracture of the mid-shaft tibia.\n\nHe was taken urgently to theatre by the trauma and orthopaedic team for irrigation, debridement, and temporary external fixation. Definitive fixation will be undertaken once soft tissue condition allows. He remains admitted for ongoing care.\n\nSocially, he lives with his partner and works in IT. He will require significant time off work and input from rehabilitation services. He has been counselled on risk of infection, non-union, and long-term functional impact.\n\nYours sincerely,\nTrauma & Orthopaedics Registrar"
-  },
-  {
-    "case_id": "case_5",
-    "title": "Acute Foot Drop (Lumbar Disc Prolapse)",
-    "demographics": {
-      "age": "41",
-      "gender": "female",
-      "occupation": "warehouse worker",
-      "comorbidities": "previous back pain"
-    },
-    "presenting_complaint": "Sudden onset left foot weakness, 24 hours duration",
-    "socrates": {
-      "site": "Low back with radiation to left leg",
-      "onset": "Acute, noticed yesterday",
-      "character": "Back pain with weakness rather than pain",
-      "radiation": "Down to foot",
-      "associations": "Can't lift foot (foot drop)",
-      "timing": "Constant weakness since onset",
-      "exacerbating": "Walking",
-      "relieving": "Rest, but weakness remains",
-      "severity": "Pain 6/10, weakness disabling"
-    },
-    "triage_info": {
-      "injury_mechanism": "No trauma, acute disc prolapse suspected",
-      "red_flags": "Neurological deficit (foot drop)",
-      "previous_treatment": "Analgesia",
-      "functional_impact": "Cannot work, walks with limp"
-    },
-    "expected_triage": "Urgent Care/A&E",
-    "clinical_notes": "Sudden motor deficit = urgent surgical referral",
-    "sample_conversation": [
-      "I suddenly can't lift my left foot",
-      "Yesterday morning",
-      "Yes, low back pain for a while, but this weakness is new",
-      "Yes, down my left leg",
-      "I'm dragging my foot",
-      "No",
-      "No",
-      "About 6",
-      "Just ibuprofen",
-      "No",
-      "No",
-      "Do I need to go now?",
-      "Yes, today",
-      "Okay, I'll go to A&E"
-    ],
-    "expanded_clinic_letter": "To GP,\n\nThank you for referring this 41-year-old warehouse operative who presented with acute onset neurological deficit. She has a history of intermittent low back pain, but yesterday morning developed sudden weakness in the left foot, resulting in foot drop. She reported dragging the foot when walking and described paraesthesia along the outer leg and dorsum of the foot. She denied bladder or bowel disturbance.\n\nShe lives with her partner and two children. She is unable to carry out her work duties safely due to the foot weakness.\n\nExamination demonstrated marked weakness of ankle dorsiflexion (MRC 2/5) and extensor hallucis longus (1/5) on the left. Sensation was reduced in the L5 dermatome. Reflexes were preserved. Gait was antalgic with evident foot slap.\n\nUrgent MRI lumbar spine revealed a large left paracentral L4/5 disc prolapse compressing the left L5 nerve root. She was admitted to the spinal team and underwent urgent decompression surgery.\n\nShe has been counselled that neurological recovery may be incomplete and will require ongoing physiotherapy. Follow-up has been arranged in spinal clinic in 6 weeks. She has been provided with clear advice regarding safety-netting and functional aids as required.\n\nYours sincerely,\nOrthopaedic Registrar"
-  },
-  {
     "case_id": "case_1",
-    "title": "Suspected Fracture (Wrist)",
-    "demographics": {
-      "age": "28",
-      "gender": "male",
-      "occupation": "delivery driver",
-      "comorbidities": "smoker, otherwise well"
-    },
-    "presenting_complaint": "Severe right wrist pain after fall, 1 hour ago",
-    "socrates": {
-      "site": "Right wrist",
-      "onset": "Sudden, after fall on outstretched hand while carrying parcels",
-      "character": "Sharp, severe",
-      "radiation": "None",
-      "associations": "Swelling, deformity, can't move fingers properly",
-      "timing": "Constant since fall",
-      "exacerbating": "Any attempt to move hand",
-      "relieving": "None tried",
-      "severity": "9/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "High-impact fall",
-      "red_flags": "Gross deformity, inability to move fingers fully",
-      "previous_treatment": "None",
-      "functional_impact": "Unable to grip, can't work"
-    },
-    "expected_triage": "Urgent Care/A&E",
-    "clinical_notes": "Acute trauma, deformity, severe pain, and neurovascular involvement → immediate A&E required",
-    "sample_conversation": [
-      "I fell earlier and my right wrist is really painful",
-      "About an hour ago while delivering parcels",
-      "Tripped and landed on my hand",
-      "Sharp, unbearable, and constant",
-      "Yes, it looks bent out of place",
-      "Barely, it's really painful",
-      "A little in my thumb",
-      "No, just holding it still",
-      "9 out of 10",
-      "Just that I smoke, otherwise healthy",
-      "No",
-      "Not at all",
-      "Fingers are a bit pale"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    Thank you for your referral of this 28-year-old gentleman, a delivery driver, who attended A&E following a fall onto his outstretched right hand earlier today. The injury occurred whilst he was carrying parcels during work. He presented with immediate and severe wrist pain rated 9/10, gross deformity, and swelling. He reported difficulty moving his fingers and noted altered sensation in the thumb with pallor of the digits.\n\n    He is otherwise fit and well, a smoker, and lives independently. He is right-hand dominant. His work involves frequent manual handling, and he is currently unable to perform any work duties.\n\n    On examination, there was an obvious deformity of the distal forearm with marked tenderness and swelling. Active wrist movement was not possible due to pain. Sensation was reduced in the radial distribution, and the fingers appeared pale though capillary refill was <2 seconds.\n\n    Plain radiographs demonstrated a displaced distal radius fracture with dorsal angulation. Given evidence of neurovascular compromise, he underwent urgent closed reduction under sedation in the emergency department, followed by application of a plaster backslab. Post-reduction assessment confirmed improved neurovascular status.\n\n    He has been discharged with oral analgesia, strict plaster care instructions, and safety-netting advice regarding worsening pain, numbness, or circulatory changes. He will be followed up in the fracture clinic within one week for consideration of definitive fixation. He has been advised to refrain from driving and manual work until further review.\n\n    Yours sincerely,\n    A&E Registrar"
-  },
-  {
-    "case_id": "case_2",
-    "title": "Acute Cauda Equina Syndrome",
-    "demographics": {
-      "age": "49",
-      "gender": "female",
-      "occupation": "office worker",
-      "comorbidities": "history of sciatica"
-    },
-    "presenting_complaint": "Severe back pain with sudden bladder incontinence",
-    "socrates": {
-      "site": "Low back, radiating to both legs",
-      "onset": "Sudden worsening over 24 hrs",
-      "character": "Severe, crushing pain",
-      "radiation": "Both legs, worse left",
-      "associations": "Numbness in groin, bladder leakage",
-      "timing": "Constant, deteriorating rapidly",
-      "exacerbating": "Standing and walking",
-      "relieving": "None",
-      "severity": "10/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Gradual back pain, sudden acute deterioration",
-      "red_flags": "Saddle anaesthesia, bladder incontinence",
-      "previous_treatment": "Analgesia only",
-      "functional_impact": "Cannot walk far, incontinent"
-    },
-    "expected_triage": "Urgent Care/A&E",
-    "clinical_notes": "Saddle anaesthesia + bladder dysfunction = surgical emergency",
-    "sample_conversation": [
-      "My back pain has suddenly got much worse and I can't control my bladder",
-      "Off and on for years, but this is new in the last day",
-      "Yes, between my legs and down my left leg",
-      "I can't feel when I need to go – I leaked this morning",
-      "Yes, they feel heavy, hard to walk",
-      "No",
-      "No",
-      "10",
-      "Yes, not helping",
-      "No",
-      "Should I go to hospital?",
-      "Yes, you need urgent hospital assessment for possible cauda equina syndrome",
-      "Okay, I'll get someone to take me"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 49-year-old office worker presented to A&E with acute onset neurological symptoms on a background of intermittent sciatica. She reported worsening bilateral low back pain over 24 hours, associated with perineal numbness and loss of bladder control. She rated the pain as 10/10 and described her legs as heavy and weak, making mobilising difficult.\n\n    She lives with her husband, works full-time at a desk, and has no previous spinal surgery.\n\n    On examination, she had bilateral neurological deficit affecting L5 and S1 myotomes, with weakness in ankle dorsiflexion and plantarflexion. Saddle anaesthesia and reduced anal tone were demonstrated. Reflexes were diminished but plantar responses were flexor.\n\n    An urgent MRI scan revealed a large central L4/5 disc prolapse compressing the cauda equina. She was admitted under the neurosurgical team and underwent emergency decompression the same evening.\n\n    She is currently recovering post-operatively and will require inpatient rehabilitation. Prognosis has been explained as variable, depending on neurological recovery. She has been counselled extensively on recognising red flag features in the future and safety-netting provided.\n\n    Yours sincerely,\n    Neurosurgical Registrar"
-      },
-  {
-    "case_id": "case_6",
-    "title": "Suspected Inflammatory Back Pain",
-    "demographics": {
-      "age": "32",
-      "gender": "male",
-      "occupation": "IT consultant",
-      "comorbidities": "no significant PMH"
-    },
-    "presenting_complaint": "Chronic lower back pain, 6 months",
-    "socrates": {
-      "site": "Lumbar spine",
-      "onset": "Gradual over 6 months",
-      "character": "Stiff, aching",
-      "radiation": "Occasionally to buttocks",
-      "associations": "Morning stiffness >1 hr, improves with activity, night waking",
-      "timing": "Worse at night and early morning",
-      "exacerbating": "Rest, prolonged sitting",
-      "relieving": "Movement, NSAIDs",
-      "severity": "6/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Insidious, not mechanical",
-      "red_flags": "Night pain, prolonged morning stiffness",
-      "previous_treatment": "Self-managed with over-the-counter ibuprofen",
-      "functional_impact": "Struggles with sitting at desk, disturbed sleep"
-    },
-    "expected_triage": "GP/Primary Care",
-    "clinical_notes": "Non-mechanical pattern + family history = GP review needed for rheumatology work-up",
-    "sample_conversation": [
-      "It's been going on about 6 months",
-      "Gradually, no injury",
-      "At night and first thing in the morning",
-      "Over an hour, sometimes more",
-      "Moving around and exercise",
-      "Yes, ibuprofen helps a bit",
-      "No",
-      "My dad has ankylosing spondylitis",
-      "No, long meetings are awful",
-      "No",
-      "Should I see my GP?",
-      "Yes, you need GP referral for investigations"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    Thank you for asking me to review this 32-year-old IT consultant who has reported a six-month history of persistent low back pain. The pain developed gradually without any clear injury. He describes it as an aching discomfort that is worse at night and on waking in the morning, when he is particularly stiff for over an hour. Symptoms improve with activity and exercise, but worsen with prolonged rest or sitting. He has noticed partial relief with ibuprofen.\n\n    There are no red flag systemic symptoms such as fever, weight loss, or neurological disturbance. Importantly, his father has ankylosing spondylitis. He is otherwise well, lives with his partner, and continues to work full time, although he finds long meetings and prolonged desk-based work increasingly difficult, which is beginning to impact his professional performance. He also reports disruption to sleep, leaving him fatigued during the day.\n\n    The clinical history is strongly suggestive of inflammatory back pain. At this stage, examination has not been performed, but further investigation is clearly warranted. I would recommend GP review with baseline blood tests including ESR, CRP, and FBC. Testing for HLA-B27 may also be appropriate depending on local pathways. Early referral to rheumatology should be considered for definitive assessment and pelvic imaging. He should continue with regular physical activity, and use NSAIDs as tolerated. He has been counselled regarding red flag symptoms and advised to seek urgent review should neurological features develop.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_7",
-    "title": "Possible Spinal Malignancy",
-    "demographics": {
-      "age": "67",
-      "gender": "female",
-      "occupation": "retired teacher",
-      "comorbidities": "PMH: breast cancer 5 years ago"
-    },
-    "presenting_complaint": "Mid-back pain, 3 months, worsening",
-    "socrates": {
-      "site": "Thoracic spine",
-      "onset": "Gradual over 3 months",
-      "character": "Deep, constant ache",
-      "radiation": "None",
-      "associations": "Weight loss (4 kg in 3 months), night pain",
-      "timing": "Worse at night, not relieved by rest",
-      "exacerbating": "Lying down",
-      "relieving": "None",
-      "severity": "7/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Insidious",
-      "red_flags": "Past cancer, weight loss, night pain",
-      "previous_treatment": "Simple analgesia",
-      "functional_impact": "Sleep disturbed, reduced mobility"
-    },
-    "expected_triage": "GP/Primary Care",
-    "clinical_notes": "Past cancer + weight loss + night pain = urgent GP work-up",
-    "sample_conversation": [
-      "Mid-back pain that won't go away",
-      "Around 3 months",
-      "A deep ache",
-      "Constant",
-      "At night, lying down",
-      "Lost about 4 kilos recently",
-      "Yes, breast cancer 5 years ago",
-      "No weakness or numbness",
-      "No",
-      "No, nothing helps",
-      "Could this be cancer again?",
-      "It could be, which is why you must see your GP urgently",
-      "I'll call tomorrow"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 67-year-old retired teacher, with a history of breast carcinoma treated five years ago, presents with a three-month history of progressive mid-thoracic back pain. She describes a constant deep ache, worse at night and unrelieved by rest. Over the same period she has lost four kilograms unintentionally. She has not experienced limb weakness, numbness, or bladder or bowel dysfunction, and denies recent trauma.\n\n    She lives with her husband and is usually independent, enjoying gardening and walking, both of which she is now unable to manage because of the pain. She is increasingly reliant on her husband for help with daily tasks.\n\n    The combination of previous malignancy, progressive night pain, and unintentional weight loss is highly concerning for metastatic disease. Examination has not yet been undertaken, but urgent investigation is required. I would recommend GP assessment with baseline bloods including FBC, calcium, ESR and CRP, and liver function. An urgent spinal MRI should be arranged. Referral to oncology and spinal services may be required depending on the results. She should be counselled to attend immediately should she develop new neurological symptoms such as weakness, numbness, or bladder involvement.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_8",
-    "title": "Knee Pain with Unclear Diagnosis",
-    "demographics": {
-      "age": "42",
-      "gender": "male",
-      "occupation": "chef",
-      "comorbidities": "no PMH"
-    },
-    "presenting_complaint": "Right knee pain, 2 months",
-    "socrates": {
-      "site": "Right knee (diffuse)",
-      "onset": "Gradual, no trauma",
-      "character": "Dull ache",
-      "radiation": "None",
-      "associations": "Intermittent swelling, occasional locking sensation",
-      "timing": "On and off",
-      "exacerbating": "Long shifts standing, stairs",
-      "relieving": "Rest",
-      "severity": "5/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "No clear injury",
-      "red_flags": "None, but diagnosis unclear",
-      "previous_treatment": "Paracetamol",
-      "functional_impact": "Work discomfort, but still working"
-    },
-    "expected_triage": "GP/Primary Care",
-    "clinical_notes": "No red flags, but diagnosis uncertain → GP assessment needed",
-    "sample_conversation": [
-      "It aches, been like this for a couple of months",
-      "No, just came on slowly",
-      "Hard to say, all over",
-      "Sometimes after long shifts",
-      "Occasionally locks, but not always",
-      "Most of the time, yes",
-      "No",
-      "None",
-      "Around 5 out of 10",
-      "No",
-      "This needs GP review for assessment and possible referral",
-      "I'll book with my GP"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 42-year-old chef presents with a two-month history of right knee pain. The pain began insidiously without trauma. It is diffuse in nature, occasionally associated with swelling, and he describes intermittent episodes where the knee seems to catch or lock briefly. Most of the time he retains full range of movement. Pain is aggravated by prolonged standing during his shifts and by stairs, and is rated five out of ten in severity. He has tried paracetamol with little effect.\n\n    He lives with his partner and two children. He remains at work but finds long days increasingly difficult and struggles with stairs at home. There are no systemic symptoms such as fever, night sweats, or weight loss.\n\n    The diagnosis remains unclear at this stage. Possible differentials include early meniscal pathology, patellofemoral pain, or early degenerative change. Clinical examination is essential to clarify the diagnosis and guide management. At present, there are no red flag features. I would suggest GP review with examination of the knee and consideration of initial referral to physiotherapy. Should true mechanical locking be confirmed, or if symptoms persist, then imaging with plain radiographs or MRI may be warranted.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_9",
-    "title": "Hip Pain with Systemic Symptoms",
-    "demographics": {
-      "age": "55",
-      "gender": "female",
-      "occupation": "primary school teacher",
-      "comorbidities": "PMH: type 2 diabetes"
-    },
-    "presenting_complaint": "Left hip pain, 1 month",
-    "socrates": {
-      "site": "Left groin/hip",
-      "onset": "Gradual",
-      "character": "Deep ache",
-      "radiation": "To thigh",
-      "associations": "Night sweats, fevers, fatigue",
-      "timing": "Constant",
-      "exacerbating": "Walking",
-      "relieving": "Rest, but still painful",
-      "severity": "6/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Insidious",
-      "red_flags": "Fevers, sweats (possible infection or systemic disease)",
-      "previous_treatment": "Paracetamol",
-      "functional_impact": "Difficulty teaching, fatigued"
-    },
-    "expected_triage": "GP/Primary Care",
-    "clinical_notes": "Red flag systemic symptoms → GP investigation required",
-    "sample_conversation": [
-      "My left hip has been hurting for a month",
-      "No",
-      "In the groin, sometimes thigh",
-      "I've been sweaty at night and feel feverish",
-      "Not really",
-      "I have diabetes",
-      "No, just pain",
-      "Yes, but painful",
-      "6 out of 10",
-      "Do I need hospital?",
-      "Not immediately, but you must see your GP urgently",
-      "I'll do that"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 55-year-old primary school teacher, with type 2 diabetes, presents with a one-month history of left groin and hip pain radiating to the thigh. The pain is constant, described as a deep ache, and aggravated by walking. She also reports systemic features including night sweats, intermittent fevers, and significant fatigue. She denies trauma. There has been no erythema, warmth, or visible swelling.\n\n    She lives with her husband and remains in employment, but finds walking around the classroom increasingly difficult. She is concerned about her reduced stamina and is becoming fatigued with routine teaching duties.\n\n    Given her diabetes and the reported systemic symptoms, septic arthritis, inflammatory arthropathy, or malignancy must be excluded. Examination and urgent investigation are indicated. I would recommend prompt GP review with baseline bloods including FBC, CRP, ESR, and blood cultures if febrile. Plain pelvic and hip radiographs would be a reasonable first step, with referral to orthopaedics or rheumatology depending on the findings. She should be advised to seek urgent review if unable to weight bear or should she develop acute systemic illness.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_10",
-    "title": "Unexplained Weight Loss with Shoulder Pain",
-    "demographics": {
-      "age": "61",
-      "gender": "male",
-      "occupation": "retired",
-      "comorbidities": "PMH: hypertension, smoker"
-    },
-    "presenting_complaint": "Right shoulder pain, 2 months",
-    "socrates": {
-      "site": "Right shoulder",
-      "onset": "Gradual",
-      "character": "Dull ache",
-      "radiation": "To upper arm",
-      "associations": "Weight loss 6 kg in 2 months, night pain",
-      "timing": "Constant",
-      "exacerbating": "None specific",
-      "relieving": "None",
-      "severity": "5/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "No trauma",
-      "red_flags": "Significant weight loss, night pain",
-      "previous_treatment": "None",
-      "functional_impact": "Reduced function, worried"
-    },
-    "expected_triage": "GP/Primary Care",
-    "clinical_notes": "Weight loss + night pain + smoking history → GP review essential",
-    "sample_conversation": [
-      "Pain in my right shoulder for a couple of months",
-      "No",
-      "No",
-      "Yes, wakes me up",
-      "I've lost 6 kilos in 2 months",
-      "No",
-      "No",
-      "No",
-      "About 5",
-      "Just high blood pressure",
-      "Yes, about 20 a day",
-      "This pattern could indicate a serious condition. You must see your GP urgently",
-      "I'll book an appointment tomorrow"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 61-year-old retired man, a smoker with hypertension, presents with a two-month history of right shoulder pain. The pain is dull, radiates to the upper arm, and is present at night, disturbing his sleep. He has lost six kilograms unintentionally in the last two months. He denies cough, chest pain, or fevers. He has not experienced swelling, redness, or local trauma.\n\n    He lives with his wife, is otherwise independent, but finds carrying shopping bags and overhead activities increasingly difficult. He is concerned about his weight loss.\n\n    The presence of unexplained weight loss and nocturnal pain in a smoker is concerning for sinister pathology, including metastatic or primary malignancy. Differential diagnoses include pulmonary malignancy with referred pain, primary bone tumour, or less commonly local shoulder pathology.\n\n    This patient requires urgent GP review for examination and investigation. I would recommend baseline bloods including FBC, ESR, CRP, and liver function tests, together with a chest radiograph to exclude pulmonary disease. Shoulder imaging may be required if systemic pathology is excluded. He should be counselled to seek urgent medical attention if he experiences systemic deterioration or new neurological features.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_11",
-    "title": "Mechanical Low Back Pain",
-    "demographics": {
-      "age": "36",
-      "gender": "male",
-      "occupation": "warehouse worker",
-      "comorbidities": "no PMH"
-    },
-    "presenting_complaint": "Low back pain, 4 weeks",
-    "socrates": {
-      "site": "Lumbar spine, central",
-      "onset": "Started after lifting heavy box",
-      "character": "Dull ache, sometimes sharp",
-      "radiation": "None",
-      "associations": "Muscle stiffness",
-      "timing": "Worse after long shifts, better at weekends",
-      "exacerbating": "Bending, lifting, twisting",
-      "relieving": "Rest, hot bath",
-      "severity": "6/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Manual handling strain",
-      "red_flags": "None (no neurological, systemic features)",
-      "previous_treatment": "OTC ibuprofen",
-      "functional_impact": "Struggles with work but still managing"
-    },
-    "expected_triage": "MSK Physiotherapy",
-    "clinical_notes": "No red flags, mechanical onset, no previous physio → refer to physio",
-    "sample_conversation": [
-      "My back's been hurting about a month, since I lifted a heavy box at work",
-      "Middle of my lower back",
-      "No, just the back",
-      "No",
-      "During work shifts",
-      "Hot baths and resting",
-      "No",
-      "No",
-      "About 6 out of 10",
-      "No",
-      "This sounds like mechanical back pain, physiotherapy will help",
-      "I'll refer you to MSK physio"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    Thank you for referring this 36-year-old warehouse operative who has presented with a four-week history of low back pain following a lifting incident at work. He recalls straining his back whilst carrying a heavy box. Since then, he has had a persistent dull ache across the lumbar region with intermittent sharp exacerbations, rated around six out of ten in severity. Pain is worse with bending, twisting, and lifting, particularly during long shifts, and improves with rest and hot baths.\n\n    He denies any neurological symptoms, radicular pain, bladder or bowel disturbance, or systemic red flag features. He has been taking ibuprofen with partial relief.\n\n    He lives alone and is independent in activities of daily living, though he finds housework such as vacuuming increasingly uncomfortable. At work he has been struggling with heavier manual handling and has needed colleagues’ assistance.\n\n    The presentation is consistent with acute mechanical low back pain without red flag features. This man has not previously engaged with physiotherapy and would benefit from referral to MSK physiotherapy for education, postural training, and a core strengthening programme. He should continue with regular activity within comfort. He has been counselled regarding the importance of seeking urgent review should new neurological symptoms develop.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_12",
-    "title": "Lateral Epicondylitis (Tennis Elbow)",
-    "demographics": {
-      "age": "48",
-      "gender": "female",
-      "occupation": "hairdresser",
-      "comorbidities": "otherwise fit"
-    },
-    "presenting_complaint": "Right elbow pain, 3 months",
-    "socrates": {
-      "site": "Lateral right elbow",
-      "onset": "Gradual, after busy period at work",
-      "character": "Sharp on gripping",
-      "radiation": "Into forearm",
-      "associations": "Weak grip, occasional night ache",
-      "timing": "On and off for 3 months",
-      "exacerbating": "Scissors use, lifting kettle",
-      "relieving": "Rest, wrist strap",
-      "severity": "7/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Repetitive strain",
-      "red_flags": "None",
-      "previous_treatment": "Wrist strap, OTC painkillers",
-      "functional_impact": "Difficulty working, reduced grip strength"
-    },
-    "expected_triage": "MSK Physiotherapy",
-    "clinical_notes": "Gradual onset, clear mechanical pattern, not previously treated conservatively",
-    "sample_conversation": [
-      "Pain on the outside of my right elbow",
-      "About 3 months",
-      "No, just started during a busy spell at work",
-      "Cutting hair, lifting kettles",
-      "Yes, down the forearm",
-      "Yes but weak and painful",
-      "No",
-      "Sometimes aches",
-      "Just a strap and painkillers",
-      "No",
-      "7/10",
-      "This is likely tennis elbow. Physio will help",
-      "I'll arrange MSK physiotherapy referral"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 48-year-old right-handed hairdresser has presented with a three-month history of pain localised to the lateral aspect of the right elbow. Symptoms developed gradually during a period of increased workload and are described as sharp with gripping activities such as using scissors or lifting kettles. Pain radiates into the proximal forearm and is associated with weakness in grip. It is rated seven out of ten and occasionally disturbs sleep.\n\n    She has no history of trauma. There is no swelling, erythema, or paraesthesia. She has trialled a wrist strap and simple analgesia with limited relief.\n\n    She lives with her partner, remains at work, but has reduced her working hours because pain makes prolonged hairdressing tasks unsustainable. This is causing financial strain and concern about her long-term employment.\n\n    The clinical history is strongly suggestive of lateral epicondylitis. I have recommended referral to physiotherapy for eccentric wrist extensor strengthening, soft tissue management, and ergonomic advice to support her occupational demands. She should continue with simple analgesia and pacing in the meantime. If symptoms persist despite therapy beyond six months, further intervention may be considered.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_13",
-    "title": "Plantar Fasciitis",
-    "demographics": {
-      "age": "41",
-      "gender": "male",
-      "occupation": "secondary school PE teacher",
-      "comorbidities": "overweight (BMI 31)"
-    },
-    "presenting_complaint": "Heel pain, 4 months",
-    "socrates": {
-      "site": "Right heel, plantar aspect",
-      "onset": "Gradual, no trauma",
-      "character": "Stabbing pain first steps in morning",
-      "radiation": "None",
-      "associations": "Limping after PE sessions",
-      "timing": "Worst in morning and after activity",
-      "exacerbating": "Long walks, running",
-      "relieving": "Rest, supportive trainers",
-      "severity": "7/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Overuse, weight-related",
-      "red_flags": "None",
-      "previous_treatment": "None formal",
-      "functional_impact": "Struggles to teach PE, altered gait"
-    },
-    "expected_triage": "MSK Physiotherapy",
-    "clinical_notes": "Typical presentation, no red flags, no prior physio → physiotherapy appropriate",
-    "sample_conversation": [
-      "My right heel has been sore for months",
-      "On the bottom, under the heel",
-      "First thing in the morning, and after PE lessons",
-      "No",
-      "No",
-      "No, only with walking",
-      "Long walks, running with kids at school",
-      "Just wearing trainers",
-      "7/10",
-      "No, just a bit overweight",
-      "This sounds like plantar fasciitis, physio can help",
-      "I'll arrange a physio referral"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    Thank you for asking me to review this 41-year-old secondary school PE teacher with a four-month history of right heel pain. He describes stabbing pain localised to the plantar aspect of the heel, worst with his first steps in the morning and after long periods on his feet. The pain is aggravated by prolonged walking and running during PE sessions, and improves with rest. He rates pain as seven out of ten.\n\n    There is no trauma, swelling, or systemic illness. He has self-managed with supportive trainers but has not accessed formal therapy. His BMI is 31, which may be contributing.\n\n    He lives with his wife and children. Functionally, he continues teaching but avoids demonstrating running activities to pupils and limits family walks due to pain.\n\n    The presentation is typical of plantar fasciitis. Physiotherapy referral is appropriate to provide stretching and strengthening exercises, load management, and education on footwear and pacing. He should also receive advice regarding weight optimisation. He understands that symptoms can be protracted and has been reassured about the benign nature of the condition.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_14",
-    "title": "Shoulder Impingement Syndrome",
-    "demographics": {
-      "age": "45",
-      "gender": "female",
-      "occupation": "primary school teacher",
-      "comorbidities": "PMH: asthma"
-    },
-    "presenting_complaint": "Right shoulder pain, 5 months",
-    "socrates": {
-      "site": "Anterolateral right shoulder",
-      "onset": "Gradual, no trauma",
-      "character": "Aching, sharp on overhead movement",
-      "radiation": "Into upper arm",
-      "associations": "Clicking, disturbed sleep when lying on shoulder",
-      "timing": "Intermittent, worse with activity",
-      "exacerbating": "Reaching overhead, dressing, washing hair",
-      "relieving": "Rest, avoiding overhead activity",
-      "severity": "6–7/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Repetitive use (teaching, lifting)",
-      "red_flags": "None",
-      "previous_treatment": "Analgesia only",
-      "functional_impact": "Struggles with work and daily activities"
-    },
-    "expected_triage": "MSK Physiotherapy",
-    "clinical_notes": "Classic impingement presentation, no red flags, first-line management = physiotherapy",
-    "sample_conversation": [
-      "It's been bothering me for about 5 months now",
-      "No, it just came on gradually",
-      "The front and side of my right shoulder",
-      "Down into my upper arm",
-      "Reaching up to the cupboard, washing my hair, and getting dressed",
-      "Yes, when I lie on it",
-      "Yes, it sometimes clicks",
-      "No",
-      "Around 6 or 7",
-      "Just ibuprofen",
-      "No",
-      "This sounds like shoulder impingement, physiotherapy can help",
-      "I'll refer you to MSK physio"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 45-year-old primary school teacher presents with a five-month history of right shoulder pain. She localises pain to the anterolateral shoulder, aggravated by overhead tasks such as reaching for cupboards, washing her hair, and dressing. She notes clicking and grinding with movement and reports disturbed sleep when lying on the affected side. Pain severity is six to seven out of ten.\n\n    She denies systemic or neurological features. She has tried ibuprofen with limited benefit and has not had physiotherapy.\n\n    She lives with her husband and children. She manages her teaching duties but struggles with writing on high boards, lifting resources, and childcare tasks such as carrying her youngest child.\n\n    The history is consistent with subacromial impingement or rotator cuff tendinopathy. Physiotherapy referral is appropriate to address rotator cuff strengthening, scapular control, and postural correction. We discussed activity modification, and she has been advised to avoid aggravating repetitive overhead tasks where possible.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_15",
-    "title": "Chronic Mechanical Neck Pain",
-    "demographics": {
-      "age": "39",
-      "gender": "male",
-      "occupation": "graphic designer",
-      "comorbidities": "PMH: migraine"
-    },
-    "presenting_complaint": "Neck stiffness and pain, 6 months",
-    "socrates": {
-      "site": "Cervical spine, paraspinal muscles",
-      "onset": "Gradual, worse with desk work",
-      "character": "Stiff, aching",
-      "radiation": "None (occasional tension headaches)",
-      "associations": "Reduced neck mobility",
-      "timing": "Daily, especially afternoons at work",
-      "exacerbating": "Long computer sessions, poor posture",
-      "relieving": "Stretching, massage, short walks",
-      "severity": "5–6/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Postural/mechanical",
-      "red_flags": "None",
-      "previous_treatment": "Occasional massage",
-      "functional_impact": "Affects concentration at work, frequent headaches"
-    },
-    "expected_triage": "MSK Physiotherapy",
-    "clinical_notes": "Typical posture-related pain, conservative management appropriate",
-    "sample_conversation": [
-      "My neck's been stiff and sore for about 6 months",
-      "Back of my neck, around the muscles",
-      "Sometimes into my head, like tension headaches",
-      "No",
-      "By the afternoon, after sitting at my computer",
-      "Stretching and massage",
-      "No",
-      "No",
-      "Around 5 or 6",
-      "No",
-      "This is mechanical neck pain, physiotherapy should help",
-      "I'll refer you to MSK physiotherapy"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 39-year-old graphic designer has reported a six-month history of mechanical neck pain and stiffness. Pain is localised to the posterior cervical region, described as an ache, and is occasionally associated with tension headaches. It is aggravated by prolonged desk work and improves with stretching, short walks, and massage. He rates it five to six out of ten in severity.\n\n    He denies paraesthesia, weakness, or systemic features. He has not previously had physiotherapy.\n\n    He lives alone and works long hours at a computer. He has reduced his recreational cycling because of neck stiffness, which he finds frustrating.\n\n    The presentation is typical of chronic mechanical or postural neck pain. Physiotherapy would be valuable for posture correction, cervical mobility, and strengthening. Ergonomic workplace adjustments are also recommended. He has been advised to seek urgent review if he develops neurological symptoms.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_16",
-    "title": "Patellofemoral Pain Syndrome",
-    "demographics": {
-      "age": "26",
-      "gender": "female",
-      "occupation": "recreational runner",
-      "comorbidities": "otherwise well"
-    },
-    "presenting_complaint": "Anterior knee pain, 3 months",
-    "socrates": {
-      "site": "Front of both knees, worse left",
-      "onset": "Gradual, started during marathon training",
-      "character": "Dull ache, sometimes sharp",
-      "radiation": "Around patella",
-      "associations": "Clicking, no swelling",
-      "timing": "Worse after running, prolonged sitting",
-      "exacerbating": "Stairs, squatting, running",
-      "relieving": "Rest, ice",
-      "severity": "6/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Overuse with running",
-      "red_flags": "None",
-      "previous_treatment": "None",
-      "functional_impact": "Unable to continue training"
-    },
-    "expected_triage": "MSK Physiotherapy",
-    "clinical_notes": "Overuse injury, no red flags, first-line physiotherapy",
-    "sample_conversation": [
-      "Pain at the front of my knees, especially the left",
-      "About 3 months",
-      "No, it started with marathon training",
-      "Around my kneecap",
-      "No",
-      "No, just aching and clicking",
-      "After running, climbing stairs, or sitting too long",
-      "No",
-      "About 6",
-      "Not yet",
-      "This sounds like patellofemoral pain, physio should help",
-      "I'll refer you to MSK physiotherapy"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 26-year-old recreational runner presents with a three-month history of anterior knee pain, worse on the left. Pain occurs during stairs, squatting, running, and prolonged sitting. She also describes clicking around the patella but denies swelling, locking, or instability. Pain is rated six out of ten.\n\n    There has been no trauma. She has not accessed physiotherapy to date.\n\n    She lives with a friend and is unable to continue her marathon training. She also reports difficulty with climbing stairs at work, which is affecting her daily routine.\n\n    This history is consistent with patellofemoral pain syndrome. Physiotherapy referral is appropriate, with a programme focusing on quadriceps and hip strengthening, gait retraining, and load management. She has been counselled on gradual reintroduction of training and advised to modify activities in the meantime.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_17",
-    "title": "Rotator Cuff Tendinopathy",
-    "demographics": {
-      "age": "58",
-      "gender": "male",
-      "occupation": "painter/decorator",
-      "comorbidities": "PMH: hypertension"
-    },
-    "presenting_complaint": "Left shoulder pain, 8 months",
-    "socrates": {
-      "site": "Lateral left shoulder",
-      "onset": "Gradual, related to overhead painting",
-      "character": "Aching, sharp with lifting",
-      "radiation": "Down lateral arm",
-      "associations": "Weakness, painful arc",
-      "timing": "Daily, worse evenings",
-      "exacerbating": "Overhead activity, lifting",
-      "relieving": "Rest, NSAIDs",
-      "severity": "7/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Occupational overuse",
-      "red_flags": "None",
-      "previous_treatment": "Simple analgesia only",
-      "functional_impact": "Struggles to work overhead, limited function"
-    },
-    "expected_triage": "MSK Physiotherapy",
-    "clinical_notes": "Occupational overuse, classic mechanical features, no prior physio",
-    "sample_conversation": [
-      "It's been painful for 8 months, worse with painting",
-      "On the side of my shoulder",
-      "No",
-      "Down the side of my arm",
-      "Yes, hard to lift things",
-      "Sometimes",
-      "Yes, wakes me sometimes",
-      "No",
-      "7",
-      "No",
-      "Just high blood pressure",
-      "This sounds like rotator cuff tendinopathy, physio is first-line",
-      "I'll refer you to MSK physiotherapy"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 58-year-old painter-decorator presents with an eight-month history of left shoulder pain. The pain is lateral, aching, and radiates down the arm. It is aggravated by overhead activity and lifting, and he reports weakness and a painful arc. Pain is often present at night and disturbs sleep. He rates it seven out of ten.\n\n    He has taken analgesia but not had physiotherapy. He has hypertension but is otherwise well.\n\n    He lives with his wife and continues working, though is increasingly limited in his ability to complete overhead tasks. He fears losing work if symptoms persist.\n\n    This presentation is consistent with rotator cuff tendinopathy. Referral to physiotherapy is recommended to address rotator cuff strengthening, scapular stability, and workplace adaptations. If symptoms persist after three to six months, surgical referral could be considered.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_18",
-    "title": "Ankle Sprain",
-    "demographics": {
-      "age": "29",
-      "gender": "female",
-      "occupation": "retail assistant",
-      "comorbidities": "otherwise healthy"
-    },
-    "presenting_complaint": "Left ankle pain and swelling, 2 weeks",
-    "socrates": {
-      "site": "Lateral left ankle",
-      "onset": "Twisted ankle stepping off kerb",
-      "character": "Sharp initially, now aching",
-      "radiation": "None",
-      "associations": "Swelling, bruising initially",
-      "timing": "Gradually improving over 2 weeks",
-      "exacerbating": "Walking, stairs",
-      "relieving": "Ice, elevation",
-      "severity": "5/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Inversion injury",
-      "red_flags": "None (no inability to weight bear >24h, no bony tenderness)",
-      "previous_treatment": "Rest, ice, bandage",
-      "functional_impact": "Limping at work"
-    },
-    "expected_triage": "MSK Physiotherapy",
-    "clinical_notes": "Clear sprain, Ottawa ankle rules negative, no red flags → physio appropriate",
-    "sample_conversation": [
-      "I twisted it stepping off a kerb 2 weeks ago",
-      "Yes, but limping",
-      "Yes, both",
-      "Achy, about 5 out of 10",
-      "No",
-      "No",
-      "Walking at work",
-      "Rest, ice",
-      "No",
-      "Not yet",
-      "This sounds like a sprain, physiotherapy will aid recovery",
-      "I'll refer you to MSK physiotherapy"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 29-year-old retail assistant sustained a left ankle inversion injury two weeks ago after stepping off a kerb. She was able to weight bear immediately but limped. She developed swelling and bruising, which have improved, but still experiences pain and stiffness. Pain is around five out of ten and worsens with prolonged standing and stairs.\n\n    She has no numbness, bony tenderness, or systemic features. She has used rest, ice, and a bandage. She has not had physiotherapy.\n\n    She lives with her partner and continues to work with modified duties, but struggles with prolonged standing.\n\n    The history is consistent with a lateral ankle sprain. Referral to physiotherapy is appropriate to address proprioceptive rehabilitation, strengthening, and safe graded return to activity. She has been advised to wear supportive footwear and to re-present if pain or instability persists beyond six weeks.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_19",
-    "title": "Mechanical Low Back Pain with Recurrent Episodes",
-    "demographics": {
-      "age": "52",
-      "gender": "male",
-      "occupation": "taxi driver",
-      "comorbidities": "PMH: hypertension"
-    },
-    "presenting_complaint": "Recurrent low back pain, 5 years, worse last 2 months",
-    "socrates": {
-      "site": "Central lumbar spine",
-      "onset": "Recurrent flare-ups, worsened recently",
-      "character": "Aching, stiff",
-      "radiation": "None",
-      "associations": "Reduced flexibility",
-      "timing": "Worse after long driving shifts",
-      "exacerbating": "Sitting long periods",
-      "relieving": "Short walks, stretching",
-      "severity": "6–7/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Occupational posture strain",
-      "red_flags": "None",
-      "previous_treatment": "Occasional painkillers, no formal physiotherapy",
-      "functional_impact": "Difficulty driving long shifts"
-    },
-    "expected_triage": "MSK Physiotherapy",
-    "clinical_notes": "Chronic mechanical symptoms, no red flags, no prior physio → physiotherapy",
-    "sample_conversation": [
-      "About 5 years, but it's worse in the past couple of months",
-      "No",
-      "Centre of my lower back",
-      "No",
-      "No",
-      "Sitting in the car for hours",
-      "Short walks and stretching",
-      "6 or 7",
-      "No",
-      "No, just painkillers",
-      "This is mechanical back pain, physiotherapy is first-line",
-      "I'll arrange physiotherapy referral"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 52-year-old taxi driver presents with a five-year history of recurrent low back pain, which has worsened over the last two months. Pain is localised centrally, aching in character, and is aggravated by long periods of sitting during driving shifts. He finds some relief with stretching and walking. Pain is rated six to seven out of ten.\n\n    He denies neurological or systemic features. He has used occasional analgesia but has never had physiotherapy.\n\n    He lives with his wife and two children. The pain is significantly limiting his ability to work long shifts, with increasing financial and occupational impact.\n\n    This is consistent with recurrent mechanical low back pain. Referral to physiotherapy is recommended for core strengthening, posture training, and flare-up management. He has been encouraged to take regular breaks from sitting during shifts. He understands the need for urgent reassessment should new neurological symptoms occur.\n\n    Yours sincerely,\n    Virtual Triage Team"
-  },
-  {
-    "case_id": "case_20",
-    "title": "Iliotibial Band Syndrome",
+    "title": "Chronic ACL Deficiency with Secondary Medial Meniscal Tear",
     "demographics": {
       "age": "34",
       "gender": "female",
-      "occupation": "amateur triathlete",
-      "comorbidities": "otherwise well"
+      "occupation": "teacher",
+      "comorbidities": "BMI 25, otherwise well"
     },
-    "presenting_complaint": "Lateral knee pain, 6 weeks",
+    "presenting_complaint": "My knee keeps giving way even though I did physio for months. It sometimes catches and even locks up. My GP told me the scan showed a torn ligament and meniscus.",
     "socrates": {
-      "site": "Outer left knee",
-      "onset": "Gradual, during triathlon training",
-      "character": "Sharp ache",
-      "radiation": "Up thigh occasionally",
-      "associations": "Clicking with running",
-      "timing": "Worse during/after long runs, cycling",
-      "exacerbating": "Running >5km, cycling hills",
-      "relieving": "Rest, foam rolling",
-      "severity": "6/10"
+      "site": "Left knee, mainly medial and deep",
+      "onset": "Original injury 18 months ago during netball pivot; chronic since",
+      "character": "Baseline ache 4/10 with episodes of sharp pain 8/10 on giving way",
+      "radiation": "Localised",
+      "associations": "Instability 2–3×/week, catching, occasional locking, swelling after episodes",
+      "timing": "Worse with stairs, direction change, uneven ground",
+      "exacerbating": "Pivoting, sudden turns, stairs, uneven surfaces",
+      "relieving": "Activity modification, rest, brace",
+      "severity": "Baseline 4/10; up to 8/10 with instability"
     },
     "triage_info": {
-      "injury_mechanism": "Overuse injury",
+      "injury_mechanism": "Non-contact pivot injury during netball (ACL rupture), chronic instability",
       "red_flags": "None",
-      "previous_treatment": "Self-management with stretching",
-      "functional_impact": "Training curtailed, frustration"
+      "previous_treatment": "12 weeks structured physiotherapy (plateau), MRI 6 weeks ago",
+      "functional_impact": "Cannot supervise playground activities; avoids stairs/uneven ground; stopped pivoting sports"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Failed conservative management with persistent instability and new mechanical symptoms; MRI shows ACL rupture with medial meniscal tear → surgical stabilisation assessment.",
+    "sample_conversation": [
+      "My knee keeps giving way even after doing physio for three months.",
+      "It first happened 18 months ago playing netball.",
+      "Yes, it catches and sometimes locks.",
+      "Stairs and sudden turns are the worst.",
+      "Baseline 4, but 8 when it gives way.",
+      "I’ve stopped all pivoting sports.",
+      "Yes, I’m very cautious on uneven ground.",
+      "I had an MRI six weeks ago.",
+      "They said the ACL is torn and there’s a meniscal tear.",
+      "Physio helped strength but not the instability."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nThis 34-year-old teacher (BMI 25) has 18 months of left knee instability following a non-contact pivot injury whilst playing netball. She completed 12 weeks of physiotherapy (good adherence) with plateau. Over the past two months she developed mechanical catching and occasional locking. MRI (6 weeks ago) shows complete mid-substance ACL rupture with retraction and a new horizontal posterior horn medial meniscal tear; minor grade 1–2 chondral change. She avoids stairs, uneven ground and has ceased pivoting sports.\n\nGiven failed rehabilitation and progressive mechanical symptoms, she merits elective orthopaedic assessment for ACL reconstruction with meniscal treatment. Safety-netting regarding acute locking and swelling discussed.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_2",
+    "title": "Chronic Medial Meniscus Tear – Failed Conservative Management",
+    "demographics": {
+      "age": "45",
+      "gender": "male",
+      "occupation": "plumber (self-employed)",
+      "comorbidities": "BMI 28"
+    },
+    "presenting_complaint": "My knee keeps locking up several times a week even though I did all the physio exercises. My GP said the scan showed a tear that might need keyhole surgery.",
+    "socrates": {
+      "site": "Medial joint line, right knee",
+      "onset": "Gradual over 4 months after heavy kneeling",
+      "character": "Deep ache with sharp catches/locking",
+      "radiation": "Localised",
+      "associations": "True locking episodes, stiffness after kneeling",
+      "timing": "Daily catching; locking several times/week",
+      "exacerbating": "Kneeling, rising from squat, twisting",
+      "relieving": "Rest, activity modification, knee pads",
+      "severity": "Pain 6–7/10 during flares"
+    },
+    "triage_info": {
+      "injury_mechanism": "Repetitive kneeling/degenerative meniscal pathology",
+      "red_flags": "None",
+      "previous_treatment": "8 weeks physiotherapy; occupational adjustments; MRI 4 weeks ago",
+      "functional_impact": "Cannot complete under-sink/floor jobs; ~40% income reduction; sleep occasionally disturbed"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "True mechanical locking with displaced fragment on MRI and failed rehab → arthroscopic surgical assessment.",
+    "sample_conversation": [
+      "My knee locks several times a week despite doing the exercises.",
+      "It started about 4 months ago after a lot of kneeling.",
+      "The pain is on the inside.",
+      "It catches daily and sometimes fully locks.",
+      "It’s worst when getting up from kneeling.",
+      "I did 8 weeks of physio—strength improved but locking didn’t.",
+      "MRI was done 4 weeks ago.",
+      "They said there’s a complex tear with a displaced bit.",
+      "It’s affecting my work a lot.",
+      "Pain goes up to 7/10 when it locks."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 45-year-old self-employed plumber (BMI 28) with 4 months of right medial knee pain, daily catching and true locking 3–4 times per week. After 8 weeks of physiotherapy, mechanical symptoms persist. MRI (4 weeks ago) demonstrates a complex degenerative medial meniscal tear with a displaced fragment; grade 2 medial compartment chondral change; ligaments intact.\n\nGiven ongoing true locking and failed non-operative care, referral for arthroscopic intervention is appropriate. Occupational impact significant.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_3",
+    "title": "Recurrent Patellar Dislocation (Patella Alta, Trochlear Dysplasia, MPFL Injury)",
+    "demographics": {
+      "age": "22",
+      "gender": "female",
+      "occupation": "university student; netball player",
+      "comorbidities": "BMI 21"
+    },
+    "presenting_complaint": "My kneecap keeps popping out when I play sport. It’s happened three times now and I’m too scared to keep playing. Physio didn’t stop it and the scan showed something wrong with the ligament.",
+    "socrates": {
+      "site": "Anterior knee, peripatellar region",
+      "onset": "First episode 8 months ago; further episodes at 4 months and 6 weeks ago",
+      "character": "Acute severe pain with dislocation; aching apprehension thereafter",
+      "radiation": "Localised",
+      "associations": "Recurrent dislocation, severe apprehension, giving way",
+      "timing": "Episodes during pivoting sports; persistent apprehension",
+      "exacerbating": "Cutting/pivoting movements; sport-specific drills",
+      "relieving": "Rest, bracing, avoiding pivots",
+      "severity": "8/10 during dislocation; 3–4/10 residual"
+    },
+    "triage_info": {
+      "injury_mechanism": "Lateral patellar instability during pivoting sports",
+      "red_flags": "None",
+      "previous_treatment": "16 weeks sports physiotherapy; trial of PF brace; MRI 3 weeks ago",
+      "functional_impact": "Stopped netball; avoids stairs and sudden movements; significant psychosocial impact"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Structural risk factors (alta, trochlear dysplasia) with recurrent instability despite rehab → consider MPFL reconstruction ± bony realignment.",
+    "sample_conversation": [
+      "My kneecap has dislocated three times this year.",
+      "Each time was during sport with a pivot or cut.",
+      "I’ve done 16 weeks of sports physio.",
+      "I’m still too apprehensive to do drills.",
+      "The brace didn’t really help.",
+      "MRI said patella alta and a shallow groove.",
+      "They mentioned an old MPFL tear.",
+      "I’ve stopped netball completely.",
+      "It’s really affecting my uni team life.",
+      "Pain is 8/10 when it pops, less otherwise."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 22-year-old student and netball player (BMI 21) with three lateral patellar dislocation episodes over 8 months. Completed 16 weeks of targeted VMO/proprioceptive rehab; ongoing apprehension prevents return to sport. MRI (3 weeks ago) demonstrates patella alta, trochlear dysplasia and chronic MPFL tear with scarring; early PFJ chondral change.\n\nGiven recurrent instability and structural risk factors despite comprehensive rehabilitation, elective surgical stabilisation (e.g., MPFL reconstruction ± alignment procedure) should be considered.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_4",
+    "title": "Chronic MCL Tear with Persistent Instability",
+    "demographics": {
+      "age": "38",
+      "gender": "male",
+      "occupation": "warehouse supervisor",
+      "comorbidities": "BMI 26"
+    },
+    "presenting_complaint": "I hurt my knee playing rugby three months ago and it still feels wobbly on the inside. Physio helped the pain but it’s still unstable, especially when I move sideways.",
+    "socrates": {
+      "site": "Medial aspect, left knee",
+      "onset": "Rugby tackle 3 months ago",
+      "character": "Ache 3/10 at rest; sharp 7/10 with valgus stress",
+      "radiation": "Localised",
+      "associations": "Instability on lateral movements; swelling after exertion",
+      "timing": "Worse with lateral steps/change of direction",
+      "exacerbating": "Side steps, uneven ground",
+      "relieving": "Rest, brace, activity modification",
+      "severity": "Up to 7/10 with stress"
+    },
+    "triage_info": {
+      "injury_mechanism": "Valgus force rugby injury",
+      "red_flags": "None",
+      "previous_treatment": "6 weeks physiotherapy; MRI 5 weeks ago; desk-duty work modification",
+      "functional_impact": "Cannot safely supervise floor operations; sport stopped"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Persistent symptomatic valgus instability with complete MCL tear poorly healing despite rehab → consider surgical repair/reconstruction.",
+    "sample_conversation": [
+      "I injured it in a rugby tackle three months ago.",
+      "Since then the inside feels wobbly.",
+      "Physio helped pain but not the instability.",
+      "It’s worst with side steps or uneven ground.",
+      "At rest it’s 3/10, up to 7/10 with movement.",
+      "MRI showed the MCL torn off the femur.",
+      "I’m on desk duties only now.",
+      "I’ve stopped rugby completely.",
+      "Stairs are okay; uneven surfaces are not.",
+      "I’m worried about keeping my job."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 38-year-old warehouse supervisor (BMI 26) with persistent medial instability 3 months post valgus rugby injury. After 6 weeks of physiotherapy he remains symptomatic; MRI (5 weeks ago) shows complete femoral-side MCL tear with poor healing; other ligaments/menisci intact.\n\nGiven ongoing functional valgus instability limiting work and sport, elective surgical reconstruction/repair is appropriate.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_5",
+    "title": "Chronic PCL Tear with Functional Limitation",
+    "demographics": {
+      "age": "29",
+      "gender": "female",
+      "occupation": "physiotherapist",
+      "comorbidities": "BMI 23"
+    },
+    "presenting_complaint": "I injured my knee in a car crash four months ago and it still feels like it sags backwards. I’ve done all the rehab I can but I still feel unstable, especially going downstairs or slowing down.",
+    "socrates": {
+      "site": "Posterior right knee",
+      "onset": "RTC dashboard injury 4 months ago",
+      "character": "Deep posterior ache; instability on deceleration",
+      "radiation": "Localised",
+      "associations": "Posterior sag; discomfort with prolonged sitting",
+      "timing": "Daily symptoms, worse with stairs and deceleration",
+      "exacerbating": "Downhill/stairs, decelerating, prolonged sitting",
+      "relieving": "Rest, avoiding provocative tasks",
+      "severity": "Pain 5–6/10 with activity"
+    },
+    "triage_info": {
+      "injury_mechanism": "Dashboard trauma causing PCL rupture",
+      "red_flags": "None",
+      "previous_treatment": "12 weeks self-directed physiotherapy; MRI 6 weeks ago",
+      "functional_impact": "Cannot demonstrate exercises; reduced patient contact; difficulty with stairs"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Symptomatic chronic PCL rupture with failed conservative care in a high-functional-demand clinician → consider PCL reconstruction.",
+    "sample_conversation": [
+      "I had a dashboard injury in a car crash four months ago.",
+      "Since then my knee sags at the back.",
+      "I’ve done 12 weeks of my own rehab.",
+      "I still feel unstable when slowing down.",
+      "Sitting for long periods aches deeply.",
+      "MRI shows a complete PCL tear.",
+      "I can’t safely demonstrate exercises to patients.",
+      "Stairs and downhill are difficult.",
+      "Pain reaches 6/10 with activity.",
+      "I’d like a more definitive fix."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 29-year-old physiotherapist (BMI 23) with 4 months of right posterior knee pain and functional instability after an RTC dashboard injury. Despite 12 weeks of self-directed rehabilitation, she reports persistent posterior sag and difficulty with deceleration and stairs. MRI (6 weeks ago) confirms complete mid-substance PCL rupture; PLC strain only; cartilage/menisci normal.\n\nGiven ongoing symptoms and professional demands, elective assessment for PCL reconstruction is indicated.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_6",
+    "title": "Bucket-Handle Lateral Meniscus Tear in Young Athlete",
+    "demographics": {
+      "age": "20",
+      "gender": "male",
+      "occupation": "semi-professional footballer",
+      "comorbidities": "BMI 22"
+    },
+    "presenting_complaint": "I hurt my knee playing football three months ago and it still hurts on the outside. It sometimes catches and I can’t train properly. Physio got me running but I still can’t play matches. The scan showed a torn meniscus.",
+    "socrates": {
+      "site": "Lateral joint line, left knee",
+      "onset": "Acute pivot injury 3 months ago",
+      "character": "Aching with sharp catches; mechanical symptoms",
+      "radiation": "Localised",
+      "associations": "Reduced sprint speed; unable to complete cutting/jumping drills",
+      "timing": "Symptoms with training progression; intermittent",
+      "exacerbating": "Cutting, jumping, high-intensity drills",
+      "relieving": "Load reduction, rest",
+      "severity": "5/10 baseline; 7/10 on catching"
+    },
+    "triage_info": {
+      "injury_mechanism": "Pivoting football injury",
+      "red_flags": "None",
+      "previous_treatment": "10 weeks elite sports physiotherapy; MRI 2 weeks ago",
+      "functional_impact": "Training capped at ~60%; no matches; contract at risk"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Symptomatic bucket-handle lateral tear with displaced fragment in a high-demand athlete → arthroscopic repair/meniscectomy assessment.",
+    "sample_conversation": [
+      "I injured it in a match three months ago.",
+      "Pain is on the outside of the knee.",
+      "It catches and I can’t cut properly.",
+      "I’ve done 10 weeks of elite physio.",
+      "I still can’t return to matches.",
+      "MRI shows a bucket-handle tear.",
+      "Sprinting speed is reduced.",
+      "Stairs and deep squats hurt.",
+      "Baseline pain 5/10; 7/10 when it catches.",
+      "My contract is under review."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 20-year-old semi-professional footballer (BMI 22) with 3 months of lateral knee pain, intermittent catching and performance limitation following a pivot injury. After 10 weeks of elite rehabilitation he cannot progress to match play. MRI (2 weeks ago) confirms a bucket-handle lateral meniscal tear with displaced fragment; ligaments intact; cartilage age-appropriate.\n\nGiven ongoing mechanical symptoms and sporting demands, elective arthroscopic management is indicated.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_7",
+    "title": "Chronic LCL Tear with Lateral Instability",
+    "demographics": {
+      "age": "42",
+      "gender": "female",
+      "occupation": "office manager; keen hiker",
+      "comorbidities": "BMI 24"
+    },
+    "presenting_complaint": "I fell skiing about ten weeks ago and the outside of my knee still feels wobbly. I did physio but it hasn’t settled and I can’t hike down hills anymore.",
+    "socrates": {
+      "site": "Lateral aspect, right knee",
+      "onset": "Skiing fall 10 weeks ago",
+      "character": "Ache 3/10 baseline, sharp 7/10 with varus stress",
+      "radiation": "Localised",
+      "associations": "Instability, swelling with exertion",
+      "timing": "Instability daily, worse on uneven ground",
+      "exacerbating": "Descending slopes, uneven surfaces, varus load",
+      "relieving": "Rest, brace, activity avoidance",
+      "severity": "Up to 7/10 with instability"
+    },
+    "triage_info": {
+      "injury_mechanism": "Skiing fall with varus force",
+      "red_flags": "None",
+      "previous_treatment": "8 weeks physiotherapy; MRI 2 weeks ago",
+      "functional_impact": "Stopped hiking; difficulty descending stairs; fear of re-injury"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Persistent symptomatic lateral instability after complete LCL tear with failed conservative care → surgical reconstruction required.",
+    "sample_conversation": [
+      "I fell skiing ten weeks ago.",
+      "Since then the outside of my knee feels unstable.",
+      "I did 8 weeks of physio.",
+      "It’s still wobbly on uneven ground.",
+      "I can’t hike down hills anymore.",
+      "MRI showed the LCL is torn.",
+      "Pain is about 3/10 most of the time.",
+      "It goes to 7/10 if I put weight sideways.",
+      "I’ve been using a brace but it hasn’t fixed it."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 42-year-old office manager and recreational hiker (BMI 24) with persistent lateral instability 10 weeks post skiing injury. Despite 8 weeks of physiotherapy, she reports ongoing instability especially on slopes and uneven ground. MRI (2 weeks ago) demonstrates complete LCL rupture with PLC involvement; ACL/PCL intact.\n\nGiven continued symptomatic lateral instability and failed conservative management, referral for surgical reconstruction is indicated.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_8",
+    "title": "Chronic Degenerative Meniscal Tear – Conservative Management Appropriate",
+    "demographics": {
+      "age": "58",
+      "gender": "male",
+      "occupation": "retired; keen gardener",
+      "comorbidities": "BMI 29; hypertension"
+    },
+    "presenting_complaint": "My knee aches when I kneel in the garden. It clicks a bit but it doesn’t actually lock. The GP said the scan showed a small tear, but it’s not stopping me from getting around.",
+    "socrates": {
+      "site": "Medial joint line, left knee",
+      "onset": "Gradual over 6 months",
+      "character": "Dull ache 4/10; occasional sharp catch 6/10",
+      "radiation": "Localised",
+      "associations": "Clicking, stiffness; no true locking",
+      "timing": "Worse with kneeling, squatting, gardening",
+      "exacerbating": "Kneeling, deep flexion, prolonged activity",
+      "relieving": "Rest, analgesia",
+      "severity": "Baseline 4/10; up to 6/10 with catching"
+    },
+    "triage_info": {
+      "injury_mechanism": "Degenerative changes",
+      "red_flags": "None",
+      "previous_treatment": "Physiotherapy; analgesia; MRI 2 months ago",
+      "functional_impact": "Gardening limited; walking preserved"
+    },
+    "expected_triage": "GP/Primary Care",
+    "clinical_notes": "Degenerative tear with no mechanical locking → ongoing conservative management; surgical intervention not required.",
+    "sample_conversation": [
+      "My knee aches when I kneel in the garden.",
+      "It’s been going on about 6 months.",
+      "It sometimes clicks but doesn’t lock.",
+      "Pain is about 4/10, worse if I bend fully.",
+      "MRI showed a small degenerative tear.",
+      "I can still walk and do daily things.",
+      "It’s mainly kneeling that bothers me.",
+      "Physio and painkillers help a bit."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nThis 58-year-old retired man (BMI 29) with hypertension presents with a 6-month history of medial left knee ache aggravated by gardening and kneeling. He describes occasional clicking but no true locking. Pain is 4/10, rising to 6/10 with provocation. MRI (2 months ago) shows a degenerative medial meniscal tear with grade 2 chondral wear.\n\nGiven absence of true locking and reasonable function, ongoing conservative management is appropriate. He should continue physiotherapy, weight optimisation, and analgesia. Surgical referral not indicated unless symptoms progress.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_9",
+    "title": "Knee Osteoarthritis with Functional Limitation",
+    "demographics": {
+      "age": "65",
+      "gender": "female",
+      "occupation": "retired",
+      "comorbidities": "BMI 32; type 2 diabetes"
+    },
+    "presenting_complaint": "Both my knees ache every day and walking is getting harder. I can only get to the local shop now and stairs are very painful. Painkillers don’t really work anymore.",
+    "socrates": {
+      "site": "Both knees, medial predominant",
+      "onset": "Progressive over 5 years, worsening recently",
+      "character": "Constant dull ache; occasional sharp flares",
+      "radiation": "To thighs and shins",
+      "associations": "Swelling, stiffness, reduced mobility",
+      "timing": "Daily pain; worse with walking, stairs, evenings",
+      "exacerbating": "Stairs, prolonged walking/standing",
+      "relieving": "Rest, short sitting breaks",
+      "severity": "7–8/10 daily"
+    },
+    "triage_info": {
+      "injury_mechanism": "Degenerative osteoarthritis",
+      "red_flags": "None",
+      "previous_treatment": "Multiple physiotherapy courses, weight-loss attempts, steroid injections, oral analgesia",
+      "functional_impact": "Walking limited to ~200 m; stairs very difficult; requires stick"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Advanced OA with functional restriction and failed conservative care → surgical assessment for knee arthroplasty.",
+    "sample_conversation": [
+      "My knees ache every day now.",
+      "It’s been going on for years but worse lately.",
+      "I can only walk to the local shop.",
+      "Stairs are really painful.",
+      "Painkillers don’t help much anymore.",
+      "I’ve had injections but they wore off.",
+      "I use a stick to get around.",
+      "Pain is about 8/10 most days."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 65-year-old retired lady (BMI 32, type 2 diabetes) with 5 years of bilateral knee pain, progressively worsening. She describes constant ache 7–8/10, stiffness, swelling, and severe limitation of mobility. She is limited to 200 m walking with a stick and finds stairs very difficult. She has tried physiotherapy, steroid injections, weight reduction, and oral analgesia without sustained relief.\n\nRadiographs show advanced tricompartmental osteoarthritis bilaterally with joint space loss and osteophytes. Given severity, functional loss, and failure of conservative treatment, surgical assessment for arthroplasty is appropriate.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_10",
+    "title": "Acute Meniscal Tear – Suitable for Physiotherapy",
+    "demographics": {
+      "age": "27",
+      "gender": "male",
+      "occupation": "personal trainer",
+      "comorbidities": "BMI 24, otherwise fit"
+    },
+    "presenting_complaint": "I twisted my knee at the gym about six weeks ago and since then it aches on the inside. It sometimes clicks but it hasn’t locked. I can still work but squats are painful.",
+    "socrates": {
+      "site": "Medial joint line, right knee",
+      "onset": "Acute twist 6 weeks ago",
+      "character": "Ache 3/10 baseline; 6/10 with squats",
+      "radiation": "Localised",
+      "associations": "Clicking; no true locking",
+      "timing": "Daily pain; worse with loaded flexion",
+      "exacerbating": "Squats, lunges, running",
+      "relieving": "Rest, ice",
+      "severity": "3–6/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "Twisting gym injury",
+      "red_flags": "None",
+      "previous_treatment": "None beyond rest/OTC analgesia",
+      "functional_impact": "Still working; reduced training capacity; avoids heavy squats"
     },
     "expected_triage": "MSK Physiotherapy",
-    "clinical_notes": "Typical overuse presentation, no red flags, first-line physiotherapy",
+    "clinical_notes": "Acute meniscal injury without locking; good ROM; early physiotherapy appropriate.",
     "sample_conversation": [
-      "Pain on the outside of my left knee, for 6 weeks",
-      "No, it started with training",
-      "Running long distances or cycling hills",
-      "The outer side of the knee",
-      "No",
-      "No",
-      "No, only after training",
-      "No",
-      "6 out of 10",
-      "Not yet, just foam rolling",
-      "This sounds like iliotibial band syndrome, physio is the right next step",
-      "I'll refer you to MSK physiotherapy"
+      "I twisted my knee six weeks ago.",
+      "Since then the inside aches.",
+      "It sometimes clicks but doesn’t lock.",
+      "Squats are painful now.",
+      "Pain is 3/10 usually, 6/10 when loaded.",
+      "I’m still working as a trainer.",
+      "I haven’t tried formal physio yet.",
+      "Rest and ice help a little."
     ],
-    "expanded_clinic_letter": "To GP,\n\n    This 34-year-old amateur triathlete presents with a six-week history of lateral left knee pain. Pain developed gradually during training, is sharp in nature, and occurs after running beyond five kilometres or cycling hills. She describes occasional clicking but denies swelling, locking, or instability. Pain is rated six out of ten.\n\n    She has not trialled physiotherapy.\n\n    She works in marketing and trains five to six times per week. She has been forced to stop running due to pain, which has caused considerable frustration.\n\n    The clinical picture is consistent with iliotibial band syndrome. Referral to physiotherapy is recommended for biomechanical assessment, hip and gluteal strengthening, and stretching. She will be advised on graded return to training. She has been reassured that the condition is benign but may be protracted if untreated.\n\n    Yours sincerely,\n    Virtual Triage Team"
+    "expanded_clinic_letter": "To GP,\n\nA 27-year-old personal trainer (BMI 24) with 6 weeks of medial right knee pain after a twisting gym injury. Pain is 3/10 at baseline, up to 6/10 with loaded flexion (squats/lunges). Occasional clicking but no true locking. He has not had physiotherapy. Function preserved but training reduced.\n\nExam shows full ROM, mild medial tenderness, no effusion. Likely acute medial meniscus tear. Initial management with physiotherapy is appropriate. Safety-netting re: locking given.\n\nYours sincerely,\nOrthopaedic Triage"
   },
   {
-    "case_id": "case_21",
-    "title": "Severe Knee Osteoarthritis, Failed Physio",
+    "case_id": "case_11",
+    "title": "Inappropriate Referral – Isolated Chondromalacia Patellae",
     "demographics": {
-      "age": "67",
+      "age": "31",
       "gender": "female",
-      "occupation": "retired shop assistant",
-      "comorbidities": "PMH: hypertension, obesity (BMI 33)"
+      "occupation": "retail worker",
+      "comorbidities": "BMI 27"
     },
-    "presenting_complaint": "Right knee pain, 8 years, worsening",
+    "presenting_complaint": "The front of my knee hurts when I go up and down stairs. My GP said the scan showed some wear under the kneecap. Physio hasn’t helped much yet but I haven’t finished the programme.",
     "socrates": {
-      "site": "Medial right knee",
-      "onset": "Gradual, progressive",
-      "character": "Aching, grinding, occasional sharp catches",
-      "radiation": "To thigh and shin",
-      "associations": "Crepitus, swelling, giving way",
-      "timing": "Daily, worse with activity",
-      "exacerbating": "Stairs, long walks, standing",
-      "relieving": "Rest, occasional ice",
-      "severity": "8/10"
+      "site": "Anterior knee",
+      "onset": "Gradual over 9 months",
+      "character": "Ache 4/10 baseline; 6/10 with stairs",
+      "radiation": "Around patella",
+      "associations": "Crepitus, mild swelling",
+      "timing": "Daily, worse with stairs, squats, prolonged sitting",
+      "exacerbating": "Stairs, sitting long periods, squatting",
+      "relieving": "Rest, ice",
+      "severity": "4–6/10"
     },
     "triage_info": {
-      "injury_mechanism": "Degenerative",
+      "injury_mechanism": "Overuse; degenerative chondromalacia",
       "red_flags": "None",
-      "previous_treatment": "Physiotherapy x2 courses, steroid injections, analgesia, weight loss advice",
-      "functional_impact": "Cannot walk more than 10 minutes, stairs very difficult"
+      "previous_treatment": "Physiotherapy ongoing (8 weeks of 12-week course); MRI 3 months ago",
+      "functional_impact": "Manages work but avoids stairs; mild activity restriction"
     },
-    "expected_triage": "SWLEOC Orthopaedic Surgery",
-    "clinical_notes": "Severe pain + functional loss + failed conservative care → surgery",
+    "expected_triage": "GP/Primary Care",
+    "clinical_notes": "Isolated patellofemoral chondral wear without mechanical symptoms; incomplete physiotherapy trial → not for orthopaedic referral.",
     "sample_conversation": [
-      "It's been bad for years, but the last year it's much worse",
-      "Inside of my right knee",
-      "No",
-      "Stairs, standing, walking",
-      "Yes, both",
-      "Yes, hard to sleep sometimes",
-      "About 8",
-      "Physio twice, steroid injections, painkillers, losing weight",
-      "Only a little, but not for long",
-      "Only about 10 minutes",
-      "With difficulty",
-      "High blood pressure",
-      "This sounds like severe arthritis that hasn't responded to physio",
-      "Yes, you should be referred to orthopaedics"
+      "The front of my knee hurts on stairs.",
+      "It’s been like this for 9 months.",
+      "GP said scan showed wear under the kneecap.",
+      "I’m doing physio but not finished yet.",
+      "Pain is 4/10 normally, 6/10 on stairs.",
+      "I still work but avoid stairs where I can.",
+      "It creaks sometimes.",
+      "No locking or giving way."
     ],
-    "expanded_clinic_letter": "To GP,\n\n    Thank you for asking me to review this 67-year-old retired shop assistant who has presented with long-standing right knee pain. She describes an eight-year history of gradually progressive symptoms, which have now become severe and disabling. The pain is focused on the medial aspect of the right knee, described as a deep ache with occasional sharp catching pains, and is frequently associated with swelling and crepitus. She reports regular episodes where the knee feels unstable and gives way, and she finds stairs and prolonged standing particularly difficult. Pain is often present at night and regularly disturbs her sleep.\n\n    She has been appropriately managed conservatively over the years. She has completed two courses of structured physiotherapy and has received intra-articular steroid injections. She uses regular analgesia and has attempted weight loss, but despite these measures her pain has escalated. At present, she is only able to walk for approximately ten minutes at a time before pain forces her to stop, and her activities of daily living are significantly restricted.\n\n    On examination in clinic she walked with an antalgic gait and was using a stick for support. There was a fixed flexion deformity of approximately five degrees, range of movement was from 0 to 90 degrees, and there was marked medial joint line tenderness with obvious crepitus. Neurovascular examination was unremarkable. Radiographs of the right knee confirm advanced tricompartmental osteoarthritis with complete loss of joint space and osteophyte formation.\n\n    Given the severity of her pain, the degree of functional limitation, and the failure of conservative measures, she is an appropriate candidate for surgical intervention. We have discussed total knee arthroplasty in detail, including the risks and expected outcomes. She is motivated to proceed and understands the likely need for postoperative rehabilitation. She will now be optimised pre-operatively, with anaesthetic review and routine pre-assessment arranged.\n\n    Yours sincerely,\n    Consultant Orthopaedic Surgeon"
-  },
-  {
-    "case_id": "case_22",
-    "title": "End-Stage Hip Osteoarthritis",
-    "demographics": {
-      "age": "72",
-      "gender": "male",
-      "occupation": "retired builder",
-      "comorbidities": "PMH: type 2 diabetes"
-    },
-    "presenting_complaint": "Left hip pain, 5 years, worsening",
-    "socrates": {
-      "site": "Left groin and buttock",
-      "onset": "Gradual, progressive",
-      "character": "Stiff, grinding pain",
-      "radiation": "To thigh and knee",
-      "associations": "Limp, reduced mobility",
-      "timing": "Daily, worse with activity",
-      "exacerbating": "Walking, standing, twisting",
-      "relieving": "Rest, analgesia",
-      "severity": "9/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Degenerative",
-      "red_flags": "None",
-      "previous_treatment": "Analgesia, physiotherapy, steroid injection",
-      "functional_impact": "Needs stick, can't shop or garden"
-    },
-    "expected_triage": "SWLEOC Orthopaedic Surgery",
-    "clinical_notes": "Severe pain + functional loss + failed conservative care → surgery",
-    "sample_conversation": [
-      "My left hip, it's agony and stiff",
-      "About 5 years, but getting worse",
-      "In my groin and buttock",
-      "Yes, down to my knee",
-      "Walking, twisting, standing",
-      "Yes, I use a stick",
-      "9/10",
-      "Painkillers, physio, injection – nothing helps anymore",
-      "Very slowly",
-      "Diabetes",
-      "This is likely end-stage hip arthritis. You need surgical review",
-      "I'll refer you to orthopaedics"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    Thank you for referring this 72-year-old retired builder with a five-year history of worsening left hip pain. He describes constant stiffness and deep-seated pain in the groin and buttock, radiating to the thigh and occasionally to the knee. The pain is rated as nine out of ten in severity, worsens with weight-bearing and twisting movements, and is associated with a pronounced limp. He is now reliant on a stick for mobility. His functional capacity is severely impaired; he can no longer shop independently, he has given up gardening, and he struggles with basic household activities.\n\n    He has tried appropriate conservative measures including oral analgesia, physiotherapy, and a single intra-articular steroid injection, all of which have failed to provide sustained relief. He has type 2 diabetes, which is managed with oral medication, and is otherwise well.\n\n    Examination revealed a markedly antalgic gait and global restriction of hip movement, particularly flexion and internal rotation. Pain was reproduced at the extremes of movement. Neurovascular assessment of the limb was normal. Pelvic and hip radiographs demonstrate advanced degenerative changes with joint space obliteration, osteophyte formation, and subchondral sclerosis, consistent with end-stage osteoarthritis.\n\n    We discussed the diagnosis and the available treatment options. Given the extent of his pain, disability, and the exhaustion of conservative treatment, he is an appropriate candidate for total hip arthroplasty. We have discussed the risks, benefits, and expected outcomes in detail. He is keen to proceed and understands the rehabilitation required. He will now undergo pre-operative optimisation, including diabetic review and anaesthetic assessment, prior to listing for surgery.\n\n    Yours sincerely,\n    Consultant Orthopaedic Surgeon"
-  },
-  {
-    "case_id": "case_23",
-    "title": "Mechanical Locking Knee (Meniscal Tear, Failed Physio)",
-    "demographics": {
-      "age": "33",
-      "gender": "male",
-      "occupation": "plumber",
-      "comorbidities": "otherwise healthy"
-    },
-    "presenting_complaint": "Right knee locking and pain, 9 months",
-    "socrates": {
-      "site": "Medial right knee",
-      "onset": "Twisting injury at work, worsened since",
-      "character": "Sharp pain, locking episodes",
-      "radiation": "None",
-      "associations": "Intermittent swelling, instability",
-      "timing": "Daily, unpredictable locking",
-      "exacerbating": "Kneeling, twisting",
-      "relieving": "Rest, avoiding kneeling",
-      "severity": "7/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Acute twisting injury → likely meniscal tear",
-      "red_flags": "None",
-      "previous_treatment": "6 months physiotherapy, analgesia, knee support",
-      "functional_impact": "Cannot kneel for work, jobs limited"
-    },
-    "expected_triage": "SWLEOC Orthopaedic Surgery",
-    "clinical_notes": "Mechanical locking + failed physio → surgical assessment needed",
-    "sample_conversation": [
-      "I twisted it at work about 9 months ago",
-      "On the inside of my right knee",
-      "Sometimes",
-      "Yes, it locks, I can't straighten it",
-      "A few times a week",
-      "Kneeling and twisting",
-      "Resting",
-      "Yes, for 6 months. Didn't fix the locking",
-      "7/10",
-      "None",
-      "No",
-      "This is mechanical locking, likely meniscal tear. Needs surgery",
-      "Okay, I'd like it sorted"
-    ],
-    "expanded_clinic_letter": "To GP,\n\n    This 33-year-old plumber was seen following a nine-month history of right medial knee pain and recurrent locking episodes. His symptoms began after a twisting injury at work, and since then he has experienced sharp medial pain, intermittent swelling, and frequent mechanical locking during which he is unable to fully extend the knee. These episodes occur several times per week, severely restricting his ability to kneel and squat, which is essential for his occupation. He has persisted with six months of structured physiotherapy, along with bracing and analgesia, but continues to experience significant symptoms with little improvement.\n\n    On examination, he had a mild effusion, medial joint line tenderness, and a positive McMurray’s test. Range of motion was limited to 0–100 degrees, with pain on forced flexion. Ligamentous stability was intact and distal neurovascular status was normal. An MRI scan confirmed a complex medial meniscal tear with early degenerative change but preserved joint space.\n\n    Given the persistence of mechanical symptoms and failure of conservative management, he is an appropriate candidate for arthroscopic intervention. We have discussed arthroscopic meniscal surgery in detail, including risks and realistic expectations regarding outcome. He wishes to proceed, and arrangements are being made for pre-operative assessment and listing.\n\n    Yours sincerely,\n    Consultant Orthopaedic Surgeon"
-  },
-  {
-    "case_id": "case_24",
-    "title": "End-Stage Shoulder OA (Failed Conservative Care)",
-    "demographics": {
-      "age": "60",
-      "gender": "female",
-      "occupation": "admin worker",
-      "comorbidities": "PMH: hypothyroidism"
-    },
-    "presenting_complaint": "Left shoulder pain and stiffness, 4 years, worsening",
-    "socrates": {
-      "site": "Left shoulder, diffuse",
-      "onset": "Gradual, progressive",
-      "character": "Constant ache, grinding",
-      "radiation": "Into upper arm",
-      "associations": "Severe stiffness, crepitus, night pain",
-      "timing": "Daily, severe restriction",
-      "exacerbating": "Any shoulder movement",
-      "relieving": "Rest, analgesia",
-      "severity": "8–9/10"
-    },
-    "triage_info": {
-      "injury_mechanism": "Degenerative OA",
-      "red_flags": "None",
-      "previous_treatment": "Analgesia, physiotherapy, steroid injections – failed",
-      "functional_impact": "Cannot dress independently, work severely affected"
-    },
-    "expected_triage": "SWLEOC Orthopaedic Surgery",
-    "clinical_notes": "Severe arthritis + failed conservative care → surgical assessment needed",
-    "sample_conversation": [
-      "About 4 years, gradually worse",
-      "All around my left shoulder",
-      "Down my arm",
-      "Any movement at all",
-      "Yes, very stiff, hardly moves",
-      "Yes, it grinds all the time",
-      "Yes, I can't sleep",
-      "About 9",
-      "Yes, didn't help",
-      "Yes, temporary relief only",
-      "Just thyroid disease",
-      "No, I struggle dressing myself",
-      "This is severe arthritis, surgery is needed",
-      "I'll refer you to orthopaedics"
-    ],
-    "expanded_clinic_letter": "To GP,\n\nThank you for asking me to review this 60-year-old office administrator with a four-year history of progressive left shoulder pain and stiffness. She describes constant pain rated eight to nine out of ten, radiating down the upper arm, associated with marked grinding and crepitus. Pain is present at rest and frequently disturbs her sleep. She has profound functional limitation and is unable to dress independently or perform overhead activities.\n\nShe has been managed conservatively with multiple courses of physiotherapy, oral analgesia, and two intra-articular steroid injections. These provided only transient benefit. She has hypothyroidism but is otherwise fit and well.\n\nExamination revealed global restriction of shoulder movement, with forward flexion limited to 60 degrees and almost no external rotation. Pain was reproduced throughout the range, and crepitus was palpable. Neurovascular assessment was normal. Radiographs confirmed end-stage glenohumeral osteoarthritis with complete joint space loss, subchondral sclerosis, and osteophyte formation.\n\nWe discussed the nature of the condition and treatment options. Given her persistent severe pain, major functional restriction, and failed conservative management, she is an appropriate candidate for surgical intervention. We have discussed shoulder arthroplasty, including risks, potential complications, and expected outcomes. She is keen to proceed and understands the rehabilitation process required. Pre-operative CT has been requested for implant templating, and she will be seen in pre-assessment clinic prior to listing.\n\nYours sincerely,\nConsultant Orthopaedic Surgeon"
+    "expanded_clinic_letter": "To GP,\n\nThis 31-year-old retail worker (BMI 27) with 9 months of anterior knee pain. Pain 4/10 at rest, 6/10 with stairs/squats. GP MRI (3 months ago) shows isolated chondromalacia patellae. She is mid-way through a physiotherapy programme (8 of 12 weeks). No mechanical symptoms. Function preserved.\n\nThis is not an orthopaedic surgical case; ongoing physiotherapy and conservative care is appropriate. Re-referral only if persistent mechanical symptoms or red flags develop.\n\nYours sincerely,\nOrthopaedic Triage"
   }
 ]

@@ -1,0 +1,116 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_13
+Title: Plantar Fasciitis
+Date: 2025-09-19 14:45:54
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 41
+Gender: male
+Occupation: secondary school PE teacher
+Comorbidities: overweight (BMI 31)
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Heel pain, 4 months
+
+CONVERSATION:
+--------------------
+[14:45:19] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:45:19] PATIENT: I'm Sarah Lopez, 41 years old, male, and my date of birth is 18/6/1983. I have heel pain, 4 months
+
+[14:45:19] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[14:45:19] PATIENT: "Hey Leo, thanks for chatting with me. To be honest, I've been dealing with this heel pain for about 4 months now. It's mainly in the right heel, on the plantar aspect."
+
+[14:45:19] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[14:45:21] PATIENT: It developed more gradually over time. I don't remember exactly when it started, but it's been a gradual thing, getting worse over the past few months.
+
+[14:45:21] BOT: What is your age?
+
+[14:45:22] PATIENT: "I'm 41 years old."
+
+[14:45:22] BOT: Which side is affected - left or right?
+
+[14:45:23] PATIENT: "My heel pain is mainly in the right heel."
+
+[14:45:23] BOT: How long have you had this problem? Is it acute (less than 2 weeks), subacute (2-12 weeks), or chronic (more than 12 weeks)?
+
+[14:45:25] PATIENT: It's been 4 months now. I'd say it's chronic, considering how long it's been going on.
+
+[14:45:25] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[14:45:26] PATIENT: It came on gradually. I've been noticing it getting worse over time, especially after PE sessions where I'm standing for long periods or doing activities that involve running or jumping. It's like my heel just starts to ache and throb in the morning, which is usually when it's at its worst.
+
+[14:45:26] BOT: Can you describe your main symptoms in your own words?
+
+[14:45:28] PATIENT: My main symptoms are stabbing pain in my right heel, mainly on the plantar aspect. It's like a sharp ache that hits me every morning when I first get out of bed, and it gets worse throughout the day, especially after I've been active, like teaching PE or going for a run.
+
+[14:45:28] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[14:45:30] PATIENT: The pain feels like a stabbing or sharp ache. It's not really dull or burning, but it does feel like a sudden jolt when I first get out of bed in the morning.
+
+[14:45:30] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:45:31] PATIENT: No, it doesn't spread to any other part of my body. The pain is localized to the right heel, on the plantar aspect.
+
+[14:45:31] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:45:33] PATIENT: To be honest, I don't really have any swelling or stiffness in my heel. But I do notice that it feels pretty weak when I'm walking on it first thing in the morning - like I need to kind of "warm up" my heel before I can move properly. And sometimes after a long PE session, it can feel a bit numb, but only for a short while.
+
+[14:45:33] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:45:35] PATIENT: "Actually, my symptoms are pretty consistent every morning. The pain in my right heel is usually at its worst when I first get out of bed, but it does tend to ease off a bit after some walking around or stretching. Throughout the day, especially after PE sessions or running, it gets worse again."
+
+[14:45:35] BOT: What makes your symptoms better or worse?
+
+[14:45:36] PATIENT: "Actually, I've found that resting my heel, taking regular breaks during PE sessions, and wearing supportive trainers make my symptoms better. On the other hand, long walks or running tend to exacerbate the pain."
+
+[14:45:36] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[14:45:38] PATIENT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, I'd rate my pain as a 7. It's pretty constant and affects my daily activities, especially after PE sessions or running.
+
+[14:45:38] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[14:45:40] PATIENT: Yeah, I definitely experience morning stiffness. It takes me about 10 to 15 minutes to get my heel loosened up after I first wake up in the morning. The pain usually subsides a bit once I start moving around and getting the blood flowing again.
+
+[14:45:40] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[14:45:42] PATIENT: This problem has been affecting my daily activities, especially my work as a PE teacher. I've had to modify some of the lessons to take regular breaks and avoid certain activities that exacerbate the pain. It's also impacting my ability to teach and engage with my students, which is frustrating for me.
+
+[14:45:42] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:45:43] PATIENT: To be honest, I haven't tried any formal treatments or therapies. I've been trying to manage the pain on my own by wearing supportive trainers and taking regular breaks during PE sessions. But it's not really getting better, so that's why I'm here today seeking some help.
+
+[14:45:43] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:45:45] PATIENT: "No fever or chills. I haven't experienced any unexplained weight loss either. My weakness is pretty localized to the right heel, so it doesn't feel like there's anything going on systemically."
+
+[14:45:45] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Typical presentation, no red flags, no prior physio → physiotherapy appropriate
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    Thank you for asking me to review this 41-year-old secondary school PE teacher with a four-month history of right heel pain. He describes stabbing pain localised to the plantar aspect of the heel, worst with his first steps in the morning and after long periods on his feet. The pain is aggravated by prolonged walking and running during PE sessions, and improves with rest. He rates pain as seven out of ten.
+
+    There is no trauma, swelling, or systemic illness. He has self-managed with supportive trainers but has not accessed formal therapy. His BMI is 31, which may be contributing.
+
+    He lives with his wife and children. Functionally, he continues teaching but avoids demonstrating running activities to pupils and limits family walks due to pain.
+
+    The presentation is typical of plantar fasciitis. Physiotherapy referral is appropriate to provide stretching and strengthening exercises, load management, and education on footwear and pacing. He should also receive advice regarding weight optimisation. He understands that symptoms can be protracted and has been reassured about the benign nature of the condition.
+
+    Yours sincerely,
+    Virtual Triage Team
+

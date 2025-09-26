@@ -1,0 +1,90 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_2
+Title: Acute Cauda Equina Syndrome
+Date: 2025-09-25 14:31:38
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 49
+Gender: female
+Occupation: office worker
+Comorbidities: history of sciatica
+Expected Triage: Urgent Care/A&E
+
+PRESENTING COMPLAINT:
+--------------------
+Severe back pain with sudden bladder incontinence
+
+CONVERSATION:
+--------------------
+[14:31:11] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:31:11] PATIENT: I'm Charles Davis, 49 years old, female, and my date of birth is 16/9/1975. I have severe back pain with sudden bladder incontinence
+
+[14:31:11] BOT: Which side is affected - left or right?
+
+[14:31:12] PATIENT: My back pain is radiating to both legs, but it's worse on my left side. The pain is so bad that I've also got numbness in the groin area and I've started leaking bladder control.
+
+[14:31:12] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:31:14] PATIENT: "Honestly, it's been constant since it started getting worse over 24 hours ago. The numbness in the groin area is really concerning me, though - I've never experienced anything like this before."
+
+[14:31:14] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:31:15] PATIENT: To be honest, it's all over the lower back and radiating down to both legs. Like I said before, the pain is worst on my left side, and the numbness in the groin area is really what's got me worried.
+
+[14:31:15] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[14:31:17] PATIENT: The pain is at least a 10. It's crushing and severe, and it's been constant since it started getting worse over the past 24 hours. I'd say it's definitely a 10 out of 10 in terms of severity.
+
+[14:31:17] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[14:31:19] PATIENT: Honestly, I don't experience morning stiffness as such. My back pain has been constant since it started getting worse over the past 24 hours, so I haven't really noticed any difference in the mornings. It's just been this crushing, severe pain that's been with me non-stop.
+
+[14:31:19] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[14:31:20] PATIENT: This problem is affecting me in every way. I'm an office worker, so I can barely sit at my desk without feeling like the pain is going to consume me. Even simple tasks are becoming impossible because of the constant bladder leakage and numbness in my groin area.
+
+[14:31:20] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:31:22] PATIENT: To be honest, I've only been taking analgesia for the pain. It's helped a bit with the discomfort, but it hasn't touched the root cause of the problem or stopped the bladder incontinence.
+
+[14:31:22] BOT: Let me ask about your treatment history in more detail. Have you had any of the following: physiotherapy sessions, steroid injections, or other specialist treatments for this condition?
+
+[14:31:24] PATIENT: "I've had physiotherapy sessions in the past because of my sciatica. It helped with some of the pain, but it didn't really address the underlying issues. I don't know if that's relevant to this current situation, though."
+
+[14:31:24] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[14:31:25] PATIENT: Honestly, I don't think I'd be interested in surgical treatment at this point. My main concern right now is getting some relief from the pain and addressing the bladder incontinence issue. Can we focus on finding a solution that doesn't involve surgery?
+
+[14:31:25] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:31:27] PATIENT: No, I don't have any fever or chills. To be honest, the only thing that's been bothering me is the constant pain and bladder incontinence. I haven't really noticed anything else out of the ordinary.
+
+[14:31:27] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Saddle anaesthesia + bladder dysfunction = surgical emergency
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 49-year-old office worker presented to A&E with acute onset neurological symptoms on a background of intermittent sciatica. She reported worsening bilateral low back pain over 24 hours, associated with perineal numbness and loss of bladder control. She rated the pain as 10/10 and described her legs as heavy and weak, making mobilising difficult.
+
+    She lives with her husband, works full-time at a desk, and has no previous spinal surgery.
+
+    On examination, she had bilateral neurological deficit affecting L5 and S1 myotomes, with weakness in ankle dorsiflexion and plantarflexion. Saddle anaesthesia and reduced anal tone were demonstrated. Reflexes were diminished but plantar responses were flexor.
+
+    An urgent MRI scan revealed a large central L4/5 disc prolapse compressing the cauda equina. She was admitted under the neurosurgical team and underwent emergency decompression the same evening.
+
+    She is currently recovering post-operatively and will require inpatient rehabilitation. Prognosis has been explained as variable, depending on neurological recovery. She has been counselled extensively on recognising red flag features in the future and safety-netting provided.
+
+    Yours sincerely,
+    Neurosurgical Registrar
+

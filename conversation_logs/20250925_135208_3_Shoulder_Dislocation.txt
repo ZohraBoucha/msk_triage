@@ -1,0 +1,94 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_3
+Title: Shoulder Dislocation
+Date: 2025-09-25 13:52:08
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 22
+Gender: male
+Occupation: university rugby player
+Comorbidities: none
+Expected Triage: Urgent Care/A&E
+
+PRESENTING COMPLAINT:
+--------------------
+Left shoulder pain and deformity after rugby tackle, 30 minutes ago
+
+CONVERSATION:
+--------------------
+[13:51:42] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:51:42] PATIENT: I'm Susan Clark, 22 years old, male, and my date of birth is 25/5/2002. I have left shoulder pain and deformity after rugby tackle, 30 minutes ago
+
+[13:51:42] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:51:43] PATIENT: To be honest, it's like a throbbing pain. It feels really severe, an 8 out of 10, and it's constant since the injury happened.
+
+[13:51:43] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:51:44] PATIENT: The pain radiates down to my upper arm. It feels like it's connected to the rest of my shoulder injury too.
+
+[13:51:44] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:51:46] PATIENT: To be honest, I don't have any other symptoms besides the pain. But what's really concerning me is that there's a visible deformity in my shoulder and I'm having trouble moving it at all. It's pretty much useless right now.
+
+[13:51:46] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:51:47] PATIENT: Honestly, I don't have any other symptoms besides the pain. But what's really concerning me is that there's a visible deformity in my shoulder and I'm having trouble moving it at all. It's pretty much useless right now.
+
+[13:51:47] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:51:49] PATIENT: Honestly, I don't know about morning stiffness. I've only been experiencing pain since the rugby tackle 30 minutes ago, so it's still pretty acute. My main concern right now is getting this shoulder sorted out because I'm in a lot of pain and have a visible deformity.
+
+[13:51:49] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[13:51:51] PATIENT: "Honestly, it's affecting me pretty badly. I'm a university rugby player, so not being able to use my left arm at all is really impacting my ability to play and practice with the team."
+
+[13:51:51] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:51:52] PATIENT: To be honest, I haven't tried any treatments yet. This injury just happened 30 minutes ago during the rugby tackle, so I've only had time to assess it and get here for triage.
+
+[13:51:52] BOT: Let me ask about your treatment history in more detail. Have you had any of the following: physiotherapy sessions, steroid injections, or other specialist treatments for this condition?
+
+[13:51:54] PATIENT: Honestly, no. I haven't had any treatments yet for this specific injury. Like I said, it just happened 30 minutes ago during the rugby tackle.
+
+[13:51:54] BOT: Let me ask about your treatment history in more detail. Have you had any of the following: physiotherapy sessions, steroid injections, or other specialist treatments for this condition?
+
+[13:51:55] PATIENT: "Honestly, no. I haven't had any treatments yet for this specific injury. Like I said, it just happened 30 minutes ago during the rugby tackle."
+
+[13:51:55] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:51:57] PATIENT: Honestly, I'd rather not consider surgery right now. I've just had this injury happen 30 minutes ago and I want to explore all other options before considering anything so invasive. Can we focus on stabilizing the injury and getting it sorted out first?
+
+[13:51:57] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:51:58] PATIENT: No, I haven't experienced any fever or chills. The only thing that's been bothering me is the pain in my left shoulder since the rugby tackle 30 minutes ago.
+
+[13:51:58] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+High-energy trauma, deformity, and functional loss require urgent hospital care
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 22-year-old right-hand dominant university student, a keen rugby player, was admitted to A&E following a rugby tackle in which he landed directly on his left shoulder. He developed immediate pain, deformity, and inability to move the shoulder.
+
+He lives in shared student accommodation and is otherwise fit and well. He is currently unable to continue sports and has difficulty dressing himself.
+
+On arrival, inspection revealed loss of the normal shoulder contour with anterior prominence, consistent with dislocation. Movement was not possible due to pain. Distal pulses were intact, and he retained full finger and hand movement.
+
+Radiographs confirmed an anterior shoulder dislocation without associated fracture. Under procedural sedation, the shoulder was successfully reduced with immediate relief of pain. Post-reduction imaging confirmed concentric reduction. He was placed in a sling and given analgesia.
+
+He has been discharged with advice to avoid driving and overhead activity, and referred to fracture clinic for review within 1 week. A physiotherapy referral has been made to support rehabilitation and reduce recurrence risk. He has been advised to avoid contact sport until cleared by orthopaedics.
+
+Yours sincerely,
+A&E Registrar
+

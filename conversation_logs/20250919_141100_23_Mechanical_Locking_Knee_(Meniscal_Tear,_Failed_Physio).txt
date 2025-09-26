@@ -1,0 +1,114 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_23
+Title: Mechanical Locking Knee (Meniscal Tear, Failed Physio)
+Date: 2025-09-19 14:11:00
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 33
+Gender: male
+Occupation: plumber
+Comorbidities: otherwise healthy
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+Right knee locking and pain, 9 months
+
+CONVERSATION:
+--------------------
+[14:10:20] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:10:20] PATIENT: I'm Jennifer Gonzalez, 33 years old, male, and my date of birth is 8/6/1991. I have right knee locking and pain, 9 months
+
+[14:10:20] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[14:10:24] PATIENT: "My knee. It's been bothering me on and off since I hurt it 9 months ago at work. Specifically, the pain is on the medial side of my right knee."
+
+[14:10:24] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[14:10:25] PATIENT: It's related to an injury. I remember it happened at work when I twisted my knee 9 months ago. It's been getting worse since then.
+
+[14:10:25] BOT: What is your age?
+
+[14:10:27] PATIENT: "I'm 33."
+
+[14:10:27] BOT: Which side is affected - left or right?
+
+[14:10:28] PATIENT: My right knee. The pain's on the medial side.
+
+[14:10:28] BOT: How long have you had this problem? Is it acute (less than 2 weeks), subacute (2-12 weeks), or chronic (more than 12 weeks)?
+
+[14:10:29] PATIENT: It's been about 9 months since I hurt my knee at work. So, I'd say it's chronic now. It started off acute with the initial injury, but it's definitely been getting worse over time.
+
+[14:10:29] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[14:10:31] PATIENT: "It started from an injury. I was working as a plumber and I twisted my knee at work. It's been getting worse since then."
+
+[14:10:31] BOT: Can you describe your main symptoms in your own words?
+
+[14:10:33] PATIENT: "My main symptoms are sharp pain in my right knee, especially on the medial side. It's also been locking up on me, which can be pretty scary because I have no idea when it's going to happen or how bad it will be. And even when it's not locking, there's still this nagging ache that's pretty uncomfortable."
+
+[14:10:33] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[14:10:34] PATIENT: The pain feels sharp. It's like a stabbing sensation in my knee, especially when I'm doing activities that involve twisting or bending. It's really uncomfortable.
+
+[14:10:34] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:10:36] PATIENT: "No, it doesn't. The pain is localized to my right knee, specifically the medial side."
+
+[14:10:36] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:10:37] PATIENT: "Actually, yes. I do have swelling in my knee, especially after it locks up. And sometimes when the pain is really bad, it feels like my knee is going to give out on me, so there's definitely some instability there too."
+
+[14:10:37] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:10:39] PATIENT: "They come and go. Sometimes I'll be doing something normal and it'll lock up on me out of nowhere, which can be pretty scary. Other times it's just this dull ache that I have to deal with all day."
+
+[14:10:39] BOT: What makes your symptoms better or worse?
+
+[14:10:41] PATIENT: "What makes my symptoms better or worse? To be honest, it's really frustrating because the things that make my knee feel better are pretty basic. But if I have to choose, kneeling is usually what triggers the pain and locking episodes, whereas resting and avoiding activities that involve bending or twisting tend to help alleviate some of the discomfort."
+
+[14:10:41] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[14:10:42] PATIENT: "I would rate it around 7 out of 10. It's been pretty consistent at that level over the past few months, although there are times when it spikes up to an 8 or 9 if I do something that aggravates it."
+
+[14:10:42] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[14:10:44] PATIENT: To be honest, I don't really experience morning stiffness. It's more like... when I wake up in the morning, the pain is usually pretty consistent at that 7 out of 10 level we talked about earlier. It doesn't take me long to loosen up or anything like that.
+
+[14:10:44] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[14:10:46] PATIENT: It's been affecting my daily activities a lot. I'm a plumber, so I have to kneel and bend a lot for work, but with this knee issue, it's really limited what I can do on the job. Even simple tasks like crawling through tight spaces or working at low levels are pretty much out of the question now.
+
+[14:10:46] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:10:48] PATIENT: Honestly, I've tried physiotherapy for about 6 months. They helped me manage the pain and locking episodes to some extent, but it didn't really resolve the underlying issue. I also used analgesia to help with the pain when it got bad, and I've been using a knee support to try and stabilize my knee while working.
+
+[14:10:48] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:10:50] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. The pain and locking episodes have been pretty consistent over the past 9 months, but they've never really been accompanied by any of those symptoms you mentioned.
+
+[14:10:50] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Mechanical locking + failed physio → surgical assessment needed
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 33-year-old plumber was seen following a nine-month history of right medial knee pain and recurrent locking episodes. His symptoms began after a twisting injury at work, and since then he has experienced sharp medial pain, intermittent swelling, and frequent mechanical locking during which he is unable to fully extend the knee. These episodes occur several times per week, severely restricting his ability to kneel and squat, which is essential for his occupation. He has persisted with six months of structured physiotherapy, along with bracing and analgesia, but continues to experience significant symptoms with little improvement.
+
+    On examination, he had a mild effusion, medial joint line tenderness, and a positive McMurray’s test. Range of motion was limited to 0–100 degrees, with pain on forced flexion. Ligamentous stability was intact and distal neurovascular status was normal. An MRI scan confirmed a complex medial meniscal tear with early degenerative change but preserved joint space.
+
+    Given the persistence of mechanical symptoms and failure of conservative management, he is an appropriate candidate for arthroscopic intervention. We have discussed arthroscopic meniscal surgery in detail, including risks and realistic expectations regarding outcome. He wishes to proceed, and arrangements are being made for pre-operative assessment and listing.
+
+    Yours sincerely,
+    Consultant Orthopaedic Surgeon
+

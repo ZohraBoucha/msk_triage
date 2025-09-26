@@ -42,7 +42,7 @@ def condition_match(input_obj: Dict[str, Any], when: Dict[str, Any]) -> bool:
                 if not (num is not None and num >= float(expected[2:])):
                     return False
             elif expected.startswith('<='):
-                if not (num is not None and num <= float(expected[1:])):
+                if not (num is not None and num <= float(expected[2:])):  # correct slicing
                     return False
             elif expected.startswith('>'):
                 if not (num is not None and num > float(expected[1:])):

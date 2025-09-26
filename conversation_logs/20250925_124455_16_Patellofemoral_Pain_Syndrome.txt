@@ -1,0 +1,88 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_16
+Title: Patellofemoral Pain Syndrome
+Date: 2025-09-25 12:44:55
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 26
+Gender: female
+Occupation: recreational runner
+Comorbidities: otherwise well
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Anterior knee pain, 3 months
+
+CONVERSATION:
+--------------------
+[12:44:32] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[12:44:32] PATIENT: I'm Michelle Jackson, 26 years old, female, and my date of birth is 17/4/1998. I have anterior knee pain, 3 months
+
+[12:44:32] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[12:44:32] PATIENT: It developed gradually over time. I've been training for a marathon and it just started getting worse as I increased my mileage about 3 months ago.
+
+[12:44:32] BOT: Which side is affected - left or right?
+
+[12:44:34] PATIENT: My knee pain is worse on my left side. It's been really annoying me because I can feel it when I run, especially down stairs or when I'm squatting.
+
+[12:44:34] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[12:44:35] PATIENT: It's a dull ache, sometimes it gets sharp. The sharpness can be quite painful, but overall the pain is just a constant dull feeling in the front of my knee.
+
+[12:44:35] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:44:37] PATIENT: The pain actually radiates around my patella, so it's not just limited to the front of my knee. It feels like it's spreading outwards from that area.
+
+[12:44:37] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[12:44:38] PATIENT: No, I don't have any swelling or stiffness in my knee. Occasionally, I'll get a sharp pain when I click my patella, but that's about it.
+
+[12:44:38] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[12:44:40] PATIENT: My pain would be about a 6 out of 10. It's been pretty constant, but it does get worse after running or prolonged sitting.
+
+[12:44:40] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[12:44:41] PATIENT: To be honest, I haven't tried any treatments before. I've just been dealing with the pain on my own, trying to run through it and resting when it gets really bad.
+
+[12:44:41] BOT: Let me ask about your treatment history in more detail. Have you had any of the following: physiotherapy sessions, steroid injections, or other specialist treatments for this condition?
+
+[12:44:43] PATIENT: "I don't know about physiotherapy sessions or steroid injections. I haven't tried any specialist treatments for this condition so far."
+
+[12:44:43] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[12:44:45] PATIENT: To be honest, I've been putting off surgery as long as possible because it sounds like a last resort. If my doctor recommends it after trying other treatments, I'd consider it to see if there's any other way to fix the problem without going under the knife. But for now, I'm hoping we can explore some other options first.
+
+[12:44:45] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[12:44:46] PATIENT: "No, I haven't experienced any fever or chills. The only thing that's been off is that I've lost some weight since I started training for the marathon, but that's probably just from increased activity levels."
+
+[12:44:46] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Overuse injury, no red flags, first-line physiotherapy
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 26-year-old recreational runner presents with a three-month history of anterior knee pain, worse on the left. Pain occurs during stairs, squatting, running, and prolonged sitting. She also describes clicking around the patella but denies swelling, locking, or instability. Pain is rated six out of ten.
+
+    There has been no trauma. She has not accessed physiotherapy to date.
+
+    She lives with a friend and is unable to continue her marathon training. She also reports difficulty with climbing stairs at work, which is affecting her daily routine.
+
+    This history is consistent with patellofemoral pain syndrome. Physiotherapy referral is appropriate, with a programme focusing on quadriceps and hip strengthening, gait retraining, and load management. She has been counselled on gradual reintroduction of training and advised to modify activities in the meantime.
+
+    Yours sincerely,
+    Virtual Triage Team
+

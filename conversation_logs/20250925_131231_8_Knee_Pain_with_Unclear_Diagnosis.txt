@@ -1,0 +1,86 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_8
+Title: Knee Pain with Unclear Diagnosis
+Date: 2025-09-25 13:12:31
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 42
+Gender: male
+Occupation: chef
+Comorbidities: no PMH
+Expected Triage: GP/Primary Care
+
+PRESENTING COMPLAINT:
+--------------------
+Right knee pain, 2 months
+
+CONVERSATION:
+--------------------
+[13:12:07] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:12:07] PATIENT: I'm Jessica Williams, 42 years old, male, and my date of birth is 2/8/1982. I have right knee pain, 2 months
+
+[13:12:07] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[13:12:07] PATIENT: It developed gradually over time. I've had some discomfort in my right knee for about two months now. It started slowly and just kind of got worse.
+
+[13:12:07] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:12:09] PATIENT: The pain feels like a dull ache. It's not sharp or stabbing at all, just a constant feeling that something's off in my right knee.
+
+[13:12:09] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:12:10] PATIENT: No, it doesn't spread to any other part of my body. The pain is pretty localized to just my right knee.
+
+[13:12:10] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:12:12] PATIENT: To be honest, I've had some intermittent swelling in my right knee, but it's not always there. Occasionally, I'll get this weird locking sensation where my knee just feels stuck, like it won't move properly.
+
+[13:12:12] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:12:13] PATIENT: My pain would be around a 5 out of 10. It's pretty consistent, but it can get worse with long shifts standing or when I have to climb stairs.
+
+[13:12:13] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:12:15] PATIENT: To be honest, I do experience some stiffness in the morning. It takes me about 15-20 minutes to loosen up and get moving after waking up. Usually, after a good warm-up or a short walk around the block, the stiffness goes away and my knee feels pretty normal for the rest of the day.
+
+[13:12:15] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:12:17] PATIENT: Honestly, I've just been taking paracetamol as needed to try and manage the pain. That's about it, nothing else.
+
+[13:12:17] BOT: Let me ask about your treatment history in more detail. Have you had any of the following: physiotherapy sessions, steroid injections, or other specialist treatments for this condition?
+
+[13:12:18] PATIENT: To be honest, I haven't tried any physiotherapy sessions or steroid injections. I've just been managing with paracetamol as needed to try and get some relief from the pain.
+
+[13:12:18] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:12:20] PATIENT: Honestly, I don't think surgery would be my first choice. I'd rather try other options like physiotherapy or injections if possible. But if a specialist said it was the best option, I'd definitely consider it.
+
+[13:12:20] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:12:22] PATIENT: No, I don't have any fever or chills. I haven't noticed any unexplained weight loss either. The only thing that's been a bit concerning for me is the locking sensation in my knee, but it's not really related to my overall health, more just the way my knee feels sometimes.
+
+[13:12:22] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+No red flags, but diagnosis uncertain → GP assessment needed
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 42-year-old chef presents with a two-month history of right knee pain. The pain began insidiously without trauma. It is diffuse in nature, occasionally associated with swelling, and he describes intermittent episodes where the knee seems to catch or lock briefly. Most of the time he retains full range of movement. Pain is aggravated by prolonged standing during his shifts and by stairs, and is rated five out of ten in severity. He has tried paracetamol with little effect.
+
+    He lives with his partner and two children. He remains at work but finds long days increasingly difficult and struggles with stairs at home. There are no systemic symptoms such as fever, night sweats, or weight loss.
+
+    The diagnosis remains unclear at this stage. Possible differentials include early meniscal pathology, patellofemoral pain, or early degenerative change. Clinical examination is essential to clarify the diagnosis and guide management. At present, there are no red flag features. I would suggest GP review with examination of the knee and consideration of initial referral to physiotherapy. Should true mechanical locking be confirmed, or if symptoms persist, then imaging with plain radiographs or MRI may be warranted.
+
+    Yours sincerely,
+    Virtual Triage Team
+

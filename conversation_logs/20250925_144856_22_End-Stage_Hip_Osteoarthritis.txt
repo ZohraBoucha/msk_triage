@@ -1,0 +1,100 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_22
+Title: End-Stage Hip Osteoarthritis
+Date: 2025-09-25 14:48:56
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 72
+Gender: male
+Occupation: retired builder
+Comorbidities: PMH: type 2 diabetes
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+Left hip pain, 5 years, worsening
+
+CONVERSATION:
+--------------------
+[14:48:22] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:48:22] PATIENT: I'm Mark Johnson, 72 years old, male, and my date of birth is 7/12/1952. I have left hip pain, 5 years, worsening
+
+[14:48:22] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[14:48:23] PATIENT: To be honest, it just gradually came on over the past 5 years. I don't think there was any one incident that caused it, it's just been getting worse and worse as time goes on.
+
+[14:48:23] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[14:48:25] PATIENT: To be honest, it's more like an aching or grinding pain. It feels stiff too, especially in the mornings.
+
+[14:48:25] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:48:26] PATIENT: The pain spreads to my thigh and knee. It's really frustrating because it makes me limp and I have trouble doing even simple things like walking or standing for long periods.
+
+[14:48:26] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:48:28] PATIENT: To be honest, I don't really have any swelling or weakness in my left hip area. The pain is the main issue for me, and it's more about stiffness and grinding, like I mentioned earlier.
+
+[14:48:28] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[14:48:31] PATIENT: To be honest, I have some difficulty with most of these activities. Going down stairs is pretty hard for me now because the pain makes it harder to control my movements. Rising from a chair isn't too bad, but bending to the floor or lifting anything heavy is really tough. Putting on socks can be a challenge sometimes, especially if I need to bend down to get them from under the bed. Getting in and out of the car is okay, but getting in and out of the bath is a bit tricky for me now because it requires some bending and twisting. As for going up stairs, it's not too bad, but it depends on how much weight I'm carrying and if my hip is feeling particularly stiff that day.
+
+[14:48:31] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:48:32] PATIENT: To be honest, I've tried just about everything. I've been taking pain medication, which helps a bit but doesn't really get to the root of the problem. I also had a steroid injection in my hip last year, but that only provided temporary relief.
+
+[14:48:32] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[14:48:35] PATIENT: To be honest, I've had some knee replacements done in the past, but not on the left side. My right hip was replaced about 10 years ago, and it's been doing okay since then, but my left hip has always been a bit of a problem area for me.
+
+[14:48:35] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[14:48:37] PATIENT: Honestly, I don't really experience locking or catching in my left hip. The pain just feels like it's always there, and sometimes it gets worse when I'm walking or standing for long periods. It's more of a grinding sensation, like the joint is moving around abnormally.
+
+[14:48:37] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[14:48:38] PATIENT: No, I don't think it's related to any specific activities like running or increased mileage. To be honest, I've never been much of an athlete, and I've just been doing more general gardening and walking as I've gotten older. The pain has just gradually gotten worse over time.
+
+[14:48:38] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[14:48:40] PATIENT: To be honest, I had an X-ray done on my left hip about 5 years ago when the pain first started. The doctor at the time said that it showed some signs of wear and tear in my joint, but nothing too serious.
+
+[14:48:40] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[14:48:42] PATIENT: No, I don't smoke cigarettes or use any tobacco products. I've been a non-smoker for as long as I can remember.
+
+[14:48:42] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[14:48:43] PATIENT: To be honest, I'd have to think about it carefully before considering surgery. It sounds like a big step, but if it's the only way to get some proper relief from this pain, then I suppose I would consider it.
+
+[14:48:43] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:48:45] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. The pain has just been getting worse over time, but I don't think it's related to anything serious like an infection or something. It's more of a chronic issue for me.
+
+[14:48:45] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Severe pain + functional loss + failed conservative care → surgery
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    Thank you for referring this 72-year-old retired builder with a five-year history of worsening left hip pain. He describes constant stiffness and deep-seated pain in the groin and buttock, radiating to the thigh and occasionally to the knee. The pain is rated as nine out of ten in severity, worsens with weight-bearing and twisting movements, and is associated with a pronounced limp. He is now reliant on a stick for mobility. His functional capacity is severely impaired; he can no longer shop independently, he has given up gardening, and he struggles with basic household activities.
+
+    He has tried appropriate conservative measures including oral analgesia, physiotherapy, and a single intra-articular steroid injection, all of which have failed to provide sustained relief. He has type 2 diabetes, which is managed with oral medication, and is otherwise well.
+
+    Examination revealed a markedly antalgic gait and global restriction of hip movement, particularly flexion and internal rotation. Pain was reproduced at the extremes of movement. Neurovascular assessment of the limb was normal. Pelvic and hip radiographs demonstrate advanced degenerative changes with joint space obliteration, osteophyte formation, and subchondral sclerosis, consistent with end-stage osteoarthritis.
+
+    We discussed the diagnosis and the available treatment options. Given the extent of his pain, disability, and the exhaustion of conservative treatment, he is an appropriate candidate for total hip arthroplasty. We have discussed the risks, benefits, and expected outcomes in detail. He is keen to proceed and understands the rehabilitation required. He will now undergo pre-operative optimisation, including diabetic review and anaesthetic assessment, prior to listing for surgery.
+
+    Yours sincerely,
+    Consultant Orthopaedic Surgeon
+

@@ -1,0 +1,72 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_24
+Title: End-Stage Shoulder OA (Failed Conservative Care)
+Date: 2025-09-25 14:27:25
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 60
+Gender: female
+Occupation: admin worker
+Comorbidities: PMH: hypothyroidism
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+Left shoulder pain and stiffness, 4 years, worsening
+
+CONVERSATION:
+--------------------
+[14:27:06] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:27:06] PATIENT: I'm Emma Harris, 60 years old, female, and my date of birth is 24/4/1964. I have left shoulder pain and stiffness, 4 years, worsening
+
+[14:27:06] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[14:27:07] PATIENT: To be honest, it just kind of crept up on me over time. I've had some stiffness in the left shoulder for about 4 years now, but it's only been getting worse lately. It started gradually, and at first, I thought maybe I'd just slept funny or something, but it didn't go away.
+
+[14:27:07] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:27:09] PATIENT: The pain does spread to my upper arm, it feels like it radiates down that way. It's a constant ache and can be quite painful when I move my shoulder.
+
+[14:27:09] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[14:27:10] PATIENT: My pain would be around an 8 or 9 out of 10. It's constant and really bothers me, especially when I move my shoulder.
+
+[14:27:10] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:27:12] PATIENT: Well, I've tried just about everything. I've been taking pain medication for a while now, but it doesn't seem to be doing much good anymore. I also had some physiotherapy sessions, which helped a bit at first, but the pain has come back and is worse than ever.
+
+[14:27:12] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[14:27:14] PATIENT: Honestly, I don't know if I'd be interested in surgery. I've been trying to manage this pain with medications and physiotherapy for so long, and it's getting harder to do everyday things like dressing myself or working. At this point, anything that might help me regain some quality of life sounds worth considering, but I wouldn't want to jump into something drastic without weighing all my options carefully.
+
+[14:27:14] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:27:16] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My main concern has been the constant ache in my left shoulder and stiffness, especially when moving it.
+
+[14:27:16] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Severe arthritis + failed conservative care → surgical assessment needed
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+Thank you for asking me to review this 60-year-old office administrator with a four-year history of progressive left shoulder pain and stiffness. She describes constant pain rated eight to nine out of ten, radiating down the upper arm, associated with marked grinding and crepitus. Pain is present at rest and frequently disturbs her sleep. She has profound functional limitation and is unable to dress independently or perform overhead activities.
+
+She has been managed conservatively with multiple courses of physiotherapy, oral analgesia, and two intra-articular steroid injections. These provided only transient benefit. She has hypothyroidism but is otherwise fit and well.
+
+Examination revealed global restriction of shoulder movement, with forward flexion limited to 60 degrees and almost no external rotation. Pain was reproduced throughout the range, and crepitus was palpable. Neurovascular assessment was normal. Radiographs confirmed end-stage glenohumeral osteoarthritis with complete joint space loss, subchondral sclerosis, and osteophyte formation.
+
+We discussed the nature of the condition and treatment options. Given her persistent severe pain, major functional restriction, and failed conservative management, she is an appropriate candidate for surgical intervention. We have discussed shoulder arthroplasty, including risks, potential complications, and expected outcomes. She is keen to proceed and understands the rehabilitation process required. Pre-operative CT has been requested for implant templating, and she will be seen in pre-assessment clinic prior to listing.
+
+Yours sincerely,
+Consultant Orthopaedic Surgeon
+

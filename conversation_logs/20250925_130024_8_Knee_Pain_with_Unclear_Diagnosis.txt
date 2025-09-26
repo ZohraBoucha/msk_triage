@@ -1,0 +1,90 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_8
+Title: Knee Pain with Unclear Diagnosis
+Date: 2025-09-25 13:00:24
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 42
+Gender: male
+Occupation: chef
+Comorbidities: no PMH
+Expected Triage: GP/Primary Care
+
+PRESENTING COMPLAINT:
+--------------------
+Right knee pain, 2 months
+
+CONVERSATION:
+--------------------
+[12:59:59] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[12:59:59] PATIENT: I'm Robert Martin, 42 years old, male, and my date of birth is 24/6/1982. I have right knee pain, 2 months
+
+[12:59:59] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[12:59:59] PATIENT: "No, it developed gradually over time. I didn't notice anything sudden or specific that triggered the pain."
+
+[12:59:59] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:00:00] PATIENT: "It's a dull ache. It feels like it's always there, but some days are worse than others."
+
+[13:00:00] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:00:02] PATIENT: "No, it doesn't spread to any other part of my body. It's just this dull ache in my right knee."
+
+[13:00:02] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:00:03] PATIENT: "Yeah, I do get some swelling in my right knee, especially after long shifts at work. And sometimes I'll feel like it's locking up on me for a second or two."
+
+[13:00:03] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:00:05] PATIENT: My pain would be about 5 out of 10. Some days are worse than others, but it's always there to some extent.
+
+[13:00:05] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:00:06] PATIENT: To be honest, I don't really experience morning stiffness. My knee just kinda feels like it's there all the time, even after resting at night. It's not like it's stiff or anything, it's more of a dull ache that persists.
+
+[13:00:06] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:00:08] PATIENT: "I've tried taking paracetamol to see if it would help with the pain. I haven't done any other treatments or therapies yet, just trying to manage it on my own."
+
+[13:00:08] BOT: Let me ask about your treatment history in more detail. Have you had any of the following: physiotherapy sessions, steroid injections, or other specialist treatments for this condition?
+
+[13:00:09] PATIENT: "No, I haven't had any physiotherapy sessions or steroid injections. To be honest, I've just been trying to manage the pain with paracetamol as needed."
+
+[13:00:09] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:00:11] PATIENT: To be honest, I don't know if I'd consider surgical treatment. As a chef, I've got to keep working, and I'm not sure I want to take on the downtime that comes with surgery. Plus, I'm hoping we can figure out what's causing this pain first so we can try other treatments before jumping straight to surgery.
+
+[13:00:11] BOT: Have you tried conservative treatments like physiotherapy, injections, or other non-surgical approaches, and if so, did they help with your symptoms?
+
+[13:00:13] PATIENT: To be honest, I haven't tried any conservative treatments like physiotherapy or injections yet. I've just been trying to manage the pain with paracetamol as needed because I wasn't sure what was causing it and didn't want to do anything that might make it worse before figuring out a treatment plan.
+
+[13:00:13] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:00:15] PATIENT: No, I haven't experienced any fever or chills. To be honest, it's just been a dull ache in my right knee, and I've just been managing the pain with paracetamol as needed. I don't think there's anything else unusual going on with me.
+
+[13:00:15] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+No red flags, but diagnosis uncertain → GP assessment needed
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 42-year-old chef presents with a two-month history of right knee pain. The pain began insidiously without trauma. It is diffuse in nature, occasionally associated with swelling, and he describes intermittent episodes where the knee seems to catch or lock briefly. Most of the time he retains full range of movement. Pain is aggravated by prolonged standing during his shifts and by stairs, and is rated five out of ten in severity. He has tried paracetamol with little effect.
+
+    He lives with his partner and two children. He remains at work but finds long days increasingly difficult and struggles with stairs at home. There are no systemic symptoms such as fever, night sweats, or weight loss.
+
+    The diagnosis remains unclear at this stage. Possible differentials include early meniscal pathology, patellofemoral pain, or early degenerative change. Clinical examination is essential to clarify the diagnosis and guide management. At present, there are no red flag features. I would suggest GP review with examination of the knee and consideration of initial referral to physiotherapy. Should true mechanical locking be confirmed, or if symptoms persist, then imaging with plain radiographs or MRI may be warranted.
+
+    Yours sincerely,
+    Virtual Triage Team
+

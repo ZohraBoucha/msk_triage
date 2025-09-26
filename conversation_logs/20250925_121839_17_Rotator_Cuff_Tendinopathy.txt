@@ -1,0 +1,116 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_17
+Title: Rotator Cuff Tendinopathy
+Date: 2025-09-25 12:18:39
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 58
+Gender: male
+Occupation: painter/decorator
+Comorbidities: PMH: hypertension
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Left shoulder pain, 8 months
+
+CONVERSATION:
+--------------------
+[12:17:59] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[12:17:59] PATIENT: I'm Emma Sanchez, 58 years old, male, and my date of birth is 8/2/1966. I have left shoulder pain, 8 months
+
+[12:17:59] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[12:18:03] PATIENT: "My left shoulder, it's been giving me trouble. The pain is mostly in the lateral part of my left shoulder."
+
+[12:18:03] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[12:18:04] PATIENT: It developed gradually over time. The pain started about 8 months ago, and it's been getting worse ever since, especially when I'm working on overhead painting jobs for my business as a decorator.
+
+[12:18:04] BOT: What is your age?
+
+[12:18:06] PATIENT: "I'm 58 years old."
+
+[12:18:06] BOT: Which side is affected - left or right?
+
+[12:18:07] PATIENT: My left shoulder. It's the lateral part that's affected.
+
+[12:18:07] BOT: How long have you had this problem? Is it acute (less than 2 weeks), subacute (2-12 weeks), or chronic (more than 12 weeks)?
+
+[12:18:08] PATIENT: It's been 8 months since I first started noticing this pain in my left shoulder. So, I'd say it's chronic.
+
+[12:18:08] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[12:18:10] PATIENT: It started gradually over time. I think it's related to all the overhead painting jobs I've been doing for my business as a decorator. The pain just sort of crept in, especially when I'm lifting or working with my arms above my head.
+
+[12:18:10] BOT: Can you describe your main symptoms in your own words?
+
+[12:18:12] PATIENT: My main symptoms are an aching pain in my left shoulder, especially on the lateral side. It's sharp when I lift things or work overhead, which is pretty much every day as part of my job as a painter and decorator. The pain has been getting worse over time, so it's really affecting my ability to do my work.
+
+[12:18:12] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[12:18:13] PATIENT: The pain feels like an aching pain when I'm not doing anything, but when I lift things or work overhead, it becomes sharp. The sharpness is usually in the lateral part of my left shoulder.
+
+[12:18:13] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:18:15] PATIENT: "Yes, it does. The pain radiates down to my lateral arm, especially when I'm lifting or moving things overhead."
+
+[12:18:15] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[12:18:17] PATIENT: To be honest, I do have some weakness in my left shoulder, especially when I try to lift heavy things. The pain itself doesn't really give me any numbness or tingling sensations, but the weakness does make it harder for me to perform certain tasks at work.
+
+[12:18:17] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[12:18:18] PATIENT: "My symptoms come and go. The pain tends to be worse in the evenings after I've been working on some overhead painting jobs for my business."
+
+[12:18:18] BOT: What makes your symptoms better or worse?
+
+[12:18:20] PATIENT: "My symptoms are worse when I'm working on overhead painting jobs. It's like the pain just gets worse with every lift or movement above my head. Resting it seems to help a bit, but only for a short while."
+
+[12:18:20] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[12:18:21] PATIENT: "On a scale of 0 to 10, I'd rate my pain as a 7. It's been pretty consistent over the past few months."
+
+[12:18:21] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[12:18:23] PATIENT: To be honest, I do get some stiffness in the morning. It usually takes me about 20-30 minutes to loosen up and feel okay after getting out of bed. But once I'm moving around for a bit, the pain doesn't really bother me that much unless I start lifting or doing overhead work.
+
+[12:18:23] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[12:18:25] PATIENT: To be honest, it's really affecting my work as a painter and decorator. I struggle to work overhead for extended periods, which makes it hard to complete jobs on time. It's also limited my ability to do some tasks that require lifting or heavy physical activity.
+
+[12:18:25] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[12:18:27] PATIENT: To be honest, I've only tried simple analgesia like ibuprofen to manage the pain. That's it, just some over-the-counter medication to help with the discomfort when it's really bad. It does give me some relief for a short while, but the pain always comes back.
+
+[12:18:27] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[12:18:29] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. The only other symptom I've noticed is some morning stiffness that takes about 20-30 minutes to loosen up after getting out of bed.
+
+[12:18:29] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Occupational overuse, classic mechanical features, no prior physio
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 58-year-old painter-decorator presents with an eight-month history of left shoulder pain. The pain is lateral, aching, and radiates down the arm. It is aggravated by overhead activity and lifting, and he reports weakness and a painful arc. Pain is often present at night and disturbs sleep. He rates it seven out of ten.
+
+    He has taken analgesia but not had physiotherapy. He has hypertension but is otherwise well.
+
+    He lives with his wife and continues working, though is increasingly limited in his ability to complete overhead tasks. He fears losing work if symptoms persist.
+
+    This presentation is consistent with rotator cuff tendinopathy. Referral to physiotherapy is recommended to address rotator cuff strengthening, scapular stability, and workplace adaptations. If symptoms persist after three to six months, surgical referral could be considered.
+
+    Yours sincerely,
+    Virtual Triage Team
+

@@ -1,0 +1,100 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_17
+Title: Rotator Cuff Tendinopathy
+Date: 2025-09-25 13:01:16
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 58
+Gender: male
+Occupation: painter/decorator
+Comorbidities: PMH: hypertension
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Left shoulder pain, 8 months
+
+CONVERSATION:
+--------------------
+[13:00:47] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:00:47] PATIENT: I'm Charles Jones, 58 years old, male, and my date of birth is 13/2/1966. I have left shoulder pain, 8 months
+
+[13:00:47] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[13:00:48] PATIENT: "It developed gradually over time. I've been doing painting and decorating work for years, but the pain has gotten worse over the last 8 months."
+
+[13:00:48] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:00:49] PATIENT: The pain feels like an ache at first, but it can get sharp if I lift something heavy or do too much overhead work. It's also been pretty constant, a 7 out of 10 on the pain scale, and gets worse as the day goes on.
+
+[13:00:49] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:00:51] PATIENT: The pain or feeling doesn't really spread to any other part of my body, but it does radiate down the lateral side of my arm. It's more like it travels that far when I move my shoulder in certain ways or lift something heavy.
+
+[13:00:51] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:00:53] PATIENT: The pain or feeling doesn't really spread to any other part of my body, but it does radiate down the lateral side of my arm. It's more like it travels that far when I move my shoulder in certain ways or lift something heavy.
+
+[13:00:53] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:00:54] PATIENT: The pain or feeling doesn't really spread to any other part of my body, but it does radiate down the lateral side of my arm. It's more like it travels that far when I move my shoulder in certain ways or lift something heavy.
+
+[13:00:54] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:00:56] PATIENT: The pain or feeling doesn't really spread to any other part of my body. It mainly affects the left shoulder and radiates down the lateral side of my arm when I move it in certain ways or lift something heavy.
+
+[13:00:56] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:00:57] PATIENT: To be honest, I do have some weakness in my arm on the left side, especially when I try to lift things. It's not like I've lost all strength or anything, but it's definitely affected how much I can work with.
+
+[13:00:58] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:00:59] PATIENT: "Yes, I experience morning stiffness in my left shoulder. It can take about 20 to 30 minutes to loosen up after waking up."
+
+[13:00:59] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:01:00] PATIENT: To be honest, I've only tried simple analgesia like pain relievers to manage the pain. Nothing too serious or intense, just trying to get by with work.
+
+[13:01:00] BOT: Let me ask about your treatment history in more detail. Have you had any of the following: physiotherapy sessions, steroid injections, or other specialist treatments for this condition?
+
+[13:01:02] PATIENT: "No, I haven't had any physiotherapy sessions or steroid injections. To be honest, I've just been trying to manage the pain with simple analgesia like pain relievers."
+
+[13:01:02] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:01:04] PATIENT: "Honestly, I don't know if I'd be interested in surgical treatment. To be honest, it's been eight months now and I've just been trying to manage the pain with simple analgesia. If that doesn't work, then maybe we can consider other options."
+
+[13:01:04] BOT: Have you tried conservative treatments like physiotherapy, injections, or other non-surgical approaches, and if so, did they help with your symptoms?
+
+[13:01:05] PATIENT: To be honest, I haven't tried any conservative treatments like physiotherapy or injections. Like I said, I've just been managing the pain with simple analgesia, trying to get by with work.
+
+[13:01:05] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:01:07] PATIENT: "No, I haven't experienced any fever or chills. The only thing that's really been affecting me is the pain and weakness in my left shoulder."
+
+[13:01:07] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Occupational overuse, classic mechanical features, no prior physio
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 58-year-old painter-decorator presents with an eight-month history of left shoulder pain. The pain is lateral, aching, and radiates down the arm. It is aggravated by overhead activity and lifting, and he reports weakness and a painful arc. Pain is often present at night and disturbs sleep. He rates it seven out of ten.
+
+    He has taken analgesia but not had physiotherapy. He has hypertension but is otherwise well.
+
+    He lives with his wife and continues working, though is increasingly limited in his ability to complete overhead tasks. He fears losing work if symptoms persist.
+
+    This presentation is consistent with rotator cuff tendinopathy. Referral to physiotherapy is recommended to address rotator cuff strengthening, scapular stability, and workplace adaptations. If symptoms persist after three to six months, surgical referral could be considered.
+
+    Yours sincerely,
+    Virtual Triage Team
+

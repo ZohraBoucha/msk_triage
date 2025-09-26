@@ -1,0 +1,80 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_21
+Title: Severe Knee Osteoarthritis, Failed Physio
+Date: 2025-09-25 12:27:34
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 67
+Gender: female
+Occupation: retired shop assistant
+Comorbidities: PMH: hypertension, obesity (BMI 33)
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+Right knee pain, 8 years, worsening
+
+CONVERSATION:
+--------------------
+[12:27:08] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[12:27:08] PATIENT: I'm John Jackson, 67 years old, female, and my date of birth is 24/12/1957. I have right knee pain, 8 years, worsening
+
+[12:27:08] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[12:27:09] PATIENT: "It developed more gradually over time. It's been about 8 years now, getting worse with age."
+
+[12:27:09] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[12:27:11] PATIENT: The pain feels like an aching, grinding sensation in my right knee. Sometimes it's accompanied by sharp catches that feel quite painful. It's been getting worse over the years, so I'd say it's a pretty constant ache most of the time now.
+
+[12:27:11] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:27:12] PATIENT: The pain radiates to my thigh and shin. It's not just in the knee itself, it feels like it spreads outwards from there.
+
+[12:27:12] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[12:27:14] PATIENT: "Actually, yes. I do have some swelling in my right knee from time to time, especially after being on my feet for too long. And sometimes it feels stiff, especially in the morning when I first get out of bed."
+
+[12:27:14] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[12:27:15] PATIENT: "My pain level would be an 8 out of 10. It's been pretty constant most of the time now."
+
+[12:27:15] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[12:27:17] PATIENT: It's affecting me quite a bit, to be honest. I used to love going out for long walks with friends, but now even short walks leave me in pain. And climbing stairs is becoming impossible, so that's really limited my daily activities.
+
+[12:27:17] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[12:27:19] PATIENT: Well, I've tried quite a few things. I've done two courses of physiotherapy to try and strengthen the knee, but that didn't really help much. And then there was a steroid injection which gave me some relief for a little while, but it wore off eventually. My doctor also prescribed me some analgesia, but I don't like taking too many tablets if I can avoid it. Oh, and I've been trying to lose weight through diet and exercise because my BMI is a bit high, as you know from my notes...
+
+[12:27:19] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[12:27:21] PATIENT: "No, I haven't experienced any fever or chills. I've been trying to manage my weight through diet and exercise, but I don't think that's had much effect on the knee pain yet. As for unexplained weight loss or severe weakness, I'd say no, nothing like that."
+
+[12:27:21] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Severe pain + functional loss + failed conservative care → surgery
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    Thank you for asking me to review this 67-year-old retired shop assistant who has presented with long-standing right knee pain. She describes an eight-year history of gradually progressive symptoms, which have now become severe and disabling. The pain is focused on the medial aspect of the right knee, described as a deep ache with occasional sharp catching pains, and is frequently associated with swelling and crepitus. She reports regular episodes where the knee feels unstable and gives way, and she finds stairs and prolonged standing particularly difficult. Pain is often present at night and regularly disturbs her sleep.
+
+    She has been appropriately managed conservatively over the years. She has completed two courses of structured physiotherapy and has received intra-articular steroid injections. She uses regular analgesia and has attempted weight loss, but despite these measures her pain has escalated. At present, she is only able to walk for approximately ten minutes at a time before pain forces her to stop, and her activities of daily living are significantly restricted.
+
+    On examination in clinic she walked with an antalgic gait and was using a stick for support. There was a fixed flexion deformity of approximately five degrees, range of movement was from 0 to 90 degrees, and there was marked medial joint line tenderness with obvious crepitus. Neurovascular examination was unremarkable. Radiographs of the right knee confirm advanced tricompartmental osteoarthritis with complete loss of joint space and osteophyte formation.
+
+    Given the severity of her pain, the degree of functional limitation, and the failure of conservative measures, she is an appropriate candidate for surgical intervention. We have discussed total knee arthroplasty in detail, including the risks and expected outcomes. She is motivated to proceed and understands the likely need for postoperative rehabilitation. She will now be optimised pre-operatively, with anaesthetic review and routine pre-assessment arranged.
+
+    Yours sincerely,
+    Consultant Orthopaedic Surgeon
+

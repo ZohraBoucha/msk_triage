@@ -1,0 +1,96 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_20
+Title: Iliotibial Band Syndrome
+Date: 2025-09-19 14:36:49
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 34
+Gender: female
+Occupation: amateur triathlete
+Comorbidities: otherwise well
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+Lateral knee pain, 6 weeks
+
+CONVERSATION:
+--------------------
+[14:36:18] BOT: Thank you. Now, what brings you here today? Which part of your body is affected (e.g., knee, shoulder, back, hip, etc.)?
+
+[14:36:18] PATIENT: I'm Mark Garcia, 34 years old, female, and my date of birth is 18/7/1990. I have lateral knee pain, 6 weeks
+
+[14:36:18] BOT: Is this related to an injury or accident, or did it develop more gradually over time?
+
+[14:36:21] PATIENT: It developed gradually over time. I've been training for triathlons and the pain started about 6 weeks ago during my training sessions. It's been getting worse ever since.
+
+[14:36:21] BOT: Which side is affected - left or right?
+
+[14:36:23] PATIENT: My knee pain is on the outer left side.
+
+[14:36:23] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[14:36:24] PATIENT: The pain feels sharp. It's like a stabbing sensation that comes and goes. Sometimes it feels like a dull ache if I'm being honest, but most of the time it's pretty sharp.
+
+[14:36:24] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:36:26] PATIENT: The pain occasionally radiates up to my thigh. It's not always there, but when it does, it can be pretty uncomfortable.
+
+[14:36:26] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:36:27] PATIENT: No, I don't have any swelling or stiffness in my knee. The pain itself isn't really numb or weak, but when it radiates up to my thigh, it can feel a bit tender to the touch.
+
+[14:36:27] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[14:36:29] PATIENT: My pain would be about a 6 out of 10. It's not constant, but it definitely gets to that level when I'm running or cycling for an extended period.
+
+[14:36:29] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[14:36:30] PATIENT: To be honest, it's been really frustrating. I've had to curtail my training significantly because the pain gets so bad after long runs or cycling sessions. It's affecting my ability to prepare for upcoming triathlons and just enjoying the sport overall.
+
+[14:36:31] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:36:32] PATIENT: To be honest, I've just been doing some basic stretching exercises on my own to try and loosen up the area. Nothing too structured or professional, just trying to take care of it myself.
+
+[14:36:32] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:36:34] PATIENT: To be honest, I've just been doing some basic stretching exercises on my own to try and loosen up the area. Nothing too structured or professional, just trying to take care of it myself.
+
+[14:36:34] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:36:35] PATIENT: Honestly, I've just been doing some basic stretching exercises on my own to try and loosen up the area. Nothing too structured or professional, just trying to take care of it myself.
+
+[14:36:35] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:36:37] PATIENT: Honestly, I've just been doing some basic stretching exercises on my own to try and loosen up the area. Nothing too structured or professional, just trying to take care of it myself. I also tried using foam rolling on my IT band, but that didn't really seem to help with the pain.
+
+[14:36:37] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:36:39] PATIENT: "No, I don't have any fever or chills. And no, I haven't experienced any unexplained weight loss or severe weakness. My knee pain is the only issue I'm dealing with right now."
+
+[14:36:39] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Typical overuse presentation, no red flags, first-line physiotherapy
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+    This 34-year-old amateur triathlete presents with a six-week history of lateral left knee pain. Pain developed gradually during training, is sharp in nature, and occurs after running beyond five kilometres or cycling hills. She describes occasional clicking but denies swelling, locking, or instability. Pain is rated six out of ten.
+
+    She has not trialled physiotherapy.
+
+    She works in marketing and trains five to six times per week. She has been forced to stop running due to pain, which has caused considerable frustration.
+
+    The clinical picture is consistent with iliotibial band syndrome. Referral to physiotherapy is recommended for biomechanical assessment, hip and gluteal strengthening, and stretching. She will be advised on graded return to training. She has been reassured that the condition is benign but may be protracted if untreated.
+
+    Yours sincerely,
+    Virtual Triage Team
+
