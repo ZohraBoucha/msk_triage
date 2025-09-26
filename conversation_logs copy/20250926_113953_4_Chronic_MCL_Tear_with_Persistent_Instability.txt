@@ -1,0 +1,108 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_4
+Title: Chronic MCL Tear with Persistent Instability
+Date: 2025-09-26 11:39:53
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 38
+Gender: male
+Occupation: warehouse supervisor
+Comorbidities: BMI 26
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+I hurt my knee playing rugby three months ago and it still feels wobbly on the inside. Physio helped the pain but it’s still unstable, especially when I move sideways.
+
+CONVERSATION:
+--------------------
+[11:39:21] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[11:39:21] PATIENT: I'm Emily Hernandez, 38 years old, male, and my date of birth is 13/2/1986. I have i hurt my knee playing rugby three months ago and it still feels wobbly on the inside. physio helped the pain but it’s still unstable, especially when i move sideways.
+
+[11:39:21] BOT: Which side is affected - left or right?
+
+[11:39:22] PATIENT: Left knee. I've got this problem on the medial aspect, specifically.
+
+[11:39:22] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[11:39:23] PATIENT: The pain feels like an ache, about 3 out of 10 at rest. But when I put stress on it, especially with lateral movements or steps, it sharpens up to around 7 out of 10.
+
+[11:39:23] BOT: Does the pain or feeling spread to any other part of your body?
+
+[11:39:25] PATIENT: "No, it's localised to just around the medial aspect of my left knee. I don't feel any pain or instability spreading to other parts."
+
+[11:39:25] BOT: Does the pain or feeling spread to any other part of your body?
+
+[11:39:26] PATIENT: "No, it's localised to just around the medial aspect of my left knee. I don't feel any pain or instability spreading to other parts."
+
+[11:39:26] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[11:39:28] PATIENT: My symptoms are kind of constant, but they get worse when I put stress on the knee, especially with lateral movements or steps. It's like it takes me by surprise - one minute I'm fine, and the next I'm wincing in pain.
+
+[11:39:28] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[11:39:30] PATIENT: No, I don't really experience morning stiffness. My knee usually feels okay in the morning after getting dressed and moving around a bit. By then, it's ready to go for the day, although I do have to be careful when doing lateral movements or steps, as that's when the instability kicks in.
+
+[11:39:30] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[11:39:32] PATIENT: I've had six weeks of physiotherapy to help with the pain. They also gave me an MRI about five weeks ago to check for any damage. I've been trying to modify my work activities as much as possible, taking desk-duty instead of supervising on the floor, since that's where the problem is worst.
+
+[11:39:32] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[11:39:33] PATIENT: No, I haven't had any previous injuries or surgeries to this area. The rugby tackle that injured my knee three months ago was the first significant trauma to this knee.
+
+[11:39:33] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[11:39:35] PATIENT: It's more like a brief click or catch that pops and goes. Like I said earlier, the knee feels unstable, especially on lateral movements, but it doesn't get completely stuck.
+
+[11:39:35] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[11:39:37] PATIENT: To be honest, I haven't really increased my mileage or done any intense training since the injury. I've just been trying to get back to normal activities like supervising on the floor at work without putting too much stress on the knee.
+
+[11:39:37] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[11:39:38] PATIENT: No, I don't smoke.
+
+[11:39:38] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[11:39:39] PATIENT: Honestly, I'd consider it if it was the only way to fix this knee. Physio and modifying my activities haven't fully addressed the instability, so if surgery could get me back to full function without pain, then yeah, I'd be open to it.
+
+[11:39:39] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[11:39:41] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My knee just feels wobbly on the inside, especially with lateral movements, but it's not affecting my overall health or energy levels.
+
+[11:39:42] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Knee Assessment Summary:**
+**Top Differential Diagnoses:**
+1. Osteoarthritis
+2. Degenerative meniscal tear
+3. ACL tear
+4. Patellofemoral Pain Syndrome (PFPS)
+5. Chondromalacia patellae
+
+**Assessment Notes:** Chronic presentation suggests degenerative pathology
+
+
+
+CLINICAL NOTES:
+--------------------
+Persistent symptomatic valgus instability with complete MCL tear poorly healing despite rehab → consider surgical repair/reconstruction.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 38-year-old warehouse supervisor (BMI 26) with persistent medial instability 3 months post valgus rugby injury. After 6 weeks of physiotherapy he remains symptomatic; MRI (5 weeks ago) shows complete femoral-side MCL tear with poor healing; other ligaments/menisci intact.
+
+Given ongoing functional valgus instability limiting work and sport, elective surgical reconstruction/repair is appropriate.
+
+Yours sincerely,
+Orthopaedic Triage
+

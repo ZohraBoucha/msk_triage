@@ -1,0 +1,141 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_11
+Title: Inappropriate Referral – Isolated Chondromalacia Patellae
+Date: 2025-09-26 13:11:36
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 31
+Gender: female
+Occupation: retail worker
+Comorbidities: BMI 27
+Expected Triage: GP/Primary Care
+
+PRESENTING COMPLAINT:
+--------------------
+The front of my knee hurts when I go up and down stairs. My GP said the scan showed some wear under the kneecap. Physio hasn’t helped much yet but I haven’t finished the programme.
+
+CONVERSATION:
+--------------------
+[13:11:03] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:11:03] PATIENT: I'm David Anderson, 31 years old, female, and my date of birth is 19/6/1993. I have the front of my knee hurts when i go up and down stairs. my gp said the scan showed some wear under the kneecap. physio hasn’t helped much yet but i haven’t finished the programme.
+
+[13:11:03] BOT: Which side is affected - left or right?
+
+[13:11:04] PATIENT: My left knee. The front part of it hurts when I go up and down stairs.
+
+[13:11:04] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:11:05] PATIENT: It's an ache. I'd say it's around 4 or 5 out of 10 most days, but when I go up and down stairs it can get up to 6 or 7. It's like a dull nagging feeling.
+
+[13:11:05] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:11:07] PATIENT: The pain feels like it's radiating around my patella. I get some mild swelling in that area too, especially after exercising or sitting for a long time.
+
+[13:11:07] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:11:08] PATIENT: No, it's mainly around the patella. I get some crepitus too, which is a bit annoying when I move my knee.
+
+[13:11:08] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:11:10] PATIENT: The pain is there most days, but it's not constant. It tends to get worse when I'm doing activities that put stress on my knee, like going up and down stairs or squatting. It gets better with rest and ice, which helps manage the symptoms a bit.
+
+[13:11:10] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:11:12] PATIENT: To be honest, I don't really experience morning stiffness. The pain is usually there all day, but it's not like I wake up with it being super bad or anything. It tends to get worse throughout the day when I'm active, especially with stairs and squatting.
+
+[13:11:12] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[13:11:13] PATIENT: It's affecting my work a bit because I have to avoid stairs at times. My job as a retail worker requires me to be on my feet for long periods, which isn't ideal with this condition.
+
+[13:11:13] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:11:15] PATIENT: I've been doing physiotherapy for about 8 weeks now. It's part of a 12-week course and I haven't finished it yet, but so far, it hasn't helped much with the pain. My GP did mention that an MRI showed some wear under my kneecap.
+
+[13:11:15] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[13:11:17] PATIENT: No, I haven't had any surgeries or significant injuries to this area. My GP mentioned that the MRI showed some wear under my kneecap, but that's about it.
+
+[13:11:17] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[13:11:18] PATIENT: It's more like a brief click or catch that pops and goes. Sometimes it feels like there's just a bit of grating going on when I move my knee, but it doesn't completely lock up.
+
+[13:11:18] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:11:20] PATIENT: Honestly, it's not really related to running or any specific training. I work in retail, so I'm on my feet for long periods, and that seems to exacerbate the problem.
+
+[13:11:20] BOT: Do you experience any of the following: joint instability or giving way, locking or catching sensations, or pain specifically at the front of the knee or behind the kneecap?
+
+[13:11:22] PATIENT: Yes, I do experience some joint instability or giving way. When I move my knee, especially when it's sore, I sometimes feel like it's not stable. It's more of a feeling than an actual incident, but it can be unsettling.
+
+(Note: This response is based on the patient's clinical information and symptoms, particularly the crepitus and grating sensations mentioned earlier.)
+
+[13:11:22] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:11:23] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[13:11:23] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:11:25] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. The pain has just been a dull ache that's worsened with activity and improved with rest.
+
+[13:11:25] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** High
+**Reasoning:** Young age 31 suggests soft tissue pathology; Activity-related symptoms suggest soft tissue pathology
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+[13:11:27] PATIENT: I'm glad you've got a good understanding of my situation. I was thinking that maybe the physiotherapy isn't quite right for me, given that it hasn't been helping much yet? Do you think I should stick with it or try something else?
+
+[13:11:27] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+[13:11:28] PATIENT: "I don't know if I should stick with it or try something else. The physio hasn't been helping much yet, but I haven't finished the 12-week course. Maybe we could discuss alternative options?"
+
+[13:11:28] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+[13:11:30] PATIENT: "I don't know if I should stick with it or try something else. The physio hasn't been helping much yet, but I haven't finished the 12-week course. Maybe we could discuss alternative options?"
+
+(Note: This response is consistent with the patient's previous statements about not finding relief in the current treatment and seeking further guidance on next steps.)
+
+[13:11:30] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+[13:11:32] PATIENT: What alternative options would you recommend considering that physiotherapy hasn't been helping much yet?
+
+[13:11:32] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+[13:11:33] PATIENT: You mentioned considering alternative options since physiotherapy hasn't been helping much yet. What would you recommend I try next?
+
+[13:11:33] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+[13:11:35] PATIENT: You mentioned considering alternative options since physiotherapy hasn't been helping much yet. What would you recommend I try next?
+
+Actually, based on the triage assessment, it seems like MSK Physiotherapy for soft tissue rehabilitation might not be the best option for me right now. Since that's what I've already tried and didn't find relief, maybe we could consider something else?
+
+[13:11:35] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+CLINICAL NOTES:
+--------------------
+Isolated patellofemoral chondral wear without mechanical symptoms; incomplete physiotherapy trial → not for orthopaedic referral.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 31-year-old retail worker (BMI 27) with 9 months of anterior knee pain. Pain 4/10 at rest, 6/10 with stairs/squats. GP MRI (3 months ago) shows isolated chondromalacia patellae. She is mid-way through a physiotherapy programme (8 of 12 weeks). No mechanical symptoms. Function preserved.
+
+This is not an orthopaedic surgical case; ongoing physiotherapy and conservative care is appropriate. Re-referral only if persistent mechanical symptoms or red flags develop.
+
+Yours sincerely,
+Orthopaedic Triage
+

@@ -1,0 +1,102 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_2
+Title: Chronic Medial Meniscus Tear – Failed Conservative Management
+Date: 2025-09-26 13:23:26
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 45
+Gender: male
+Occupation: plumber (self-employed)
+Comorbidities: BMI 28
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My knee keeps locking up several times a week even though I did all the physio exercises. My GP said the scan showed a tear that might need keyhole surgery.
+
+CONVERSATION:
+--------------------
+[13:22:49] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:22:49] PATIENT: I'm Mark Lewis, 45 years old, male, and my date of birth is 19/2/1979. I have my knee keeps locking up several times a week even though i did all the physio exercises. my gp said the scan showed a tear that might need keyhole surgery.
+
+[13:22:49] BOT: Which side is affected - left or right?
+
+[13:22:50] PATIENT: My right knee.
+
+[13:22:50] BOT: Can you describe your main symptoms in your own words?
+
+[13:22:52] PATIENT: It's been driving me mad - I'll be working on a job, like under the sink or crawling around on the floor, and suddenly my knee just locks up. It's like it gives way from underneath me. And then I'm stuck there until I can get up and move around to unlock it again.
+
+[13:22:52] BOT: Can you describe your main symptoms in your own words?
+
+[13:22:53] PATIENT: "It's been driving me mad - I'll be working on a job, like under the sink or crawling around on the floor, and suddenly my knee just locks up. It's like it gives way from underneath me. And then I'm stuck there until I can get up and move around to unlock it again."
+
+[13:22:53] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:22:55] PATIENT: It's a deep ache, but it can turn into sharp catches or locking sensations. The pain is usually around 6-7 out of 10 when it flares up.
+
+[13:22:55] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:22:56] PATIENT: No, the pain or feeling only affects my right knee. It's localized to that area and doesn't spread to any other part of my body.
+
+[13:22:56] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:22:58] PATIENT: They come and go. The pain and locking episodes are most frequent when I'm working on jobs that involve heavy kneeling or twisting, like under the sink or crawling around on the floor. It's usually several times a week, but sometimes it can be daily during flare-ups.
+
+[13:22:58] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:23:00] PATIENT: They come and go. The pain and locking episodes are most frequent when I'm working on jobs that involve heavy kneeling or twisting, like under the sink or crawling around on the floor. It's usually several times a week, but sometimes it can be daily during flare-ups.
+
+[13:23:00] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:23:02] PATIENT: "Actually, I don't really experience morning stiffness. My knee can be stiff after kneeling or working on jobs that aggravate it, but as soon as I get moving, the stiffness usually goes away within a few minutes."
+
+[13:23:02] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[13:23:04] PATIENT: To be honest, I have some difficulty with all those activities. Going down stairs can be painful, especially if I've been working on a job that's aggravated the knee beforehand. Rising from a chair isn't too bad, but bending to the floor is quite uncomfortable and I try to avoid it as much as possible. Getting in/out of a car doesn't bother me too much, but putting on socks can be tricky because my knee gets stiff after kneeling or working on jobs that aggravate it. As for getting in/out of the bath, it's not too bad unless I've had a flare-up beforehand. And with heavy domestic work, like vacuuming or mopping, I have to take regular breaks and modify my movements to avoid putting too much strain on my knee.
+
+[13:23:04] BOT: When you tried the treatments we discussed, did they help with your symptoms, make no difference, or make things worse?
+
+[13:23:06] PATIENT: The physio exercises didn't really help with the locking episodes. I still have them several times a week, especially when I'm working on jobs that involve heavy kneeling or twisting. They've actually made me more aware of my knee's limitations, so I try to modify my movements and take regular breaks to avoid putting too much strain on it.
+
+[13:23:06] BOT: When you tried the treatments we discussed, did they help with your symptoms, make no difference, or make things worse?
+
+[13:23:09] PATIENT: The physio exercises didn't really help with the locking episodes. I still have them several times a week, especially when I'm working on jobs that involve heavy kneeling or twisting. They've actually made me more aware of my knee's limitations, so I try to modify my movements and take regular breaks to avoid putting too much strain on it.
+
+(Note: This response is consistent with the patient's previous answers about the effectiveness of physio exercises)
+
+[13:23:09] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:23:10] PATIENT: No, I don't do any running or marathon training. My job as a plumber involves a lot of kneeling and twisting, which seems to trigger the locking episodes in my knee. That's when I have the most trouble with pain and stiffness.
+
+[13:23:10] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:23:12] PATIENT: No, I don't smoke. I've never been a smoker, actually.
+
+[13:23:12] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:23:13] PATIENT: No, I don't have any fever, chills, unexplained weight loss, or severe weakness. My symptoms are pretty much just related to the knee pain and locking episodes, like I've been describing.
+
+[13:23:13] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+True mechanical locking with displaced fragment on MRI and failed rehab → arthroscopic surgical assessment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 45-year-old self-employed plumber (BMI 28) with 4 months of right medial knee pain, daily catching and true locking 3–4 times per week. After 8 weeks of physiotherapy, mechanical symptoms persist. MRI (4 weeks ago) demonstrates a complex degenerative medial meniscal tear with a displaced fragment; grade 2 medial compartment chondral change; ligaments intact.
+
+Given ongoing true locking and failed non-operative care, referral for arthroscopic intervention is appropriate. Occupational impact significant.
+
+Yours sincerely,
+Orthopaedic Triage
+

@@ -1,0 +1,88 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_6
+Title: Bucket-Handle Lateral Meniscus Tear in Young Athlete
+Date: 2025-09-26 13:27:12
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 20
+Gender: male
+Occupation: semi-professional footballer
+Comorbidities: BMI 22
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+I hurt my knee playing football three months ago and it still hurts on the outside. It sometimes catches and I can’t train properly. Physio got me running but I still can’t play matches. The scan showed a torn meniscus.
+
+CONVERSATION:
+--------------------
+[13:26:40] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:26:40] PATIENT: I'm John Williams, 20 years old, male, and my date of birth is 1/9/2004. I have i hurt my knee playing football three months ago and it still hurts on the outside. it sometimes catches and i can’t train properly. physio got me running but i still can’t play matches. the scan showed a torn meniscus.
+
+[13:26:40] BOT: Which side is affected - left or right?
+
+[13:26:40] PATIENT: My knee on the left side hurts. The meniscus tear is in that area too.
+
+[13:26:40] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:26:42] PATIENT: The pain feels like it's aching with sharp catches. It's like when I'm sprinting or making quick turns on the pitch, that's when it really hurts and feels like it's catching.
+
+[13:26:42] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:26:43] PATIENT: No, it's just localised to my knee on the left side. The pain is always right on the outside of my knee, where I hurt it initially.
+
+[13:26:43] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:26:45] PATIENT: No, it's just localised to my knee on the left side. The pain is always right on the outside of my knee, where I hurt it initially.
+
+[13:26:45] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:26:47] PATIENT: Honestly, no. I've had some swelling when it first happened, but that's gone down now. It does feel stiff in the morning, but that usually goes away after some warm-up exercises with physio.
+
+[13:26:47] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:26:48] PATIENT: The symptoms come and go, but they're definitely worse when I'm training or playing matches. When I'm running, it's okay, but as soon as I start doing any quick cuts or jumps, the pain gets sharp and catches me off guard. It's like my knee is reminding me that it's still not right.
+
+[13:26:48] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:26:50] PATIENT: It's around a 7 out of 10 on bad days when it catches me. When I'm training or playing matches, the pain gets sharp and really bothers me. On good days, it's more like a 5.
+
+[13:26:50] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[13:26:52] PATIENT: To be honest, I don't have too much difficulty with most of those activities. Going down stairs can be a bit tough if I'm not careful, but going up isn't usually an issue. And as for putting on socks or getting in/out of the bath, that's pretty normal.
+
+[13:26:52] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:26:53] PATIENT: No, I don't smoke or use any tobacco products. I'm 20 years old, male, and my date of birth is 1/9/2004.
+
+[13:26:53] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:26:55] PATIENT: Honestly, I'd be open to considering surgery if it was recommended by a specialist. At this point, I've tried physio for 10 weeks and still can't play matches, so if there's a chance surgery could get me back on the pitch, I'm willing to explore that option.
+
+[13:26:55] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:26:57] PATIENT: No, I don't have any fever or chills. I've just had some normal swelling when it first happened, but that's all gone down now. The only thing I'm really concerned about is getting back to playing matches and not having this injury hold me back from doing what I love.
+
+[13:26:57] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Symptomatic bucket-handle lateral tear with displaced fragment in a high-demand athlete → arthroscopic repair/meniscectomy assessment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 20-year-old semi-professional footballer (BMI 22) with 3 months of lateral knee pain, intermittent catching and performance limitation following a pivot injury. After 10 weeks of elite rehabilitation he cannot progress to match play. MRI (2 weeks ago) confirms a bucket-handle lateral meniscal tear with displaced fragment; ligaments intact; cartilage age-appropriate.
+
+Given ongoing mechanical symptoms and sporting demands, elective arthroscopic management is indicated.
+
+Yours sincerely,
+Orthopaedic Triage
+

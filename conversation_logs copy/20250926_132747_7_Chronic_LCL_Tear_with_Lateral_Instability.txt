@@ -1,0 +1,96 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_7
+Title: Chronic LCL Tear with Lateral Instability
+Date: 2025-09-26 13:27:47
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 42
+Gender: female
+Occupation: office manager; keen hiker
+Comorbidities: BMI 24
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+I fell skiing about ten weeks ago and the outside of my knee still feels wobbly. I did physio but it hasn’t settled and I can’t hike down hills anymore.
+
+CONVERSATION:
+--------------------
+[13:27:15] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:27:15] PATIENT: I'm Emily Thompson, 42 years old, female, and my date of birth is 18/8/1982. I have i fell skiing about ten weeks ago and the outside of my knee still feels wobbly. i did physio but it hasn’t settled and i can’t hike down hills anymore.
+
+[13:27:15] BOT: Which side is affected - left or right?
+
+[13:27:15] PATIENT: It's my right knee. I've been having trouble with it since the fall skiing about ten weeks ago.
+
+[13:27:15] BOT: Can you describe your main symptoms in your own words?
+
+[13:27:17] PATIENT: "My knee just feels really wobbly on the outside. It's been like this since I fell skiing about ten weeks ago. Even walking down stairs or uneven surfaces makes it feel unstable, and the pain can get pretty sharp."
+
+[13:27:17] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:27:18] PATIENT: "No, it's just localised to my right knee. The pain and feeling of instability are confined to the outside part of my knee."
+
+[13:27:18] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:27:20] PATIENT: "No, it's just localised to my right knee. The pain and feeling of instability are confined to the outside part of my knee."
+
+[13:27:20] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:27:22] PATIENT: My symptoms come and go. They're worse when I put weight on it, like walking down stairs or uneven surfaces, and they're also worse if I try to hike down hills, which I haven't been able to do since the fall. On a good day, my pain is about 3/10, but with varus stress, it can shoot up to 7/10.
+
+[13:27:22] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:27:24] PATIENT: To be honest, I don't really experience morning stiffness in the classical sense. My knee usually feels pretty stiff when I first get out of bed, but it loosens up quickly once I start moving around and putting weight on it. By the time I'm walking down to the kitchen for breakfast, it's feeling okay, although sometimes the instability can still catch me off guard if I'm not paying attention.
+
+[13:27:24] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[13:27:26] PATIENT: It's really affecting my hiking hobby. I haven't been able to hike down hills since the fall, which is frustrating for me because I love being outdoors and exploring new trails. It's also making daily activities like walking down stairs more challenging than they need to be.
+
+[13:27:26] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:27:27] PATIENT: I did 8 weeks of physiotherapy after the fall. The physio was helpful in some ways, but I didn't really see any significant improvement in the instability or pain on the outside of my knee.
+
+[13:27:27] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[13:27:29] PATIENT: No, I haven't had any previous surgeries or significant injuries to this area. The only thing that comes close was when I fell skiing about 10 years ago, but it wasn't as severe as the fall I had recently, and I didn't require surgery.
+
+[13:27:29] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:27:31] PATIENT: To be honest, I don't think this is related to any specific activities like running or prolonged standing. I was hiking when the injury happened, and it's still bothering me even with regular physiotherapy and rest.
+
+[13:27:31] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[13:27:32] PATIENT: Yes, I had an MRI about 2 weeks ago. The results showed that there's some damage to the lateral collateral ligament and possibly some issues with the meniscus, but the report wasn't very clear on what exactly needs to be done next.
+
+[13:27:32] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:27:34] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[13:27:34] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:27:35] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. The only thing that's been bothering me is the instability and pain in my knee after the fall skiing 10 weeks ago.
+
+[13:27:35] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Persistent symptomatic lateral instability after complete LCL tear with failed conservative care → surgical reconstruction required.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 42-year-old office manager and recreational hiker (BMI 24) with persistent lateral instability 10 weeks post skiing injury. Despite 8 weeks of physiotherapy, she reports ongoing instability especially on slopes and uneven ground. MRI (2 weeks ago) demonstrates complete LCL rupture with PLC involvement; ACL/PCL intact.
+
+Given continued symptomatic lateral instability and failed conservative management, referral for surgical reconstruction is indicated.
+
+Yours sincerely,
+Orthopaedic Triage
+

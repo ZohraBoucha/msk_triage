@@ -1,0 +1,104 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_8
+Title: Chronic Degenerative Meniscal Tear – Conservative Management Appropriate
+Date: 2025-09-26 13:22:05
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 58
+Gender: male
+Occupation: retired; keen gardener
+Comorbidities: BMI 29; hypertension
+Expected Triage: GP/Primary Care
+
+PRESENTING COMPLAINT:
+--------------------
+My knee aches when I kneel in the garden. It clicks a bit but it doesn’t actually lock. The GP said the scan showed a small tear, but it’s not stopping me from getting around.
+
+CONVERSATION:
+--------------------
+[13:21:25] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:21:25] PATIENT: I'm Jessica Thompson, 58 years old, male, and my date of birth is 27/9/1966. I have my knee aches when i kneel in the garden. it clicks a bit but it doesn’t actually lock. the gp said the scan showed a small tear, but it’s not stopping me from getting around.
+
+[13:21:25] BOT: Which side is affected - left or right?
+
+[13:21:25] PATIENT: My left knee. It's where I feel the ache when I kneel in the garden.
+
+[13:21:25] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[13:21:27] PATIENT: It's come on gradually over 6 months. I've been gardening a lot in that time and it started to ache when I kneel down.
+
+[13:21:27] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:21:28] PATIENT: No, it's just localised to my left knee. The pain stays right there where I feel the ache when I kneel down.
+
+[13:21:28] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:21:30] PATIENT: No, it's just localised to my left knee. The pain stays right there where I feel the ache when I kneel down.
+
+[13:21:30] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:21:31] PATIENT: To be honest, I do get some stiffness in my left knee after kneeling down or gardening for a while. It's not too bad, but it's definitely there. And sometimes when I'm getting up from kneeling, I feel a bit of a sharp catch, which is the worst part.
+
+[13:21:31] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:21:33] PATIENT: The pain's about 4 out of 10 when I first get down to kneel in the garden, but it can go up to 6 out of 10 when I'm getting up or feeling that sharp catch. It's not constant, so I wouldn't say it's a solid 5 or anything like that.
+
+[13:21:33] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[13:21:37] PATIENT: Going down stairs doesn't bother me at all - I can do that without any issues. Going up stairs can be a bit tricky if I've been kneeling for a while, but it's not like it's a huge problem. Rising from a chair is fine most of the time, but sometimes when my knee is really stiff, it takes a bit more effort to get up. Bending to the floor? Yeah, that's definitely a no-go unless I'm being super careful and gentle - kneeling just makes it too painful. Getting in or out of a car isn't an issue at all. Putting on socks can be a bit tricky if my knee is stiff, but it's not like it stops me from doing it altogether. And as for getting in or out of the bath... well, I'm not exactly looking forward to that part, to be honest - kneeling down in the tub just makes my knee ache even more! Heavy domestic work? Yeah, that's one thing I try to avoid if possible - all that bending and kneeling around is just too painful.
+
+[13:21:37] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:21:39] PATIENT: The GP has been looking after me, and I've had some physiotherapy to try and sort it out. They also gave me some analgesia to help with the pain. And of course, I had an MRI 2 months ago to see what was going on - they said there's a small tear in my knee, but nothing too serious.
+
+[13:21:39] BOT: When you tried the treatments we discussed, did they help with your symptoms, make no difference, or make things worse?
+
+[13:21:41] PATIENT: Well, to be honest, I'd say the physiotherapy helped a bit with the stiffness, but it didn't really do much for the pain. The analgesia has been okay, it helps take the edge off when my knee is really bothering me, but it's not like it solves the problem.
+
+[13:21:41] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[13:21:42] PATIENT: No, I haven't had any previous injuries or surgeries to this area. To be honest, I've just had some routine check-ups with the GP over the years for my hypertension, but nothing major related to my knee.
+
+[13:21:42] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:21:44] PATIENT: No, I don't do any running or marathon training. My gardening activities are the main thing that triggers this pain in my knee when I kneel down. It's just been a gradual thing over time as I've been doing more gardening and getting older, I suppose.
+
+[13:21:44] BOT: Do you experience any of the following: joint instability or giving way, locking or catching sensations, or pain specifically at the front of the knee or behind the kneecap?
+
+[13:21:46] PATIENT: The pain specifically at the front of the knee or behind the kneecap isn't really where I feel it. It's more in the medial joint line, to be honest. And as for locking or catching sensations, yeah, that does happen sometimes when I'm getting up from kneeling - it feels like a sharp catch, which is probably the worst part of this whole thing.
+
+[13:21:46] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:21:48] PATIENT: No, I don't smoke. Haven't smoked in years actually.
+
+[13:21:48] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:21:50] PATIENT: To be honest, I'd have to think about it. A specialist recommended surgery 2 months ago after the MRI showed a small tear, but at that point, I wasn't really bothered by it. I've been managing with physio and analgesia so far, so I'm not sure if I'm ready for surgery just yet.
+
+[13:21:50] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:21:52] PATIENT: No, I haven't experienced any fever or chills. As for unexplained weight loss or severe weakness, I'd say I've been feeling okay overall, but the knee pain has definitely affected my energy levels - sometimes it's harder to get around with a sore knee. Other than that, no major issues like that have come up for me.
+
+[13:21:52] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Degenerative tear with no mechanical locking → ongoing conservative management; surgical intervention not required.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 58-year-old retired man (BMI 29) with hypertension presents with a 6-month history of medial left knee ache aggravated by gardening and kneeling. He describes occasional clicking but no true locking. Pain is 4/10, rising to 6/10 with provocation. MRI (2 months ago) shows a degenerative medial meniscal tear with grade 2 chondral wear.
+
+Given absence of true locking and reasonable function, ongoing conservative management is appropriate. He should continue physiotherapy, weight optimisation, and analgesia. Surgical referral not indicated unless symptoms progress.
+
+Yours sincerely,
+Orthopaedic Triage
+

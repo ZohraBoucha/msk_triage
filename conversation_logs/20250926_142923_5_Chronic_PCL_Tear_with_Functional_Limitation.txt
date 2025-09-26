@@ -1,0 +1,138 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_5
+Title: Chronic PCL Tear with Functional Limitation
+Date: 2025-09-26 14:29:23
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 29
+Gender: female
+Occupation: physiotherapist
+Comorbidities: BMI 23
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+I injured my knee in a car crash four months ago and it still feels like it sags backwards. I’ve done all the rehab I can but I still feel unstable, especially going downstairs or slowing down.
+
+CONVERSATION:
+--------------------
+[14:28:52] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:28:52] PATIENT: I'm Anthony Anderson, 29 years old, female, and my date of birth is 7/10/1995. I have i injured my knee in a car crash four months ago and it still feels like it sags backwards. i’ve done all the rehab i can but i still feel unstable, especially going downstairs or slowing down.
+
+[14:28:52] BOT: Which side is affected - left or right?
+
+[14:28:52] PATIENT: My knee on the right side is affected. I injured it in the car crash four months ago.
+
+[14:28:52] BOT: Can you describe your main symptoms in your own words?
+
+[14:28:54] PATIENT: To be honest, I've got this deep ache in the back of my right knee that feels like it's sagging backwards. It's really uncomfortable when I'm walking downstairs or slowing down - I feel like I'm going to buckle over. It's been four months since the car crash and I thought rehab would fix it, but I still have trouble with stability.
+
+[14:28:54] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:28:56] PATIENT: To be honest, no, it's pretty localized to the back of my right knee. It feels like it's all contained in that one area.
+
+[14:28:56] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:28:57] PATIENT: Honestly, no. The pain in my knee is just a deep ache that feels like it's sagging backwards, but I don't notice any swelling or stiffness when I'm looking at it.
+
+[14:28:57] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:28:59] PATIENT: To be honest, they're pretty constant. I've got daily symptoms, but they tend to get worse when I'm doing things like walking downstairs or slowing down. It's like my knee gives way a bit and that's when the deep ache gets really uncomfortable.
+
+[14:28:59] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[14:29:01] PATIENT: It's been affecting my work as a physiotherapist quite significantly. I've had to reduce the intensity of patient contact and exercises because I don't feel stable enough in my knee, which makes me worry about putting someone else at risk if I'm not fully recovered myself.
+
+[14:29:01] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[14:29:02] PATIENT: No, I haven't had any previous injuries or surgeries to this area. My knee was actually injured in the car crash four months ago, but this is the first time I've experienced anything like this.
+
+[14:29:02] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[14:29:04] PATIENT: Honestly, I don't really experience locking or catching in my knee. It's more like it feels unstable and gives way when I'm walking downstairs or slowing down, but it doesn't get completely stuck. It's just this deep ache that gets worse at those times.
+
+[14:29:04] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[14:29:06] PATIENT: To be honest, I don't really do any high-impact activities like running or marathon training. My job as a physiotherapist keeps me active, but it's more of a gentle, controlled exercise that doesn't seem to exacerbate the issue too much. However, prolonged standing and walking downstairs are definitely things that make my knee feel worse.
+
+[14:29:06] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[14:29:08] PATIENT: "Yes, I had an MRI 6 weeks ago after doing all the rehab I could on my own. The results were that I had a rupture to my posterior cruciate ligament (PCL), which was consistent with the dashboard injury from the car crash."
+
+[14:29:08] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[14:29:09] PATIENT: No, I don't smoke cigarettes or use any tobacco products. I've never been a smoker and don't have a history of using tobacco products.
+
+[14:29:09] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:29:11] PATIENT: No, I haven't experienced any fever or chills. The only thing that's been consistent with the injury is this deep ache in the back of my knee. It's not affected by my overall health or fitness level, and I'm still generally feeling pretty well otherwise.
+
+[14:29:11] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Symptomatic chronic PCL rupture with failed conservative care in a high-functional-demand clinician → consider PCL reconstruction.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 29-year-old physiotherapist (BMI 23) with 4 months of right posterior knee pain and functional instability after an RTC dashboard injury. Despite 12 weeks of self-directed rehabilitation, she reports persistent posterior sag and difficulty with deceleration and stairs. MRI (6 weeks ago) confirms complete mid-substance PCL rupture; PLC strain only; cartilage/menisci normal.
+
+Given ongoing symptoms and professional demands, elective assessment for PCL reconstruction is indicated.
+
+Yours sincerely,
+Orthopaedic Triage
+
+SBAR CLINICAL SUMMARY & TRIAGE CLASSIFICATION:
+============================================================
+**SITUATION:**
+- **Patient Demographics:** Anthony Anderson, 29 years old, female
+- **Presenting Complaint:** Injured right knee in a car crash four months ago; feels like it sags backwards with deep ache, especially when walking downstairs or slowing down
+- **Body Part Affected:** Right knee
+
+**BACKGROUND:**
+- **Onset & Duration:** Injury occurred four months ago; symptoms have been constant but worsen with certain activities (e.g., walking downstairs, slowing down)
+- **Mechanism of Injury:** Dashboard injury in a car crash
+- **Previous Treatment:** Completed rehabilitation; had MRI 6 weeks ago showing rupture to the posterior cruciate ligament (PCL)
+
+**ASSESSMENT:**
+- **Clinical Findings:**
+  - **Pain Characteristics:** Deep ache in the back of the right knee, worsens with walking downstairs or slowing down
+  - **Associated Symptoms:** No swelling, stiffness, numbness, or weakness; feels unstable and gives way when walking downstairs or slowing down
+  - **Functional Impact:** Reduced intensity of patient contact and exercises as a physiotherapist due to instability; can walk short distances but struggles with prolonged standing or downhill walking
+  - **Instability/Locking:** Pseudo-locking/catching; knee does not get completely stuck, but feels unstable and gives way during certain activities
+  - **Red Flags:** None mentioned
+
+**RECOMMENDATION:**
+- **Pathway:** Orthopaedic Outpatient Clinic
+- **Reason:** Functional impact on work (reduced patient contact) and daily activities; recent imaging results showing rupture to the PCL
+- **Next Step:** Schedule a consultation with an orthopaedic specialist for further assessment and management, bringing the MRI report from 6 weeks ago.
+
+**SAFETY NET:**
+- **Urgent Care:** Not required at this time.
+- **Follow-up:** Follow up with the Orthopaedic Outpatient Clinic in two weeks to assess progress and adjust treatment plan as necessary.
+
+Based on the clinical summary, here is the differential diagnosis:
+
+**RED FLAG CONSIDERATIONS:**
+- None mentioned in this case. However, it is essential to consider red flags such as severe weakness, fever, bladder/bowel problems, or severe pain that could indicate a more serious underlying condition requiring immediate attention.
+
+**SAFETY NET:**
+
+* **Urgent Care:** If symptoms worsen suddenly, or new red flags occur (severe weakness, fever, bladder/bowel problems, severe pain), seek urgent care immediately.
+* **Follow-up:** Schedule a consultation with an orthopaedic specialist for further assessment and management in two weeks to assess progress and adjust treatment plan as necessary.
+
+**TRIAGE CLASSIFICATION:**
+
+**Category:** Soft Tissue
+**Body Part:** Knee
+**Specialty:** Soft Tissue - Knee
+**Clinical Reasoning:** This classification is chosen because the patient has a ligament injury, specifically a rupture to the posterior cruciate ligament (PCL), which is always classified as Soft Tissue. The patient's symptoms and clinical findings are related to instability and pseudo-locking/catching of the knee, consistent with a soft tissue injury rather than joint degeneration or arthritis that would warrant an Arthroplasty classification.
+

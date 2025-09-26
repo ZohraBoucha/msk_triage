@@ -1,0 +1,119 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_10
+Title: Acute Meniscal Tear – Suitable for Physiotherapy
+Date: 2025-09-26 11:31:26
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 27
+Gender: male
+Occupation: personal trainer
+Comorbidities: BMI 24, otherwise fit
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+I twisted my knee at the gym about six weeks ago and since then it aches on the inside. It sometimes clicks but it hasn’t locked. I can still work but squats are painful.
+
+CONVERSATION:
+--------------------
+[11:30:52] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[11:30:52] PATIENT: I'm Sarah Lopez, 27 years old, male, and my date of birth is 21/2/1997. I have i twisted my knee at the gym about six weeks ago and since then it aches on the inside. it sometimes clicks but it hasn’t locked. i can still work but squats are painful.
+
+[11:30:52] BOT: Which side is affected - left or right?
+
+[11:30:52] PATIENT: My knee on the right side is affected. It's been hurting on the inside since I twisted it at the gym six weeks ago.
+
+[11:30:52] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[11:30:54] PATIENT: The pain feels like an ache. It's usually around 3 out of 10 on a bad day, but when I do squats or lunges, it can get as high as 6 out of 10.
+
+[11:30:54] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[11:30:55] PATIENT: The pain feels like an ache. It's usually around 3 out of 10 on a bad day, but when I do squats or lunges, it can get as high as 6 out of 10.
+
+[11:30:55] BOT: Does the pain or feeling spread to any other part of your body?
+
+[11:30:57] PATIENT: The pain feels localised to my knee. It doesn't really spread anywhere else.
+
+[11:30:57] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[11:30:59] PATIENT: To be honest, I haven't really noticed any swelling or stiffness in my knee. The only other symptom I've been experiencing is the clicking sensation when I move it. It's not too bothersome, but it does make me a bit concerned about what might be going on inside.
+
+[11:30:59] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[11:31:00] PATIENT: The symptoms are pretty constant, but they do get worse when I'm doing heavy squats or lunges. It's usually around 3/10 on a normal day, but it can spike to 6/10 with those activities.
+
+[11:31:00] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[11:31:03] PATIENT: "Going down stairs? No difficulty. Going up stairs? A bit more effort, but I can do it without too much trouble. Rising from a chair? Easy as usual. Bending to the floor? Still able to do it, but it's a bit stiffer than before. Getting in/out of a car? No problem at all. Putting on socks? Not really an issue for me. Getting in/out of the bath? Also no issues there. And heavy domestic work? I can still manage most things, just have to pace myself a bit more."
+
+[11:31:03] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[11:31:04] PATIENT: To be honest, I haven't really tried any treatments beyond just resting it and taking over-the-counter pain medication. I've been trying to manage the pain with ice and stretching, but it's still been giving me some issues with heavy squats and lunges.
+
+[11:31:04] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[11:31:06] PATIENT: No, I haven't had any previous injuries or surgeries to this area. The knee injury was the first time I've ever had any kind of issue with it, so it's all relatively new for me.
+
+[11:31:06] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[11:31:08] PATIENT: To be honest, I've been doing more training at the gym lately, so I think it's related to some of the heavier squats and lunges I've been doing. I haven't really changed anything else in my routine that I can think of, but I have noticed that the pain gets worse when I do those specific exercises.
+
+[11:31:08] BOT: Do you experience any of the following: joint instability or giving way, locking or catching sensations, or pain specifically at the front of the knee or behind the kneecap?
+
+[11:31:10] PATIENT: No, I don't experience any joint instability or giving way. The knee does click sometimes when I move it, but that's about it. It hasn't really locked or caught on me, thankfully.
+
+[11:31:10] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[11:31:11] PATIENT: No, I haven't had any imaging done like X-rays or MRI scans. To be honest, I've been trying to manage the pain with rest and over-the-counter medication, so I didn't think it was necessary yet.
+
+[11:31:11] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[11:31:13] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[11:31:13] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[11:31:14] PATIENT: Honestly, I don't think I'd be keen on surgery unless it's absolutely necessary. As a personal trainer, I've seen some pretty invasive procedures that can have long recovery times, so I'm hoping we can try other options first.
+
+[11:31:14] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[11:31:16] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My symptoms have been relatively consistent and localized to the knee, so I wouldn't think there's anything seriously wrong.
+
+[11:31:16] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Knee Assessment Summary:**
+**Top Differential Diagnoses:**
+1. Osteoarthritis
+2. ACL tear
+3. Meniscal tear (traumatic)
+4. PCL tear
+5. Patellar instability
+
+**⚠️ URGENT ATTENTION REQUIRED:**
+- Neurovascular concerns
+
+**Assessment Notes:** Young age suggests traumatic or developmental causes; Chronic presentation suggests degenerative pathology
+
+
+
+CLINICAL NOTES:
+--------------------
+Acute meniscal injury without locking; good ROM; early physiotherapy appropriate.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 27-year-old personal trainer (BMI 24) with 6 weeks of medial right knee pain after a twisting gym injury. Pain is 3/10 at baseline, up to 6/10 with loaded flexion (squats/lunges). Occasional clicking but no true locking. He has not had physiotherapy. Function preserved but training reduced.
+
+Exam shows full ROM, mild medial tenderness, no effusion. Likely acute medial meniscus tear. Initial management with physiotherapy is appropriate. Safety-netting re: locking given.
+
+Yours sincerely,
+Orthopaedic Triage
+

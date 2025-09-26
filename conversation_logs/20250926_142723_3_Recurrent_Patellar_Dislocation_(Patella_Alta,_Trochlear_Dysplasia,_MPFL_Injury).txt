@@ -1,0 +1,144 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_3
+Title: Recurrent Patellar Dislocation (Patella Alta, Trochlear Dysplasia, MPFL Injury)
+Date: 2025-09-26 14:27:23
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 22
+Gender: female
+Occupation: university student; netball player
+Comorbidities: BMI 21
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My kneecap keeps popping out when I play sport. It’s happened three times now and I’m too scared to keep playing. Physio didn’t stop it and the scan showed something wrong with the ligament.
+
+CONVERSATION:
+--------------------
+[14:26:50] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:26:50] PATIENT: I'm Daniel Hernandez, 22 years old, female, and my date of birth is 10/4/2002. I have my kneecap keeps popping out when i play sport. it’s happened three times now and i’m too scared to keep playing. physio didn’t stop it and the scan showed something wrong with the ligament.
+
+[14:26:50] BOT: Which side is affected - left or right?
+
+[14:26:50] PATIENT: My kneecap keeps popping out when I play sport, so it's affecting the right side.
+
+[14:26:50] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[14:26:52] PATIENT: To be honest, I've always been pretty active and played netball since school, but it started about 8 months ago when I had my first episode during a game. It was really scary because I'd never experienced anything like that before!
+
+[14:26:52] BOT: Can you describe your main symptoms in your own words?
+
+[14:26:54] PATIENT: It's just this really sudden, sharp pain in the front of my knee. It feels like my kneecap has just dislocated and it's really painful - an 8 out of 10. Afterward, I get some aching and apprehension that makes me feel like I'm going to dislocate again, so I try to avoid doing anything that might make it happen.
+
+[14:26:54] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:26:55] PATIENT: The pain or feeling doesn't spread to any other part of my body. It's localized to the front of my knee, specifically around the kneecap.
+
+[14:26:55] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:26:57] PATIENT: They come and go. The episodes are pretty unpredictable, but they tend to happen when I'm playing pivoting sports like netball. It's been three times now, so it feels like there's some kind of pattern, but I don't know what triggers them for sure.
+
+[14:26:57] BOT: What makes your symptoms better or worse?
+
+[14:26:59] PATIENT: Rest seems to make it better, but I've also tried wearing a patellar stabilizing brace which helped with the apprehension feeling afterwards. Avoiding pivoting movements in sports makes it worse, especially during games or drills that require quick turns and changes of direction.
+
+[14:26:59] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[14:27:00] PATIENT: No, I don't experience morning stiffness. My knee usually feels fine in the mornings, but as soon as I start moving around or playing sports, that's when the issues tend to arise.
+
+[14:27:00] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[14:27:02] PATIENT: No, I haven't had any previous injuries or surgeries to this area. I've been playing netball since school, but nothing like this has happened before.
+
+[14:27:02] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[14:27:04] PATIENT: It's more like a brief click or catch that pops and goes. When it happens, I feel like my kneecap has just dislocated and it's really painful for a second, but then it seems to snap back into place and the pain subsides.
+
+[14:27:04] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[14:27:05] PATIENT: No, it's not related to running or increased mileage. I only experience this issue during pivoting sports like netball, which involves quick turns and changes of direction. The other activities I do, like regular walking and daily life, don't seem to trigger these episodes.
+
+[14:27:05] BOT: Do you experience any of the following: joint instability or giving way, locking or catching sensations, or pain specifically at the front of the knee or behind the kneecap?
+
+[14:27:07] PATIENT: Yes, I experience joint instability or giving way. It feels like my kneecap is going to dislocate again after it happens, which makes me really anxious about playing sports.
+
+[14:27:07] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[14:27:08] PATIENT: No, I don't smoke cigarettes or use any tobacco products. In fact, I've never been a smoker and try to stay active with sports like netball.
+
+[14:27:09] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:27:10] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My symptoms have been pretty localized to the knee, so I don't think there's anything else going on that would cause those kinds of issues.
+
+[14:27:10] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Structural risk factors (alta, trochlear dysplasia) with recurrent instability despite rehab → consider MPFL reconstruction ± bony realignment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 22-year-old student and netball player (BMI 21) with three lateral patellar dislocation episodes over 8 months. Completed 16 weeks of targeted VMO/proprioceptive rehab; ongoing apprehension prevents return to sport. MRI (3 weeks ago) demonstrates patella alta, trochlear dysplasia and chronic MPFL tear with scarring; early PFJ chondral change.
+
+Given recurrent instability and structural risk factors despite comprehensive rehabilitation, elective surgical stabilisation (e.g., MPFL reconstruction ± alignment procedure) should be considered.
+
+Yours sincerely,
+Orthopaedic Triage
+
+SBAR CLINICAL SUMMARY & TRIAGE CLASSIFICATION:
+============================================================
+**SITUATION:**
+- **Patient Demographics:** Daniel Hernandez, 22 years old, female
+- **Presenting Complaint:** Kneecap keeps popping out when playing sports, causing pain and apprehension of further dislocation
+- **Body Part Affected:** Right knee, specifically the patella (kneecap)
+
+**BACKGROUND:**
+- **Onset & Duration:** Started 8 months ago with first episode during a netball game; occurs unpredictably but tends to happen during pivoting sports like netball
+- **Mechanism of Injury:** Not specified as an injury, more related to overuse or activity-specific movements in sports
+- **Previous Treatment:** Physiotherapy did not stop episodes; MRI scan showed something wrong with the ligament
+- **Relevant History:** Active in sports since school, particularly netball; no previous injuries or surgeries to this area
+
+**ASSESSMENT:**
+- **Clinical Findings:**
+  - **Pain Characteristics:** Sharp pain (8/10) in the front of the knee, specifically around the patella
+  - **Associated Symptoms:** Aching and apprehension after episodes; localized to the knee with no spread to other parts of the body
+  - **Functional Impact:**
+    - Max walking distance: Not specified
+    - Stairs tolerance: Uncertain, but avoids activities that might exacerbate symptoms
+    - Night/rest pain: No
+    - Work impact: Netball player, which is affected by condition; trying to avoid pivoting movements in sports
+  - **Instability/Locking:** Pseudo-locking/catching sensation, described as a brief click or catch that pops and goes
+  - **Red Flags:** None mentioned
+
+**RECOMMENDATION:**
+- **Pathway:** Orthopaedic Triage Clinician referral for further evaluation and management
+- **Reason:** Failed conservative care (physiotherapy) and recent imaging findings (MRI showing ligament issue)
+- **Next Step:** Book a consultation with an orthopaedic specialist for detailed assessment and possible review of MRI results
+
+**SAFETY NET:**
+- **Urgent Care:** No, not indicated; symptoms are localized to the knee with no signs of severe pain, swelling, or neurological compromise
+- **Follow-up:** Schedule follow-up appointment after consultation with orthopaedic specialist for further management and any necessary interventions
+
+**RED FLAG CONSIDERATIONS:**
+- None mentioned in clinical summary
+
+**SAFETY NET:**
+- **Urgent Care:** If symptoms worsen suddenly, or new red flags occur (severe weakness, fever, bladder/bowel problems, severe pain), seek urgent care immediately.
+- **Follow-up:** Schedule follow-up appointment after consultation with orthopaedic specialist for further management and any necessary interventions.
+
+**TRIAGE CLASSIFICATION:**
+
+**Category:** Soft Tissue
+**Body Part:** Knee
+**Specialty:** Soft Tissue - Knee
+**Clinical Reasoning:** This classification is chosen because the patient has a kneecap that keeps popping out, causing pain and apprehension of further dislocation. The clinical findings indicate a pseudo-locking/catching sensation, which suggests a patellar instability issue. Additionally, the MRI scan showed something wrong with the ligament, likely indicating a patellofemoral ligament or medial patellomalleolar ligament injury. As per classification rules, any ligament injury (ACL, PCL, MCL, LCL, MPFL) is always classified as Soft Tissue.
+

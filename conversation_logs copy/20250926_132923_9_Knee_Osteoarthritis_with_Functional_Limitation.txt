@@ -1,0 +1,88 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_9
+Title: Knee Osteoarthritis with Functional Limitation
+Date: 2025-09-26 13:29:23
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 65
+Gender: female
+Occupation: retired
+Comorbidities: BMI 32; type 2 diabetes
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+Both my knees ache every day and walking is getting harder. I can only get to the local shop now and stairs are very painful. Painkillers don’t really work anymore.
+
+CONVERSATION:
+--------------------
+[13:28:52] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:28:52] PATIENT: I'm Robert Williams, 65 years old, female, and my date of birth is 23/6/1959. I have both my knees ache every day and walking is getting harder. i can only get to the local shop now and stairs are very painful. painkillers don’t really work anymore.
+
+[13:28:52] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[13:28:52] PATIENT: It's come on gradually. Over about 5 years, I'd say. It started with just a bit of stiffness in the mornings, but over time it's gotten worse and now both knees ache every day.
+
+[13:28:52] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:28:54] PATIENT: The pain from my knees radiates to my thighs and shins. It's quite uncomfortable when it spreads down there.
+
+[13:28:54] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:28:55] PATIENT: It's about 7 or 8 out of 10. The pain is constant, so even on good days it's still there, but some days are definitely worse than others.
+
+[13:28:55] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:28:58] PATIENT: Well, I've tried various things over the years. I've had multiple courses of physiotherapy to try and strengthen my knees, but it's been a bit hit-or-miss, to be honest. I've also attempted to lose weight through dieting, as being overweight isn't helping with the pain either. And more recently, I've had steroid injections in both knees, which did bring some relief for a while, but unfortunately, that effect wore off after a few months.
+
+[13:28:58] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[13:28:59] PATIENT: No, I haven't had any surgeries or significant injuries to my knees. Just the usual wear and tear over the years.
+
+[13:28:59] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[13:29:01] PATIENT: Honestly, I don't get any locking or catching sensations in my knees. It's more just a constant ache and stiffness that makes it hard to move around.
+
+[13:29:01] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:29:02] PATIENT: No, it's not related to any specific activities like running or marathon training. I'm just getting older and the pain has been building up over the past 5 years with daily wear and tear on my knees.
+
+[13:29:02] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[13:29:04] PATIENT: To be honest, I haven't had any MRI scans done. But I did have some X-rays taken about 2-3 years ago to check on the wear and tear in my knees. The doctor mentioned that there was significant degenerative osteoarthritis present, which explained a lot of my symptoms at the time.
+
+[13:29:04] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:29:06] PATIENT: No, I don't smoke cigarettes. I've never been much of a smoker and gave it up many years ago.
+
+[13:29:06] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:29:07] PATIENT: To be honest, I've been trying to avoid surgery as long as possible. Given how much it's affected my daily life, I'd consider it if a specialist thought it was the right option for me. But at this point, I'm not sure - I'd want to know more about what it would involve and whether there are any other alternatives first.
+
+[13:29:07] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:29:09] PATIENT: No, I haven't experienced any fever or chills. My weight has actually been going up with all the extra pounds I've gained over the years, so I wouldn't say there's been unexplained weight loss either. As for weakness, I'd say it's more like stiffness and pain that makes me feel weak, rather than actual muscle weakness.
+
+[13:29:09] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Advanced OA with functional restriction and failed conservative care → surgical assessment for knee arthroplasty.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 65-year-old retired lady (BMI 32, type 2 diabetes) with 5 years of bilateral knee pain, progressively worsening. She describes constant ache 7–8/10, stiffness, swelling, and severe limitation of mobility. She is limited to 200 m walking with a stick and finds stairs very difficult. She has tried physiotherapy, steroid injections, weight reduction, and oral analgesia without sustained relief.
+
+Radiographs show advanced tricompartmental osteoarthritis bilaterally with joint space loss and osteophytes. Given severity, functional loss, and failure of conservative treatment, surgical assessment for arthroplasty is appropriate.
+
+Yours sincerely,
+Orthopaedic Triage
+

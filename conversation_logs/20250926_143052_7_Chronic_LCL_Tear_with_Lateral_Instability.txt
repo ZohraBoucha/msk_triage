@@ -1,0 +1,157 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_7
+Title: Chronic LCL Tear with Lateral Instability
+Date: 2025-09-26 14:30:52
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 42
+Gender: female
+Occupation: office manager; keen hiker
+Comorbidities: BMI 24
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+I fell skiing about ten weeks ago and the outside of my knee still feels wobbly. I did physio but it hasn’t settled and I can’t hike down hills anymore.
+
+CONVERSATION:
+--------------------
+[14:30:17] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:30:17] PATIENT: I'm Charles Davis, 42 years old, female, and my date of birth is 3/8/1982. I have i fell skiing about ten weeks ago and the outside of my knee still feels wobbly. i did physio but it hasn’t settled and i can’t hike down hills anymore.
+
+[14:30:17] BOT: Which side is affected - left or right?
+
+[14:30:17] PATIENT: My right knee. The outside part feels wobbly.
+
+[14:30:17] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[14:30:19] PATIENT: It started from an injury - I fell skiing about ten weeks ago. The fall was pretty forceful, and it seemed to affect the outside part of my right knee.
+
+[14:30:19] BOT: Can you describe your main symptoms in your own words?
+
+[14:30:21] PATIENT: To be honest, I'd say my knee feels pretty unstable. Even just walking down stairs can make it feel like it's going to give way, especially if I'm on uneven ground or have to put weight on the outside of my knee. It's a bit of an ache most of the time, but when I put pressure on it, it can get quite sharp and painful.
+
+[14:30:21] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:30:22] PATIENT: No, it's still localized to just the outside part of my right knee. The ache and sharp pain are confined to that area.
+
+[14:30:22] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:30:24] PATIENT: Honestly, I do get some swelling with exertion. It's not constant, but it does come on when I've been doing something that puts pressure on the outside of my knee.
+
+[14:30:24] BOT: What makes your symptoms better or worse?
+
+[14:30:26] PATIENT: Descending slopes and uneven surfaces make it worse. Putting weight on the outside of my knee also makes it feel unstable and painful. And to be honest, just thinking about hiking down hills makes me anxious because I'm worried it'll happen again.
+
+[14:30:26] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[14:30:27] PATIENT: My pain would be about a 7 out of 10. It's not constant, but when I put pressure on the outside of my knee or do things that make it unstable, it can get quite sharp and painful.
+
+[14:30:27] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[14:30:29] PATIENT: To be honest, I don't really experience morning stiffness. When I wake up, my knee feels pretty stable, but as soon as I start moving around or putting weight on it, the instability and pain come back. It's not something that improves over time for me, unfortunately.
+
+[14:30:29] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:30:31] PATIENT: I've tried physiotherapy for about 8 weeks now. It was supposed to help me stabilize the knee and regain strength, but unfortunately, it hasn't really made a difference. I did have an MRI done recently, which showed some issues with my lateral collateral ligament, but the doctor didn't really explain what that meant or how to fix it.
+
+[14:30:31] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[14:30:33] PATIENT: No, I haven't had any previous injuries or surgeries to this area. As an office manager, I don't really engage in activities that would require knee surgery, and I've never had any significant issues with my knees before this fall skiing.
+
+[14:30:33] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[14:30:34] PATIENT: Honestly, I don't get true locking. It's more like a brief click or catch that pops and goes. When I put weight on the outside of my knee or do something that makes it unstable, it can feel like it's going to give way, but it doesn't completely lock up.
+
+[14:30:34] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[14:30:36] PATIENT: No, it's not related to running or marathon training. I'm actually more concerned about hiking down hills, which was my favorite activity before this injury. The instability makes me anxious when I think about doing something that requires putting weight on the outside of my knee.
+
+[14:30:36] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[14:30:38] PATIENT: No, I don't smoke. I've never been a smoker, actually.
+
+[14:30:38] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:30:39] PATIENT: No, I don't have any fever, chills, or unexplained weight loss. But to be honest, the anxiety about re-injuring my knee has been affecting my mood lately, especially when I think about doing activities that make my knee unstable.
+
+[14:30:39] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Persistent symptomatic lateral instability after complete LCL tear with failed conservative care → surgical reconstruction required.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 42-year-old office manager and recreational hiker (BMI 24) with persistent lateral instability 10 weeks post skiing injury. Despite 8 weeks of physiotherapy, she reports ongoing instability especially on slopes and uneven ground. MRI (2 weeks ago) demonstrates complete LCL rupture with PLC involvement; ACL/PCL intact.
+
+Given continued symptomatic lateral instability and failed conservative management, referral for surgical reconstruction is indicated.
+
+Yours sincerely,
+Orthopaedic Triage
+
+SBAR CLINICAL SUMMARY & TRIAGE CLASSIFICATION:
+============================================================
+**SITUATION:**
+
+* **Patient Demographics:** Charles Davis, 42 years old, female
+* **Presenting Complaint:** Knee feels unstable after a fall skiing ten weeks ago; unable to hike down hills due to fear of re-injury
+* **Body Part Affected:** Right knee, lateral aspect
+
+**BACKGROUND:**
+
+* **Onset & Duration:** Symptoms started immediately after the fall and have persisted for ten weeks
+* **Mechanism of Injury:** Forceful fall skiing
+* **Previous Treatment:** 8 weeks of physiotherapy with no improvement; recent MRI showing issues with lateral collateral ligament, but results not fully explained
+* **Relevant History:** No previous injuries or surgeries to the knee
+
+**ASSESSMENT:**
+
+* **Clinical Findings:**
+	+ **Pain Characteristics:** Ache and sharp pain on the outside of the right knee; worse with weight-bearing activities and uneven surfaces
+	+ **Associated Symptoms:** Swelling with exertion, but not constant
+	+ **Functional Impact:**
+		- Max walking distance: Unable to hike down hills due to fear of re-injury
+		- Stairs tolerance: Able to walk up stairs without difficulty; descends slowly and carefully
+		- Night/rest pain: Occasional sharp pain at night that wakes the patient up
+		- Work impact: No significant impact on work, but anxiety about knee instability affects mood
+		- Falls: None reported
+	+ **Instability/Locking:** Pseudo-locking/catching; brief click or catch that pops and goes when putting weight on the outside of the knee
+	+ **Red Flags:** Anxiety about re-injury; no fever, chills, unexplained weight loss, or severe weakness
+* **Physical Examination:** Not mentioned
+* **Imaging:** MRI report not available; issues with lateral collateral ligament noted
+
+**RECOMMENDATION:**
+
+* **Pathway:** Orthopaedic clinic at SWLEOC
+* **Reason:** Persistent knee instability and pain despite physiotherapy, recent MRI showing issues with lateral collateral ligament
+* **Next Step:** Book a consultation with an orthopaedic specialist to discuss further management and potential surgical intervention
+
+**SAFETY NET:**
+
+* **Urgent Care:** No; no severe, rapidly worsening symptoms reported
+* **Follow-up:** Follow up in two weeks for review of treatment plan and any progress made
+
+**RED FLAG CONSIDERATIONS:**
+- No severe, rapidly worsening symptoms reported (e.g., fever, chills, unexplained weight loss, or severe weakness); anxiety about re-injury is present but not considered a red flag.
+
+**SAFETY NET:**
+
+* **Urgent Care:** If symptoms worsen suddenly, or new red flags occur (severe weakness, bladder/bowel problems, severe pain), seek urgent care immediately.
+* **Follow-up:** Follow up in two weeks for review of treatment plan and any progress made.
+
+**TRIAGE CLASSIFICATION:**
+
+**Category:** Soft Tissue
+**Body Part:** Knee
+**Specialty:** Soft Tissue - Knee
+**Clinical Reasoning:** The patient has a history of a fall skiing, followed by persistent knee instability and pain despite physiotherapy. An MRI showed issues with the lateral collateral ligament, indicating a soft tissue injury rather than severe joint degeneration requiring arthroplasty. Although there is some concern about potential surgical intervention, this would be further evaluated during the consultation with an orthopaedic specialist. Given the patient's symptoms and history, the most appropriate triage category is Soft Tissue.
+

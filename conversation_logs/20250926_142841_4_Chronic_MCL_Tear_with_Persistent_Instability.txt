@@ -1,0 +1,143 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_4
+Title: Chronic MCL Tear with Persistent Instability
+Date: 2025-09-26 14:28:41
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 38
+Gender: male
+Occupation: warehouse supervisor
+Comorbidities: BMI 26
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+I hurt my knee playing rugby three months ago and it still feels wobbly on the inside. Physio helped the pain but it’s still unstable, especially when I move sideways.
+
+CONVERSATION:
+--------------------
+[14:28:09] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:28:09] PATIENT: I'm John Moore, 38 years old, male, and my date of birth is 26/5/1986. I have i hurt my knee playing rugby three months ago and it still feels wobbly on the inside. physio helped the pain but it’s still unstable, especially when i move sideways.
+
+[14:28:09] BOT: Which side is affected - left or right?
+
+[14:28:09] PATIENT: My knee on the left side is affected. It's the medial aspect, so that's where I hurt it playing rugby three months ago.
+
+[14:28:09] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[14:28:11] PATIENT: The pain feels like an ache, about 3/10 at rest. But when I move sideways or put pressure on it, it becomes sharp and gets up to 7/10. It's really annoying because it makes me feel unstable in my knee.
+
+[14:28:11] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:28:12] PATIENT: No, it's localized to just my left knee. The pain doesn't spread anywhere else. It's pretty much confined to the medial aspect where I hurt it playing rugby.
+
+[14:28:12] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:28:14] PATIENT: Yes, I do have some swelling after exertion. It's usually more noticeable when I've been doing something that aggravates the knee, like side steps or uneven ground.
+
+[14:28:14] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:28:16] PATIENT: They seem to come and go. It's usually worse when I move sideways or put pressure on it, especially after exertion. Sometimes the swelling can be quite noticeable after a particularly aggravating activity.
+
+[14:28:16] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[14:28:17] PATIENT: To be honest, I don't really experience much morning stiffness. The knee feels a bit stiff in the morning, but it loosens up pretty quickly after about 10-15 minutes of walking around or doing some gentle stretching exercises.
+
+[14:28:17] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[14:28:19] PATIENT: To be honest, I don't really have too much difficulty with most of these activities. But going down stairs can be a bit tricky for me because the knee doesn't feel very stable, especially if it's been bothering me beforehand. And I'd say getting in/out of a car is also a bit challenging, just because I'm not sure how my knee will hold up when I'm moving around or shifting gears.
+
+[14:28:19] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[14:28:21] PATIENT: No, I haven't had any previous injuries or surgeries to this area. My knee has been okay until the rugby injury three months ago.
+
+[14:28:21] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[14:28:23] PATIENT: Honestly, I don't really experience locking or catching in my knee. It's more like it feels unstable and wobbly, especially when I move sideways or put pressure on it. Sometimes I might feel a brief click or catch, but it doesn't get completely stuck and won't move.
+
+[14:28:23] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[14:28:24] PATIENT: No, it's not related to any specific activities like running or prolonged standing. I actually had a rugby injury three months ago that caused this instability in my knee. The problem persists even after stopping sports and modifying my work to avoid putting too much strain on the knee.
+
+[14:28:24] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[14:28:26] PATIENT: Yes, I had an MRI done about 5 weeks ago to rule out any serious damage. The results showed that everything looked okay, but the doctor did mention that there was some instability in the medial aspect of my knee.
+
+[14:28:26] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[14:28:27] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[14:28:27] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:28:29] PATIENT: No, I haven't experienced any fever or chills. The only thing that's really been affecting me is the instability in my knee, but it's not related to any kind of infection or illness that I'm aware of.
+
+[14:28:29] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Persistent symptomatic valgus instability with complete MCL tear poorly healing despite rehab → consider surgical repair/reconstruction.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 38-year-old warehouse supervisor (BMI 26) with persistent medial instability 3 months post valgus rugby injury. After 6 weeks of physiotherapy he remains symptomatic; MRI (5 weeks ago) shows complete femoral-side MCL tear with poor healing; other ligaments/menisci intact.
+
+Given ongoing functional valgus instability limiting work and sport, elective surgical reconstruction/repair is appropriate.
+
+Yours sincerely,
+Orthopaedic Triage
+
+SBAR CLINICAL SUMMARY & TRIAGE CLASSIFICATION:
+============================================================
+**SITUATION:**
+- **Patient Demographics:** John Moore, 38 years old, male
+- **Presenting Complaint:** Instability in his left knee, feeling wobbly on the inside, especially when moving sideways or putting pressure on it
+- **Body Part Affected:** Left knee, specifically the medial aspect
+
+**BACKGROUND:**
+- **Onset & Duration:** Injury occurred 3 months ago while playing rugby; symptoms persist
+- **Mechanism of Injury:** Traumatic injury during rugby play
+- **Previous Treatment:** Physiotherapy helped with pain but did not resolve instability; no surgical interventions or previous injuries to the knee
+
+**ASSESSMENT:**
+- **Clinical Findings:**
+  - **Pain Characteristics:** Ache (3/10 at rest), sharp (7/10 when moving sideways or putting pressure on it)
+  - **Associated Symptoms:** Swelling after exertion, brief click or catch (no true locking)
+  - **Functional Impact:** Limited by instability and pain; difficulty going down stairs, getting in/out of a car
+  - **Instability/Locking:** Subjective instability, no true locking
+  - **Red Flags:** None mentioned
+
+- **Imaging:** MRI 5 weeks ago showed some instability in the medial aspect of the knee (report not available for review)
+
+**RECOMMENDATION:**
+- **Pathway:** Orthopaedic Triage Clinic
+- **Reason:** Persistent instability and pain despite physiotherapy; need further assessment and possibly intervention
+- **Next Step:** Book a consultation at the Orthopaedic Triage Clinic to assess the knee and determine the best course of action
+
+**SAFETY NET:**
+- **Urgent Care:** No indications for urgent care, but advised to seek medical attention if symptoms worsen or new neurological symptoms occur
+- **Follow-up:** Follow up with the Orthopaedic Triage Clinic as booked for further assessment and treatment planning
+
+**RED FLAG CONSIDERATIONS:**
+- None mentioned, but it is essential to rule out any underlying neurological conditions that may be contributing to the patient's symptoms.
+
+**SAFETY NET:**
+- **Urgent Care:** If symptoms worsen suddenly or new red flags occur (severe weakness, fever, bladder/bowel problems, severe pain), seek urgent care immediately.
+- **Follow-up:** Follow up with the Orthopaedic Triage Clinic as booked for further assessment and treatment planning.
+
+Note that while meniscal injuries are common in sports-related trauma, MCL sprains/strains can also present similarly. Chondral lesions/articular cartilage damage is a less likely but possible diagnosis given the brief click or catch and difficulty with activities like going down stairs/getting in/out of a car.
+
+**TRIAGE CLASSIFICATION:**
+
+**Category:** Soft Tissue
+**Body Part:** Knee
+**Specialty:** Soft Tissue - Knee
+**Clinical Reasoning:** The patient presents with instability in his left knee, specifically on the medial aspect, following a traumatic injury during rugby play 3 months ago. Despite physiotherapy for pain relief, symptoms persist. The clinical findings of subjective instability and brief click or catch (no true locking) are consistent with soft tissue injuries, such as ligament sprains or meniscal tears. While an MRI showed some instability in the medial aspect of the knee, this does not necessarily indicate joint replacement candidacy at this stage. Therefore, the case is classified as Soft Tissue, warranting further assessment and possible intervention by a specialist in Orthopaedic Soft Tissue injuries.
+

@@ -1,0 +1,84 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_1
+Title: Chronic ACL Deficiency with Secondary Medial Meniscal Tear
+Date: 2025-09-26 13:42:19
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 34
+Gender: female
+Occupation: teacher
+Comorbidities: BMI 25, otherwise well
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My knee keeps giving way even though I did physio for months. It sometimes catches and even locks up. My GP told me the scan showed a torn ligament and meniscus.
+
+CONVERSATION:
+--------------------
+[13:41:53] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:41:53] PATIENT: I'm Lisa Jackson, 34 years old, female, and my date of birth is 24/11/1990. I have my knee keeps giving way even though i did physio for months. it sometimes catches and even locks up. my gp told me the scan showed a torn ligament and meniscus.
+
+[13:41:53] BOT: Which side is affected - left or right?
+
+[13:41:54] PATIENT: It's the left knee. It's been giving me trouble since I injured it 18 months ago during netball.
+
+[13:41:54] BOT: Can you describe your main symptoms in your own words?
+
+[13:41:55] PATIENT: It's been really frustrating with my left knee. It gives way on me sometimes, which is really scary, and it also catches or locks up occasionally. The pain can be quite bad - I'd say an 8 out of 10 when it happens, but normally it's a more manageable ache at about a 4.
+
+[13:41:55] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:41:57] PATIENT: The pain is localised to my left knee. It doesn't spread anywhere else.
+
+[13:41:57] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:41:58] PATIENT: Yes, I do have some swelling after episodes of pain or giving way. It's not constant, but it can be quite noticeable when the knee locks up or catches.
+
+[13:41:58] BOT: What makes your symptoms better or worse?
+
+[13:42:00] PATIENT: Activity modification, rest, and wearing a brace make my symptoms better. But if I try to pivot or do sudden turns on uneven surfaces, it gets worse.
+
+[13:42:00] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:42:01] PATIENT: Honestly, I don't really experience morning stiffness. When I wake up, my knee feels pretty stiff, but it loosens up quickly with some movement - usually within 10-15 minutes.
+
+[13:42:01] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:42:03] PATIENT: "I've tried structured physiotherapy for 12 weeks, but it seemed to plateau. I also had an MRI about 6 weeks ago that showed a torn ligament and meniscus in my left knee."
+
+[13:42:03] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:42:04] PATIENT: No, it's not related to any specific activities like running or marathon training. My injury occurred during a netball game 18 months ago when I did a pivot move, which caused the initial damage to my knee.
+
+[13:42:04] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:42:06] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[13:42:06] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:42:07] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My symptoms have been pretty consistent with the knee giving way and catching/locking issues since the injury 18 months ago.
+
+[13:42:07] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Failed conservative management with persistent instability and new mechanical symptoms; MRI shows ACL rupture with medial meniscal tear → surgical stabilisation assessment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 34-year-old teacher (BMI 25) has 18 months of left knee instability following a non-contact pivot injury whilst playing netball. She completed 12 weeks of physiotherapy (good adherence) with plateau. Over the past two months she developed mechanical catching and occasional locking. MRI (6 weeks ago) shows complete mid-substance ACL rupture with retraction and a new horizontal posterior horn medial meniscal tear; minor grade 1–2 chondral change. She avoids stairs, uneven ground and has ceased pivoting sports.
+
+Given failed rehabilitation and progressive mechanical symptoms, she merits elective orthopaedic assessment for ACL reconstruction with meniscal treatment. Safety-netting regarding acute locking and swelling discussed.
+
+Yours sincerely,
+Orthopaedic Triage
+

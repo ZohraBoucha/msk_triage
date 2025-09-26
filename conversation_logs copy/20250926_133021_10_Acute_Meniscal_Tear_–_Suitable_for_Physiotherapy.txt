@@ -1,0 +1,114 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_10
+Title: Acute Meniscal Tear – Suitable for Physiotherapy
+Date: 2025-09-26 13:30:21
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 27
+Gender: male
+Occupation: personal trainer
+Comorbidities: BMI 24, otherwise fit
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+I twisted my knee at the gym about six weeks ago and since then it aches on the inside. It sometimes clicks but it hasn’t locked. I can still work but squats are painful.
+
+CONVERSATION:
+--------------------
+[13:29:40] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:29:40] PATIENT: I'm Sarah Martinez, 27 years old, male, and my date of birth is 25/6/1997. I have i twisted my knee at the gym about six weeks ago and since then it aches on the inside. it sometimes clicks but it hasn’t locked. i can still work but squats are painful.
+
+[13:29:40] BOT: Which side is affected - left or right?
+
+[13:29:40] PATIENT: My right knee. It's on the inside of my knee, near the joint line.
+
+[13:29:40] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:29:42] PATIENT: No, it's just localized to my right knee. The pain is pretty much confined to the medial joint line where I twisted it.
+
+[13:29:42] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:29:43] PATIENT: No, I don't have any other symptoms like that. The only thing I've noticed is some clicking in the knee when I move it, but no swelling or stiffness.
+
+[13:29:43] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:29:45] PATIENT: To be honest, the pain comes and goes. It's usually around a 3 or 4 out of 10 on a good day, but when I'm doing squats or lunges it can get up to a 6 or 7. There doesn't seem to be any particular pattern, it just depends on what I'm doing.
+
+[13:29:45] BOT: What makes your symptoms better or worse?
+
+[13:29:47] PATIENT: Rest and ice seem to help calm down the pain, especially after I've been doing some heavy squats or lunges. It's not a huge difference, but it does feel like it helps a bit.
+
+[13:29:47] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[13:29:48] PATIENT: To be honest, I don't really have much difficulty with any of those activities. I mean, I can still do them all without too much problem, but squats are definitely the one thing that bothers me a lot.
+
+[13:29:48] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[13:29:51] PATIENT: To be honest, I don't really have much difficulty with any of those activities. I mean, I can still do them all without too much problem, but squats are definitely the one thing that bothers me a lot.
+
+(Note: The patient has already answered these questions earlier in the conversation, so it's not necessary to repeat themselves again. However, since the bot is asking the question again, the patient will respond accordingly.)
+
+[13:29:51] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:29:52] PATIENT: To be honest, I haven't tried any treatments beyond just resting it and taking some over-the-counter pain medication. I figured it would heal on its own with time, but the pain has been lingering for six weeks now so I'm getting a bit concerned.
+
+[13:29:52] BOT: When you tried the treatments we discussed, did they help with your symptoms, make no difference, or make things worse?
+
+[13:29:54] PATIENT: To be honest, I don't think they made much difference. The pain still lingers even after taking OTC pain meds and resting it.
+
+[13:29:54] BOT: When you tried the treatments we discussed, did they help with your symptoms, make no difference, or make things worse?
+
+[13:29:55] PATIENT: To be honest, I don't think they made much difference. The pain still lingers even after taking OTC pain meds and resting it.
+
+[13:29:55] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[13:29:57] PATIENT: No, I haven't had any previous injuries or surgeries to this area. My knee has been pretty healthy until now, but I've had some minor issues with my ankles from playing sports when I was younger.
+
+[13:29:57] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:29:59] PATIENT: To be honest, I've been doing a lot more running lately as part of my training routine. I've increased my mileage over the past few months to get ready for some upcoming competitions. But I'm not sure if that's related to this knee issue or not.
+
+[13:29:59] BOT: Do you experience any of the following: joint instability or giving way, locking or catching sensations, or pain specifically at the front of the knee or behind the kneecap?
+
+[13:30:01] PATIENT: No, I don't experience joint instability or giving way. The clicking sensation I mentioned earlier doesn't really feel like locking or catching sensations either - it's more just a weird feeling when I move my knee. As for pain specifically at the front of the knee or behind the kneecap, no, mine is located on the inside of my right knee, near the joint line.
+
+[13:30:01] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[13:30:02] PATIENT: No, I haven't had any imaging done like X-rays or MRI scans. To be honest, I've just been trying to manage the pain with rest and OTC medication so far.
+
+[13:30:02] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:30:04] PATIENT: No, I don't smoke cigarettes or use any tobacco products. I've never been much of a smoker, and I try to stay healthy as a personal trainer.
+
+[13:30:04] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:30:06] PATIENT: Honestly, I don't know if I'd be interested in surgical treatment at this point. I've been trying to manage the pain with rest and OTC medication, but it's still lingering after six weeks. If a specialist recommends surgery, I'd definitely consider it as an option, but I'd want to explore all other avenues first.
+
+[13:30:06] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:30:08] PATIENT: No, I haven't experienced any fever or chills. The only thing that's been bothering me is the pain in my knee, which hasn't really affected my appetite or caused any weight loss.
+
+[13:30:08] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Acute meniscal injury without locking; good ROM; early physiotherapy appropriate.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 27-year-old personal trainer (BMI 24) with 6 weeks of medial right knee pain after a twisting gym injury. Pain is 3/10 at baseline, up to 6/10 with loaded flexion (squats/lunges). Occasional clicking but no true locking. He has not had physiotherapy. Function preserved but training reduced.
+
+Exam shows full ROM, mild medial tenderness, no effusion. Likely acute medial meniscus tear. Initial management with physiotherapy is appropriate. Safety-netting re: locking given.
+
+Yours sincerely,
+Orthopaedic Triage
+

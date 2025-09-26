@@ -1,0 +1,98 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_9
+Title: Knee Osteoarthritis with Functional Limitation
+Date: 2025-09-26 13:20:02
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 65
+Gender: female
+Occupation: retired
+Comorbidities: BMI 32; type 2 diabetes
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+Both my knees ache every day and walking is getting harder. I can only get to the local shop now and stairs are very painful. Painkillers don’t really work anymore.
+
+CONVERSATION:
+--------------------
+[13:19:29] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:19:29] PATIENT: I'm Thomas Rodriguez, 65 years old, female, and my date of birth is 2/1/1959. I have both my knees ache every day and walking is getting harder. i can only get to the local shop now and stairs are very painful. painkillers don’t really work anymore.
+
+[13:19:29] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[13:19:30] PATIENT: It came on gradually. I've been having problems with both knees for about 5 years now, but it's only gotten worse over the past year or so.
+
+[13:19:30] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:19:32] PATIENT: To be honest, it's mostly just my knees that hurt. I get some pain in my thighs and shins when the knee pain is bad, but it feels like it's radiating from there.
+
+[13:19:32] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:19:33] PATIENT: To be honest, it's mostly just my knees that hurt. I get some pain in my thighs and shins when the knee pain is bad, but it feels like it's radiating from there.
+
+(Note: I used the site information from SOCRATES to answer this question)
+
+[13:19:33] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:19:35] PATIENT: Yes, I do have swelling in both knees, especially after sitting or standing for a long time. And yes, it's stiff in the mornings, but once I move around a bit, it loosens up. But to be honest, the stiffness is getting worse lately.
+
+[13:19:35] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:19:37] PATIENT: It's a 7 or an 8 out of 10. The pain's been constant for the past year or so, but it used to be more manageable before that. Now it feels like it's at its worst every day.
+
+[13:19:37] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:19:39] PATIENT: To be honest, I've tried pretty much everything. I've had multiple courses of physiotherapy to try and strengthen the muscles around my knees, but it hasn't really made a difference in the long run. I've also lost weight in an attempt to put less pressure on my joints, but that's been difficult too. And of course, I've taken painkillers as prescribed by my doctor, but like you said, they don't seem to be working as well anymore.
+
+[13:19:39] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[13:19:41] PATIENT: No, I haven't had any surgeries or injuries to this area. The problem has just sort of built up over time with my degenerative osteoarthritis.
+
+[13:19:41] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[13:19:42] PATIENT: To be honest, I don't really experience locking or catching. My knee just hurts and feels stiff, but it doesn't get completely stuck like that. Occasionally, I'll have a bit of a sharp flare-up, but it's not like the joint gets locked up.
+
+[13:19:42] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:19:44] PATIENT: No, I don't really do any of those activities. Like I said, it's just general wear and tear on my knees from getting older. I used to be more active when I was younger, but now I try to stick to short walks to the local shop and avoid anything too strenuous.
+
+[13:19:44] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:19:46] PATIENT: No, it's not related to any specific activities. Like I said, it's just general wear and tear on my knees from getting older. I used to be more active when I was younger, but now I try to stick to short walks to the local shop and avoid anything too strenuous.
+
+[13:19:46] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[13:19:48] PATIENT: To be honest, I don't think so. My doctor has mentioned that I have degenerative osteoarthritis in both knees, but I'm not sure if any imaging was done specifically for this issue. However, I do recall having some X-rays taken a few years ago to check on the wear and tear of my joints, and I think it just showed signs of osteoarthritis.
+
+[13:19:48] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:19:49] PATIENT: No, I don't smoke. I've never smoked a cigarette in my life.
+
+[13:19:49] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:19:51] PATIENT: No, I haven't experienced any fever or chills. But I have noticed that I've lost some weight recently, which might be related to my knee pain making it harder for me to eat and move around as much.
+
+[13:19:51] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Advanced OA with functional restriction and failed conservative care → surgical assessment for knee arthroplasty.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 65-year-old retired lady (BMI 32, type 2 diabetes) with 5 years of bilateral knee pain, progressively worsening. She describes constant ache 7–8/10, stiffness, swelling, and severe limitation of mobility. She is limited to 200 m walking with a stick and finds stairs very difficult. She has tried physiotherapy, steroid injections, weight reduction, and oral analgesia without sustained relief.
+
+Radiographs show advanced tricompartmental osteoarthritis bilaterally with joint space loss and osteophytes. Given severity, functional loss, and failure of conservative treatment, surgical assessment for arthroplasty is appropriate.
+
+Yours sincerely,
+Orthopaedic Triage
+

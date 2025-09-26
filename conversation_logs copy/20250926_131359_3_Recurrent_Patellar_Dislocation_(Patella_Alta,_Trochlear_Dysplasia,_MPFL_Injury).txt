@@ -1,0 +1,137 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_3
+Title: Recurrent Patellar Dislocation (Patella Alta, Trochlear Dysplasia, MPFL Injury)
+Date: 2025-09-26 13:13:59
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 22
+Gender: female
+Occupation: university student; netball player
+Comorbidities: BMI 21
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My kneecap keeps popping out when I play sport. It’s happened three times now and I’m too scared to keep playing. Physio didn’t stop it and the scan showed something wrong with the ligament.
+
+CONVERSATION:
+--------------------
+[13:13:25] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:13:25] PATIENT: I'm Charles Miller, 22 years old, female, and my date of birth is 24/12/2002. I have my kneecap keeps popping out when i play sport. it’s happened three times now and i’m too scared to keep playing. physio didn’t stop it and the scan showed something wrong with the ligament.
+
+[13:13:25] BOT: Which side is affected - left or right?
+
+[13:13:25] PATIENT: It's happened on both knees, but it happens more often to my right knee.
+
+[13:13:25] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[13:13:27] PATIENT: It started after I did a lot of pivoting in netball training. I think it was 8 months ago when it first happened. It was just one sudden movement and my kneecap popped out, and I've had a few more episodes since then.
+
+[13:13:27] BOT: Can you describe your main symptoms in your own words?
+
+[13:13:29] PATIENT: My kneecap keeps popping out when I play sport, which is really scary. It's been happening so often that I've had to stop playing netball because I'm too afraid it'll happen again and I'll hurt myself even more. When it happens, it feels like a sharp pain and my knee just gives way under me - it's really unsettling.
+
+[13:13:29] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:13:30] PATIENT: The pain feels really localized to just around my kneecap. It doesn't spread anywhere else.
+
+[13:13:30] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:13:32] PATIENT: My symptoms are kind of unpredictable, but they seem to happen more often when I play sport, especially during pivoting movements. It's like if I do a certain movement or twist in the wrong way, my kneecap will just pop out again.
+
+[13:13:32] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:13:33] PATIENT: My symptoms are kind of unpredictable, but they seem to happen more often when I play sport, especially during pivoting movements. It's like if I do a certain movement or twist in the wrong way, my kneecap will just pop out again.
+
+[13:13:33] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:13:35] PATIENT: My pain would be an 8 out of 10 when it happens. It's really sharp and feels like my kneecap just gives way under me. The after-pain is more of a dull ache, maybe a 3 or 4 out of 10.
+
+[13:13:35] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:13:37] PATIENT: Honestly, I don't really get morning stiffness. After an episode happens, my knee might feel a bit achy the next day, but it's not like it's stiff or anything. It usually loosens up pretty quickly once I start moving around.
+
+[13:13:37] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:13:39] PATIENT: I've tried physiotherapy with a sports physiotherapist. I went to them 16 weeks ago and did some exercises and drills, but it didn't really help stop the kneecap from popping out. They also recommended that I wear a patellar stabilizing brace, which I tried for a bit, but it didn't seem to make much of a difference.
+
+[13:13:39] BOT: When you tried the treatments we discussed, did they help with your symptoms, make no difference, or make things worse?
+
+[13:13:41] PATIENT: The physio didn't really help with the kneecap popping out. The exercises and drills we did were meant to be sport-specific, but it didn't seem to make any difference in preventing the dislocations. Wearing the patellar stabilizing brace was a bit better, but it still happened a few times while I was wearing it.
+
+[13:13:41] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[13:13:42] PATIENT: No, I haven't had any previous injuries or surgeries to this area. I've been lucky with my knees so far, just this one issue with the kneecap popping out.
+
+[13:13:42] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[13:13:44] PATIENT: It's more like a brief click or catch that pops and goes. When it happens, I feel a sharp pain and my kneecap just dislocates for a second before popping back in. It doesn't get completely stuck, but the sudden movement is really unsettling.
+
+[13:13:44] BOT: Do you experience any of the following: joint instability or giving way, locking or catching sensations, or pain specifically at the front of the knee or behind the kneecap?
+
+[13:13:46] PATIENT: Yes, I experience joint instability or giving way. When it happens, I feel like my kneecap just gives way under me, which is really unsettling. It's not always the case, but when it does happen, it feels like I'm going to injure myself even more.
+
+[13:13:46] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:13:47] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[13:13:47] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:13:49] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My symptoms are all related to the kneecap popping out when I play sport.
+
+[13:13:49] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** Medium
+**Reasoning:** Young age 22 suggests soft tissue pathology
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+[13:13:51] PATIENT: "What happens next? I'm still really scared about playing netball again because of the kneecap popping out. What should I do?"
+
+[13:13:51] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+[13:13:53] PATIENT: "What happens next? I'm still really scared about playing netball again because of the kneecap popping out. What should I do?"
+
+(Note: The patient is anxious to know what will happen next in terms of treatment and whether they can safely return to playing netball.)
+
+[13:13:53] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+[13:13:54] PATIENT: "What do you mean by 'conversation completed'? I was in the middle of asking about what happens next with my knee. Can someone still help me?"
+
+[13:13:54] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+[13:13:56] PATIENT: "I don't understand what you mean by 'conversation completed'. I was in the middle of asking about what happens next with my knee. Can someone still help me? I'm still really scared about playing netball again because of the kneecap popping out."
+
+[13:13:56] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+[13:13:58] PATIENT: "I don't understand what you mean by 'conversation completed'. I was in the middle of asking about what happens next with my knee. Can someone still help me? I'm still really scared about playing netball again because of the kneecap popping out."
+
+[13:13:58] BOT: Conversation completed. Thank you for using SWLEOC triage system.
+
+CLINICAL NOTES:
+--------------------
+Structural risk factors (alta, trochlear dysplasia) with recurrent instability despite rehab → consider MPFL reconstruction ± bony realignment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 22-year-old student and netball player (BMI 21) with three lateral patellar dislocation episodes over 8 months. Completed 16 weeks of targeted VMO/proprioceptive rehab; ongoing apprehension prevents return to sport. MRI (3 weeks ago) demonstrates patella alta, trochlear dysplasia and chronic MPFL tear with scarring; early PFJ chondral change.
+
+Given recurrent instability and structural risk factors despite comprehensive rehabilitation, elective surgical stabilisation (e.g., MPFL reconstruction ± alignment procedure) should be considered.
+
+Yours sincerely,
+Orthopaedic Triage
+

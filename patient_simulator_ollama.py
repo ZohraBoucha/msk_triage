@@ -51,6 +51,7 @@ class PatientSimulator:
         self.patient_data = None
         self.conversation_index = 0
         self.conversation_log = []  # Store all conversation messages for saving
+        self.generated_summary = ""  # Store the generated SBAR summary
         
         # Initialize the agents directly
         self.triage_agent = TriageAgent(model="llama3.1:8b")
@@ -189,6 +190,9 @@ PATIENT RESPONSE:"""
             # Use the summarization agent directly
             summary = await self.summarization_agent.summarize_and_triage(self.conversation_history)
             
+            # Store the summary for saving to file
+            self.generated_summary = summary
+            
             print(f"{Fore.MAGENTA}{'='*60}")
             print(f"{Fore.MAGENTA}SBAR CLINICAL SUMMARY & DIFFERENTIAL DIAGNOSIS")
             print(f"{Fore.MAGENTA}{'='*60}")
@@ -205,11 +209,18 @@ PATIENT RESPONSE:"""
         print(f"{Fore.YELLOW}[{timestamp}] {role_color}{role}:{Style.RESET_ALL} {content}")
         print()  # Add spacing
         
-        # Log the message for saving
+        # Log the message for saving (clean content without developer notes)
+        clean_content = content
+        # Remove any developer notes in parentheses
+        import re
+        clean_content = re.sub(r'\(Note:.*?\)', '', clean_content)
+        clean_content = re.sub(r'\(This response is based on.*?\)', '', clean_content)
+        clean_content = clean_content.strip()
+        
         self.conversation_log.append({
             "timestamp": timestamp,
             "role": role,
-            "content": content
+            "content": clean_content
         })
     
     def save_conversation_to_file(self, output_dir: str = "conversation_logs"):
@@ -267,6 +278,30 @@ PATIENT RESPONSE:"""
                     f.write("EXPANDED CLINIC LETTER:\n")
                     f.write("-" * 20 + "\n")
                     f.write(f"{self.patient_data.expanded_clinic_letter}\n\n")
+                
+                # Write SBAR summary and triage classification (excluding differential diagnosis)
+                if self.generated_summary:
+                    f.write("SBAR CLINICAL SUMMARY & TRIAGE CLASSIFICATION:\n")
+                    f.write("=" * 60 + "\n")
+                    
+                    # Split the summary into sections
+                    sections = self.generated_summary.split("---")
+                    if len(sections) >= 1:
+                        # Write the SBAR section (first part before the first ---)
+                        f.write(sections[0].strip())
+                        f.write("\n\n")
+                    
+                    # Find and write the triage classification section
+                    triage_section = None
+                    for section in sections[1:]:  # Skip the first section (SBAR)
+                        if "TRIAGE CLASSIFICATION:" in section:
+                            triage_section = section
+                            break
+                    
+                    if triage_section:
+                        f.write("---\n\n")
+                        f.write(triage_section.strip())
+                        f.write("\n\n")
             
             print(f"{Fore.GREEN}Conversation saved to: {filepath}")
             return filepath

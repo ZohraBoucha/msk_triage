@@ -1,0 +1,161 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_1
+Title: Chronic ACL Deficiency with Secondary Medial Meniscal Tear
+Date: 2025-09-26 14:26:12
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 34
+Gender: female
+Occupation: teacher
+Comorbidities: BMI 25, otherwise well
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My knee keeps giving way even though I did physio for months. It sometimes catches and even locks up. My GP told me the scan showed a torn ligament and meniscus.
+
+CONVERSATION:
+--------------------
+[14:25:38] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:25:38] PATIENT: I'm David Lee, 34 years old, female, and my date of birth is 2/4/1990. I have my knee keeps giving way even though i did physio for months. it sometimes catches and even locks up. my gp told me the scan showed a torn ligament and meniscus.
+
+[14:25:38] BOT: Which side is affected - left or right?
+
+[14:25:39] PATIENT: My left knee. It's mainly on the medial side, to be honest. And it feels like it's deep down too.
+
+[14:25:39] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[14:25:41] PATIENT: It started with an injury during netball about 18 months ago. I was pivoting and felt something snap in my knee. It's been chronic since then, not just the initial pain but also the instability and catching/locking episodes that happen on a regular basis.
+
+[14:25:41] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:25:42] PATIENT: "No, it's localized to my left knee. I don't feel any pain or discomfort in my other leg."
+
+[14:25:42] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:25:44] PATIENT: They come and go. It's usually worse on certain days, especially when I've been doing a lot of physical activity or walking on uneven ground. Like yesterday, I was helping out in the school playground and had to run around with my class - by the end of it, my knee was throbbing and I felt really unstable.
+
+[14:25:44] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[14:25:46] PATIENT: Honestly, it's baseline ache 4/10, but when I have those episodes where it gives way or catches, the pain can be really sharp and reach an 8/10. It's not just the initial pain that hurts, but also the feeling of instability, which is frustrating because I never know when my knee will give out on me.
+
+[14:25:46] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[14:25:48] PATIENT: Honestly, I do experience morning stiffness in my left knee. It takes me about 10 to 15 minutes to loosen up after waking up. The stiffness feels like it's deep in the medial part of my knee, and it can take some gentle movement or stretching to get rid of it.
+
+[14:25:48] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[14:25:52] PATIENT: Going down stairs? I'd say it's a 6 or 7 out of 10. It's not like it's completely impossible, but it does take some effort to make sure I don't put too much pressure on my knee.
+
+Going up stairs is about the same, maybe an 8 out of 10 because I have to be more mindful of my movement and try not to pivot or twist my knee in any way.
+
+Rising from a chair? That's pretty easy, about a 2 or 3 out of 10. I don't usually have any issues with that.
+
+Bending to the floor is a bit tricky, probably a 7 or 8 out of 10 because it puts strain on my knee and makes me feel like it might give way.
+
+Getting in/out of a car? That's okay, about a 4 or 5 out of 10. It's not too bad as long as I'm careful when getting in or out.
+
+Putting on socks is pretty easy, maybe a 2 or 3 out of 10. I don't usually have any issues with that.
+
+Getting in/out of the bath? That's a bit tricky, probably an 8 out of 10 because it requires me to bend and twist my knee, which can be painful.
+
+Heavy domestic work is pretty much impossible for me now. I used to love doing things like vacuuming or mopping the floor, but since my injury, I've had to avoid those activities as much as possible because they make my knee feel even worse.
+
+[14:25:52] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[14:25:54] PATIENT: No, I don't think any of those activities specifically relate to my knee problems. My main issue is with pivoting and sudden turns, especially on uneven ground or stairs. It's more about the instability and catching/locking episodes that happen when I'm doing things like pivoting in netball or just walking on uneven surfaces.
+
+[14:25:54] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[14:25:56] PATIENT: No, I don't smoke cigarettes or use any tobacco products. I've never been a smoker, and I try to stay healthy as a teacher.
+
+[14:25:56] BOT: Have you tried conservative treatments like physiotherapy, injections, or other non-surgical approaches, and if so, did they help with your symptoms?
+
+[14:25:58] PATIENT: Yes, I've tried conservative treatments like physiotherapy. I had 12 weeks of structured physiotherapy after the injury, but unfortunately, it didn't really help with the instability and catching/locking episodes. It did help with some of the initial pain, but that's about it.
+
+[14:25:58] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:25:59] PATIENT: No, I don't have any fever, chills, unexplained weight loss, or severe weakness. My knee issues are the main concern here, not anything related to systemic symptoms like that.
+
+[14:25:59] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Failed conservative management with persistent instability and new mechanical symptoms; MRI shows ACL rupture with medial meniscal tear → surgical stabilisation assessment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 34-year-old teacher (BMI 25) has 18 months of left knee instability following a non-contact pivot injury whilst playing netball. She completed 12 weeks of physiotherapy (good adherence) with plateau. Over the past two months she developed mechanical catching and occasional locking. MRI (6 weeks ago) shows complete mid-substance ACL rupture with retraction and a new horizontal posterior horn medial meniscal tear; minor grade 1–2 chondral change. She avoids stairs, uneven ground and has ceased pivoting sports.
+
+Given failed rehabilitation and progressive mechanical symptoms, she merits elective orthopaedic assessment for ACL reconstruction with meniscal treatment. Safety-netting regarding acute locking and swelling discussed.
+
+Yours sincerely,
+Orthopaedic Triage
+
+SBAR CLINICAL SUMMARY & TRIAGE CLASSIFICATION:
+============================================================
+**SITUATION:**
+
+- **Patient Demographics:** David Lee, 34 years old, female
+- **Presenting Complaint:** Knee instability and catching/locking episodes in left knee despite previous physiotherapy
+- **Body Part Affected:** Left knee (medial side)
+
+**BACKGROUND:**
+
+- **Onset & Duration:** Injury during netball 18 months ago, chronic since then
+- **Mechanism of Injury:** Pivoting injury during netball
+- **Previous Treatment:** 12 weeks of structured physiotherapy after injury, no improvement in instability and catching/locking episodes
+
+**ASSESSMENT:**
+
+- **Clinical Findings:**
+  - **Pain Characteristics:** Baseline ache (4/10), sharp pain (8/10) during episodes
+  - **Associated Symptoms:** Instability, catching/locking episodes
+  - **Functional Impact:**
+    - Max walking distance: unable to quantify
+    - Stairs tolerance: 6-8 out of 10
+    - Night/rest pain: yes
+    - Work impact: heavy domestic work impossible
+    - Falls: yes (multiple)
+    - Aid use: none mentioned
+  - **Instability/Locking:** True locking with episodes of catching and instability, subjective feeling of giving way
+  - **Red Flags:** None mentioned
+
+- **Physical Examination:** Not described in detail
+- **Imaging:** MRI report not available, but GP mentioned torn ligament and meniscus on previous scan
+
+**RECOMMENDATION:**
+
+- **Pathway:** Orthopaedic Clinic
+- **Reason:** Failed conservative care (physiotherapy), significant functional impact, need for further evaluation and management
+- **Next Step:** Book a consultation with an orthopaedic specialist to discuss surgical options for knee reconstruction or stabilization
+
+**SAFETY NET:**
+
+- **Urgent Care:** Seek urgent care if severe worsening of symptoms, new neurological symptoms, bladder/bowel dysfunction, or new calf swelling/shortness of breath
+- **Follow-up:** Follow up with the orthopaedic specialist as directed to discuss further management and potential surgical intervention.
+
+**RED FLAG CONSIDERATIONS:**
+- None mentioned in the clinical summary. However, consider a differential diagnosis for potential fractures or other serious conditions if there is a history of trauma or significant pain.
+
+**SAFETY NET:**
+- **Urgent Care:** If David experiences sudden worsening of symptoms, new neurological symptoms (weakness, numbness), bladder/bowel dysfunction, severe knee pain, or calf swelling and shortness of breath, seek urgent care immediately.
+- **Follow-up:** Follow up with the orthopaedic specialist as directed to discuss further management and potential surgical intervention.
+
+**TRIAGE CLASSIFICATION:**
+
+**Category:** Soft Tissue
+**Body Part:** Left knee
+**Specialty:** Knee, specifically knee soft tissue (ligament and meniscal injuries)
+**Clinical Reasoning:** This classification is chosen based on the patient's history of pivoting injury during netball 18 months ago, leading to chronic instability and catching/locking episodes in the left knee. Despite previous physiotherapy, there has been no improvement in symptoms, indicating a possible ligament or meniscal tear that requires further evaluation and management. The patient's functional impact is significant, with inability to perform heavy domestic work, falls, and night/rest pain, indicating a need for orthopaedic specialist consultation. 
+
+Note: Although the clinical summary mentions torn ligament and meniscus on previous scan, it does not specify which specific ligaments or meniscal segments are affected. However, given the patient's symptoms and failed conservative care, it is reasonable to classify this case as Soft Tissue rather than Arthroplasty at this stage.
+

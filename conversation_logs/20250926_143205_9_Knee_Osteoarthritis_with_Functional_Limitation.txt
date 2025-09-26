@@ -1,0 +1,139 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_9
+Title: Knee Osteoarthritis with Functional Limitation
+Date: 2025-09-26 14:32:05
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 65
+Gender: female
+Occupation: retired
+Comorbidities: BMI 32; type 2 diabetes
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+Both my knees ache every day and walking is getting harder. I can only get to the local shop now and stairs are very painful. Painkillers don’t really work anymore.
+
+CONVERSATION:
+--------------------
+[14:31:36] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:31:36] PATIENT: I'm Matthew Clark, 65 years old, female, and my date of birth is 1/4/1959. I have both my knees ache every day and walking is getting harder. i can only get to the local shop now and stairs are very painful. painkillers don’t really work anymore.
+
+[14:31:36] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[14:31:37] PATIENT: It came on gradually. Over the past 5 years or so, I've noticed it's been getting worse. The pain just crept in, bit by bit.
+
+[14:31:37] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:31:38] PATIENT: Yes, it does. The pain radiates down to my thighs and shins, especially when I've been walking or standing for a while. It's not just my knees that ache, you know?
+
+[14:31:38] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:31:40] PATIENT: "Oh, yes. There's swelling in both knees, especially after I've been walking or standing for a while. It's hard to put into words, but it feels like they're just stiff and swollen, especially in the mornings."
+
+[14:31:40] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[14:31:41] PATIENT: Honestly? I'd say it's about 7 or 8 out of 10 every day. The pain can vary, but on average, that's how bad it feels.
+
+[14:31:41] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:31:43] PATIENT: "Oh, I've tried everything. Physiotherapy courses, multiple times actually. I've also tried to lose weight through diet and exercise, but it's not easy when you're 65. And as for painkillers, I've taken oral analgesia, but like I said, they don't really work anymore."
+
+[14:31:43] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[14:31:45] PATIENT: No, I've never had any surgeries or major injuries to my knees. Just the usual wear and tear from everyday activities over the years.
+
+[14:31:45] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[14:31:46] PATIENT: To be honest, I don't really get true locking. It's more like a brief click or catch that pops and goes. Sometimes it feels like the joint gets stuck for a second, but then it moves again.
+
+[14:31:46] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[14:31:48] PATIENT: "Actually, I don't really do any running or marathon training. It's just everyday activities that are causing the pain - walking to the local shop, doing household chores, that kind of thing. Prolonged standing and walking definitely make it worse."
+
+[14:31:48] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[14:31:50] PATIENT: To be honest, I've had an X-ray done on my knees a few years ago. The doctor said it showed some degenerative osteoarthritis in both knees, but that's about it.
+
+[14:31:50] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[14:31:51] PATIENT: No, I don't smoke.
+
+[14:31:51] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:31:53] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My main concern is the pain in my knees, which has been getting worse over time. I've just been feeling tired and stiff from the constant ache.
+
+[14:31:53] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Advanced OA with functional restriction and failed conservative care → surgical assessment for knee arthroplasty.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 65-year-old retired lady (BMI 32, type 2 diabetes) with 5 years of bilateral knee pain, progressively worsening. She describes constant ache 7–8/10, stiffness, swelling, and severe limitation of mobility. She is limited to 200 m walking with a stick and finds stairs very difficult. She has tried physiotherapy, steroid injections, weight reduction, and oral analgesia without sustained relief.
+
+Radiographs show advanced tricompartmental osteoarthritis bilaterally with joint space loss and osteophytes. Given severity, functional loss, and failure of conservative treatment, surgical assessment for arthroplasty is appropriate.
+
+Yours sincerely,
+Orthopaedic Triage
+
+SBAR CLINICAL SUMMARY & TRIAGE CLASSIFICATION:
+============================================================
+**SITUATION:**
+- **Patient Demographics:** Matthew Clark, 65 years old, female
+- **Presenting Complaint:** "I have both my knees ache every day and walking is getting harder. I can only get to the local shop now and stairs are very painful."
+- **Body Part Affected:** Both knees
+
+**BACKGROUND:**
+- **Onset & Duration:** Gradual onset over 5 years, worsening pain
+- **Mechanism of Injury:** None mentioned
+- **Previous Treatment:** Physiotherapy courses (multiple times), oral analgesia for pain management
+- **Relevant History:** Degenerative osteoarthritis in both knees diagnosed on X-ray; no previous injuries or surgeries to this area
+
+**ASSESSMENT:**
+- **Clinical Findings:**
+  - **Pain Characteristics:** Bilateral knee pain, radiating to thighs and shins, especially with walking/standing; daily pain intensity 7/10
+  - **Associated Symptoms:** Swelling in both knees, stiffness (especially mornings)
+  - **Functional Impact:** Limited walking distance (< local shop), stairs intolerance, rest/painful night awakenings Y/N, work adjustments N/A, falls N/A, aid use N/A
+  - **Instability/Locking:** Pseudo-locking/catching (brief click or catch that pops and goes); no true locking
+  - **Red Flags:** None mentioned; concern for OA progression
+- **Physical Examination:** Not described in detail
+- **Imaging:** X-ray of both knees, date not specified; report available but not detailed
+
+**RECOMMENDATION:**
+- **Pathway:** Orthopaedic Specialist Clinic
+- **Reason:** Failed conservative care (physiotherapy and pain management), progressive worsening of symptoms, need for further evaluation and management
+- **Next Step:** Book a consultation with an orthopaedic specialist to discuss the best course of action
+
+**SAFETY NET:**
+- **Urgent Care:** None required; stable condition
+- **Follow-up:** Attend booked appointment at Orthopaedic Specialist Clinic
+
+**RED FLAG CONSIDERATIONS:**
+- Severe weakness in the lower extremities
+- Fever
+- Bladder/bowel problems
+- Severe pain that prevents daily activities
+
+**SAFETY NET:**
+- **Urgent Care:** If symptoms worsen suddenly, or new red flags occur (severe weakness, fever, bladder/bowel problems, severe pain), seek urgent care immediately.
+- **Follow-up:** Attend booked appointment at Orthopaedic Specialist Clinic for further evaluation and management of OA.
+
+**TRIAGE CLASSIFICATION:**
+
+**Category:** Soft Tissue
+**Body Part:** Knees
+**Specialty:** Knee, Soft Tissue - Knee
+**Clinical Reasoning:** This case is classified as Soft Tissue because the patient has degenerative osteoarthritis in both knees, which is a condition that affects the joints and surrounding soft tissue structures. The patient's symptoms, such as pain, swelling, stiffness, and pseudo-locking/catching, are consistent with osteoarthritis affecting the knee joint and its surrounding soft tissues. While the patient has tried conservative management (physiotherapy and oral analgesia) without success, this does not change the category to Arthroplasty, as there is no mention of severe joint degeneration or end-stage arthritis requiring joint replacement.
+
+Note: Although the case involves degenerative osteoarthritis in both knees, which can eventually require arthroplasty, the current symptoms and clinical findings suggest that the patient's condition falls under Soft Tissue management. The recommendation to attend an Orthopaedic Specialist Clinic is for further evaluation and management of the soft tissue injuries, not necessarily for joint replacement surgery at this stage.
+

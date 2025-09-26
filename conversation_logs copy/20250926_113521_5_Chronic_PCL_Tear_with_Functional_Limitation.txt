@@ -1,0 +1,104 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_5
+Title: Chronic PCL Tear with Functional Limitation
+Date: 2025-09-26 11:35:21
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 29
+Gender: female
+Occupation: physiotherapist
+Comorbidities: BMI 23
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+I injured my knee in a car crash four months ago and it still feels like it sags backwards. I’ve done all the rehab I can but I still feel unstable, especially going downstairs or slowing down.
+
+CONVERSATION:
+--------------------
+[11:34:51] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[11:34:51] PATIENT: I'm Matthew Thompson, 29 years old, female, and my date of birth is 24/11/1995. I have i injured my knee in a car crash four months ago and it still feels like it sags backwards. i’ve done all the rehab i can but i still feel unstable, especially going downstairs or slowing down.
+
+[11:34:51] BOT: Which side is affected - left or right?
+
+[11:34:51] PATIENT: My right knee is affected. It's my postero lateral side that feels like it sags backwards.
+
+[11:34:51] BOT: Can you describe your main symptoms in your own words?
+
+[11:34:53] PATIENT: To be honest, I've been experiencing this deep ache in the back of my right knee since the car crash four months ago. It's really noticeable when I'm doing everyday things like going downstairs or even just slowing down to walk - it feels like the knee is sagging backwards and I get a bit unstable.
+
+[11:34:53] BOT: Does the pain or feeling spread to any other part of your body?
+
+[11:34:54] PATIENT: No, it's localized to just around the back of my right knee. I don't feel any pain or instability in other areas of my body.
+
+[11:34:54] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[11:34:56] PATIENT: "My symptoms are pretty constant to be honest. I'd say they're always there in some form, but they do get worse when I'm doing everyday things like going downstairs or slowing down. It feels like the knee is just giving way a bit and I have to catch myself."
+
+[11:34:56] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[11:34:58] PATIENT: The pain would be about a 5 or 6 out of 10. It's not debilitating, but it's definitely uncomfortable, especially when I'm doing everyday things that require stability in my knee.
+
+[11:34:58] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[11:35:00] PATIENT: Honestly, I don't really experience morning stiffness. After the car crash, I had some swelling and pain in the morning, but that's been improving over time. Now, it takes me about 10-15 minutes to get moving comfortably after waking up, but once I'm up and going, my knee feels pretty stable throughout the day.
+
+[11:35:00] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[11:35:02] PATIENT: It's really affecting my work as a physiotherapist. I'm a hands-on job, so it's hard for me to demonstrate exercises or even perform some treatments on patients when I'm experiencing this instability in my knee. It's also making me anxious about taking on more patient contact and potentially causing further damage.
+
+[11:35:02] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[11:35:03] PATIENT: To be honest, I've had some physiotherapy in the past because I'm a physiotherapist myself, but I haven't had any surgeries on this knee. As far as I know, it's just been my dashboard injury from the car crash four months ago that caused my PCL rupture.
+
+[11:35:03] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[11:35:05] PATIENT: No, I don't think it's related to any specific activities like running or marathon training. My problem started after the car crash four months ago, so it's more about post-traumatic instability in my knee rather than anything I've done physically.
+
+[11:35:05] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[11:35:07] PATIENT: Yes, I had an MRI 6 weeks ago. The results showed that I have a PCL rupture in my right knee.
+
+[11:35:07] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[11:35:08] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[11:35:08] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[11:35:10] PATIENT: No, I haven't experienced any fever or chills. My symptoms have been pretty stable since the car crash, so I wouldn't say there's anything unusual like unexplained weight loss or severe weakness going on.
+
+[11:35:10] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Knee Assessment Summary:**
+**Top Differential Diagnoses:**
+1. ACL tear
+2. Meniscal tear (traumatic)
+3. PCL tear
+4. Patellar instability
+5. Osteochondritis dissecans
+
+**Assessment Notes:** Young age suggests traumatic or developmental causes
+
+
+
+CLINICAL NOTES:
+--------------------
+Symptomatic chronic PCL rupture with failed conservative care in a high-functional-demand clinician → consider PCL reconstruction.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 29-year-old physiotherapist (BMI 23) with 4 months of right posterior knee pain and functional instability after an RTC dashboard injury. Despite 12 weeks of self-directed rehabilitation, she reports persistent posterior sag and difficulty with deceleration and stairs. MRI (6 weeks ago) confirms complete mid-substance PCL rupture; PLC strain only; cartilage/menisci normal.
+
+Given ongoing symptoms and professional demands, elective assessment for PCL reconstruction is indicated.
+
+Yours sincerely,
+Orthopaedic Triage
+

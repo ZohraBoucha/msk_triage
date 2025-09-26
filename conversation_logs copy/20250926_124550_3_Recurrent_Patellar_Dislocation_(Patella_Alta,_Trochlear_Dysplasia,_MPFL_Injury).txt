@@ -1,0 +1,104 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_3
+Title: Recurrent Patellar Dislocation (Patella Alta, Trochlear Dysplasia, MPFL Injury)
+Date: 2025-09-26 12:45:50
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 22
+Gender: female
+Occupation: university student; netball player
+Comorbidities: BMI 21
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My kneecap keeps popping out when I play sport. It’s happened three times now and I’m too scared to keep playing. Physio didn’t stop it and the scan showed something wrong with the ligament.
+
+CONVERSATION:
+--------------------
+[12:45:14] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[12:45:14] PATIENT: I'm Anna Jones, 22 years old, female, and my date of birth is 20/3/2002. I have my kneecap keeps popping out when i play sport. it’s happened three times now and i’m too scared to keep playing. physio didn’t stop it and the scan showed something wrong with the ligament.
+
+[12:45:14] BOT: Which side is affected - left or right?
+
+[12:45:17] PATIENT: My kneecap keeps popping out on my right knee. It's happened three times now when I was playing netball.
+
+[12:45:17] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[12:45:19] PATIENT: It started about 8 months ago when I was playing netball. It just came on gradually - I didn't have any specific injury or incident that I remember.
+
+[12:45:19] BOT: Can you describe your main symptoms in your own words?
+
+[12:45:21] PATIENT: My kneecap keeps popping out when I play netball, which is really painful. When it happens, I get this sharp, severe pain in the front of my knee, and then afterwards I'm left with a dull ache that makes me feel anxious, like I'm worried it's going to happen again. It's been happening more often lately, and now I'm too scared to even play sport because I don't want it to happen again.
+
+[12:45:21] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:45:22] PATIENT: No, it's just localised to the front of my right knee. The pain stays in the same area when it happens.
+
+[12:45:22] BOT: Does the pain or feeling spread to any other part of your body?
+
+[12:45:24] PATIENT: No, it's just localised to the front of my right knee. The pain stays in the same area when it happens.
+
+[12:45:24] BOT: What makes your symptoms better or worse?
+
+[12:45:25] PATIENT: It's worse when I'm playing netball and doing pivoting movements. Cutting or quick changes of direction make it happen more easily. When it does happen, it takes some time for the pain to settle down afterwards.
+
+[12:45:25] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[12:45:27] PATIENT: My pain is about an 8 out of 10 when it happens. It's really sharp and severe, but afterwards the ache can be more like a 3 or 4 out of 10.
+
+[12:45:27] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[12:45:28] PATIENT: No, I don't experience morning stiffness. My knee usually feels fine in the morning after resting it overnight.
+
+[12:45:28] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[12:45:30] PATIENT: I've tried physiotherapy for about 16 weeks. I also got an MRI done recently to see what's going on with my ligament, but it didn't really help me understand how to fix the problem or prevent it from happening again.
+
+[12:45:30] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[12:45:31] PATIENT: No, I haven't had any previous injuries or surgeries to this area. I've only been experiencing problems with my right kneecap since starting netball about 8 months ago.
+
+[12:45:31] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[12:45:33] PATIENT: It's more like a brief click or catch that pops and goes. When it happens, my kneecap just kind of dislocates, but then it snaps back into place quickly. It's not like the joint gets completely stuck and won't move.
+
+[12:45:33] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[12:45:35] PATIENT: No, it's not related to running or prolonged standing. I play netball which involves pivoting movements that seem to trigger the dislocation. It happens when I'm playing netball, particularly during cutting or quick changes of direction.
+
+[12:45:35] BOT: Do you experience any of the following: joint instability or giving way, locking or catching sensations, or pain specifically at the front of the knee or behind the kneecap?
+
+[12:45:36] PATIENT: "Yes, I experience joint instability or giving way. It's like my kneecap just pops out when I'm playing netball, especially during cutting or pivoting movements."
+
+[12:45:36] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[12:45:38] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[12:45:38] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[12:45:39] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My symptoms are mostly related to the knee pain and instability when playing netball.
+
+[12:45:39] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Structural risk factors (alta, trochlear dysplasia) with recurrent instability despite rehab → consider MPFL reconstruction ± bony realignment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 22-year-old student and netball player (BMI 21) with three lateral patellar dislocation episodes over 8 months. Completed 16 weeks of targeted VMO/proprioceptive rehab; ongoing apprehension prevents return to sport. MRI (3 weeks ago) demonstrates patella alta, trochlear dysplasia and chronic MPFL tear with scarring; early PFJ chondral change.
+
+Given recurrent instability and structural risk factors despite comprehensive rehabilitation, elective surgical stabilisation (e.g., MPFL reconstruction ± alignment procedure) should be considered.
+
+Yours sincerely,
+Orthopaedic Triage
+

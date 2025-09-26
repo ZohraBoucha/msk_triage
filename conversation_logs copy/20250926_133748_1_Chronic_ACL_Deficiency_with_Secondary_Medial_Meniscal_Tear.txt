@@ -1,0 +1,90 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_1
+Title: Chronic ACL Deficiency with Secondary Medial Meniscal Tear
+Date: 2025-09-26 13:37:48
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 34
+Gender: female
+Occupation: teacher
+Comorbidities: BMI 25, otherwise well
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My knee keeps giving way even though I did physio for months. It sometimes catches and even locks up. My GP told me the scan showed a torn ligament and meniscus.
+
+CONVERSATION:
+--------------------
+[13:37:16] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:37:16] PATIENT: I'm David Taylor, 34 years old, female, and my date of birth is 8/12/1990. I have my knee keeps giving way even though i did physio for months. it sometimes catches and even locks up. my gp told me the scan showed a torn ligament and meniscus.
+
+[13:37:16] BOT: Which side is affected - left or right?
+
+[13:37:19] PATIENT: My knee on the left side keeps giving way. It's mainly the medial part that's affected, which is on the inside of my knee.
+
+[13:37:19] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[13:37:21] PATIENT: It started from an injury about 18 months ago during netball. I was pivoting when it happened, and it's been causing problems ever since.
+
+[13:37:21] BOT: Can you describe your main symptoms in your own words?
+
+[13:37:23] PATIENT: To be honest, it's just really frustrating. I've got this chronic ache in the medial part of my left knee, which is always there at a baseline 4 out of 10, but then it shoots up to an 8 out of 10 when I catch or lock my knee. It feels like it's going to give way on me all the time, especially with stairs or uneven ground.
+
+[13:37:23] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:37:25] PATIENT: To be honest, I've noticed that after an episode where my knee catches or locks up, it can feel swollen for a bit. I'd say the swelling is pretty mild, but it's definitely there.
+
+(Note: This response is based on the information provided in the SOCRATES section, which states "Associations: Instability 2–3×/week, catching, occasional locking, swelling after episodes")
+
+[13:37:25] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:37:26] PATIENT: To be honest, it's pretty variable. Sometimes I'll go weeks without any issues, but then other times I'll have episodes where my knee gives way or locks up. It seems to be worse when I'm doing activities that involve pivoting or sudden changes in direction.
+
+[13:37:26] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:37:28] PATIENT: To be honest, I don't really experience morning stiffness. It's always there, the chronic ache in my knee, but it doesn't seem to get any worse or better with movement or activity after waking up.
+
+[13:37:28] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:37:30] PATIENT: "I've had 12 weeks of structured physiotherapy. It helped a bit, but I plateaued after that. My GP also ordered an MRI which showed a torn ligament and meniscus."
+
+[13:37:30] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:37:31] PATIENT: It's not really related to any specific activities. I used to play netball which involves pivoting, but that was 18 months ago when it happened. Now it's just general daily activities that trigger the instability and pain in my knee.
+
+[13:37:31] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:37:33] PATIENT: No, I don't smoke. I quit about 5 years ago when I was trying to get pregnant. It's been easy for me since then.
+
+[13:37:33] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[13:37:35] PATIENT: Honestly, I've tried physiotherapy already, but it didn't seem to make a significant difference in the long run. If a specialist recommended surgery, I'd definitely be open to considering it as an option. At this point, I'm willing to explore any potential solutions that could help me regain stability and mobility in my knee.
+
+[13:37:35] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:37:36] PATIENT: No, I haven't experienced any fever or chills. But to be honest, I do get pretty tired and have some fatigue after an episode where my knee gives way or locks up. It's not severe weakness, but it's definitely noticeable.
+
+[13:37:36] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Failed conservative management with persistent instability and new mechanical symptoms; MRI shows ACL rupture with medial meniscal tear → surgical stabilisation assessment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 34-year-old teacher (BMI 25) has 18 months of left knee instability following a non-contact pivot injury whilst playing netball. She completed 12 weeks of physiotherapy (good adherence) with plateau. Over the past two months she developed mechanical catching and occasional locking. MRI (6 weeks ago) shows complete mid-substance ACL rupture with retraction and a new horizontal posterior horn medial meniscal tear; minor grade 1–2 chondral change. She avoids stairs, uneven ground and has ceased pivoting sports.
+
+Given failed rehabilitation and progressive mechanical symptoms, she merits elective orthopaedic assessment for ACL reconstruction with meniscal treatment. Safety-netting regarding acute locking and swelling discussed.
+
+Yours sincerely,
+Orthopaedic Triage
+

@@ -1,0 +1,144 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_10
+Title: Acute Meniscal Tear – Suitable for Physiotherapy
+Date: 2025-09-26 14:33:29
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 27
+Gender: male
+Occupation: personal trainer
+Comorbidities: BMI 24, otherwise fit
+Expected Triage: MSK Physiotherapy
+
+PRESENTING COMPLAINT:
+--------------------
+I twisted my knee at the gym about six weeks ago and since then it aches on the inside. It sometimes clicks but it hasn’t locked. I can still work but squats are painful.
+
+CONVERSATION:
+--------------------
+[14:32:56] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:32:56] PATIENT: I'm Patricia Hernandez, 27 years old, male, and my date of birth is 4/12/1997. I have i twisted my knee at the gym about six weeks ago and since then it aches on the inside. it sometimes clicks but it hasn’t locked. i can still work but squats are painful.
+
+[14:32:56] BOT: Which side is affected - left or right?
+
+[14:32:56] PATIENT: It's my right knee that's been hurting.
+
+[14:32:56] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:32:58] PATIENT: No, it's just localised to my right knee. The pain doesn't spread anywhere else.
+
+[14:32:58] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:33:00] PATIENT: To be honest, I do get some stiffness in the morning when I wake up. But it's not really a problem once I've warmed up and started moving around. Other than that, no other symptoms like swelling or numbness or anything. Just that clicking sensation sometimes when I'm squatting or doing lunges.
+
+[14:33:00] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[14:33:01] PATIENT: To be honest, it's been pretty constant since the injury. The pain is usually about a 3 or 4 out of 10, but when I'm doing squats or lunges, it can get up to a 6 or even more.
+
+[14:33:01] BOT: What makes your symptoms better or worse?
+
+[14:33:03] PATIENT: Rest, ice, and avoiding heavy squats seem to make it better. When I'm doing squats or lunges, the pain gets worse. It's also worse when I first wake up in the morning, but that improves once I've warmed up and started moving around.
+
+[14:33:03] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[14:33:05] PATIENT: To be honest, I don't have much difficulty with any of those activities. I mean, I can still go up and down stairs without too much trouble, rising from a chair isn't an issue for me either. But, if I'm being completely honest, heavy domestic work is definitely a problem - like lifting heavy bags or carrying groceries - it makes my knee ache even more.
+
+[14:33:05] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:33:07] PATIENT: Honestly, I've just been taking it easy and using some over-the-counter pain relievers to manage the discomfort. I haven't seen a doctor or tried any formal physiotherapy yet, but I have been trying to modify my training routine to avoid exacerbating the issue.
+
+[14:33:07] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[14:33:08] PATIENT: No, I haven't had any previous injuries or surgeries to this area. I've always been pretty active and healthy, but nothing like a knee reconstruction or anything serious like that.
+
+[14:33:08] BOT: Do you experience any of the following: joint instability or giving way, locking or catching sensations, or pain specifically at the front of the knee or behind the kneecap?
+
+[14:33:10] PATIENT: The pain specifically at the front of the knee or behind the kneecap? No, it's more internal, on the medial joint line. The clicking sensation I mentioned earlier is mostly on the inside too.
+
+[14:33:10] BOT: Have you had any imaging done like X-rays or MRI scans? If so, what were the results?
+
+[14:33:12] PATIENT: No, I haven't had any imaging done. To be honest, I've just been trying to manage the symptoms with rest and over-the-counter pain relievers so far, and I hadn't thought about getting an MRI or X-rays yet.
+
+[14:33:12] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[14:33:13] PATIENT: No, I don't smoke. I've never been much of a smoker, to be honest.
+
+[14:33:13] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[14:33:15] PATIENT: Honestly, I don't know if I'd be interested in surgical treatment. I've been trying to manage the symptoms with rest and OTC pain relievers so far, and I'm hoping it will get better on its own. But if a specialist recommended surgery, I guess I would consider it as an option, but I'd want to explore all other options first.
+
+[14:33:15] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:33:17] PATIENT: No, I haven't experienced any fever or chills. And to be honest, I don't think I've lost any weight since the injury. As for weakness, I'd say it's still a 10 out of 10 in terms of strength - nothing's really changed with that aspect of my knee.
+
+[14:33:17] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Acute meniscal injury without locking; good ROM; early physiotherapy appropriate.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 27-year-old personal trainer (BMI 24) with 6 weeks of medial right knee pain after a twisting gym injury. Pain is 3/10 at baseline, up to 6/10 with loaded flexion (squats/lunges). Occasional clicking but no true locking. He has not had physiotherapy. Function preserved but training reduced.
+
+Exam shows full ROM, mild medial tenderness, no effusion. Likely acute medial meniscus tear. Initial management with physiotherapy is appropriate. Safety-netting re: locking given.
+
+Yours sincerely,
+Orthopaedic Triage
+
+SBAR CLINICAL SUMMARY & TRIAGE CLASSIFICATION:
+============================================================
+**SITUATION:**
+- **Patient Demographics:** Patricia Hernandez, 27 years old, male
+- **Presenting Complaint:** Right knee pain and clicking sensation after twisting injury six weeks ago
+- **Body Part Affected:** Right knee, specifically the medial joint line
+
+**BACKGROUND:**
+- **Onset & Duration:** Pain started immediately after twisting injury; constant pain at a level of 3-4/10, increasing to 6/10 with heavy squats or lunges
+- **Mechanism of Injury:** Twisting injury six weeks ago
+- **Previous Treatment:** Rest, ice, and over-the-counter pain relievers
+- **Relevant History:** No previous injuries or surgeries to this area; generally healthy
+
+**ASSESSMENT:**
+- **Clinical Findings:**
+  - **Pain Characteristics:** Pain on the medial joint line, aching sensation, clicking on the inside of the knee
+  - **Associated Symptoms:** Morning stiffness improves with movement; no swelling or numbness; weakness unchanged
+  - **Functional Impact:** Able to go up/down stairs and rise from chair without difficulty, but heavy domestic work exacerbates symptoms
+  - **Instability/Locking:** Pseudo-locking/catching sensation on the medial joint line, not true locking; subjective instability type unclear
+  - **Red Flags:** No fever, chills, unexplained weight loss, or severe weakness
+- **Physical Examination:** Not mentioned
+- **Imaging:** Report not available
+
+**RECOMMENDATION:**
+- **Pathway:** Orthopaedic Triage Clinic
+- **Reason:** Persistent pain and functional impact despite conservative management; differential diagnosis includes medial meniscal injury or other internal derangement
+- **Next Step:** Book a consultation at the Orthopaedic Triage Clinic for further assessment and potential diagnostic imaging (MRI) to determine underlying cause of symptoms
+
+**SAFETY NET:**
+- **Urgent Care:** Seek urgent care if symptoms worsen, particularly if experiencing severe pain/swelling or new neurological symptoms
+- **Follow-up:** Schedule follow-up consultation after initial assessment at the Orthopaedic Triage Clinic
+
+**RED FLAG CONSIDERATIONS:**
+- Fever, chills, unexplained weight loss, or severe weakness should be investigated as possible indicators of an underlying condition requiring urgent medical attention.
+
+**SAFETY NET:**
+- **Urgent Care:** If symptoms worsen suddenly, particularly if experiencing severe pain/swelling or new neurological symptoms, seek urgent care immediately.
+- **Follow-up:** Schedule a follow-up consultation at the Orthopaedic Triage Clinic after initial assessment to determine the underlying cause of symptoms and develop a treatment plan.
+
+**TRIAGE CLASSIFICATION:**
+
+**Category:** Soft Tissue
+**Body Part:** Knee
+**Specialty:** Soft Tissue - Knee
+**Clinical Reasoning:** This classification is chosen due to the presence of persistent pain and functional impact after a twisting injury, despite conservative management. The clinical findings suggest a possible internal derangement, such as a meniscal tear or ligament injury, which is consistent with soft tissue pathology rather than severe joint degeneration or end-stage arthritis.
+
+The patient's symptoms include pain on the medial joint line, clicking sensation, and pseudo-locking/catching sensation, which are common presentations of meniscal tears or other internal derangements. The absence of red flags such as fever, chills, unexplained weight loss, or severe weakness further supports this classification. Additionally, the patient's age (27) and the fact that they have no previous injuries or surgeries to this area make arthroplasty less likely at this stage.
+

@@ -1,0 +1,111 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_2
+Title: Chronic Medial Meniscus Tear – Failed Conservative Management
+Date: 2025-09-26 11:21:11
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 45
+Gender: male
+Occupation: plumber (self-employed)
+Comorbidities: BMI 28
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My knee keeps locking up several times a week even though I did all the physio exercises. My GP said the scan showed a tear that might need keyhole surgery.
+
+CONVERSATION:
+--------------------
+[11:20:38] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[11:20:38] PATIENT: I'm Emma Lee, 45 years old, male, and my date of birth is 10/9/1979. I have my knee keeps locking up several times a week even though i did all the physio exercises. my gp said the scan showed a tear that might need keyhole surgery.
+
+[11:20:38] BOT: Which side is affected - left or right?
+
+[11:20:41] PATIENT: My right knee. It's the one that keeps locking up on me.
+
+[11:20:41] BOT: Can you describe your main symptoms in your own words?
+
+[11:20:43] PATIENT: My knee just locks up on me randomly several times a week. It's really frustrating because I've been doing all the physio exercises to try and sort it out, but it still happens. Sometimes it feels like it's going to give way completely, which is pretty scary.
+
+[11:20:43] BOT: Can you describe your main symptoms in your own words?
+
+[11:20:44] PATIENT: My knee just locks up on me randomly several times a week. It's really frustrating because I've been doing all the physio exercises to try and sort it out, but it still happens. Sometimes it feels like it's going to give way completely, which is pretty scary.
+
+[11:20:44] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[11:20:46] PATIENT: It feels like a deep ache, but it's always accompanied by sharp catches or locking sensations. The pain is usually around 6-7 out of 10 when it happens.
+
+[11:20:46] BOT: Does the pain or feeling spread to any other part of your body?
+
+[11:20:47] PATIENT: No, it's localized to just around the medial joint line in my right knee. It doesn't spread anywhere else.
+
+[11:20:47] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[11:20:49] PATIENT: They're pretty unpredictable, but I'd say my symptoms come and go. Some days I don't have any issues at all, but on bad days it can happen several times in one day, especially after kneeling or squatting for work.
+
+[11:20:49] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[11:20:51] PATIENT: They're pretty unpredictable, but I'd say my symptoms come and go. Some days I don't have any issues at all, but on bad days it can happen several times in one day, especially after kneeling or squatting for work.
+
+[11:20:51] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[11:20:52] PATIENT: Yes, I do experience morning stiffness. It usually takes me about 20-30 minutes to loosen up after waking up and getting out of bed. The stiffness tends to be more noticeable on the days when my knee has been particularly active or painful the day before.
+
+[11:20:52] BOT: When you tried the treatments we discussed, did they help with your symptoms, make no difference, or make things worse?
+
+[11:20:54] PATIENT: They didn't really work. I did all the exercises and occupational adjustments my GP suggested, but the locking episodes still happen. It's like the physio helped a bit with flexibility and range of motion, but it hasn't stopped the knee from locking up completely.
+
+[11:20:54] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[11:20:56] PATIENT: My work as a plumber involves a lot of kneeling, which I think might be contributing to the problem. The heavy kneeling over the past 4 months has made it worse, especially when I'm working on under-sink or floor jobs.
+
+[11:20:56] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[11:20:58] PATIENT: My work as a plumber involves a lot of kneeling, which I think might be contributing to the problem. The heavy kneeling over the past 4 months has made it worse, especially when I'm working on under-sink or floor jobs.
+
+[11:20:58] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[11:20:59] PATIENT: No, I don't smoke cigarettes or use any tobacco products. As a plumber, I'm always trying to stay healthy, so it's not something I've ever been interested in.
+
+[11:20:59] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[11:21:01] PATIENT: No, I don't have any fever or chills. To be honest, the main thing that's been concerning me is the knee locking up on me - it can be pretty scary. And like I said earlier, my GP mentioned there might be a tear in my meniscus from all the heavy kneeling I've been doing for work.
+
+[11:21:01] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Knee Assessment Summary:**
+**Top Differential Diagnoses:**
+1. Osteoarthritis
+2. Degenerative meniscal tear
+3. Patellofemoral Pain Syndrome (PFPS)
+4. Chondromalacia patellae
+5. Bursitis
+
+**⚠️ URGENT ATTENTION REQUIRED:**
+- Signs of possible infection
+
+**Assessment Notes:** Chronic presentation suggests degenerative pathology
+
+
+
+CLINICAL NOTES:
+--------------------
+True mechanical locking with displaced fragment on MRI and failed rehab → arthroscopic surgical assessment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 45-year-old self-employed plumber (BMI 28) with 4 months of right medial knee pain, daily catching and true locking 3–4 times per week. After 8 weeks of physiotherapy, mechanical symptoms persist. MRI (4 weeks ago) demonstrates a complex degenerative medial meniscal tear with a displaced fragment; grade 2 medial compartment chondral change; ligaments intact.
+
+Given ongoing true locking and failed non-operative care, referral for arthroscopic intervention is appropriate. Occupational impact significant.
+
+Yours sincerely,
+Orthopaedic Triage
+

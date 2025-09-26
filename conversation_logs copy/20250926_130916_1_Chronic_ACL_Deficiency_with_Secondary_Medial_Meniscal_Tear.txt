@@ -1,0 +1,227 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_1
+Title: Chronic ACL Deficiency with Secondary Medial Meniscal Tear
+Date: 2025-09-26 13:09:16
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 34
+Gender: female
+Occupation: teacher
+Comorbidities: BMI 25, otherwise well
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My knee keeps giving way even though I did physio for months. It sometimes catches and even locks up. My GP told me the scan showed a torn ligament and meniscus.
+
+CONVERSATION:
+--------------------
+[13:08:35] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:08:35] PATIENT: I'm Matthew Smith, 34 years old, female, and my date of birth is 5/9/1990. I have my knee keeps giving way even though i did physio for months. it sometimes catches and even locks up. my gp told me the scan showed a torn ligament and meniscus.
+
+[13:08:35] BOT: Which side is affected - left or right?
+
+[13:08:38] PATIENT: My left knee.
+
+[13:08:38] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[13:08:40] PATIENT: To be honest, it started from an injury. I was playing netball about 18 months ago and I landed awkwardly during a pivot move. It's been bothering me ever since.
+
+[13:08:40] BOT: Can you describe your main symptoms in your own words?
+
+[13:08:41] PATIENT: It's been really frustrating because it feels like I've done all the right things to get better, but my knee just keeps giving way. Sometimes it catches and even locks up, which is really scary. It's been happening a lot lately, especially when I'm walking on stairs or uneven ground.
+
+[13:08:41] BOT: Can you describe your main symptoms in your own words?
+
+[13:08:43] PATIENT: It's been really frustrating because it feels like I've done all the right things to get better, but my knee just keeps giving way. Sometimes it catches and even locks up, which is really scary. It's been happening a lot lately, especially when I'm walking on stairs or uneven ground.
+
+[13:08:43] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:08:45] PATIENT: No, it's localized to my left knee. The pain stays right there, I don't feel it anywhere else in my body.
+
+[13:08:45] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:08:46] PATIENT: Yes, I do have swelling after episodes where my knee gives way or catches. It's usually pretty noticeable on the medial side of my left knee.
+
+[13:08:46] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:08:48] PATIENT: To be honest, I don't really experience morning stiffness. My knee just kind of... feels normal in the morning. It's when I start moving around or doing stuff that it starts to bother me again.
+
+[13:08:48] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:08:49] PATIENT: I've tried physiotherapy. I did 12 weeks of structured physiotherapy after the injury, but it plateaued and didn't really help with the instability or locking issues. My GP also ordered an MRI, which showed a torn ligament and meniscus.
+
+[13:08:49] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:08:51] PATIENT: To be honest, I don't think it's related to any specific activities. It started with the netball injury 18 months ago, and since then it's just been chronic instability and catching whenever I'm doing normal stuff like walking on stairs or uneven ground. The locking issue is more of a recent thing, but again, it doesn't seem to be triggered by anything in particular.
+
+[13:08:51] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:08:53] PATIENT: To be honest, I don't think it's related to any specific activities. It started with the netball injury 18 months ago, and since then it's just been chronic instability and catching whenever I'm doing normal stuff like walking on stairs or uneven ground. The locking issue is more of a recent thing, but again, it doesn't seem to be triggered by anything in particular.
+
+[13:08:53] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:08:55] PATIENT: No, I don't smoke.
+
+[13:08:55] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:08:57] PATIENT: No, I don't have any fever or chills. My knee just gets really sore and stiff after episodes where it gives way or catches. And to be honest, I've lost some weight because I've been avoiding activities that trigger the instability, but that's not exactly unexplained... I think it's more related to my lifestyle changes than anything else.
+
+[13:08:57] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** Medium
+**Reasoning:** Young age 34 suggests soft tissue pathology; Traumatic mechanism suggests soft tissue injury
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+[13:08:58] PATIENT: That sounds good. I feel like we've covered everything. What happens next? Will I be seeing an orthopaedic specialist or someone else for further evaluation?
+
+[13:08:58] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** Medium
+**Reasoning:** Young age 34 suggests soft tissue pathology; Traumatic mechanism suggests soft tissue injury
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+[13:09:00] PATIENT: "I feel like we've covered everything. What happens next? Will I be seeing an orthopaedic specialist or someone else for further evaluation?"
+
+[13:09:00] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** Medium
+**Reasoning:** Young age 34 suggests soft tissue pathology; Traumatic mechanism suggests soft tissue injury
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+[13:09:02] PATIENT: "That sounds good. I feel like we've covered everything. What happens next? Will I be seeing an orthopaedic specialist or someone else for further evaluation?"
+
+[13:09:02] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** Medium
+**Reasoning:** Young age 34 suggests soft tissue pathology; Traumatic mechanism suggests soft tissue injury
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+[13:09:03] PATIENT: That sounds good. I feel like we've covered everything. What happens next? Will I be seeing an orthopaedic specialist or someone else for further evaluation?
+
+[13:09:03] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** Medium
+**Reasoning:** Young age 34 suggests soft tissue pathology; Traumatic mechanism suggests soft tissue injury
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+[13:09:06] PATIENT: "That sounds good. I feel like we've covered everything. What happens next? Will I be seeing an orthopaedic specialist or someone else for further evaluation?"
+
+[13:09:06] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** Medium
+**Reasoning:** Young age 34 suggests soft tissue pathology; Traumatic mechanism suggests soft tissue injury
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+[13:09:09] PATIENT: That sounds good. I feel like we've covered everything. What happens next? Will I be seeing an orthopaedic specialist or someone else for further evaluation?
+
+[13:09:09] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** Medium
+**Reasoning:** Young age 34 suggests soft tissue pathology; Traumatic mechanism suggests soft tissue injury
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+[13:09:12] PATIENT: "That sounds good. I feel like we've covered everything. What happens next? Will I be seeing an orthopaedic specialist or someone else for further evaluation?" 
+
+(In response to the question about what will happen next)
+
+"I'm not entirely sure, but it seems like a physiotherapist might be involved first to help with soft tissue rehabilitation. After that, if needed, I'd probably see an orthopaedic specialist for a more in-depth review."
+
+[13:09:12] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** Medium
+**Reasoning:** Young age 34 suggests soft tissue pathology; Traumatic mechanism suggests soft tissue injury
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+[13:09:15] PATIENT: "I'm not entirely sure, but it seems like a physiotherapist might be involved first to help with soft tissue rehabilitation. After that, if needed, I'd probably see an orthopaedic specialist for a more in-depth review."
+
+[13:09:15] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with triage assessment will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Triage Assessment:**
+**Category:** Soft Tissue
+**Confidence:** Medium
+**Reasoning:** Young age 34 suggests soft tissue pathology; Traumatic mechanism suggests soft tissue injury
+
+**Recommended Care Pathway:**
+- MSK Physiotherapy for soft tissue rehabilitation
+- Consider imaging if structural injury suspected
+- Orthopaedic review if conservative treatment fails
+
+
+CLINICAL NOTES:
+--------------------
+Failed conservative management with persistent instability and new mechanical symptoms; MRI shows ACL rupture with medial meniscal tear → surgical stabilisation assessment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 34-year-old teacher (BMI 25) has 18 months of left knee instability following a non-contact pivot injury whilst playing netball. She completed 12 weeks of physiotherapy (good adherence) with plateau. Over the past two months she developed mechanical catching and occasional locking. MRI (6 weeks ago) shows complete mid-substance ACL rupture with retraction and a new horizontal posterior horn medial meniscal tear; minor grade 1–2 chondral change. She avoids stairs, uneven ground and has ceased pivoting sports.
+
+Given failed rehabilitation and progressive mechanical symptoms, she merits elective orthopaedic assessment for ACL reconstruction with meniscal treatment. Safety-netting regarding acute locking and swelling discussed.
+
+Yours sincerely,
+Orthopaedic Triage
+

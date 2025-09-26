@@ -1,0 +1,142 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_11
+Title: Inappropriate Referral – Isolated Chondromalacia Patellae
+Date: 2025-09-26 14:35:00
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 31
+Gender: female
+Occupation: retail worker
+Comorbidities: BMI 27
+Expected Triage: GP/Primary Care
+
+PRESENTING COMPLAINT:
+--------------------
+The front of my knee hurts when I go up and down stairs. My GP said the scan showed some wear under the kneecap. Physio hasn’t helped much yet but I haven’t finished the programme.
+
+CONVERSATION:
+--------------------
+[14:34:29] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[14:34:29] PATIENT: I'm Joseph Miller, 31 years old, female, and my date of birth is 28/1/1993. I have the front of my knee hurts when i go up and down stairs. my gp said the scan showed some wear under the kneecap. physio hasn’t helped much yet but i haven’t finished the programme.
+
+[14:34:29] BOT: Which side is affected - left or right?
+
+[14:34:30] PATIENT: It's on my right knee. The pain's been really bad when I go up and down stairs, it's like my kneecap is grinding against something.
+
+[14:34:30] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[14:34:32] PATIENT: It feels like an ache. When I say it's an ache, I mean it's not sharp or stabbing, but more of a dull feeling that's always there, unless I'm resting. It can get worse when I'm doing certain things, especially going up and down stairs.
+
+[14:34:32] BOT: Does the pain or feeling spread to any other part of your body?
+
+[14:34:33] PATIENT: It spreads around my kneecap, like crepitus I think it's called. It feels like it's grinding or catching sometimes, especially when I'm moving around or twisting.
+
+[14:34:33] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[14:34:35] PATIENT: To be honest, I do get some mild swelling around my kneecap, especially after I've been on my feet for a long time. It's not too bad, but it can be a bit uncomfortable if I don't elevate it and rest for a while.
+
+[14:34:35] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[14:34:37] PATIENT: "It's about a 6 out of 10 when it's at its worst. It's usually around that level when I'm doing stairs or squats."
+
+[14:34:37] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[14:34:38] PATIENT: To be honest, I don't really experience morning stiffness. The pain is usually there as soon as I get out of bed, but it's not stiff, more like an ache that just persists throughout the day. Unless I've been sitting or lying down for a long time, then it can get worse when I start moving around again.
+
+[14:34:38] BOT: How is this problem affecting your daily activities, work, or hobbies?
+
+[14:34:40] PATIENT: It's definitely affecting my daily activities. I have to be careful when I go upstairs or downstairs, and it's making me avoid stairs altogether if possible. It's also impacting my work as a retail worker because I'm on my feet for long periods of time, which makes the pain worse.
+
+[14:34:40] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[14:34:42] PATIENT: "I've been doing physiotherapy for about 8 weeks now as part of a 12-week course. My GP recommended it after the scan showed some wear under the kneecap. It's not really helped much yet, but I haven't finished the programme yet."
+
+[14:34:42] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[14:34:44] PATIENT: No, I haven't had any previous injuries or surgeries to this area. As far as I know, this is just wear under the kneecap that developed over time due to being on my feet for work.
+
+[14:34:44] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[14:34:45] PATIENT: Honestly, I've been on my feet a lot more lately due to work, but it's not like I've started doing anything new or increased my mileage. I just think it's wear and tear from being on my feet for so long.
+
+[14:34:45] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[14:34:47] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[14:34:47] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[14:34:48] PATIENT: No, I don't have any fever or chills. My only symptoms are the pain and swelling in my right knee.
+
+[14:34:48] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Isolated patellofemoral chondral wear without mechanical symptoms; incomplete physiotherapy trial → not for orthopaedic referral.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 31-year-old retail worker (BMI 27) with 9 months of anterior knee pain. Pain 4/10 at rest, 6/10 with stairs/squats. GP MRI (3 months ago) shows isolated chondromalacia patellae. She is mid-way through a physiotherapy programme (8 of 12 weeks). No mechanical symptoms. Function preserved.
+
+This is not an orthopaedic surgical case; ongoing physiotherapy and conservative care is appropriate. Re-referral only if persistent mechanical symptoms or red flags develop.
+
+Yours sincerely,
+Orthopaedic Triage
+
+SBAR CLINICAL SUMMARY & TRIAGE CLASSIFICATION:
+============================================================
+**SITUATION:**
+- **Patient Demographics:** Joseph Miller, 31 years old, female
+- **Presenting Complaint:** Front of right knee hurts when going up and down stairs; feels like kneecap grinding or catching
+- **Body Part Affected:** Right knee
+
+**BACKGROUND:**
+- **Onset & Duration:** No specific onset date mentioned; has been experiencing pain for some time, exacerbated by recent increase in work demands
+- **Mechanism of Injury:** Wear under the kneecap due to prolonged standing at work
+- **Previous Treatment:** Physiotherapy (8 weeks) as part of a 12-week course after GP's recommendation following a scan showing wear under the kneecap; has not yet finished programme
+
+**ASSESSMENT:**
+- **Clinical Findings:**
+  - **Pain Characteristics:** Dull ache, persistent unless resting; worsens with stairs, squats
+  - **Associated Symptoms:** Mild swelling around the kneecap after prolonged standing or activity
+  - **Functional Impact:**
+    - Max walking distance: Not specified
+    - Stairs tolerance: Avoiding stairs due to pain
+    - Night/rest pain: Yes
+    - Work adjustments: Impacted by work as retail worker (prolonged standing)
+    - Falls: No
+    - Aid use: None mentioned
+  - **Instability/Locking:** Subjective feeling of grinding or catching in the kneecap, consistent with pseudo-locking/catching
+  - **Red Flags:** None mentioned
+
+**RECOMMENDATION:**
+- **Pathway:** Orthopaedic Clinic (for further assessment and management)
+- **Reason:** Failed conservative care (physiotherapy) and need for further evaluation of knee condition and potential intervention
+- **Next Step:** Book a consultation at the Orthopaedic Clinic to discuss options for management, including possible injection or surgical intervention
+
+**SAFETY NET:**
+- Urgent Care: None indicated; however, if pain significantly worsens or new symptoms develop (e.g., severe swelling, fever), seek urgent care.
+- Follow-up: Booked consultation at the Orthopaedic Clinic for further evaluation and management.
+
+**RED FLAG CONSIDERATIONS:**
+- None mentioned
+
+**SAFETY NET:**
+
+* Urgent Care: If pain significantly worsens or new symptoms develop (e.g., severe swelling, fever), seek urgent care.
+* Follow-up: Booked consultation at the Orthopaedic Clinic for further evaluation and management.
+
+**TRIAGE CLASSIFICATION:**
+
+**Category:** Soft Tissue
+**Body Part:** Right knee
+**Specialty:** Knee - Soft Tissue
+**Clinical Reasoning:** The patient presents with a history of wear under the kneecap due to prolonged standing, which has led to pain and grinding/catching sensations in the right knee. Despite 8 weeks of physiotherapy as part of a 12-week course, the patient continues to experience symptoms that have impacted their daily activities and work demands. This case is classified as Soft Tissue because it involves cartilage wear under the kneecap (patellofemoral pain syndrome) with no mention of joint replacement or severe degeneration. The patient's failure of conservative care (physiotherapy) warrants further evaluation at the Orthopaedic Clinic for potential intervention, but does not indicate a need for arthroplasty.
+

@@ -1,0 +1,104 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_4
+Title: Chronic MCL Tear with Persistent Instability
+Date: 2025-09-26 13:25:44
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 38
+Gender: male
+Occupation: warehouse supervisor
+Comorbidities: BMI 26
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+I hurt my knee playing rugby three months ago and it still feels wobbly on the inside. Physio helped the pain but it’s still unstable, especially when I move sideways.
+
+CONVERSATION:
+--------------------
+[13:25:05] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:25:05] PATIENT: I'm Linda Ramirez, 38 years old, male, and my date of birth is 6/5/1986. I have i hurt my knee playing rugby three months ago and it still feels wobbly on the inside. physio helped the pain but it’s still unstable, especially when i move sideways.
+
+[13:25:05] BOT: Which side is affected - left or right?
+
+[13:25:06] PATIENT: It's my left knee. The medial aspect, to be specific. That's where I took the hit during the rugby match.
+
+[13:25:06] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[13:25:08] PATIENT: It's an ache. When I rest, it's about 3 out of 10, but when I put stress on it, especially with lateral movements, it can get as high as 7 out of 10 and feel sharp. It's a bit hard to describe, but it feels like something's wobbling inside my knee.
+
+[13:25:08] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:25:09] PATIENT: No, it's localized to just the left knee. I can feel it in the medial aspect, where I got hit during rugby.
+
+[13:25:09] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:25:11] PATIENT: Yeah, I have some swelling after exertion. It's usually just a bit of puffiness around the knee, but it can get pretty noticeable if I'm doing something physically demanding.
+
+[13:25:11] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:25:13] PATIENT: "Actually, my symptoms come and go. They're pretty bad when I'm doing activities that involve a lot of lateral movement or changing direction quickly, like playing rugby or even just walking on uneven ground. But when I'm just standing still or doing something low-key, they're not as bad."
+
+[13:25:13] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:25:14] PATIENT: Actually, my symptoms come and go. They're pretty bad when I'm doing activities that involve a lot of lateral movement or changing direction quickly, like playing rugby or even just walking on uneven ground. But when I'm just standing still or doing something low-key, they're not as bad.
+
+[13:25:14] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:25:16] PATIENT: To be honest, I don't really experience morning stiffness. My knee feels pretty okay in the mornings, but it can get worse as I start moving around or doing physical stuff.
+
+[13:25:16] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[13:25:18] PATIENT: To be honest, I don't have much difficulty with going down stairs or rising from a chair. The main issue is when I'm doing activities that require a lot of lateral movement or changing direction quickly, like playing rugby or uneven ground walking. It's pretty manageable for everyday tasks, though.
+
+[13:25:18] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:25:20] PATIENT: Physio helped with the pain, but it's still unstable. I've been doing desk-duty work modification to avoid making it worse, and I also got an MRI 5 weeks ago. That showed some issues with my knee, but I don't remember the specifics.
+
+[13:25:20] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:25:21] PATIENT: Physio helped with the pain, but it's still unstable. I've been doing desk-duty work modification to avoid making it worse, and I also got an MRI 5 weeks ago. That showed some issues with my knee, but I don't remember the specifics.
+
+[13:25:21] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[13:25:23] PATIENT: No, I haven't had any previous injuries or surgeries to this area. My only surgery was when I tore the meniscus in my left knee about 10 years ago, and it was just an arthroscopy to clean out some debris. The doctor told me at the time that there wasn't much damage, but since then I've been a bit more careful with my knee.
+
+[13:25:23] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[13:25:25] PATIENT: Honestly, it's more like a brief click or catch that pops and goes. When I experience locking or catching, it's not like the joint completely gets stuck, but rather it just feels like something's shifting inside my knee for a split second. It's pretty uncomfortable, but it doesn't last long.
+
+[13:25:25] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:25:27] PATIENT: To be honest, I haven't been doing any running or marathon training since I hurt my knee. My main issues are with lateral movement and changing direction quickly, like playing rugby or uneven ground walking. That's what makes it unstable and feels wobbly on the inside.
+
+[13:25:27] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:25:28] PATIENT: No, I don't smoke.
+
+[13:25:28] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:25:30] PATIENT: No, I haven't experienced any fever or chills. As for unexplained weight loss, I've been trying to eat healthier since the injury to help with recovery, so that's not an issue. And as for severe weakness, it's more of a stability issue with my knee rather than overall muscle weakness.
+
+[13:25:30] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Persistent symptomatic valgus instability with complete MCL tear poorly healing despite rehab → consider surgical repair/reconstruction.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 38-year-old warehouse supervisor (BMI 26) with persistent medial instability 3 months post valgus rugby injury. After 6 weeks of physiotherapy he remains symptomatic; MRI (5 weeks ago) shows complete femoral-side MCL tear with poor healing; other ligaments/menisci intact.
+
+Given ongoing functional valgus instability limiting work and sport, elective surgical reconstruction/repair is appropriate.
+
+Yours sincerely,
+Orthopaedic Triage
+

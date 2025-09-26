@@ -1,0 +1,126 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_6
+Title: Bucket-Handle Lateral Meniscus Tear in Young Athlete
+Date: 2025-09-26 11:29:13
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 20
+Gender: male
+Occupation: semi-professional footballer
+Comorbidities: BMI 22
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+I hurt my knee playing football three months ago and it still hurts on the outside. It sometimes catches and I can’t train properly. Physio got me running but I still can’t play matches. The scan showed a torn meniscus.
+
+CONVERSATION:
+--------------------
+[11:28:37] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[11:28:37] PATIENT: I'm William Ramirez, 20 years old, male, and my date of birth is 18/2/2004. I have i hurt my knee playing football three months ago and it still hurts on the outside. it sometimes catches and i can’t train properly. physio got me running but i still can’t play matches. the scan showed a torn meniscus.
+
+[11:28:37] BOT: Which side is affected - left or right?
+
+[11:28:40] PATIENT: The left knee. It's the one that hurts on the outside and catches when I play football.
+
+[11:28:40] BOT: What does the pain feel like? Is it sharp, dull, aching, burning, or something else?
+
+[11:28:42] PATIENT: It's an aching pain with sharp catches. It feels like it's going to give way sometimes.
+
+[11:28:42] BOT: Does the pain or feeling spread to any other part of your body?
+
+[11:28:43] PATIENT: No, it's localized to just around the outside of my left knee.
+
+[11:28:43] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[11:28:45] PATIENT: Honestly, I don't really have any swelling or stiffness. But sometimes after training, my knee feels pretty weak, especially when I'm trying to jump or cut quickly. It's like it's not stable or something.
+
+[11:28:45] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[11:28:46] PATIENT: To be honest, my symptoms are pretty intermittent. Some days I can train without too much issue, but then other days it catches me and feels like it's going to give way. It's usually when I'm doing high-intensity drills or trying to jump/cut quickly that it gets really bad.
+
+[11:28:46] BOT: What makes your symptoms better or worse?
+
+[11:28:48] PATIENT: My symptoms are worse when I do high-intensity drills or try to jump/cut quickly. It feels like it's going to give way on me. When I take a break and reduce the load, they get a bit better.
+
+[11:28:48] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[11:28:50] PATIENT: My pain would be around a 7 out of 10 when it's catching me during high-intensity drills or jumping/cutting quickly. On normal days when I'm not training as hard, it's more like a 5. But when the knee is really giving way and feels unstable, it shoots up to a 9 or even 10.
+
+[11:28:50] BOT: Let me ask about specific activities. How much difficulty do you have with: going down stairs, going up stairs, rising from a chair, bending to the floor, getting in/out of a car, putting on socks, getting in/out of the bath, and heavy domestic work?
+
+[11:28:54] PATIENT: Going down stairs? To be honest, it's not really an issue for me. I can do it without too much trouble.
+
+Going up stairs? Same as going down - no real issues there.
+
+Rising from a chair? Yeah, that's fine too. No problems with getting up from sitting.
+
+Bending to the floor? That's still a bit tricky for me. Sometimes my knee will catch and I'll feel like it's giving way.
+
+Getting in/out of a car? Not really a problem for me at all.
+
+Putting on socks? Hmm, actually that can be a bit awkward sometimes because I'm trying to bend down or move around my knee. It's not too bad though.
+
+Getting in/out of the bath? Yeah, that one can be a bit tricky too. When I try to get out of the bath, it feels like my knee is going to buckle underneath me, so I have to be really careful about how I move.
+
+Heavy domestic work? To be honest, I don't do much heavy lifting or bending around the house because I don't want to put any more strain on my knee.
+
+[11:28:54] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[11:28:56] PATIENT: I've been seeing an elite sports physiotherapist for about 10 weeks now. They've been working on getting me back to running and trying to strengthen the surrounding muscles around my knee, but I'm still having trouble with high-impact activities like jumping and cutting. The physio also got an MRI done two weeks ago, which showed a torn meniscus in my left knee.
+
+[11:28:56] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[11:28:58] PATIENT: I've been seeing an elite sports physiotherapist for about 10 weeks now. They've been working on getting me back to running and trying to strengthen the surrounding muscles around my knee, but I'm still having trouble with high-impact activities like jumping and cutting. The physio also got an MRI done two weeks ago, which showed a torn meniscus in my left knee.
+
+[11:28:58] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[11:28:59] PATIENT: No, I don't smoke.
+
+[11:28:59] BOT: Given the nature of your condition, would you be interested in considering surgical treatment if it was recommended by a specialist?
+
+[11:29:01] PATIENT: Honestly, I don't know. To be honest, surgery is always a last resort for me. As an athlete, I've tried to manage this injury through physiotherapy and rehabilitation, but if the specialist says it's the best option for my knee, then yeah, I'd consider it.
+
+[11:29:01] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[11:29:03] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My main issues have been with knee pain and instability, which don't seem to be related to any systemic symptoms like that.
+
+[11:29:03] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+**Knee Assessment Summary:**
+**Top Differential Diagnoses:**
+1. ACL tear
+2. Meniscal tear (traumatic)
+3. PFPS
+4. Bursitis
+5. Tendinopathy (patellar, quadriceps, hamstring)
+
+**⚠️ URGENT ATTENTION REQUIRED:**
+- Signs of possible infection
+- Neurovascular concerns
+
+**Assessment Notes:** Young age suggests traumatic or developmental causes
+
+
+
+CLINICAL NOTES:
+--------------------
+Symptomatic bucket-handle lateral tear with displaced fragment in a high-demand athlete → arthroscopic repair/meniscectomy assessment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 20-year-old semi-professional footballer (BMI 22) with 3 months of lateral knee pain, intermittent catching and performance limitation following a pivot injury. After 10 weeks of elite rehabilitation he cannot progress to match play. MRI (2 weeks ago) confirms a bucket-handle lateral meniscal tear with displaced fragment; ligaments intact; cartilage age-appropriate.
+
+Given ongoing mechanical symptoms and sporting demands, elective arthroscopic management is indicated.
+
+Yours sincerely,
+Orthopaedic Triage
+

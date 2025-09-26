@@ -1,0 +1,88 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_1
+Title: Chronic ACL Deficiency with Secondary Medial Meniscal Tear
+Date: 2025-09-26 13:22:47
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 34
+Gender: female
+Occupation: teacher
+Comorbidities: BMI 25, otherwise well
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My knee keeps giving way even though I did physio for months. It sometimes catches and even locks up. My GP told me the scan showed a torn ligament and meniscus.
+
+CONVERSATION:
+--------------------
+[13:22:19] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:22:19] PATIENT: I'm Lisa Anderson, 34 years old, female, and my date of birth is 22/10/1990. I have my knee keeps giving way even though i did physio for months. it sometimes catches and even locks up. my gp told me the scan showed a torn ligament and meniscus.
+
+[13:22:19] BOT: Which side is affected - left or right?
+
+[13:22:20] PATIENT: My left knee. It's mainly on the medial side.
+
+[13:22:20] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[13:22:21] PATIENT: "It started with an injury 18 months ago during a netball game. I was pivoting and twisted my knee, which led to the initial problem."
+
+[13:22:21] BOT: Can you describe your main symptoms in your own words?
+
+[13:22:23] PATIENT: "It's really frustrating because my knee just gives way on me sometimes. I'll be walking or doing something and it will just collapse underneath me. And then there are times when it catches, which feels like a sharp pain. It also locks up occasionally, which is really scary because I don't know how to move it again."
+
+[13:22:23] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:22:24] PATIENT: "No, it's all localised to my left knee. The pain or feeling doesn't spread anywhere else."
+
+[13:22:24] BOT: Do you have any other symptoms like swelling, stiffness, numbness, or weakness?
+
+[13:22:26] PATIENT: "Yes, I do experience swelling after episodes where it gives way or catches. It's not constant, but more like an aftereffect when the pain settles down."
+
+[13:22:26] BOT: What makes your symptoms better or worse?
+
+[13:22:28] PATIENT: It's definitely worse when I'm doing things that involve pivoting or sudden turns. And stairs are really tricky for me too - the uneven surface makes my knee feel unstable.
+
+[13:22:28] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:22:29] PATIENT: To be honest, I don't really experience morning stiffness. My knee feels a bit achy at first, but it loosens up pretty quickly when I start moving around. It's not like I'm stiff and unable to move - it's more like my knee is just feeling a bit creaky until I get going.
+
+[13:22:29] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:22:31] PATIENT: "I've tried 12 weeks of structured physiotherapy. It was helpful initially, but I plateaued after a while and didn't see much progress beyond that."
+
+[13:22:31] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:22:32] PATIENT: "No, this isn't related to running or marathon training. I've actually stopped doing high-impact sports because of my knee issues."
+
+[13:22:32] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:22:34] PATIENT: No, I don't smoke cigarettes or use any tobacco products. I've never been a smoker and I try to take care of myself as best I can.
+
+[13:22:34] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:22:35] PATIENT: "No, I don't have any fever, chills, unexplained weight loss, or severe weakness. My knee issues are the main thing that's been affecting me."
+
+[13:22:35] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Failed conservative management with persistent instability and new mechanical symptoms; MRI shows ACL rupture with medial meniscal tear → surgical stabilisation assessment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+This 34-year-old teacher (BMI 25) has 18 months of left knee instability following a non-contact pivot injury whilst playing netball. She completed 12 weeks of physiotherapy (good adherence) with plateau. Over the past two months she developed mechanical catching and occasional locking. MRI (6 weeks ago) shows complete mid-substance ACL rupture with retraction and a new horizontal posterior horn medial meniscal tear; minor grade 1–2 chondral change. She avoids stairs, uneven ground and has ceased pivoting sports.
+
+Given failed rehabilitation and progressive mechanical symptoms, she merits elective orthopaedic assessment for ACL reconstruction with meniscal treatment. Safety-netting regarding acute locking and swelling discussed.
+
+Yours sincerely,
+Orthopaedic Triage
+

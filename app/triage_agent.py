@@ -62,6 +62,7 @@ class TriageAgent:
         self.patient_data = {}
         self.question_index = 0
         self.question_count = {}  # Track how many times each question has been asked
+        self.asked_questions = set()  # Track which questions have been asked to prevent duplicates
         
         self.system_prompt_template = """You are Leo, a professional AI assistant for the Southwest London Elective Orthopaedic Centre (SWLEOC).
 Your job is to carry out an initial musculoskeletal assessment using structured questionnaires.
@@ -231,6 +232,10 @@ CRITICAL RULES:
         
         # Find the next question we need to ask based on what information we already have
         for state in state_sequence:
+            # Skip if we've already asked this question in this conversation
+            if state in self.asked_questions:
+                continue
+                
             # Skip if we've asked this question too many times (prevent infinite loops)
             if self.question_count.get(state, 0) >= 2:  # Reduced from 3 to 2
                 continue
@@ -565,9 +570,10 @@ CRITICAL RULES:
                 
                 # Extract pain character - improved pattern matching
                 pain_keywords = [
-                    'sharp', 'dull', 'aching', 'burning', 'throbbing', 'stabbing', 'stiff',
+                    'sharp', 'dull', 'aching', 'ache', 'burning', 'throbbing', 'stabbing', 'stiff',
                     'crushing', 'pressure', 'intense', 'severe', 'excruciating', 'constant',
-                    'constant pain', 'severe pain', 'intense pain', 'crushing pressure'
+                    'constant pain', 'severe pain', 'intense pain', 'crushing pressure',
+                    'feels like', 'pain feels', 'type of pain'
                 ]
                 if any(word in content for word in pain_keywords):
                     data["pain_character"] = content
@@ -708,6 +714,7 @@ CRITICAL RULES:
         
         return data
 
+
     async def get_next_response(self, messages: List[Dict]) -> str:
         """
         Deterministically emit the next question from the state machine.
@@ -717,6 +724,10 @@ CRITICAL RULES:
 
         # Track question count to prevent infinite loops
         self.question_count[current_state] = self.question_count.get(current_state, 0) + 1
+        
+        # Track asked questions to prevent duplicates
+        if current_state != TriageState.COMPLETE:
+            self.asked_questions.add(current_state)
 
         # Conversation complete
         if current_state == TriageState.COMPLETE:

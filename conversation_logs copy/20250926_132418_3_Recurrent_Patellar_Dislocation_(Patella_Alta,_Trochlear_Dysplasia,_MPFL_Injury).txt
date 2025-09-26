@@ -1,0 +1,118 @@
+MSK TRIAGE BOT CONVERSATION LOG (QUESTIONNAIRE-BASED)
+============================================================
+
+Case ID: case_3
+Title: Recurrent Patellar Dislocation (Patella Alta, Trochlear Dysplasia, MPFL Injury)
+Date: 2025-09-26 13:24:18
+Assessment Type: Questionnaire-Based MSK Triage
+Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses
+
+PATIENT DEMOGRAPHICS:
+--------------------
+Age: 22
+Gender: female
+Occupation: university student; netball player
+Comorbidities: BMI 21
+Expected Triage: SWLEOC Orthopaedic Surgery
+
+PRESENTING COMPLAINT:
+--------------------
+My kneecap keeps popping out when I play sport. It’s happened three times now and I’m too scared to keep playing. Physio didn’t stop it and the scan showed something wrong with the ligament.
+
+CONVERSATION:
+--------------------
+[13:23:36] BOT: Hello, I'm Leo, your musculoskeletal triage assistant. I'm here to help assess your condition and direct you to the most appropriate care. To get started, could you please tell me your full name, age, gender, and date of birth?
+
+[13:23:36] PATIENT: I'm Jessica Wilson, 22 years old, female, and my date of birth is 20/6/2002. I have my kneecap keeps popping out when i play sport. it’s happened three times now and i’m too scared to keep playing. physio didn’t stop it and the scan showed something wrong with the ligament.
+
+[13:23:36] BOT: Which side is affected - left or right?
+
+[13:23:36] PATIENT: My kneecap keeps popping out on the front part of my knee.
+
+[13:23:36] BOT: Which side is affected - left or right?
+
+[13:23:38] PATIENT: My kneecap keeps popping out on the right side.
+
+[13:23:38] BOT: How did this problem start? Was it from an injury, overuse, or did it come on gradually?
+
+[13:23:39] PATIENT: It started from an injury. I was playing netball about 8 months ago when it first happened.
+
+[13:23:39] BOT: Can you describe your main symptoms in your own words?
+
+[13:23:41] PATIENT: To be honest, it's really painful when it happens. I get this sharp, severe pain in the front of my knee, and it feels like my kneecap just dislocates. Afterward, there's an aching feeling that can last for hours, and I'm always worried it'll happen again.
+
+[13:23:41] BOT: Does the pain or feeling spread to any other part of your body?
+
+[13:23:42] PATIENT: The pain is localized to the front part of my knee. It doesn't spread anywhere else, it's just right there in the peripatellar region.
+
+[13:23:42] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:23:44] PATIENT: It's come and gone. It used to happen more often, but since I had the physio and wore the brace, it hasn't happened as much. However, when it does happen, it's still really bad.
+
+[13:23:44] BOT: Are your symptoms constant or do they come and go? Is there any pattern to them?
+
+[13:23:45] PATIENT: To be honest, it's come and gone. It used to happen more often, but since I had the physio and wore the brace, it hasn't happened as much. However, when it does happen, it's still really bad.
+
+[13:23:45] BOT: What makes your symptoms better or worse?
+
+[13:23:47] PATIENT: It makes it worse when I do pivoting movements or sports-specific drills. And to be honest, just seeing other people playing netball can bring back that apprehension feeling.
+
+[13:23:47] BOT: On a scale of 0 to 10, where 0 is no pain and 10 is the worst imaginable, how would you rate your pain?
+
+[13:23:49] PATIENT: My pain would be around an 8 or 9 out of 10 when it happens. The dislocation itself is extremely painful, but the lingering aching apprehension afterwards can still bring it down to a 3 or 4 in terms of overall discomfort.
+
+[13:23:49] BOT: Do you experience morning stiffness? If so, how long does it take to loosen up in the morning?
+
+[13:23:51] PATIENT: To be honest, I don't really experience morning stiffness. When I wake up in the morning, I can move around without too much discomfort. It's not until I start doing some physical activity or playing netball that my knee starts to feel worse and I get a sense of apprehension about it happening again.
+
+[13:23:51] BOT: What treatments have you tried before? For example, medications, physiotherapy, or other interventions?
+
+[13:23:52] PATIENT: I've been trying physiotherapy for about 16 weeks now. I also tried wearing a patellar stabilizing (PF) brace to see if it would help stabilize my kneecap, but unfortunately, neither of those treatments has prevented the dislocations from happening.
+
+[13:23:52] BOT: Have you had any previous injuries or surgeries to this area? For example, ACL reconstruction, meniscus surgery, knee replacement, or arthroscopy?
+
+[13:23:54] PATIENT: No, I haven't had any surgeries or significant injuries to this area. The only thing that's happened here is the kneecap popping out during netball plays about 8 months ago.
+
+[13:23:54] BOT: When you experience locking or catching, is it more like the joint gets completely stuck and won't move (true locking), or is it more like a brief click or catch that pops and goes?
+
+[13:23:56] PATIENT: It's more like a brief click or catch that pops and goes. When it happens, it's like my kneecap just dislocates and then snaps back into place, but the pain and apprehension afterwards are what really get to me.
+
+[13:23:56] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:23:57] PATIENT: To be honest, it's related to playing netball. Specifically, I've had issues with pivoting movements during games, which seems to trigger the dislocation.
+
+[13:23:57] BOT: Is this related to any specific activities like running, marathon training, increased mileage, hill repeats, or prolonged standing?
+
+[13:23:59] PATIENT: To be honest, it's related to playing netball. Specifically, I've had issues with pivoting movements during games, which seems to trigger the dislocation.
+
+(Note: The patient has already answered this question previously in the conversation history, but since it was asked again by the bot, I provided a brief response to confirm their previous answer.)
+
+[13:23:59] BOT: Do you experience any of the following: joint instability or giving way, locking or catching sensations, or pain specifically at the front of the knee or behind the kneecap?
+
+[13:24:01] PATIENT: Yes, I experience joint instability or giving way. When it happens, it feels like my kneecap just dislocates and then snaps back into place, but the pain and apprehension afterwards are really worrying for me.
+
+[13:24:01] BOT: Do you smoke cigarettes or use any tobacco products?
+
+[13:24:02] PATIENT: No, I don't smoke cigarettes or use any tobacco products.
+
+[13:24:02] BOT: To make sure we're not missing anything serious, have you experienced any fever, chills, unexplained weight loss, or severe weakness?
+
+[13:24:04] PATIENT: No, I haven't experienced any fever, chills, unexplained weight loss, or severe weakness. My symptoms seem to be related to the physical activity and pivoting movements during netball, not anything else.
+
+[13:24:04] BOT: Thank you for sharing all the information with me. I now have a complete picture of your situation. A clinical summary with differential diagnosis will be prepared for the clinical team at SWLEOC to direct you to the most appropriate care pathway.
+
+CLINICAL NOTES:
+--------------------
+Structural risk factors (alta, trochlear dysplasia) with recurrent instability despite rehab → consider MPFL reconstruction ± bony realignment.
+
+EXPANDED CLINIC LETTER:
+--------------------
+To GP,
+
+A 22-year-old student and netball player (BMI 21) with three lateral patellar dislocation episodes over 8 months. Completed 16 weeks of targeted VMO/proprioceptive rehab; ongoing apprehension prevents return to sport. MRI (3 weeks ago) demonstrates patella alta, trochlear dysplasia and chronic MPFL tear with scarring; early PFJ chondral change.
+
+Given recurrent instability and structural risk factors despite comprehensive rehabilitation, elective surgical stabilisation (e.g., MPFL reconstruction ± alignment procedure) should be considered.
+
+Yours sincerely,
+Orthopaedic Triage
+
