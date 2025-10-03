@@ -1,0 +1,466 @@
+[
+  {
+    "case_id": "case_1",
+    "title": "Chronic ACL Deficiency with Secondary Medial Meniscal Tear",
+    "demographics": {
+      "age": "34",
+      "gender": "female",
+      "occupation": "teacher",
+      "comorbidities": "BMI 25, otherwise well"
+    },
+    "presenting_complaint": "My knee keeps giving way even though I did physio for months. It sometimes catches and even locks up. My GP told me the scan showed a torn ligament and meniscus.",
+    "socrates": {
+      "site": "Left knee, mainly medial and deep",
+      "onset": "Original injury 18 months ago during netball pivot; chronic since",
+      "character": "Baseline ache 4/10 with episodes of sharp pain 8/10 on giving way",
+      "radiation": "Localised",
+      "associations": "Instability 2–3×/week, catching, occasional locking, swelling after episodes",
+      "timing": "Worse with stairs, direction change, uneven ground",
+      "exacerbating": "Pivoting, sudden turns, stairs, uneven surfaces",
+      "relieving": "Activity modification, rest, brace",
+      "severity": "Baseline 4/10; up to 8/10 with instability"
+    },
+    "triage_info": {
+      "injury_mechanism": "Non-contact pivot injury during netball (ACL rupture), chronic instability",
+      "red_flags": "None",
+      "previous_treatment": "12 weeks structured physiotherapy (plateau), MRI 6 weeks ago",
+      "functional_impact": "Cannot supervise playground activities; avoids stairs/uneven ground; stopped pivoting sports"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Failed conservative management with persistent instability and new mechanical symptoms; MRI shows ACL rupture with medial meniscal tear → surgical stabilisation assessment.",
+    "sample_conversation": [
+      "My knee keeps giving way even after doing physio for three months.",
+      "It first happened 18 months ago playing netball.",
+      "Yes, it catches and sometimes locks.",
+      "Stairs and sudden turns are the worst.",
+      "Baseline 4, but 8 when it gives way.",
+      "I’ve stopped all pivoting sports.",
+      "Yes, I’m very cautious on uneven ground.",
+      "I had an MRI six weeks ago.",
+      "They said the ACL is torn and there’s a meniscal tear.",
+      "Physio helped strength but not the instability."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nThis 34-year-old teacher (BMI 25) has 18 months of left knee instability following a non-contact pivot injury whilst playing netball. She completed 12 weeks of physiotherapy (good adherence) with plateau. Over the past two months she developed mechanical catching and occasional locking. MRI (6 weeks ago) shows complete mid-substance ACL rupture with retraction and a new horizontal posterior horn medial meniscal tear; minor grade 1–2 chondral change. She avoids stairs, uneven ground and has ceased pivoting sports.\n\nGiven failed rehabilitation and progressive mechanical symptoms, she merits elective orthopaedic assessment for ACL reconstruction with meniscal treatment. Safety-netting regarding acute locking and swelling discussed.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_2",
+    "title": "Chronic Medial Meniscus Tear – Failed Conservative Management",
+    "demographics": {
+      "age": "45",
+      "gender": "male",
+      "occupation": "plumber (self-employed)",
+      "comorbidities": "BMI 28"
+    },
+    "presenting_complaint": "My knee keeps locking up several times a week even though I did all the physio exercises. My GP said the scan showed a tear that might need keyhole surgery.",
+    "socrates": {
+      "site": "Medial joint line, right knee",
+      "onset": "Gradual over 4 months after heavy kneeling",
+      "character": "Deep ache with sharp catches/locking",
+      "radiation": "Localised",
+      "associations": "True locking episodes, stiffness after kneeling",
+      "timing": "Daily catching; locking several times/week",
+      "exacerbating": "Kneeling, rising from squat, twisting",
+      "relieving": "Rest, activity modification, knee pads",
+      "severity": "Pain 6–7/10 during flares"
+    },
+    "triage_info": {
+      "injury_mechanism": "Repetitive kneeling/degenerative meniscal pathology",
+      "red_flags": "None",
+      "previous_treatment": "8 weeks physiotherapy; occupational adjustments; MRI 4 weeks ago",
+      "functional_impact": "Cannot complete under-sink/floor jobs; ~40% income reduction; sleep occasionally disturbed"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "True mechanical locking with displaced fragment on MRI and failed rehab → arthroscopic surgical assessment.",
+    "sample_conversation": [
+      "My knee locks several times a week despite doing the exercises.",
+      "It started about 4 months ago after a lot of kneeling.",
+      "The pain is on the inside.",
+      "It catches daily and sometimes fully locks.",
+      "It’s worst when getting up from kneeling.",
+      "I did 8 weeks of physio—strength improved but locking didn’t.",
+      "MRI was done 4 weeks ago.",
+      "They said there’s a complex tear with a displaced bit.",
+      "It’s affecting my work a lot.",
+      "Pain goes up to 7/10 when it locks."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 45-year-old self-employed plumber (BMI 28) with 4 months of right medial knee pain, daily catching and true locking 3–4 times per week. After 8 weeks of physiotherapy, mechanical symptoms persist. MRI (4 weeks ago) demonstrates a complex degenerative medial meniscal tear with a displaced fragment; grade 2 medial compartment chondral change; ligaments intact.\n\nGiven ongoing true locking and failed non-operative care, referral for arthroscopic intervention is appropriate. Occupational impact significant.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_3",
+    "title": "Recurrent Patellar Dislocation (Patella Alta, Trochlear Dysplasia, MPFL Injury)",
+    "demographics": {
+      "age": "22",
+      "gender": "female",
+      "occupation": "university student; netball player",
+      "comorbidities": "BMI 21"
+    },
+    "presenting_complaint": "My kneecap keeps popping out when I play sport. It’s happened three times now and I’m too scared to keep playing. Physio didn’t stop it and the scan showed something wrong with the ligament.",
+    "socrates": {
+      "site": "Anterior knee, peripatellar region",
+      "onset": "First episode 8 months ago; further episodes at 4 months and 6 weeks ago",
+      "character": "Acute severe pain with dislocation; aching apprehension thereafter",
+      "radiation": "Localised",
+      "associations": "Recurrent dislocation, severe apprehension, giving way",
+      "timing": "Episodes during pivoting sports; persistent apprehension",
+      "exacerbating": "Cutting/pivoting movements; sport-specific drills",
+      "relieving": "Rest, bracing, avoiding pivots",
+      "severity": "8/10 during dislocation; 3–4/10 residual"
+    },
+    "triage_info": {
+      "injury_mechanism": "Lateral patellar instability during pivoting sports",
+      "red_flags": "None",
+      "previous_treatment": "16 weeks sports physiotherapy; trial of PF brace; MRI 3 weeks ago",
+      "functional_impact": "Stopped netball; avoids stairs and sudden movements; significant psychosocial impact"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Structural risk factors (alta, trochlear dysplasia) with recurrent instability despite rehab → consider MPFL reconstruction ± bony realignment.",
+    "sample_conversation": [
+      "My kneecap has dislocated three times this year.",
+      "Each time was during sport with a pivot or cut.",
+      "I’ve done 16 weeks of sports physio.",
+      "I’m still too apprehensive to do drills.",
+      "The brace didn’t really help.",
+      "MRI said patella alta and a shallow groove.",
+      "They mentioned an old MPFL tear.",
+      "I’ve stopped netball completely.",
+      "It’s really affecting my uni team life.",
+      "Pain is 8/10 when it pops, less otherwise."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 22-year-old student and netball player (BMI 21) with three lateral patellar dislocation episodes over 8 months. Completed 16 weeks of targeted VMO/proprioceptive rehab; ongoing apprehension prevents return to sport. MRI (3 weeks ago) demonstrates patella alta, trochlear dysplasia and chronic MPFL tear with scarring; early PFJ chondral change.\n\nGiven recurrent instability and structural risk factors despite comprehensive rehabilitation, elective surgical stabilisation (e.g., MPFL reconstruction ± alignment procedure) should be considered.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_4",
+    "title": "Chronic MCL Tear with Persistent Instability",
+    "demographics": {
+      "age": "38",
+      "gender": "male",
+      "occupation": "warehouse supervisor",
+      "comorbidities": "BMI 26"
+    },
+    "presenting_complaint": "I hurt my knee playing rugby three months ago and it still feels wobbly on the inside. Physio helped the pain but it’s still unstable, especially when I move sideways.",
+    "socrates": {
+      "site": "Medial aspect, left knee",
+      "onset": "Rugby tackle 3 months ago",
+      "character": "Ache 3/10 at rest; sharp 7/10 with valgus stress",
+      "radiation": "Localised",
+      "associations": "Instability on lateral movements; swelling after exertion",
+      "timing": "Worse with lateral steps/change of direction",
+      "exacerbating": "Side steps, uneven ground",
+      "relieving": "Rest, brace, activity modification",
+      "severity": "Up to 7/10 with stress"
+    },
+    "triage_info": {
+      "injury_mechanism": "Valgus force rugby injury",
+      "red_flags": "None",
+      "previous_treatment": "6 weeks physiotherapy; MRI 5 weeks ago; desk-duty work modification",
+      "functional_impact": "Cannot safely supervise floor operations; sport stopped"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Persistent symptomatic valgus instability with complete MCL tear poorly healing despite rehab → consider surgical repair/reconstruction.",
+    "sample_conversation": [
+      "I injured it in a rugby tackle three months ago.",
+      "Since then the inside feels wobbly.",
+      "Physio helped pain but not the instability.",
+      "It’s worst with side steps or uneven ground.",
+      "At rest it’s 3/10, up to 7/10 with movement.",
+      "MRI showed the MCL torn off the femur.",
+      "I’m on desk duties only now.",
+      "I’ve stopped rugby completely.",
+      "Stairs are okay; uneven surfaces are not.",
+      "I’m worried about keeping my job."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 38-year-old warehouse supervisor (BMI 26) with persistent medial instability 3 months post valgus rugby injury. After 6 weeks of physiotherapy he remains symptomatic; MRI (5 weeks ago) shows complete femoral-side MCL tear with poor healing; other ligaments/menisci intact.\n\nGiven ongoing functional valgus instability limiting work and sport, elective surgical reconstruction/repair is appropriate.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_5",
+    "title": "Chronic PCL Tear with Functional Limitation",
+    "demographics": {
+      "age": "29",
+      "gender": "female",
+      "occupation": "physiotherapist",
+      "comorbidities": "BMI 23"
+    },
+    "presenting_complaint": "I injured my knee in a car crash four months ago and it still feels like it sags backwards. I’ve done all the rehab I can but I still feel unstable, especially going downstairs or slowing down.",
+    "socrates": {
+      "site": "Posterior right knee",
+      "onset": "RTC dashboard injury 4 months ago",
+      "character": "Deep posterior ache; instability on deceleration",
+      "radiation": "Localised",
+      "associations": "Posterior sag; discomfort with prolonged sitting",
+      "timing": "Daily symptoms, worse with stairs and deceleration",
+      "exacerbating": "Downhill/stairs, decelerating, prolonged sitting",
+      "relieving": "Rest, avoiding provocative tasks",
+      "severity": "Pain 5–6/10 with activity"
+    },
+    "triage_info": {
+      "injury_mechanism": "Dashboard trauma causing PCL rupture",
+      "red_flags": "None",
+      "previous_treatment": "12 weeks self-directed physiotherapy; MRI 6 weeks ago",
+      "functional_impact": "Cannot demonstrate exercises; reduced patient contact; difficulty with stairs"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Symptomatic chronic PCL rupture with failed conservative care in a high-functional-demand clinician → consider PCL reconstruction.",
+    "sample_conversation": [
+      "I had a dashboard injury in a car crash four months ago.",
+      "Since then my knee sags at the back.",
+      "I’ve done 12 weeks of my own rehab.",
+      "I still feel unstable when slowing down.",
+      "Sitting for long periods aches deeply.",
+      "MRI shows a complete PCL tear.",
+      "I can’t safely demonstrate exercises to patients.",
+      "Stairs and downhill are difficult.",
+      "Pain reaches 6/10 with activity.",
+      "I’d like a more definitive fix."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 29-year-old physiotherapist (BMI 23) with 4 months of right posterior knee pain and functional instability after an RTC dashboard injury. Despite 12 weeks of self-directed rehabilitation, she reports persistent posterior sag and difficulty with deceleration and stairs. MRI (6 weeks ago) confirms complete mid-substance PCL rupture; PLC strain only; cartilage/menisci normal.\n\nGiven ongoing symptoms and professional demands, elective assessment for PCL reconstruction is indicated.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_6",
+    "title": "Bucket-Handle Lateral Meniscus Tear in Young Athlete",
+    "demographics": {
+      "age": "20",
+      "gender": "male",
+      "occupation": "semi-professional footballer",
+      "comorbidities": "BMI 22"
+    },
+    "presenting_complaint": "I hurt my knee playing football three months ago and it still hurts on the outside. It sometimes catches and I can’t train properly. Physio got me running but I still can’t play matches. The scan showed a torn meniscus.",
+    "socrates": {
+      "site": "Lateral joint line, left knee",
+      "onset": "Acute pivot injury 3 months ago",
+      "character": "Aching with sharp catches; mechanical symptoms",
+      "radiation": "Localised",
+      "associations": "Reduced sprint speed; unable to complete cutting/jumping drills",
+      "timing": "Symptoms with training progression; intermittent",
+      "exacerbating": "Cutting, jumping, high-intensity drills",
+      "relieving": "Load reduction, rest",
+      "severity": "5/10 baseline; 7/10 on catching"
+    },
+    "triage_info": {
+      "injury_mechanism": "Pivoting football injury",
+      "red_flags": "None",
+      "previous_treatment": "10 weeks elite sports physiotherapy; MRI 2 weeks ago",
+      "functional_impact": "Training capped at ~60%; no matches; contract at risk"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Symptomatic bucket-handle lateral tear with displaced fragment in a high-demand athlete → arthroscopic repair/meniscectomy assessment.",
+    "sample_conversation": [
+      "I injured it in a match three months ago.",
+      "Pain is on the outside of the knee.",
+      "It catches and I can’t cut properly.",
+      "I’ve done 10 weeks of elite physio.",
+      "I still can’t return to matches.",
+      "MRI shows a bucket-handle tear.",
+      "Sprinting speed is reduced.",
+      "Stairs and deep squats hurt.",
+      "Baseline pain 5/10; 7/10 when it catches.",
+      "My contract is under review."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 20-year-old semi-professional footballer (BMI 22) with 3 months of lateral knee pain, intermittent catching and performance limitation following a pivot injury. After 10 weeks of elite rehabilitation he cannot progress to match play. MRI (2 weeks ago) confirms a bucket-handle lateral meniscal tear with displaced fragment; ligaments intact; cartilage age-appropriate.\n\nGiven ongoing mechanical symptoms and sporting demands, elective arthroscopic management is indicated.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_7",
+    "title": "Chronic LCL Tear with Lateral Instability",
+    "demographics": {
+      "age": "42",
+      "gender": "female",
+      "occupation": "office manager; keen hiker",
+      "comorbidities": "BMI 24"
+    },
+    "presenting_complaint": "I fell skiing about ten weeks ago and the outside of my knee still feels wobbly. I did physio but it hasn’t settled and I can’t hike down hills anymore.",
+    "socrates": {
+      "site": "Lateral aspect, right knee",
+      "onset": "Skiing fall 10 weeks ago",
+      "character": "Ache 3/10 baseline, sharp 7/10 with varus stress",
+      "radiation": "Localised",
+      "associations": "Instability, swelling with exertion",
+      "timing": "Instability daily, worse on uneven ground",
+      "exacerbating": "Descending slopes, uneven surfaces, varus load",
+      "relieving": "Rest, brace, activity avoidance",
+      "severity": "Up to 7/10 with instability"
+    },
+    "triage_info": {
+      "injury_mechanism": "Skiing fall with varus force",
+      "red_flags": "None",
+      "previous_treatment": "8 weeks physiotherapy; MRI 2 weeks ago",
+      "functional_impact": "Stopped hiking; difficulty descending stairs; fear of re-injury"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Persistent symptomatic lateral instability after complete LCL tear with failed conservative care → surgical reconstruction required.",
+    "sample_conversation": [
+      "I fell skiing ten weeks ago.",
+      "Since then the outside of my knee feels unstable.",
+      "I did 8 weeks of physio.",
+      "It’s still wobbly on uneven ground.",
+      "I can’t hike down hills anymore.",
+      "MRI showed the LCL is torn.",
+      "Pain is about 3/10 most of the time.",
+      "It goes to 7/10 if I put weight sideways.",
+      "I’ve been using a brace but it hasn’t fixed it."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 42-year-old office manager and recreational hiker (BMI 24) with persistent lateral instability 10 weeks post skiing injury. Despite 8 weeks of physiotherapy, she reports ongoing instability especially on slopes and uneven ground. MRI (2 weeks ago) demonstrates complete LCL rupture with PLC involvement; ACL/PCL intact.\n\nGiven continued symptomatic lateral instability and failed conservative management, referral for surgical reconstruction is indicated.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_8",
+    "title": "Chronic Degenerative Meniscal Tear – Conservative Management Appropriate",
+    "demographics": {
+      "age": "58",
+      "gender": "male",
+      "occupation": "retired; keen gardener",
+      "comorbidities": "BMI 29; hypertension"
+    },
+    "presenting_complaint": "My knee aches when I kneel in the garden. It clicks a bit but it doesn’t actually lock. The GP said the scan showed a small tear, but it’s not stopping me from getting around.",
+    "socrates": {
+      "site": "Medial joint line, left knee",
+      "onset": "Gradual over 6 months",
+      "character": "Dull ache 4/10; occasional sharp catch 6/10",
+      "radiation": "Localised",
+      "associations": "Clicking, stiffness; no true locking",
+      "timing": "Worse with kneeling, squatting, gardening",
+      "exacerbating": "Kneeling, deep flexion, prolonged activity",
+      "relieving": "Rest, analgesia",
+      "severity": "Baseline 4/10; up to 6/10 with catching"
+    },
+    "triage_info": {
+      "injury_mechanism": "Degenerative changes",
+      "red_flags": "None",
+      "previous_treatment": "Physiotherapy; analgesia; MRI 2 months ago",
+      "functional_impact": "Gardening limited; walking preserved"
+    },
+    "expected_triage": "GP/Primary Care",
+    "clinical_notes": "Degenerative tear with no mechanical locking → ongoing conservative management; surgical intervention not required.",
+    "sample_conversation": [
+      "My knee aches when I kneel in the garden.",
+      "It’s been going on about 6 months.",
+      "It sometimes clicks but doesn’t lock.",
+      "Pain is about 4/10, worse if I bend fully.",
+      "MRI showed a small degenerative tear.",
+      "I can still walk and do daily things.",
+      "It’s mainly kneeling that bothers me.",
+      "Physio and painkillers help a bit."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nThis 58-year-old retired man (BMI 29) with hypertension presents with a 6-month history of medial left knee ache aggravated by gardening and kneeling. He describes occasional clicking but no true locking. Pain is 4/10, rising to 6/10 with provocation. MRI (2 months ago) shows a degenerative medial meniscal tear with grade 2 chondral wear.\n\nGiven absence of true locking and reasonable function, ongoing conservative management is appropriate. He should continue physiotherapy, weight optimisation, and analgesia. Surgical referral not indicated unless symptoms progress.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_9",
+    "title": "Knee Osteoarthritis with Functional Limitation",
+    "demographics": {
+      "age": "65",
+      "gender": "female",
+      "occupation": "retired",
+      "comorbidities": "BMI 32; type 2 diabetes"
+    },
+    "presenting_complaint": "Both my knees ache every day and walking is getting harder. I can only get to the local shop now and stairs are very painful. Painkillers don’t really work anymore.",
+    "socrates": {
+      "site": "Both knees, medial predominant",
+      "onset": "Progressive over 5 years, worsening recently",
+      "character": "Constant dull ache; occasional sharp flares",
+      "radiation": "To thighs and shins",
+      "associations": "Swelling, stiffness, reduced mobility",
+      "timing": "Daily pain; worse with walking, stairs, evenings",
+      "exacerbating": "Stairs, prolonged walking/standing",
+      "relieving": "Rest, short sitting breaks",
+      "severity": "7–8/10 daily"
+    },
+    "triage_info": {
+      "injury_mechanism": "Degenerative osteoarthritis",
+      "red_flags": "None",
+      "previous_treatment": "Multiple physiotherapy courses, weight-loss attempts, steroid injections, oral analgesia",
+      "functional_impact": "Walking limited to ~200 m; stairs very difficult; requires stick"
+    },
+    "expected_triage": "SWLEOC Orthopaedic Surgery",
+    "clinical_notes": "Advanced OA with functional restriction and failed conservative care → surgical assessment for knee arthroplasty.",
+    "sample_conversation": [
+      "My knees ache every day now.",
+      "It’s been going on for years but worse lately.",
+      "I can only walk to the local shop.",
+      "Stairs are really painful.",
+      "Painkillers don’t help much anymore.",
+      "I’ve had injections but they wore off.",
+      "I use a stick to get around.",
+      "Pain is about 8/10 most days."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 65-year-old retired lady (BMI 32, type 2 diabetes) with 5 years of bilateral knee pain, progressively worsening. She describes constant ache 7–8/10, stiffness, swelling, and severe limitation of mobility. She is limited to 200 m walking with a stick and finds stairs very difficult. She has tried physiotherapy, steroid injections, weight reduction, and oral analgesia without sustained relief.\n\nRadiographs show advanced tricompartmental osteoarthritis bilaterally with joint space loss and osteophytes. Given severity, functional loss, and failure of conservative treatment, surgical assessment for arthroplasty is appropriate.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_10",
+    "title": "Acute Meniscal Tear – Suitable for Physiotherapy",
+    "demographics": {
+      "age": "27",
+      "gender": "male",
+      "occupation": "personal trainer",
+      "comorbidities": "BMI 24, otherwise fit"
+    },
+    "presenting_complaint": "I twisted my knee at the gym about six weeks ago and since then it aches on the inside. It sometimes clicks but it hasn’t locked. I can still work but squats are painful.",
+    "socrates": {
+      "site": "Medial joint line, right knee",
+      "onset": "Acute twist 6 weeks ago",
+      "character": "Ache 3/10 baseline; 6/10 with squats",
+      "radiation": "Localised",
+      "associations": "Clicking; no true locking",
+      "timing": "Daily pain; worse with loaded flexion",
+      "exacerbating": "Squats, lunges, running",
+      "relieving": "Rest, ice",
+      "severity": "3–6/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "Twisting gym injury",
+      "red_flags": "None",
+      "previous_treatment": "None beyond rest/OTC analgesia",
+      "functional_impact": "Still working; reduced training capacity; avoids heavy squats"
+    },
+    "expected_triage": "MSK Physiotherapy",
+    "clinical_notes": "Acute meniscal injury without locking; good ROM; early physiotherapy appropriate.",
+    "sample_conversation": [
+      "I twisted my knee six weeks ago.",
+      "Since then the inside aches.",
+      "It sometimes clicks but doesn’t lock.",
+      "Squats are painful now.",
+      "Pain is 3/10 usually, 6/10 when loaded.",
+      "I’m still working as a trainer.",
+      "I haven’t tried formal physio yet.",
+      "Rest and ice help a little."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nA 27-year-old personal trainer (BMI 24) with 6 weeks of medial right knee pain after a twisting gym injury. Pain is 3/10 at baseline, up to 6/10 with loaded flexion (squats/lunges). Occasional clicking but no true locking. He has not had physiotherapy. Function preserved but training reduced.\n\nExam shows full ROM, mild medial tenderness, no effusion. Likely acute medial meniscus tear. Initial management with physiotherapy is appropriate. Safety-netting re: locking given.\n\nYours sincerely,\nOrthopaedic Triage"
+  },
+  {
+    "case_id": "case_11",
+    "title": "Inappropriate Referral – Isolated Chondromalacia Patellae",
+    "demographics": {
+      "age": "31",
+      "gender": "female",
+      "occupation": "retail worker",
+      "comorbidities": "BMI 27"
+    },
+    "presenting_complaint": "The front of my knee hurts when I go up and down stairs. My GP said the scan showed some wear under the kneecap. Physio hasn’t helped much yet but I haven’t finished the programme.",
+    "socrates": {
+      "site": "Anterior knee",
+      "onset": "Gradual over 9 months",
+      "character": "Ache 4/10 baseline; 6/10 with stairs",
+      "radiation": "Around patella",
+      "associations": "Crepitus, mild swelling",
+      "timing": "Daily, worse with stairs, squats, prolonged sitting",
+      "exacerbating": "Stairs, sitting long periods, squatting",
+      "relieving": "Rest, ice",
+      "severity": "4–6/10"
+    },
+    "triage_info": {
+      "injury_mechanism": "Overuse; degenerative chondromalacia",
+      "red_flags": "None",
+      "previous_treatment": "Physiotherapy ongoing (8 weeks of 12-week course); MRI 3 months ago",
+      "functional_impact": "Manages work but avoids stairs; mild activity restriction"
+    },
+    "expected_triage": "GP/Primary Care",
+    "clinical_notes": "Isolated patellofemoral chondral wear without mechanical symptoms; incomplete physiotherapy trial → not for orthopaedic referral.",
+    "sample_conversation": [
+      "The front of my knee hurts on stairs.",
+      "It’s been like this for 9 months.",
+      "GP said scan showed wear under the kneecap.",
+      "I’m doing physio but not finished yet.",
+      "Pain is 4/10 normally, 6/10 on stairs.",
+      "I still work but avoid stairs where I can.",
+      "It creaks sometimes.",
+      "No locking or giving way."
+    ],
+    "expanded_clinic_letter": "To GP,\n\nThis 31-year-old retail worker (BMI 27) with 9 months of anterior knee pain. Pain 4/10 at rest, 6/10 with stairs/squats. GP MRI (3 months ago) shows isolated chondromalacia patellae. She is mid-way through a physiotherapy programme (8 of 12 weeks). No mechanical symptoms. Function preserved.\n\nThis is not an orthopaedic surgical case; ongoing physiotherapy and conservative care is appropriate. Re-referral only if persistent mechanical symptoms or red flags develop.\n\nYours sincerely,\nOrthopaedic Triage"
+  }
+]

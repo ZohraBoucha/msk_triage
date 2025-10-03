@@ -119,8 +119,6 @@ SBAR CLINICAL SUMMARY & TRIAGE CLASSIFICATION:
 - **Urgent Care:** Not required at this time.
 - **Follow-up:** Follow up with the Orthopaedic Outpatient Clinic in two weeks to assess progress and adjust treatment plan as necessary.
 
-Based on the clinical summary, here is the differential diagnosis:
-
 **RED FLAG CONSIDERATIONS:**
 - None mentioned in this case. However, it is essential to consider red flags such as severe weakness, fever, bladder/bowel problems, or severe pain that could indicate a more serious underlying condition requiring immediate attention.
 
