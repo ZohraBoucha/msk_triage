@@ -1,8 +1,8 @@
 import httpx
 from typing import List, Dict, Any
-from questionnaire_engine import run_questionnaire_engine, get_diagnosis_display_name
-from questionnaire_specs import get_questionnaire_form
-from triage_agent import TriageAgent
+from .questionnaire_engine import run_questionnaire_engine, get_diagnosis_display_name
+from .questionnaire_specs import get_questionnaire_form
+from .triage_agent import TriageAgent
 
 class SummarizationAgent:
     """

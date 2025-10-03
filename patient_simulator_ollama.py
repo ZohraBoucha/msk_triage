@@ -20,8 +20,9 @@ import random
 
 # Add the app directory to the path so we can import the agents directly
 sys.path.append(os.path.join(os.path.dirname(__file__), 'app'))
-from triage_agent import TriageAgent
-from summarization_agent import SummarizationAgent
+from app.triage_agent import TriageAgent
+from app.summarization_agent import SummarizationAgent
+from app.referral_letter_agent import ReferralLetterAgent
 
 # Initialize colorama for colored terminal output
 init(autoreset=True)
@@ -52,10 +53,12 @@ class PatientSimulator:
         self.conversation_index = 0
         self.conversation_log = []  # Store all conversation messages for saving
         self.generated_summary = ""  # Store the generated SBAR summary
+        self.generated_referral_letters = {}  # Store the generated referral letters
         
         # Initialize the agents directly
         self.triage_agent = TriageAgent(model="llama3.1:8b")
         self.summarization_agent = SummarizationAgent(model="llama3.1:8b")
+        self.referral_letter_agent = ReferralLetterAgent(model="llama3.1:8b")
         
     def load_patient_data(self, patient_data: PatientData):
         """Load patient data for simulation"""
@@ -67,6 +70,7 @@ class PatientSimulator:
         # Reset the triage agent state for each new simulation
         self.triage_agent = TriageAgent(model="llama3.1:8b")
         self.summarization_agent = SummarizationAgent(model="llama3.1:8b")
+        self.referral_letter_agent = ReferralLetterAgent(model="llama3.1:8b")
         
     def create_patient_prompt(self, bot_question: str) -> str:
         """Create a prompt for the patient LLM to respond to bot questions"""
@@ -199,8 +203,54 @@ PATIENT RESPONSE:"""
             print(f"{Fore.WHITE}{summary}")
             print(f"{Fore.MAGENTA}{'='*60}")
             
+            # Generate referral letters
+            await self.generate_referral_letters(summary)
+            
         except Exception as e:
             print(f"{Fore.RED}Error generating summary: {e}")
+    
+    async def generate_referral_letters(self, clinical_summary: str):
+        """Generate detailed referral letters based on clinical summary and triage decision"""
+        try:
+            print(f"{Fore.CYAN}Generating referral letters...")
+            
+            # Extract triage decision from the summary
+            triage_decision = self._extract_triage_decision(clinical_summary)
+            
+            # Generate referral letters
+            referral_letters = await self.referral_letter_agent.generate_all_referral_letters(
+                clinical_summary, triage_decision, self.conversation_history
+            )
+            
+            # Display each referral letter
+            for referral_type, letter in referral_letters.items():
+                print(f"{Fore.MAGENTA}{'='*60}")
+                print(f"{Fore.MAGENTA}REFERRAL LETTER - {referral_type.upper()}")
+                print(f"{Fore.MAGENTA}{'='*60}")
+                print(f"{Fore.WHITE}{letter}")
+                print(f"{Fore.MAGENTA}{'='*60}")
+            
+            # Store referral letters for saving to file
+            self.generated_referral_letters = referral_letters
+            
+        except Exception as e:
+            print(f"{Fore.RED}Error generating referral letters: {e}")
+    
+    def _extract_triage_decision(self, clinical_summary: str) -> str:
+        """Extract triage decision from clinical summary"""
+        # Look for triage classification in the summary
+        lines = clinical_summary.split('\n')
+        for line in lines:
+            if 'TRIAGE CLASSIFICATION' in line or 'Category:' in line:
+                # Find the next few lines that contain the actual classification
+                for i, summary_line in enumerate(lines):
+                    if 'Category:' in summary_line:
+                        return summary_line.strip()
+                    elif 'Pathway:' in summary_line:
+                        return summary_line.strip()
+        
+        # Default fallback
+        return "Orthopaedic assessment required"
     
     def print_message(self, role: str, content: str, color: str = Fore.WHITE):
         """Print message with color coding and log it"""
@@ -247,7 +297,7 @@ PATIENT RESPONSE:"""
                 f.write(f"Title: {self.patient_data.title}\n")
                 f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
                 f.write(f"Assessment Type: Questionnaire-Based MSK Triage\n")
-                f.write(f"Output Format: SBAR Clinical Summary + Top 3 Differential Diagnoses\n\n")
+                f.write(f"Output Format: SBAR Clinical Summary + Differential Diagnoses + Referral Letters\n\n")
                 
                 # Write patient demographics
                 f.write("PATIENT DEMOGRAPHICS:\n")
@@ -302,6 +352,17 @@ PATIENT RESPONSE:"""
                         f.write("---\n\n")
                         f.write(triage_section.strip())
                         f.write("\n\n")
+                
+                # Write referral letters if available
+                if hasattr(self, 'generated_referral_letters') and self.generated_referral_letters:
+                    f.write("REFERRAL LETTERS:\n")
+                    f.write("=" * 60 + "\n")
+                    
+                    for referral_type, letter in self.generated_referral_letters.items():
+                        f.write(f"\nREFERRAL LETTER - {referral_type.upper()}:\n")
+                        f.write("-" * 40 + "\n")
+                        f.write(letter)
+                        f.write("\n\n")
             
             print(f"{Fore.GREEN}Conversation saved to: {filepath}")
             return filepath
@@ -324,7 +385,7 @@ PATIENT RESPONSE:"""
         print(f"{Fore.BLUE}Occupation: {self.patient_data.demographics.get('occupation', 'Unknown')}")
         print(f"{Fore.BLUE}Expected Triage: {self.patient_data.expected_triage}")
         print(f"{Fore.CYAN}Assessment: Questionnaire-Based MSK Triage")
-        print(f"{Fore.CYAN}Output: SBAR Summary + Top 3 Differential Diagnoses")
+        print(f"{Fore.CYAN}Output: SBAR Summary + Differential Diagnoses + Referral Letters")
         print(f"{Fore.MAGENTA}{'='*60}")
         print()
         

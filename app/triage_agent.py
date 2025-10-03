@@ -1,8 +1,8 @@
 import httpx
 from enum import Enum
 from typing import List, Dict, Optional, Any
-from questionnaire_specs import get_questionnaire_form, get_available_forms
-from questionnaire_engine import run_questionnaire_engine, map_mechanism_from_text
+from .questionnaire_specs import get_questionnaire_form, get_available_forms
+from .questionnaire_engine import run_questionnaire_engine, map_mechanism_from_text
 
 # --- State Machine Definition (Questionnaire-Based) ---
 class TriageState(str, Enum):
